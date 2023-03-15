@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "sally-tarot",
+    "slug": "sally-tarot",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "sally-tarot"
+}
