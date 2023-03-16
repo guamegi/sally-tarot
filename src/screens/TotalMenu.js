@@ -1,11 +1,21 @@
 import { View, Text } from "react-native";
 import React from "react";
+import styled from "styled-components/native";
+import Container from "../components/Container";
+import Background from "../components/Background";
 
-const TotalMenu = () => {
+const GoPage = styled.TouchableOpacity`
+  padding: 20px;
+  background-color: red;
+`;
+const TotalMenu = ({ navigation: { pop } }) => {
   return (
-    <View>
-      <Text>TotalMenu</Text>
-    </View>
+    <Container>
+      <Background />
+      <GoPage onPress={() => pop()}>
+        <Text>go back</Text>
+      </GoPage>
+    </Container>
   );
 };
 

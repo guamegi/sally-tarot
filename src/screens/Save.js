@@ -1,11 +1,22 @@
 import { View, Text } from "react-native";
 import React from "react";
+import Container from "../components/Container";
+import Background from "../components/Background";
+import styled from "styled-components/native";
 
-const Save = () => {
+const GoPage = styled.TouchableOpacity`
+  padding: 20px;
+  background-color: red;
+`;
+
+const Save = ({ navigation: { pop } }) => {
   return (
-    <View>
-      <Text>Save</Text>
-    </View>
+    <Container>
+      <Background />
+      <GoPage onPress={() => pop()}>
+        <Text>go back</Text>
+      </GoPage>
+    </Container>
   );
 };
 
