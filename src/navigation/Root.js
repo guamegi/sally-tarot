@@ -6,21 +6,18 @@ import Setting from "../screens/Setting";
 import Save from "../screens/Save";
 import Play from "../screens/Play";
 import Result from "../screens/Result";
-import { BLACK_COLOR } from "../colors";
-import { useColorScheme } from "react-native";
 
 const Nav = createNativeStackNavigator();
 
 const Root = () => {
-  const isDark = useColorScheme() === "dark";
   return (
     <Nav.Navigator
       initialRouteName="Home"
       screenOptions={{
-        headerShown: true,
-        headerBackTitleVisible: false,
-        headerStyle: { backgroundColor: isDark ? BLACK_COLOR : "white" },
-        headerTitleStyle: { color: isDark ? "white" : BLACK_COLOR },
+        headerShown: false,
+        // headerBackTitleVisible: false,
+        // headerStyle: { backgroundColor: isDark ? BLACK_COLOR : "white" },
+        // headerTitleStyle: { color: isDark ? "white" : BLACK_COLOR },
       }}
     >
       <Nav.Screen name="Home" component={Home} />

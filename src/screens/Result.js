@@ -1,6 +1,7 @@
-import { View, Text } from "react-native";
+import { Text } from "react-native";
 import React from "react";
 import styled from "styled-components/native";
+import Background from "../components/Background";
 
 const GoPage = styled.TouchableOpacity`
   margin: 20px;
@@ -8,14 +9,20 @@ const GoPage = styled.TouchableOpacity`
   background-color: red;
 `;
 
+const Container = styled.View`
+  flex: 1;
+  padding-top: 30px;
+`;
+
 const Result = ({ navigation }) => {
   return (
-    <View>
+    <Container>
+      <Background />
       <Text>Result</Text>
       <GoPage onPress={() => navigation.popToTop()}>
         <Text>go Home</Text>
       </GoPage>
-    </View>
+    </Container>
   );
 };
 
