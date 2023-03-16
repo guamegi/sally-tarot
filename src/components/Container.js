@@ -4,7 +4,7 @@ import styled from "styled-components/native";
 
 const Bg = styled.View`
   flex: 1;
-  padding-top: 50px;
+  padding-top: 40px;
 `;
 const Container = ({ children }) => (
   <>
