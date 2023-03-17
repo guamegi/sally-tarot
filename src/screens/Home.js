@@ -18,11 +18,11 @@ const HeaderCabinet = styled.TouchableOpacity`
   align-items: center;
   border-width: 1px;
   border-radius: 20px;
-  border-color: white;
+  border-color: #d2dae2;
   flex-direction: row;
 `;
 const HeaderCabinetText = styled.Text`
-  color: white;
+  color: #d2dae2;
   margin-left: 4px;
   font-weight: 600;
 `;
@@ -40,8 +40,10 @@ const MenuListArea = styled.View`
 `;
 
 const TotalMenu = styled(HeaderCabinet)`
-  padding: 6px 14px;
+  border-width: 0px;
+  padding: 8px 14px;
   align-self: center;
+  background-color: #2c3e50;
 `;
 const TotalMenuText = styled(HeaderCabinetText)`
   font-size: 16px;
@@ -53,11 +55,11 @@ const Home = ({ navigation: { navigate } }) => {
       <Background />
       <Header>
         <HeaderCabinet onPress={() => navigate("Save")}>
-          <Ionicons name="save-outline" color="white" size={18} />
+          <Ionicons name="save-outline" color="#d2dae2" size={18} />
           <HeaderCabinetText>Cabinet</HeaderCabinetText>
         </HeaderCabinet>
         <HeaderSetting onPress={() => navigate("Setting")}>
-          <Ionicons name="settings-outline" color="white" size={28} />
+          <Ionicons name="settings-outline" color="#d2dae2" size={28} />
         </HeaderSetting>
       </Header>
       <MenuListArea>
@@ -99,7 +101,7 @@ const Home = ({ navigation: { navigate } }) => {
       </MenuListArea>
       <TotalMenuArea>
         <TotalMenu onPress={() => navigate("TotalMenu")}>
-          <Ionicons name="menu-outline" color="white" size={28} />
+          <Ionicons name="menu-outline" color="#d2dae2" size={28} />
           <TotalMenuText>Convert Menu</TotalMenuText>
         </TotalMenu>
       </TotalMenuArea>

@@ -6,12 +6,12 @@ import { useNavigation } from "@react-navigation/native";
 import { StyleSheet } from "react-native";
 import { BLACK_COLOR } from "../colors";
 
-const Container = styled.TouchableOpacity`
+const Container = styled.TouchableHighlight`
   flex: 1;
   margin: 50px 50px;
   justify-content: flex-end;
-  box-shadow: 0px 0px 24px white;
-  /* box-shadow: 0px 0px 24px black; */
+  /* box-shadow: 0px 0px 24px white; */
+  box-shadow: 0px 0px 24px black;
 `;
 
 const Bg = styled.ImageBackground``;
@@ -47,26 +47,28 @@ const Menu = ({ data }) => {
   // console.log(data);
   return (
     <Container onPress={() => navigation.navigate("Play", data)}>
-      <Bg
-        // blurRadius={3}
-        style={StyleSheet.absoluteFill}
-        imageStyle={{
-          borderRadius: 50,
-        }}
-        resizeMode="stretch"
-        source={data.backdropPath}
-      />
-      <GradientView style={StyleSheet.absoluteFill}>
-        <LinearGradient
+      <>
+        <Bg
+          // blurRadius={3}
           style={StyleSheet.absoluteFill}
-          colors={["transparent", BLACK_COLOR]}
+          imageStyle={{
+            borderRadius: 50,
+          }}
+          resizeMode="stretch"
+          source={data.backdropPath}
         />
-      </GradientView>
+        <GradientView style={StyleSheet.absoluteFill}>
+          <LinearGradient
+            style={StyleSheet.absoluteFill}
+            colors={["transparent", BLACK_COLOR]}
+          />
+        </GradientView>
 
-      <MenuView>
-        <Title>{data.title}</Title>
-        <SubTitle>{data.subTitle}</SubTitle>
-      </MenuView>
+        <MenuView>
+          <Title>{data.title}</Title>
+          <SubTitle>{data.subTitle}</SubTitle>
+        </MenuView>
+      </>
     </Container>
   );
 };
