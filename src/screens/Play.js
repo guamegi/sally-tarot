@@ -10,7 +10,8 @@ const GoPage = styled.TouchableOpacity`
   background-color: red;
 `;
 
-const Play = ({ navigation: { navigate, pop } }) => {
+const Play = ({ navigation: { navigate, pop }, route: { params } }) => {
+  console.log(params.title);
   return (
     <Container>
       <Background />

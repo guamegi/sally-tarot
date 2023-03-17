@@ -1,38 +1,50 @@
-import { Text, View } from "react-native";
 import React from "react";
 import styled from "styled-components/native";
 import { Ionicons } from "@expo/vector-icons";
 import Background from "../components/Background";
 import Container from "../components/Container";
 import { menu } from "../data/menu";
-
-const GoPage = styled.TouchableOpacity`
-  margin-bottom: 10px;
-  padding: 20px;
-  background-color: red;
-`;
+import Menu from "../components/Menu";
+import Swiper from "react-native-swiper";
+import { View } from "react-native";
 
 const Header = styled.View`
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px 20px;
-  margin-bottom: 30px;
+  padding: 10px 28px;
 `;
-const SaveBtn = styled.TouchableOpacity`
-  width: 66px;
-  padding: 2px;
+const HeaderCabinet = styled.TouchableOpacity`
+  padding: 2px 14px;
   align-items: center;
   border-width: 1px;
-  border-color: red;
-  border-radius: 14px;
-  /* background-color: red; */
+  border-radius: 20px;
+  border-color: white;
+  flex-direction: row;
 `;
-const SettingBtn = styled(SaveBtn)``;
+const HeaderCabinetText = styled.Text`
+  color: white;
+  margin-left: 4px;
+  font-weight: 600;
+`;
+const HeaderSetting = styled.TouchableOpacity`
+  padding: 4px;
+  align-items: center;
+`;
 
-const Menu = styled.FlatList``;
+const TotalMenuArea = styled.View`
+  flex: 1;
+  justify-content: center;
+`;
+const MenuListArea = styled.View`
+  flex: 3;
+`;
 
-const Separator = styled.View`
-  width: 20px;
+const TotalMenu = styled(HeaderCabinet)`
+  padding: 6px 14px;
+  align-self: center;
+`;
+const TotalMenuText = styled(HeaderCabinetText)`
+  font-size: 16px;
 `;
 
 const Home = ({ navigation: { navigate } }) => {
@@ -40,37 +52,57 @@ const Home = ({ navigation: { navigate } }) => {
     <Container>
       <Background />
       <Header>
-        <SaveBtn onPress={() => navigate("Save")}>
-          <Ionicons name="save-outline" color="white" size={28} />
-        </SaveBtn>
-        <SettingBtn onPress={() => navigate("Setting")}>
+        <HeaderCabinet onPress={() => navigate("Save")}>
+          <Ionicons name="save-outline" color="white" size={18} />
+          <HeaderCabinetText>Cabinet</HeaderCabinetText>
+        </HeaderCabinet>
+        <HeaderSetting onPress={() => navigate("Setting")}>
           <Ionicons name="settings-outline" color="white" size={28} />
-        </SettingBtn>
+        </HeaderSetting>
       </Header>
-      <Menu
-        horizontal
-        data={menu}
-        ItemSeparatorComponent={<Separator />}
-        renderItem={({ item }) => (
-          <View
-            style={{
-              borderRadius: 20,
-              width: 300,
-              height: 300,
-              backgroundColor: "white",
-            }}
-          >
-            <Text>{item.title}</Text>
-          </View>
-        )}
-      />
-      <GoPage onPress={() => navigate("Play")}>
-        <Text>go play</Text>
-      </GoPage>
-
-      <GoPage onPress={() => navigate("TotalMenu")}>
-        <Text>go totalmenu</Text>
-      </GoPage>
+      <MenuListArea>
+        <Swiper
+          // showsPagination={false}
+          containerStyle={{
+            width: "100%",
+            // height: SCREEN_HEIGHT / 4,
+          }}
+          dot={
+            <View
+              style={{
+                backgroundColor: "rgba(255,255,255,.3)",
+                width: 10,
+                height: 10,
+                borderRadius: 5,
+                marginLeft: 5,
+                marginRight: 5,
+              }}
+            />
+          }
+          activeDot={
+            <View
+              style={{
+                backgroundColor: "#fff",
+                width: 10,
+                height: 10,
+                borderRadius: 5,
+                marginLeft: 5,
+                marginRight: 5,
+              }}
+            />
+          }
+        >
+          {menu.map((item) => (
+            <Menu key={item.no} data={item} />
+          ))}
+        </Swiper>
+      </MenuListArea>
+      <TotalMenuArea>
+        <TotalMenu onPress={() => navigate("TotalMenu")}>
+          <Ionicons name="menu-outline" color="white" size={28} />
+          <TotalMenuText>Convert Menu</TotalMenuText>
+        </TotalMenu>
+      </TotalMenuArea>
     </Container>
   );
 };
