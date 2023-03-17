@@ -46,7 +46,10 @@ const Menu = ({ data }) => {
   const navigation = useNavigation();
   // console.log(data);
   return (
-    <Container onPress={() => navigation.navigate("Play", data)}>
+    <Container
+      underlayColor="transparent"
+      onPress={() => navigation.navigate("Play", data)}
+    >
       <>
         <Bg
           // blurRadius={3}
