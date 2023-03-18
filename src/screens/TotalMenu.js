@@ -62,15 +62,14 @@ const TotalMenu = ({
           <List
             data={menu}
             numColumns={2}
-            columnWrapperStyle={{ justifyContent: "space-around" }}
+            columnWrapperStyle={{
+              justifyContent: "space-around",
+            }}
             ItemSeparatorComponent={() => <Separator />}
             keyExtractor={(item) => item.no + ""}
             renderItem={({ item }) => (
               // card
-              <TouchableOpacity
-                style={{ flex: 0.45, alignSelf: "center" }}
-                onPress={() => navigate("Play", item)}
-              >
+              <TouchableOpacity onPress={() => navigate("Play", item)}>
                 <CardView>
                   <Bg
                     style={StyleSheet.absoluteFill}
