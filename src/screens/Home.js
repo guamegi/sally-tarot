@@ -23,8 +23,9 @@ const HeaderCabinet = styled.TouchableOpacity`
 `;
 const HeaderCabinetText = styled.Text`
   color: #d2dae2;
-  margin-left: 4px;
+  margin-left: 6px;
   font-weight: 600;
+  font-family: "Georgia";
 `;
 const HeaderSetting = styled.TouchableOpacity`
   padding: 4px;
