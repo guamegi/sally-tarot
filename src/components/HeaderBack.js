@@ -5,9 +5,8 @@ import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
 const Container = styled.View`
-  flex-direction: row;
-  justify-content: space-between;
   padding: 10px 14px;
+  align-items: flex-start;
 `;
 
 const HistoryBack = styled.TouchableOpacity`
