@@ -18,7 +18,8 @@ const HeaderCabinet = styled.TouchableOpacity`
   align-items: center;
   border-width: 1px;
   border-radius: 20px;
-  border-color: #d2dae2;
+  /* border-color: #d2dae2; */
+  border-color: #909499;
   flex-direction: row;
 `;
 const HeaderCabinetText = styled.Text`
