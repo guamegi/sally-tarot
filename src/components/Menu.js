@@ -17,23 +17,27 @@ const Container = styled.TouchableHighlight`
 const Bg = styled.ImageBackground``;
 
 const MenuView = styled.View`
-  height: 200px;
+  /* height: 200px; */
   /* background-color: gray; */
   border-radius: 20px;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 `;
 
 const Title = styled.Text`
   color: white;
   font-size: 38px;
   font-weight: 400;
+  padding: 0px 20px;
   /* text-shadow: 1px 1px 5px black; */
 `;
 const SubTitle = styled.Text`
   color: white;
-  font-size: 24px;
+  opacity: 0.5;
+  font-size: 20px;
   margin-top: 20px;
+  padding: 0px 20px;
   /* text-shadow: 1px 1px 3px black; */
 `;
 
