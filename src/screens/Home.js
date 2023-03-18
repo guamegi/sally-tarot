@@ -33,12 +33,12 @@ const HeaderSetting = styled.TouchableOpacity`
   align-items: center;
 `;
 
+const MenuListArea = styled.View`
+  flex: 3;
+`;
 const TotalMenuArea = styled.View`
   flex: 1;
   justify-content: center;
-`;
-const MenuListArea = styled.View`
-  flex: 3;
 `;
 
 const TotalMenu = styled(HeaderCabinet)`
@@ -102,7 +102,7 @@ const Home = ({ navigation: { navigate } }) => {
         </Swiper>
       </MenuListArea>
       <TotalMenuArea>
-        <TotalMenu onPress={() => navigate("TotalMenu")}>
+        <TotalMenu onPress={() => navigate("TotalMenu", { menu })}>
           <Ionicons name="menu-outline" color="#d2dae2" size={28} />
           <TotalMenuText>Convert Menu</TotalMenuText>
         </TotalMenu>
@@ -111,4 +111,4 @@ const Home = ({ navigation: { navigate } }) => {
   );
 };
 
-export default Home;
+export default React.memo(Home);
