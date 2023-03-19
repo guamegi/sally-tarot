@@ -3,8 +3,8 @@ import styled from "styled-components/native";
 import { Ionicons } from "@expo/vector-icons";
 import Background from "../components/Background";
 import Container from "../components/Container";
-import { menu } from "../data/menu";
-import Menu from "../components/Menu";
+import { MENU } from "../data/menu";
+import Menu from "../components/Home/Menu";
 import Swiper from "react-native-swiper";
 import { View } from "react-native";
 
@@ -26,7 +26,7 @@ const HeaderCabinetText = styled.Text`
   color: #d2dae2;
   margin-left: 6px;
   font-weight: 600;
-  font-family: "Georgia";
+  /* font-family: "Georgia"; */
 `;
 const HeaderSetting = styled.TouchableOpacity`
   padding: 4px;
@@ -60,7 +60,7 @@ const Home = ({ navigation: { navigate } }) => {
           <Ionicons name="save-outline" color="#d2dae2" size={18} />
           <HeaderCabinetText>Cabinet</HeaderCabinetText>
         </HeaderCabinet>
-        <HeaderSetting onPress={() => navigate("Setting")}>
+        <HeaderSetting onPress={() => navigate("Settings")}>
           <Ionicons name="settings-outline" color="#d2dae2" size={28} />
         </HeaderSetting>
       </Header>
@@ -96,13 +96,13 @@ const Home = ({ navigation: { navigate } }) => {
             />
           }
         >
-          {menu.map((item) => (
+          {MENU.map((item) => (
             <Menu key={item.no} data={item} />
           ))}
         </Swiper>
       </MenuListArea>
       <TotalMenuArea>
-        <TotalMenu onPress={() => navigate("TotalMenu", { menu })}>
+        <TotalMenu onPress={() => navigate("TotalMenu", { MENU })}>
           <Ionicons name="menu-outline" color="#d2dae2" size={28} />
           <TotalMenuText>Convert Menu</TotalMenuText>
         </TotalMenu>

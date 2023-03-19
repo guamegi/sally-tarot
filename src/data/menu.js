@@ -1,4 +1,4 @@
-export const menu = [
+export const MENU = [
   {
     no: 1,
     title: "Daily Life",

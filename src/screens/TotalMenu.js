@@ -49,18 +49,18 @@ const GradientView = styled.View`
 const TotalMenu = ({
   navigation: { navigate },
   route: {
-    params: { menu },
+    params: { MENU },
   },
 }) => {
   // console.log(menu);
   return (
-    menu && (
+    MENU && (
       <Container>
         <Background />
         <HeaderBack />
         <ContentView>
           <List
-            data={menu}
+            data={MENU}
             numColumns={2}
             columnWrapperStyle={{
               justifyContent: "space-around",

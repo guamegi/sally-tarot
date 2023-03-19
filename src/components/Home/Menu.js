@@ -4,7 +4,7 @@ import styled from "styled-components/native";
 import { LinearGradient } from "expo-linear-gradient";
 import { useNavigation } from "@react-navigation/native";
 import { StyleSheet } from "react-native";
-import { BLACK_COLOR } from "../colors";
+import { BLACK_COLOR } from "../../colors";
 
 const Container = styled.TouchableHighlight`
   flex: 1;
@@ -37,7 +37,7 @@ const SubTitle = styled.Text`
   color: white;
   opacity: 0.5;
   font-size: 20px;
-  font-family: "Georgia";
+  /* font-family: "Georgia"; */
   margin-top: 20px;
   padding: 0px 20px;
   /* text-shadow: 1px 1px 3px black; */
