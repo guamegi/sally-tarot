@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components/native";
 import Background from "../components/Background";
 import Container from "../components/Container";
+import HeaderClose from "../components/HeaderClose";
 
 const GoPage = styled.TouchableOpacity`
   margin-bottom: 10px;
@@ -10,10 +11,11 @@ const GoPage = styled.TouchableOpacity`
   background-color: red;
 `;
 
-const Result = ({ navigation: { navigate, popToTop } }) => {
+const Result = ({ navigation: { popToTop } }) => {
   return (
     <Container>
       <Background />
+      <HeaderClose />
       <GoPage onPress={() => popToTop()}>
         <Text>go Home</Text>
       </GoPage>

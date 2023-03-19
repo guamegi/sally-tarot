@@ -5,23 +5,23 @@ import { useNavigation } from "@react-navigation/native";
 
 const Container = styled.View`
   padding: 10px 14px;
-  align-items: flex-start;
+  align-items: flex-end;
 `;
 
-const HistoryBack = styled.TouchableOpacity`
+const HistoryClose = styled.TouchableOpacity`
   padding: 4px;
   align-items: center;
 `;
 
-const HeaderBack = () => {
+const HeaderClose = () => {
   const navigation = useNavigation();
   return (
     <Container>
-      <HistoryBack onPress={() => navigation.pop()}>
-        <Ionicons name="chevron-back-outline" size={28} color="#d2dae2" />
-      </HistoryBack>
+      <HistoryClose onPress={() => navigation.popToTop()}>
+        <Ionicons name="close" size={28} color="#d2dae2" />
+      </HistoryClose>
     </Container>
   );
 };
 
-export default HeaderBack;
+export default HeaderClose;

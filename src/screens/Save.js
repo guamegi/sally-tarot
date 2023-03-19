@@ -3,6 +3,7 @@ import React from "react";
 import Container from "../components/Container";
 import Background from "../components/Background";
 import styled from "styled-components/native";
+import HeaderBack from "../components/HeaderBack";
 
 const GoPage = styled.TouchableOpacity`
   padding: 20px;
@@ -13,6 +14,7 @@ const Save = ({ navigation: { pop } }) => {
   return (
     <Container>
       <Background />
+      <HeaderBack />
       <GoPage onPress={() => pop()}>
         <Text>go back</Text>
       </GoPage>

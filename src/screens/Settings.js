@@ -34,7 +34,7 @@ const Settings = () => {
       <Background />
       <HeaderBack />
       <View style={{ flex: 1 }}>
-        {/* 앱 이미지 추가하기 */}
+        {/* TODO: 앱 이미지 추가하기 */}
         <SectionList
           sections={SETTINGS_MENU}
           keyExtractor={(_, index) => index}
