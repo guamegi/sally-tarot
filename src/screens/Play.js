@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components/native";
 import Background from "../components/Background";
 import Container from "../components/Container";
+import HeaderBack from "../components/HeaderBack";
 
 const GoPage = styled.TouchableOpacity`
   margin-bottom: 10px;
@@ -10,18 +11,12 @@ const GoPage = styled.TouchableOpacity`
   background-color: red;
 `;
 
-const Play = ({ navigation: { navigate, pop }, route: { params } }) => {
-  console.log(params.title);
+const Play = ({ navigation: { navigate }, route: { params } }) => {
+  console.log(params);
   return (
     <Container>
       <Background />
-      <GoPage
-        onPress={() => {
-          pop();
-        }}
-      >
-        <Text>go back</Text>
-      </GoPage>
+      <HeaderBack />
       <GoPage
         onPress={() => {
           navigate("Result");

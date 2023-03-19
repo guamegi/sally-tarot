@@ -1,4 +1,10 @@
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  TouchableHighlight,
+} from "react-native";
 import React from "react";
 import styled from "styled-components/native";
 import Container from "../components/Container";
@@ -17,12 +23,13 @@ const List = styled.FlatList`
   /* background-color: gray; */
 `;
 
+const radius = 18;
 const CardView = styled.View`
   width: 140px;
-  height: 140px;
-  border-radius: 70px;
-  border-width: 4px;
-  border-color: gray;
+  height: 200px;
+  border-radius: ${radius}px;
+  /* border-width: 4px; */
+  /* border-color: gray; */
   justify-content: center;
   align-items: center;
 `;
@@ -38,11 +45,11 @@ const Title = styled.Text`
   font-size: 22px;
   font-family: "Georgia";
   font-weight: 400;
-  text-shadow: 1px 1px 5px black;
+  /* text-shadow: 1px 1px 5px black; */
 `;
 
 const GradientView = styled.View`
-  border-radius: 70px;
+  border-radius: ${radius}px;
   overflow: hidden;
 `;
 
@@ -69,12 +76,15 @@ const TotalMenu = ({
             keyExtractor={(item) => item.no + ""}
             renderItem={({ item }) => (
               // card
-              <TouchableOpacity onPress={() => navigate("Play", item)}>
+              <TouchableHighlight
+                underlayColor="transparent"
+                onPress={() => navigate("Play", item)}
+              >
                 <CardView>
                   <Bg
                     style={StyleSheet.absoluteFill}
                     imageStyle={{
-                      borderRadius: 70,
+                      borderRadius: radius,
                     }}
                     resizeMode="stretch"
                     source={item.backdropPath}
@@ -82,13 +92,14 @@ const TotalMenu = ({
                   <GradientView style={StyleSheet.absoluteFill}>
                     <LinearGradient
                       style={StyleSheet.absoluteFill}
-                      colors={["transparent", BLACK_COLOR]}
+                      colors={["transparent", "#090a29", "transparent"]}
                     />
                   </GradientView>
                   <Title>{item.title}</Title>
                 </CardView>
-              </TouchableOpacity>
+              </TouchableHighlight>
             )}
+            contentContainerStyle={{ paddingBottom: 80 }}
           />
         </ContentView>
       </Container>

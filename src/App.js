@@ -12,7 +12,7 @@ export default function App() {
     Georgia: require("./assets/fonts/Georgia.ttf"),
   });
 
-  // 임시
+  // TODO: 임시
   useEffect(() => {
     SplashScreen.hideAsync();
   }, []);
