@@ -17,9 +17,13 @@ const CardImg = styled.Image`
   border-radius: 4px;
 `;
 
-let count = 0;
-const PlayCard = ({ card }) => {
-  // console.log(card.id);
+const PlayCard = ({ card, count, onCountChange }) => {
+  const handleFlipEnd = (isFlipEnd) => {
+    isFlipEnd ? count++ : count--;
+    onCountChange(count);
+    // console.log("count", count);
+  };
+
   return (
     <Container>
       <FlipCard
@@ -28,18 +32,7 @@ const PlayCard = ({ card }) => {
         flipHorizontal={true}
         flipVertical={false}
         // clickable={true}
-        onFlipEnd={(isFlipEnd) => {
-          // console.log("isFlipEnd", isFlipEnd);
-          // TODO: 전역 변수 count 생성하고 isFlipEnd == true면 count++,
-          isFlipEnd ? count++ : count--;
-          console.log("count", count);
-
-          // count >= 2 이면 로딩 이미지 불러오기
-          if (count > 1) {
-            Alert.alert("loading...");
-            // 3초 후, result 이동
-          }
-        }}
+        onFlipEnd={handleFlipEnd}
       >
         <BackView>
           <CardImg

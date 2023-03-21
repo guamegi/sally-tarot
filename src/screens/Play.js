@@ -1,5 +1,5 @@
-import { Dimensions, Image, Text, View } from "react-native";
-import React from "react";
+import { ActivityIndicator, Dimensions, Image, Text, View } from "react-native";
+import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components/native";
 import Background from "../components/Background";
 import Container from "../components/Container";
@@ -40,8 +40,39 @@ const PlayCanvas = styled.View`
   justify-content: space-around;
 `;
 
+const LoadingView = styled.View`
+  width: 100%;
+  height: 100%;
+  /* background-color: black;
+  opacity: 0.4; */
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  /* display: flex; */
+  /* display: none; */
+  justify-content: center;
+  align-items: center;
+`;
+
 const Play = ({ navigation: { navigate }, route: { params } }) => {
-  console.log(params);
+  const [isLoading, setIsLoading] = useState(false);
+  const [count, setCount] = useState(0);
+  console.log(count);
+  useEffect(() => {
+    if (count >= 2) {
+      setIsLoading(true);
+      setTimeout(() => {
+        setIsLoading(false);
+        navigate("Result");
+      }, 3000);
+      setCount(0);
+    }
+  }, [count]);
+
+  // This function will be passed as a prop to the PlayCard component
+  const handleCountChange = (newCount) => {
+    setCount(newCount);
+  };
+
   return (
     <Container>
       <Background />
@@ -59,9 +90,25 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       <PlayCanvas>
         {/* card data 받아서 map으로 생성 */}
         {CARDS.map((card) => (
-          <PlayCard key={card.id} card={card} />
+          <PlayCard
+            key={card.id}
+            card={card}
+            count={count}
+            onCountChange={handleCountChange}
+          />
         ))}
       </PlayCanvas>
+      {isLoading && (
+        <LoadingView>
+          <Image
+            resizeMode="stretch"
+            style={{ width: 200, height: 340 }}
+            source={require("assets/images/backCard.jpeg")}
+          />
+          <ActivityIndicator size="large" style={{ marginVertical: 30 }} />
+          <Text style={{ color: "white", fontSize: 22 }}>Loading...</Text>
+        </LoadingView>
+      )}
     </Container>
   );
 };
