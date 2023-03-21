@@ -5,7 +5,7 @@ import Container from "../components/Container";
 import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
 import { SETTINGS_MENU } from "../data/settings";
-import SettingsListItem from "../components/\bSettings/SettingsListItem";
+import SettingsListItem from "../components/Settings/SettingsListItem";
 
 const SectionHeader = styled.View`
   /* background-color: gray; */

@@ -4,7 +4,7 @@ import { Ionicons } from "@expo/vector-icons";
 import Background from "../components/Background";
 import Container from "../components/Container";
 import { MENU } from "../data/menu";
-import Menu from "../components/Home/Menu";
+import Menu from "../components/Home/HomeMenu";
 import Swiper from "react-native-swiper";
 import { View } from "react-native";
 
