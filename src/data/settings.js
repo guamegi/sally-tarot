@@ -26,7 +26,7 @@ export const SHUFFLE_CARDS = [
     labelStyle: { color: "#d6d2d2", fontSize: 16 },
     color: "#d6d2d2",
     selected: true,
-    value: require("../assets/images/menu/daily.jpeg"),
+    value: require("assets/images/menu/daily.jpeg"),
   },
   {
     id: "2",
@@ -34,7 +34,7 @@ export const SHUFFLE_CARDS = [
     labelStyle: { color: "#d6d2d2", fontSize: 16 },
     color: "#d6d2d2",
     selected: false,
-    value: require("../assets/images/menu/career.jpeg"),
+    value: require("assets/images/menu/career.jpeg"),
   },
   {
     id: "3",
@@ -42,7 +42,7 @@ export const SHUFFLE_CARDS = [
     labelStyle: { color: "#d6d2d2", fontSize: 16 },
     color: "#d6d2d2",
     selected: false,
-    value: require("../assets/images/menu/family.jpeg"),
+    value: require("assets/images/menu/family.jpeg"),
   },
 ];
 
@@ -53,7 +53,7 @@ export const CARD_SELECTION = [
     labelStyle: { color: "#d6d2d2", fontSize: 16 },
     color: "#d6d2d2",
     selected: true,
-    value: require("../assets/images/menu/finance.jpeg"),
+    value: require("assets/images/menu/finance.jpeg"),
   },
   {
     id: "2",
@@ -61,7 +61,7 @@ export const CARD_SELECTION = [
     labelStyle: { color: "#d6d2d2", fontSize: 16 },
     color: "#d6d2d2",
     selected: false,
-    value: require("../assets/images/menu/growth.jpeg"),
+    value: require("assets/images/menu/growth.jpeg"),
   },
   {
     id: "3",
@@ -69,6 +69,6 @@ export const CARD_SELECTION = [
     labelStyle: { color: "#d6d2d2", fontSize: 16 },
     color: "#d6d2d2",
     selected: false,
-    value: require("../assets/images/menu/love.jpeg"),
+    value: require("assets/images/menu/love.jpeg"),
   },
 ];

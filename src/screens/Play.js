@@ -49,7 +49,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       <PlayInfo>
         <PlayInfoImg
           style={StyleSheet.absoluteFill}
-          source={require("../assets/images/menu/daily.jpeg")}
+          source={require("assets/images/menu/daily.jpeg")}
         />
         <PlayInfoTitle>{params.title}</PlayInfoTitle>
         <PlayInfoDesc>

@@ -9,7 +9,7 @@ const Background = () => {
     <>
       <Bg
         style={StyleSheet.absoluteFill}
-        source={require("../assets/images/background.jpg")}
+        source={require("assets/images/background.jpg")}
       />
     </>
   );

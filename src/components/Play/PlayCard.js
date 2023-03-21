@@ -11,7 +11,8 @@ const Container = styled.View`
 const FrontView = styled.View``;
 const BackView = styled.View``;
 
-const PlayCard = (card) => {
+const PlayCard = ({ card }) => {
+  // console.log(card.id);
   return (
     <Container>
       <FlipCard flipHorizontal={true} flipVertical={false}>
@@ -19,7 +20,7 @@ const PlayCard = (card) => {
           <Image
             style={{ width: "100%", height: "100%", borderRadius: 4 }}
             resizeMode="stretch"
-            source={require("../../assets/images/backCard.webp")}
+            source={require("assets/images/backCard.webp")}
           />
         </BackView>
         <FrontView>
