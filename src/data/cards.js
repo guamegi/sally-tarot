@@ -3,7 +3,7 @@ export const CARDS = [
     id: 1,
     name: "the fool",
     isReverse: false,
-    image: require("assets/images/menu/daily.jpeg"),
+    image: require("assets/images/cards/0.jpg"),
     keyword: ["자유로운", "순수한", "무계획적인"],
     upright: {
       desc: ["새로운 시작", "홀가분함", "자유"],
@@ -18,7 +18,7 @@ export const CARDS = [
     id: 2,
     name: "the fool",
     isReverse: false,
-    image: require("assets/images/menu/family.jpeg"),
+    image: require("assets/images/cards/1.jpg"),
     keyword: ["자유로운", "순수한", "무계획적인"],
     upright: {
       desc: ["새로운 시작", "홀가분함", "자유"],
@@ -33,7 +33,7 @@ export const CARDS = [
     id: 3,
     name: "the fool",
     isReverse: false,
-    image: require("assets/images/menu/daily.jpeg"),
+    image: require("assets/images/cards/2.jpg"),
     keyword: ["자유로운", "순수한", "무계획적인"],
     upright: {
       desc: ["새로운 시작", "홀가분함", "자유"],
@@ -48,7 +48,7 @@ export const CARDS = [
     id: 4,
     name: "the fool",
     isReverse: false,
-    image: require("assets/images/menu/family.jpeg"),
+    image: require("assets/images/cards/3.jpg"),
     keyword: ["자유로운", "순수한", "무계획적인"],
     upright: {
       desc: ["새로운 시작", "홀가분함", "자유"],
@@ -63,7 +63,7 @@ export const CARDS = [
     id: 5,
     name: "the fool",
     isReverse: false,
-    image: require("assets/images/menu/daily.jpeg"),
+    image: require("assets/images/cards/4.jpg"),
     keyword: ["자유로운", "순수한", "무계획적인"],
     upright: {
       desc: ["새로운 시작", "홀가분함", "자유"],
@@ -78,7 +78,7 @@ export const CARDS = [
     id: 6,
     name: "the fool",
     isReverse: false,
-    image: require("assets/images/menu/family.jpeg"),
+    image: require("assets/images/cards/5.jpg"),
     keyword: ["자유로운", "순수한", "무계획적인"],
     upright: {
       desc: ["새로운 시작", "홀가분함", "자유"],
