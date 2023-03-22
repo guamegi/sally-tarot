@@ -8,10 +8,11 @@ import { BLACK_COLOR } from "../../colors";
 
 const Container = styled.TouchableHighlight`
   flex: 1;
-  margin: 50px 50px;
+  margin: 80px 80px;
   justify-content: flex-end;
   /* box-shadow: 0px 0px 24px white; */
   box-shadow: 0px 0px 24px black;
+  /* background-color: gray; */
 `;
 
 const Bg = styled.ImageBackground``;
@@ -19,7 +20,7 @@ const Bg = styled.ImageBackground``;
 const MenuView = styled.View`
   /* height: 200px; */
   /* background-color: gray; */
-  border-radius: 20px;
+  /* border-radius: 20px; */
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
@@ -44,7 +45,7 @@ const SubTitle = styled.Text`
 `;
 
 const GradientView = styled.View`
-  border-radius: 50px;
+  border-radius: 20px;
   overflow: hidden;
 `;
 
@@ -61,7 +62,7 @@ const Menu = ({ data }) => {
           // blurRadius={3}
           style={StyleSheet.absoluteFill}
           imageStyle={{
-            borderRadius: 50,
+            borderRadius: 20,
           }}
           resizeMode="stretch"
           source={data.backdropPath}

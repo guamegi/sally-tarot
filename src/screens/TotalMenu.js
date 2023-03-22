@@ -10,7 +10,6 @@ import styled from "styled-components/native";
 import Container from "../components/Container";
 import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
-import { BLACK_COLOR } from "../colors";
 import { LinearGradient } from "expo-linear-gradient";
 
 const ContentView = styled.View`
@@ -23,10 +22,10 @@ const List = styled.FlatList`
   /* background-color: gray; */
 `;
 
-const radius = 18;
+const radius = 16;
 const CardView = styled.View`
-  width: 140px;
-  height: 200px;
+  width: 120px;
+  height: 190px;
   border-radius: ${radius}px;
   /* border-width: 4px; */
   /* border-color: gray; */
@@ -42,7 +41,7 @@ const Bg = styled.ImageBackground``;
 
 const Title = styled.Text`
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Georgia";
   font-weight: 400;
   /* text-shadow: 1px 1px 5px black; */
