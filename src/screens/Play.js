@@ -1,4 +1,11 @@
-import { ActivityIndicator, Dimensions, Image, Text, View } from "react-native";
+import {
+  ActivityIndicator,
+  Dimensions,
+  Image,
+  ImageBackground,
+  Text,
+  View,
+} from "react-native";
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components/native";
 import Background from "../components/Background";
@@ -8,7 +15,7 @@ import { StyleSheet } from "react-native";
 import { CARDS } from "../data/cards";
 import PlayCard from "../components/Play/PlayCard";
 
-const { width: SCREEN_WIDTH } = Dimensions.get("window");
+const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
 // console.log(SCREEN_WIDTH);
 const PlayInfo = styled.View`
   flex: 1;
@@ -45,7 +52,7 @@ const LoadingView = styled.View`
   height: 100%;
   /* background-color: black;
   opacity: 0.4; */
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
   position: absolute;
   /* display: flex; */
   /* display: none; */
@@ -56,9 +63,11 @@ const LoadingView = styled.View`
 const Play = ({ navigation: { navigate }, route: { params } }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [count, setCount] = useState(0);
-  console.log(count);
+  // console.log(count);
+  const selectTime = params.selectTime;
+
   useEffect(() => {
-    if (count >= 2) {
+    if (count >= selectTime) {
       setIsLoading(true);
       setTimeout(() => {
         setIsLoading(false);
@@ -80,15 +89,16 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       <PlayInfo>
         <PlayInfoImg
           style={StyleSheet.absoluteFill}
-          source={require("assets/images/menu/daily.jpeg")}
+          source={require("assets/images/playInfo.png")}
         />
         <PlayInfoTitle>{params.title}</PlayInfoTitle>
         <PlayInfoDesc>
-          Seriously think the question in your mind, choose 2 cards out of 62
+          Seriously think the question in your mind, choose {selectTime} cards
+          out of 62
         </PlayInfoDesc>
       </PlayInfo>
+      {/* TODO: 카드선택 설정 로드 */}
       <PlayCanvas>
-        {/* card data 받아서 map으로 생성 */}
         {CARDS.map((card) => (
           <PlayCard
             key={card.id}
@@ -100,13 +110,25 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       </PlayCanvas>
       {isLoading && (
         <LoadingView>
-          <Image
-            resizeMode="stretch"
-            style={{ width: 200, height: 340 }}
-            source={require("assets/images/backCard.jpeg")}
+          <ImageBackground
+            resizeMode="cover"
+            style={[
+              StyleSheet.absoluteFill,
+              { width: SCREEN_WIDTH, height: SCREEN_HEIGHT, opacity: 0.8 },
+            ]}
+            source={require("assets/images/playLoading.png")}
           />
-          <ActivityIndicator size="large" style={{ marginVertical: 30 }} />
-          <Text style={{ color: "white", fontSize: 22 }}>Loading...</Text>
+          <ActivityIndicator size="large" color="white" />
+          <Text
+            style={{
+              color: "white",
+              fontSize: 22,
+              fontWeight: 500,
+              marginTop: 10,
+            }}
+          >
+            Loading...
+          </Text>
         </LoadingView>
       )}
     </Container>

@@ -5,6 +5,7 @@ export const MENU = [
     subTitle: "Tarot reading for today",
     backdropPath: require("assets/images/backCard.jpeg"),
     isFree: true,
+    selectTime: 1,
   },
   {
     no: 2,
@@ -12,6 +13,7 @@ export const MENU = [
     subTitle: "Tarot reading for matters of the heart",
     backdropPath: require("assets/images/backCard.jpeg"),
     isFree: true,
+    selectTime: 2,
   },
   {
     no: 3,
@@ -19,6 +21,7 @@ export const MENU = [
     subTitle: "Tarot reading for physical and mental well-being",
     backdropPath: require("assets/images/backCard.jpeg"),
     isFree: true,
+    selectTime: 2,
   },
   {
     no: 4,
@@ -26,6 +29,7 @@ export const MENU = [
     subTitle: "Tarot reading for financial matters",
     backdropPath: require("assets/images/backCard.jpeg"),
     isFree: true,
+    selectTime: 2,
   },
   {
     no: 5,
@@ -33,6 +37,7 @@ export const MENU = [
     subTitle: "Tarot reading for family relationships and dynamics",
     backdropPath: require("assets/images/backCard.jpeg"),
     isFree: true,
+    selectTime: 2,
   },
   {
     no: 6,
@@ -40,6 +45,7 @@ export const MENU = [
     subTitle: "Tarot reading for career and work-related matters",
     backdropPath: require("assets/images/backCard.jpeg"),
     isFree: true,
+    selectTime: 2,
   },
   {
     no: 7,
@@ -47,6 +53,7 @@ export const MENU = [
     subTitle: "Tarot reading for personal and spiritual growth",
     backdropPath: require("assets/images/backCard.jpeg"),
     isFree: true,
+    selectTime: 2,
   },
   {
     no: 8,
@@ -54,5 +61,6 @@ export const MENU = [
     subTitle: "Tarot reading for business and professional growth",
     backdropPath: require("assets/images/backCard.jpeg"),
     isFree: true,
+    selectTime: 2,
   },
 ];

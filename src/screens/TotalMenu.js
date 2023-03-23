@@ -25,7 +25,7 @@ const List = styled.FlatList`
 const radius = 16;
 const CardView = styled.View`
   width: 120px;
-  height: 190px;
+  height: 180px;
   border-radius: ${radius}px;
   /* border-width: 4px; */
   /* border-color: gray; */
