@@ -6,7 +6,7 @@ import styled from "styled-components/native";
 const Container = styled.View`
   width: 60px;
   height: 90px;
-  margin: 5px;
+  margin: 2px;
 `;
 const FrontView = styled.View``;
 const BackView = styled.View``;
@@ -19,8 +19,14 @@ const CardImg = styled.Image`
 
 const PlayCard = ({ card, count, onCountChange }) => {
   const handleFlipEnd = (isFlipEnd) => {
-    isFlipEnd ? count++ : count--;
-    onCountChange(count);
+    // isFlipEnd ? ++count : --count;
+    let newCount;
+    if (isFlipEnd) {
+      newCount = count + 1;
+    } else {
+      newCount = count - 1;
+    }
+    onCountChange(newCount);
     // console.log("count", count);
   };
 

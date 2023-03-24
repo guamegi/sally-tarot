@@ -14,6 +14,8 @@ import HeaderBack from "../components/HeaderBack";
 import { StyleSheet } from "react-native";
 import { CARDS } from "../data/cards";
 import PlayCard from "../components/Play/PlayCard";
+import { LinearGradient } from "expo-linear-gradient";
+import { BLACK_COLOR } from "../colors";
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
 // console.log(SCREEN_WIDTH);
@@ -29,11 +31,13 @@ const PlayInfoTitle = styled.Text`
   font-size: 24px;
   color: white;
   font-family: "Georgia";
+  text-shadow: 1px 1px 5px black;
 `;
 const PlayInfoDesc = styled.Text`
   font-size: 16px;
   color: white;
   margin-top: 20px;
+  text-shadow: 1px 1px 5px black;
 `;
 
 const PlayCanvas = styled.View`
@@ -47,19 +51,43 @@ const PlayCanvas = styled.View`
   justify-content: space-around;
 `;
 
+const Control = styled.View`
+  flex: 1;
+  background-color: aqua;
+`;
+
 const LoadingView = styled.View`
   width: 100%;
   height: 100%;
-  /* background-color: black;
-  opacity: 0.4; */
   /* background-color: rgba(0, 0, 0, 0.4); */
   position: absolute;
-  /* display: flex; */
-  /* display: none; */
   justify-content: center;
   align-items: center;
 `;
 
+// 배열에서 랜덤으로 10개를 선택하는 함수
+const getRandomItems = (arr, numItems) => {
+  // 배열의 길이가 요구하는 랜덤 아이템의 개수보다 작은 경우
+  if (arr.length <= numItems) {
+    return arr;
+  }
+  const result = [];
+
+  // 배열에서 랜덤으로 요구하는 아이템의 개수만큼 선택하기
+  while (result.length < numItems) {
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    const randomItem = arr[randomIndex];
+
+    // 이미 선택된 아이템인 경우 건너뛰기
+    if (result.some((item) => item.id === randomItem.id)) {
+      continue;
+    }
+    result.push(randomItem);
+  }
+  return result;
+};
+
+const randomItems = getRandomItems(CARDS, 22);
 const Play = ({ navigation: { navigate }, route: { params } }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [count, setCount] = useState(0);
@@ -91,6 +119,10 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           style={StyleSheet.absoluteFill}
           source={require("assets/images/playInfo.png")}
         />
+        <LinearGradient
+          style={StyleSheet.absoluteFill}
+          colors={["transparent", BLACK_COLOR]}
+        />
         <PlayInfoTitle>{params.title}</PlayInfoTitle>
         <PlayInfoDesc>
           Seriously think the question in your mind, choose {selectTime} cards
@@ -99,7 +131,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       </PlayInfo>
       {/* TODO: 카드선택 설정 로드 */}
       <PlayCanvas>
-        {CARDS.map((card) => (
+        {randomItems.map((card) => (
           <PlayCard
             key={card.id}
             card={card}
@@ -108,6 +140,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           />
         ))}
       </PlayCanvas>
+      <Control></Control>
       {isLoading && (
         <LoadingView>
           <ImageBackground

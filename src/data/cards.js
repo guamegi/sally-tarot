@@ -6,11 +6,9 @@ export const CARDS = [
     image: require("assets/images/cards/0.jpg"),
     upright: {
       keyword: ["Beginnings", "innocence", "spontaneity", "a free spirit"],
-      link: "",
     },
     reverse: {
       keyword: ["Holding back", "recklessness", "risk-taking"],
-      link: "",
     },
     description: `The Fool is numbered 0 – the number of unlimited potential – and so does not have a specific place in the sequence of the Tarot cards. The Fool can be placed either at the beginning of the Major Arcana or at the end. The Major Arcana is often considered The Fool’s journey through life and as such, he is ever present and therefore needs no number.
 
@@ -24,11 +22,9 @@ export const CARDS = [
     image: require("assets/images/cards/1.jpg"),
     upright: {
       keyword: ["Manifestation", "resourcefulness", "power", "inspired action"],
-      link: "",
     },
     reverse: {
       keyword: ["Manipulation", "poor planning", "poor planning"],
-      link: "",
     },
     description: `The Magician card is numbered One – the number of new beginnings and opportunities – and associates with the planet of Mercury. He stands with one arm stretched upwards towards the Universe, and the other pointing down to the earth. His positioning represents his connection between the spiritual realms and the material realms. The Magician uses this relationship to create and manifest his goals in the physical realm. He is the conduit that converts energy into matter. The Magician’s robe is white, symbolising purity, and his cloak is red, representing worldly experience and knowledge.
       
@@ -47,7 +43,6 @@ export const CARDS = [
         "divine feminine",
         "the subconscious mind",
       ],
-      link: "",
     },
     reverse: {
       keyword: [
@@ -55,7 +50,6 @@ export const CARDS = [
         "disconnected from intuition",
         "withdrawal and silence",
       ],
-      link: "",
     },
     description: `The High Priestess sits in front of a thin veil decorated with pomegranates. The veil represents the separate conscious and subconscious realms, the seen and the unseen, and serves to keep casual onlookers out. Only the initiated may enter. The pomegranates on the veil are a symbol of abundance, fertility and the divine feminine, and are sacred to Persephone who ate a pomegranate seed in the underworld and was forced to return every year.
 
@@ -71,11 +65,9 @@ export const CARDS = [
     image: require("assets/images/cards/3.jpg"),
     upright: {
       keyword: ["Femininity", "beauty", "nature", "nurturing", "abundance"],
-      link: "",
     },
     reverse: {
       keyword: ["Creative block", "dependence on others"],
-      link: "",
     },
     description: `The Empress is a beautiful, full-figured woman with blonde hair and a peaceful aura about her. On her head, she wears a crown of twelve stars, showing her connection with the mystical realm and the cycles of the natural world (the twelve months of the year and the twelve planets). Her robe is patterned with pomegranates, symbolic of fertility, and sits upon a luxurious array of cushions and flowing red velvet. One cushion features the symbol of Venus, the planet of love, creativity, fertility, beauty and grace – the essence of The Empress.
 
@@ -89,7 +81,6 @@ export const CARDS = [
     image: require("assets/images/cards/4.jpg"),
     upright: {
       keyword: ["Authority", "establishment", "structure", "a father figure"],
-      link: "",
     },
     reverse: {
       keyword: [
@@ -98,7 +89,6 @@ export const CARDS = [
         "lack of discipline",
         "inflexibility",
       ],
-      link: "",
     },
     description: `If The Empress is the Mother archetype of the Tarot deck, The Emperor is the Father. He sits upon a large stone throne, adorned with four rams’ heads (symbolic of his connection with Aries and the planet Mars). In his right hand, The Emperor holds an ankh, the Egyptian symbol of life, and in his left is an orb representing the world over which he rules.
 
@@ -120,11 +110,9 @@ export const CARDS = [
         "tradition",
         "institutions",
       ],
-      link: "",
     },
     reverse: {
       keyword: ["Personal beliefs", "freedom", "challenging the status quo"],
-      link: "",
     },
     description: `The Hierophant is the masculine counterpart to The High Priestess. He is also known as the Pope or the Teacher in other Tarot decks and is ruled by Taurus.
 
@@ -146,7 +134,6 @@ export const CARDS = [
         "values alignment",
         "choices",
       ],
-      link: "",
     },
     reverse: {
       keyword: [
@@ -155,7 +142,6 @@ export const CARDS = [
         "imbalance",
         "misalignment of values",
       ],
-      link: "",
     },
     description: `The Lovers card shows a naked man and woman standing beneath the angel, Raphael, whose name means ‘God heals’ and represents both physical and emotional healing. The angel blesses the man and woman and reminds them of their union with the Divine.
 
@@ -169,11 +155,9 @@ export const CARDS = [
     image: require("assets/images/cards/7.jpg"),
     upright: {
       keyword: ["Control", "willpower", "success", "action", "determination"],
-      link: "",
     },
     reverse: {
       keyword: ["Self-discipline", "opposition", "lack of direction"],
-      link: "",
     },
     description: `The Chariot Tarot card shows a brave warrior standing inside a chariot. He wears armor decorated with crescent moons (representing what is coming into being), a tunic with a square (the strength of will) and other alchemical symbols (spiritual transformation). The laurel and star crown signals victory, success and spiritual evolution. Although he appears to be driving the chariot, the charioteer holds no reins – just a wand like The Magician’s – symbolizing that he controls through the strength of his will and mind.
 
@@ -189,11 +173,9 @@ export const CARDS = [
     image: require("assets/images/cards/8.jpg"),
     upright: {
       keyword: ["Strength", "courage", "persuasion", "influence", "compassion"],
-      link: "",
     },
     reverse: {
       keyword: ["Inner strength", "self-doubt", "low energy", "raw emotion"],
-      link: "",
     },
     description: `In the Strength Tarot card, a woman gently strokes a lion on its forehead and jaw. Even though it is known for its ferociousness, the woman has tamed this wild beast with her calming, loving energy. The lion is a symbol of raw passions and desires, and in taming him, the woman shows that animal instinct and raw passion can be expressed in positive ways when inner strength and resilience are applied. She doesn’t use force or coercion; she channels her inner strength to subdue and subtly control the lion.
 
@@ -212,11 +194,9 @@ export const CARDS = [
         "being alone",
         "inner guidance",
       ],
-      link: "",
     },
     reverse: {
       keyword: ["Isolation", "loneliness", "withdrawal"],
-      link: "",
     },
     description: `The Hermit stands alone on the top of a mountain. The snow-capped range symbolizes his spiritual mastery, growth, and accomplishment. He has chosen this path of self-discovery and, as a result, has reached a heightened state of awareness.
 
@@ -236,11 +216,9 @@ export const CARDS = [
         "destiny",
         "a turning point",
       ],
-      link: "",
     },
     reverse: {
       keyword: ["Bad luck", "resistance to change", "breaking cycles"],
-      link: "",
     },
     description: `The Wheel of Fortune card shows a giant wheel, with three figures on the outer edges. Four Hebrew letters – YHVH (Yod Heh Vau Heh), the unpronounceable name of God – are inscribed on the wheel’s face. There are also the letters TORA, thought to be a version of the word Torah, meaning ‘law’, or TAROT, or even ROTA (Latin for ‘wheel’). The middle wheel has the alchemical symbols for mercury, sulphur, water and salt – the building blocks of life and the four elements – and represents formative power.
 
@@ -257,11 +235,9 @@ export const CARDS = [
     image: require("assets/images/cards/11.jpg"),
     upright: {
       keyword: ["Justice", "fairness", "truth", "cause and effect", "law"],
-      link: "",
     },
     reverse: {
       keyword: ["Unfairness", "lack of accountability", "dishonesty"],
-      link: "",
     },
     description: `The figure of Justice sits in front of a loosely hung purple veil, signifying compassion, and between two pillars, similar to those framing The High Priestess and The Hierophant, which symbolize balance, law and structure.
 
@@ -275,11 +251,9 @@ export const CARDS = [
     image: require("assets/images/cards/12.jpg"),
     upright: {
       keyword: ["Pause", "surrender", "letting go", "new perspectives"],
-      link: "",
     },
     reverse: {
       keyword: ["Delays", "resistance", "stalling", "indecision"],
-      link: "",
     },
     description: `The Hanged Man shows a man suspended from a T-shaped cross made of living wood. He is hanging upside-down, viewing the world from a completely different perspective, and his facial expression is calm and serene, suggesting that he is in this hanging position by his own choice. He has a halo around his head, symbolizing new insight, awareness and enlightenment. His right foot is bound to the tree, but his left foot remains free, bent at the knee and tucked in behind his right leg. His arms are bent, with hands held behind his back, forming an inverted triangle. The man is wearing red pants representing human passion and the physical body, and a blue vest for knowledge. The Hanged Man is the card of ultimate surrender, of being suspended in time and of martyrdom and sacrifice to the greater good.`,
     analysis: "",
@@ -291,7 +265,6 @@ export const CARDS = [
     image: require("assets/images/cards/13.jpg"),
     upright: {
       keyword: ["Endings", "change", "transformation", "transition"],
-      link: "",
     },
     reverse: {
       keyword: [
@@ -299,7 +272,6 @@ export const CARDS = [
         "personal transformation",
         "inner purging",
       ],
-      link: "",
     },
     description: `The Death card shows the Messenger of Death – a skeleton dressed in black armor, riding a white horse. The skeleton represents the part of the body which survives long after life has left it; the armor symbolizes invincibility and that death will come no matter what. Its dark color is that of mourning and the mysterious, while the horse is the color of purity and acts as a symbol of strength and power. Death carries a black flag decorated with a white, five-petal rose, reflecting beauty, purification, and immortality and the number five representing change. Together, these symbols reveal that death isn’t just about life ending. Death is about endings and beginnings, birth and rebirth, change and transformation. There is beauty in death, and it is an inherent part of being alive.
 
@@ -315,11 +287,9 @@ export const CARDS = [
     image: require("assets/images/cards/14.jpg"),
     upright: {
       keyword: ["Balance", "moderation", "patience", "purpose"],
-      link: "",
     },
     reverse: {
       keyword: ["Imbalance", "excess", "self-healing", "re-alignment"],
-      link: "",
     },
     description: `The Temperance card shows a large, winged angel who is both masculine and feminine. She wears a light blue robe with a triangle enclosed in a square on the front, representing that humans (the triangle) are bound by the Earth and natural law (square). The angel balances between one foot on the rocks, expressing the need to stay grounded, and one foot in the water, showing the need to be in flow. She pours water between two cups, symbolic of the flow and alchemy of life.
 
@@ -339,7 +309,6 @@ export const CARDS = [
         "restriction",
         "sexuality",
       ],
-      link: "",
     },
     reverse: {
       keyword: [
@@ -347,7 +316,6 @@ export const CARDS = [
         "exploring dark thoughts",
         "detachment",
       ],
-      link: "",
     },
     description: `The Devil card shows Baphomet, or the Horned Goat of Mendes, a creature that is half man, half goat. Baphomet originally represented the balance between good and evil, male and female, and human and animal; however, more recently, this figure has been linked to the occult and has become a scapegoat for all things considered ‘evil’.
 
@@ -369,7 +337,6 @@ export const CARDS = [
         "revelation",
         "awakening",
       ],
-      link: "",
     },
     reverse: {
       keyword: [
@@ -377,7 +344,6 @@ export const CARDS = [
         "fear of change",
         "averting disaster",
       ],
-      link: "",
     },
     description: `The Tower shows a tall tower perched on the top of a rocky mountain. Lightning strikes set the building alight, and two people leap from the windows, head first and arms outstretched. It is a scene of chaos and destruction.
 
@@ -393,11 +359,9 @@ export const CARDS = [
     image: require("assets/images/cards/17.jpg"),
     upright: {
       keyword: ["Hope", "faith", "purpose", "renewal", "spirituality"],
-      link: "",
     },
     reverse: {
       keyword: ["Lack of faith", "despair", "self-trust", "disconnection"],
-      link: "",
     },
     description: `The Star card shows a naked woman kneeling at the edge of a small pool. She holds two containers of water: one in her left hand (the subconscious) and one in her right (the conscious). She pours the water out to nourish the earth and to continue the cycle of fertility, represented by the lush greenery around her. The other container pours the water onto dry land in five rivulets, representing the five senses.
 
@@ -411,11 +375,9 @@ export const CARDS = [
     image: require("assets/images/cards/18.jpg"),
     upright: {
       keyword: ["Illusion", "fear", "anxiety", "subconscious", "intuition"],
-      link: "",
     },
     reverse: {
       keyword: ["Release of fear", "repressed emotion", "inner confusion"],
-      link: "",
     },
     description: `The Moon card shows a full moon in the night’s sky, positioned between two large towers. The Moon is a symbol of intuition, dreams, and the unconscious. Its light is dim compared to the sun, and only slightly illuminates the path to higher consciousness winding between the two towers.
 
@@ -429,11 +391,9 @@ export const CARDS = [
     image: require("assets/images/cards/19.jpg"),
     upright: {
       keyword: ["Positivity", "fun", "warmth", "success", "vitality"],
-      link: "",
     },
     reverse: {
       keyword: ["Inner child", "feeling down", "overly optimistic"],
-      link: "",
     },
     description: `The Sun Tarot card radiates with optimism and positivity. A large, bright sun shines in the sky, representing the source of all life on Earth. Underneath, four sunflowers grow tall above a brick wall, representing the four suits of the Minor Arcana and the four elements.
 
@@ -447,11 +407,9 @@ export const CARDS = [
     image: require("assets/images/cards/20.jpg"),
     upright: {
       keyword: ["Judgement", "rebirth", "inner calling", "absolution"],
-      link: "",
     },
     reverse: {
       keyword: ["Self-doubt", "inner critic", "ignoring the call"],
-      link: "",
     },
     description: `The Judgement card shows naked men, women, and children rising from their graves, arms outspread and looking up into the sky. Above, Archangel Gabriel – the Messenger of God – blows his trumpet. The people respond to his call, ready to be judged and to find out if they will be accepted into the heavens or not. In the background is an extensive mountain range, signifying the insurmountable obstacles and the impossibility of avoiding judgement.`,
     analysis: "",
@@ -463,11 +421,9 @@ export const CARDS = [
     image: require("assets/images/cards/21.jpg"),
     upright: {
       keyword: ["Completion", "integration", "accomplishment", "travel"],
-      link: "",
     },
     reverse: {
       keyword: ["Seeking personal closure", "short-cuts", "delays"],
-      link: "",
     },
     description: `The World card shows a naked woman wrapped in a purple cloth, dancing inside a large laurel wreath. She looks behind her to the past, while her body moves forward to the future. In her hands are two wands or batons, like the one The Magician holds. It is a symbol that what was manifested with The Magician has now come to completion with The World. The wreath is circular, symbolizing a continual cycle of successful completion and new beginnings because, as the woman steps through the wreath, she is completing one phase but beginning another one almost straight away.
 
@@ -481,11 +437,9 @@ export const CARDS = [
     image: require("assets/images/cards/22.jpg"),
     upright: {
       keyword: ["New beginnings", "inspiration", "energy", "creativity"],
-      link: "",
     },
     reverse: {
       keyword: ["Delays", "lack of direction", "lack of energy"],
-      link: "",
     },
     description: `The Ace of Wands represents the start of something new, a new idea or inspiration, the initial spark of creativity. The wand is a symbol of power, and in this card, it is a symbol of the power of creation. The hand holding the wand emerges from a cloud, indicating that this inspiration comes from a higher source.
 
@@ -499,11 +453,9 @@ The mountains in the background represent obstacles to be overcome and the journ
     image: require("assets/images/cards/23.jpg"),
     upright: {
       keyword: ["Planning", "preparation", "progress", "decisions"],
-      link: "",
     },
     reverse: {
       keyword: ["Lack of planning", "bad choices", "fear of the unknown"],
-      link: "",
     },
     description: `The Two of Wands shows a man holding a wand and looking out over a vast landscape. He stands on the roof of a castle, representing the power and stability that comes with careful planning and preparation. The man is holding a globe, indicating that he has the whole world in his hands.
 
@@ -517,11 +469,9 @@ The second wand is planted firmly in the ground, representing progress and stabi
     image: require("assets/images/cards/24.jpg"),
     upright: {
       keyword: ["Expansion", "progress", "growth", "opportunity"],
-      link: "",
     },
     reverse: {
       keyword: ["Missed opportunities", "lack of growth", "setbacks"],
-      link: "",
     },
     description: `The Three of Wands shows a man standing on a cliff, looking out over the sea. He holds three wands, symbolizing the progress and growth that comes from taking action. The man has left the safety of the castle (as seen in the Two of Wands) and has ventured out into the unknown.
 
@@ -535,11 +485,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/25.jpg"),
     upright: {
       keyword: ["Celebration", "harmony", "homecoming"],
-      link: "",
     },
     reverse: {
       keyword: ["Disruption", "misalignment", "disconnection"],
-      link: "",
     },
     description: `The Four of Wands depicts a group of people celebrating under a canopy of flowers and ribbons. The scene is joyous and harmonious, indicating a time of celebration and homecoming. The card represents the successful completion of a project and the satisfaction that comes with it. It also signifies the importance of harmony and connection with others.`,
     analysis: "",
@@ -551,11 +499,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/26.jpg"),
     upright: {
       keyword: ["Competition", "challenges", "conflict"],
-      link: "",
     },
     reverse: {
       keyword: ["Avoidance of conflict", "inner conflict", "personal struggle"],
-      link: "",
     },
     description: `The Five of Wands shows five young men, each holding a wand, and energetically attacking each other, as if in a playful battle. The background is a sunny, bright sky, representing the dawn of a new day and the beginning of hope. The men are all wearing different-colored clothes, representing different passions, ideas, and motivations. They are all eager to fight for what they believe in, but they lack direction and coordination. The message of the Five of Wands is that sometimes you need to work together with others, even if you have different ideas, to achieve a common goal.`,
     analysis: "",
@@ -567,11 +513,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/27.jpg"),
     upright: {
       keyword: ["Victory", "public recognition", "progress"],
-      link: "",
     },
     reverse: {
       keyword: ["Egotism", "setback", "lack of support"],
-      link: "",
     },
     description: `The Six of Wands shows a young man riding a white horse through a cheering crowd, as if he has just won a great victory. The man is wearing a wreath of laurel on his head, a symbol of success and achievement. He holds a wand, which represents his power and control. The crowd around him is happy and supportive, lifting him up and celebrating his achievements. The message of the Six of Wands is that success and recognition are possible if you work hard and keep moving forward, and that you will have the support of others along the way.`,
     analysis: "",
@@ -583,11 +527,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/28.jpg"),
     upright: {
       keyword: ["Challenge", "competition", "protection"],
-      link: "",
     },
     reverse: {
       keyword: ["Giving up", "exhaustion", "overwhelm"],
-      link: "",
     },
     description: `The Seven of Wands shows a young man standing on a hill, holding a wand in his hand, and defending himself against six other wands that are attacking him from below. The man is wearing a red shirt, which represents his strength and courage. He is standing tall and strong, despite the odds against him. The message of the Seven of Wands is that you may face challenges and competition from others, but you have the strength and courage to protect yourself and overcome them. Don't give up, even if you feel overwhelmed or exhausted.`,
     analysis: "",
@@ -599,11 +541,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/29.jpg"),
     upright: {
       keyword: ["Rapid action", "movement", "quick decisions", "change"],
-      link: "",
     },
     reverse: {
       keyword: ["Delays", "frustration", "procrastination"],
-      link: "",
     },
     description: `The Eight of Wands shows eight flying wands moving rapidly through the air. In the background, you will see a clear, blue sky that represents the possibilities that are available to you. The flying wands indicate that the path ahead is clear, and any obstacles have been removed, allowing you to progress quickly and without impediment.
   
@@ -617,11 +557,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/30.jpg"),
     upright: {
       keyword: ["Resilience", "courage", "persistence", "test of faith"],
-      link: "",
     },
     reverse: {
       keyword: ["Exhaustion", "fatigue", "overwhelm"],
-      link: "",
     },
     description: `The Nine of Wands shows a man with a bandage wrapped around his head, holding a wand as if he is defending himself. Eight other wands stand upright behind him. The man looks weary, but he holds his ground and remains alert, ready for whatever comes next.
   
@@ -635,11 +573,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/31.jpg"),
     upright: {
       keyword: ["Burden", "responsibility", "hard work", "completion"],
-      link: "",
     },
     reverse: {
       keyword: ["Release", "relief", "lightening the load"],
-      link: "",
     },
     description: `The Ten of Wands shows a man carrying a heavy burden of ten wands. He is bent over and appears to be struggling under the weight of his load. The man's face is obscured, suggesting that he is overwhelmed and unable to see a way forward.
   
@@ -653,11 +589,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/32.jpg"),
     upright: {
       keyword: ["Inspiration", "exploration", "free spirit", "adventure"],
-      link: "",
     },
     reverse: {
       keyword: ["Setbacks", "delays", "frustration"],
-      link: "",
     },
     description: `The Page of Wands is a messenger bringing you opportunities for passion and creativity. He delivers real news unlike the Page of Swords, who delivers messages and gossip. This Page is immature but enthusiastic. He can be a bit of a daredevil, and he's not afraid to take risks.
   
@@ -671,11 +605,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/33.jpg"),
     upright: {
       keyword: ["Action", "adventure", "fearlessness", "courage"],
-      link: "",
     },
     reverse: {
       keyword: ["Haste", "scattered energy", "stubbornness"],
-      link: "",
     },
     description: `The Knight of Wands is a traveler, both in the physical world and in the world of ideas. He is constantly exploring new lands and new ways of thinking. The horse on which he rides is a symbol of his journey, and the salamander on his robe represents transformation and change. The plumes on his helmet and the design of his tunic indicate that he is a flamboyant character who enjoys being in the limelight.
   
@@ -689,11 +621,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/34.jpg"),
     upright: {
       keyword: ["Confidence", "determination", "courage", "independence"],
-      link: "",
     },
     reverse: {
       keyword: ["Selfishness", "Jealousy", "Insecurity"],
-      link: "",
     },
     description: `The Queen of Wands is a strong and confident woman who is passionate about life. She is not afraid to go after what she wants and can be quite forceful when she needs to be. Her wand is a symbol of her power and her creativity.
   
@@ -707,11 +637,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/35.jpg"),
     upright: {
       keyword: ["Big picture", "leader", "entrepreneur", "bold"],
-      link: "",
     },
     reverse: {
       keyword: ["Impulsiveness", "egotistical", "overbearing"],
-      link: "",
     },
     description: `The King of Wands is a natural-born leader. He is bold, confident, and ambitious, with a strong desire to make things happen. He is not afraid to take risks and is always looking for new opportunities to pursue.
   
@@ -727,11 +655,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/36.jpg"),
     upright: {
       keyword: ["New emotions", "creativity", "spirituality", "intuition"],
-      link: "",
     },
     reverse: {
       keyword: ["Blocked creativity", "emotional instability", "emptiness"],
-      link: "",
     },
     description: `The Ace of Cups is a card of new beginnings, particularly in matters of the heart. It represents new emotions, creativity, spirituality, and intuition. In the card, a hand holding a cup emerges from a cloud, representing the emergence of these new emotions.
   
@@ -747,11 +673,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/37.jpg"),
     upright: {
       keyword: ["Unified love", "partnership", "harmony", "mutual attraction"],
-      link: "",
     },
     reverse: {
       keyword: ["Imbalanced relationship", "breakup", "disharmony"],
-      link: "",
     },
     description: `The Two of Cups is a card of partnership and mutual attraction. In the card, a man and a woman stand facing each other, each holding a cup. The cups are raised and appear to be touching, representing the unity and harmony of the relationship.
   
@@ -767,11 +691,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/38.jpg"),
     upright: {
       keyword: ["Celebration", "friendship", "creativity", "collaboration"],
-      link: "",
     },
     reverse: {
       keyword: ["Independence", "overindulgence", "excess"],
-      link: "",
     },
     description: `The Three of Cups shows three young women dancing together in a circle with their arms up in the air. They are surrounded by an abundant harvest of fruit and vegetables, and they raise their cups in a toast to each other and to the earth for providing such a rich bounty. The women wear flowing robes of red, blue, and yellow, which are the colors of the primary colors and the basic elements in alchemy.
   
@@ -785,11 +707,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/39.jpg"),
     upright: {
       keyword: ["Meditation", "contemplation", "apathy", "discontent"],
-      link: "",
     },
     reverse: {
       keyword: ["New perspectives", "acceptance", "openness"],
-      link: "",
     },
     description: `The Four of Cups shows a young man sitting under a tree, with his arms crossed and his eyes closed. He appears to be lost in thought or meditation, and he is completely oblivious to the three cups that are offered to him by a hand that appears out of a cloud. The fourth cup sits in front of him, unnoticed and untouched.
   
@@ -803,11 +723,9 @@ The ships in the distance represent the opportunities that await him. The man is
     image: require("assets/images/cards/40.jpg"),
     upright: {
       keyword: ["Loss", "grief", "disappointment", "moving on"],
-      link: "",
     },
     reverse: {
       keyword: ["Acceptance", "forgiveness", "finding peace"],
-      link: "",
     },
     description: `The Five of Cups shows a figure dressed in black, with their head bowed low in sorrow. They stand before three spilled cups, representing the losses and disappointments they have experienced. However, there are still two cups standing behind them, symbolizing the hope and possibility of a brighter future. Despite the sadness and grief represented in this card, there is also the potential for healing and renewal.
 
@@ -821,11 +739,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/41.jpg"),
     upright: {
       keyword: ["Nostalgia", "innocence", "past connections", "happy memories"],
-      link: "",
     },
     reverse: {
       keyword: ["Moving on", "leaving the past behind", "acceptance"],
-      link: "",
     },
     description: `The Six of Cups shows two children, a boy and a girl, standing in a garden surrounded by six cups that are filled with flowers. The boy offers a cup to the girl, who reaches out to accept it with a smile. Both children are dressed in old-fashioned clothes, which gives the scene a sense of nostalgia and innocence.
   
@@ -839,11 +755,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/42.jpg"),
     upright: {
       keyword: ["Opportunities", "choices", "imagination", "fantasy"],
-      link: "",
     },
     reverse: {
       keyword: ["Overwhelm", "confusion", "dissatisfaction"],
-      link: "",
     },
     description: `The Seven of Cups shows a figure standing before seven cups that are floating in the air. Each cup contains a different object or experience, such as a snake, a castle, a laurel wreath, and a dragon. The figure appears to be overwhelmed by the choices and possibilities, and is unsure which cup to choose.
   
@@ -862,11 +776,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
         "moving on",
         "disillusionment",
       ],
-      link: "",
     },
     reverse: {
       keyword: ["Hope", "new beginnings", "fresh perspective"],
-      link: "",
     },
     description: `The Eight of Cups shows a figure walking away from a stack of cups that are arranged in a pattern of eight. The figure appears to be leaving behind something that no longer serves them, and is embarking on a new journey.
   
@@ -880,11 +792,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/44.jpg"),
     upright: {
       keyword: ["Satisfaction", "gratitude", "indulgence", "pleasure"],
-      link: "",
     },
     reverse: {
       keyword: ["Inner happiness", "fulfillment", "shallow satisfaction"],
-      link: "",
     },
     description: `The Nine of Cups is often called the "wish card" as it represents a time of great satisfaction and contentment. In the traditional Rider-Waite-Smith imagery, the card shows a man sitting in front of nine cups, with his arms crossed and a smile on his face. The cups behind him represent his accomplishments, and he appears to be basking in the glow of his own success.
   
@@ -898,11 +808,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/45.jpg"),
     upright: {
       keyword: ["Happiness", "harmony", "fulfillment", "joy"],
-      link: "",
     },
     reverse: {
       keyword: ["Disconnection", "misalignment", "unrealistic expectations"],
-      link: "",
     },
     description: `The Ten of Cups is a card of ultimate happiness and emotional fulfillment. In the traditional Rider-Waite-Smith imagery, the card shows a family standing together, with a rainbow arching over their heads and ten cups arranged in an arc in front of them. They appear to be celebrating their love for each other, and their happiness is palpable.
   
@@ -916,7 +824,6 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/46.jpg"),
     upright: {
       keyword: ["Creativity", "imagination", "empathy", "intuition"],
-      link: "",
     },
     reverse: {
       keyword: [
@@ -924,7 +831,6 @@ This card often indicates a period of loss or disappointment, whether it be a re
         "emotional immaturity",
         "lack of sensitivity",
       ],
-      link: "",
     },
     description: `The Page of Cups shows a young man standing on the edge of a body of water, holding a cup in his hand. He gazes down at the fish that is emerging from the cup, which is a symbol of his imagination and creativity. The young man wears a blue tunic, which is the color of the ocean and represents his emotional depth and sensitivity.
   
@@ -938,11 +844,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/47.jpg"),
     upright: {
       keyword: ["Romance", "charm", "grace", "emotion"],
-      link: "",
     },
     reverse: {
       keyword: ["Moodiness", "overindulgence", "manipulation"],
-      link: "",
     },
     description: `The Knight of Cups rides a white horse and wears a blue tunic adorned with a fish emblem, which represents his connection to the realm of emotions and intuition. In his right hand, he holds a cup adorned with a red fish, which symbolizes the heart and the passions. He gazes off into the distance, as if lost in a daydream.
   
@@ -958,11 +862,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/48.jpg"),
     upright: {
       keyword: ["Nurturing", "empathy", "compassion", "intuition"],
-      link: "",
     },
     reverse: {
       keyword: ["Martyrdom", "codependency", "emotional instability"],
-      link: "",
     },
     description: `The Queen of Cups sits on a throne decorated with images of sea creatures, and she holds a golden cup in her hands, which symbolizes her deep emotional connection to others. She wears a flowing blue gown, which represents her intuition and sensitivity.
   
@@ -978,11 +880,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/49.jpg"),
     upright: {
       keyword: ["Compassion", "empathy", "diplomacy", "creativity"],
-      link: "",
     },
     reverse: {
       keyword: ["Emotional manipulation", "moodiness", "manipulation"],
-      link: "",
     },
     description: `The King of Cups is a wise and compassionate leader who rules from the heart. He is depicted as a mature man, sitting on a throne decorated with images of sea creatures and holding a cup in his hand. He wears a flowing blue robe, which symbolizes his emotional depth and intuition.
     
@@ -998,11 +898,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/50.jpg"),
     upright: {
       keyword: ["Clarity", "power", "truth", "mental force"],
-      link: "",
     },
     reverse: {
       keyword: ["Confusion", "chaos", "disorder", "falsehood"],
-      link: "",
     },
     description: `The Ace of Swords shows a single, upright sword surrounded by a wreath, with a crown at the top. The crown represents the idea of victory, and the wreath symbolizes strength and perseverance. The sword itself represents the element of air and the power of the mind.
     
@@ -1018,7 +916,6 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/51.jpg"),
     upright: {
       keyword: ["Stalemate", "difficult decisions", "indecision", "truce"],
-      link: "",
     },
     reverse: {
       keyword: [
@@ -1027,7 +924,6 @@ This card often indicates a period of loss or disappointment, whether it be a re
         "information overload",
         "disruption",
       ],
-      link: "",
     },
     description: `The Two of Swords shows a woman sitting on a bench with her arms crossed, holding two swords in a balanced position across her chest. She wears a blindfold, indicating that she is blocking out external distractions and focusing on her inner thoughts and feelings.
     
@@ -1043,11 +939,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/52.jpg"),
     upright: {
       keyword: ["Heartbreak", "sadness", "betrayal", "rejection"],
-      link: "",
     },
     reverse: {
       keyword: ["Recovery", "forgiveness", "moving on"],
-      link: "",
     },
     description: `The Three of Swords depicts a heart pierced by three swords, against a stormy background. This card represents heartbreak, sadness, betrayal, and rejection. It can indicate a painful experience of loss or separation, either in a relationship or another area of your life. This card suggests that you may be feeling hurt, alone, or disillusioned.
     
@@ -1061,11 +955,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/53.jpg"),
     upright: {
       keyword: ["Rest", "recuperation", "solitude", "contemplation"],
-      link: "",
     },
     reverse: {
       keyword: ["Exhaustion", "burnout", "overstimulation"],
-      link: "",
     },
     description: `The Four of Swords shows a figure lying on a bed, with his hands in prayer position and his head resting on a pillow. Three swords are mounted on the wall behind him, and a fourth sword lies at his side. The room is peaceful and quiet, and light streams in through a stained-glass window.
     
@@ -1081,11 +973,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/54.jpg"),
     upright: {
       keyword: ["Conflict", "defeat", "betrayal", "loss"],
-      link: "",
     },
     reverse: {
       keyword: ["Reconciliation", "making amends", "compromise"],
-      link: "",
     },
     description: `The Five of Swords shows a figure holding three swords, while two other figures walk away in defeat in the background. The winner in the foreground looks smug and triumphant, while the defeated figures appear sad and humiliated. The sky is stormy and turbulent, and the scene is set on a desolate beach.
     
@@ -1099,7 +989,6 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/55.jpg"),
     upright: {
       keyword: ["Transition", "change", "moving on", "leaving behind"],
-      link: "",
     },
     reverse: {
       keyword: [
@@ -1107,7 +996,6 @@ This card often indicates a period of loss or disappointment, whether it be a re
         "emotional baggage",
         "unfinished business",
       ],
-      link: "",
     },
     description: `The Six of Swords shows a figure in a boat, being ferried across a river. The water is calm and smooth, and the sky is clear and blue. The figure in the boat is traveling away from choppy waters and stormy skies, and toward a calm and peaceful shore in the distance.
     
@@ -1121,11 +1009,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/56.jpg"),
     upright: {
       keyword: ["Deception", "betrayal", "mind games", "strategy"],
-      link: "",
     },
     reverse: {
       keyword: ["Coming clean", "confession", "revealing the truth"],
-      link: "",
     },
     description: `The Seven of Swords shows a figure sneaking away from a campsite, carrying five swords with him. He looks over his shoulder to make sure he hasn't been seen, and he leaves two swords behind. The campsite is deserted, and the sky is cloudy and ominous.
     
@@ -1139,11 +1025,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/58.jpg"),
     upright: {
       keyword: ["Anxiety", "fear", "nightmares", "mental anguish"],
-      link: "",
     },
     reverse: {
       keyword: ["Releasing fear", "facing reality", "inner turmoil"],
-      link: "",
     },
     description: `The Nine of Swords shows a woman sitting up in bed, with her head in her hands and nine swords hanging on the wall behind her. She appears to be experiencing a great deal of mental anguish, possibly from anxiety or nightmares. The scene is dark and ominous, with the swords symbolizing the sharp thoughts and worries that are cutting through her mind.
   
@@ -1157,11 +1041,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/59.jpg"),
     upright: {
       keyword: ["Betrayal", "backstabbing", "defeat", "ending"],
-      link: "",
     },
     reverse: {
       keyword: ["Recovery", "resurrection", "hope"],
-      link: "",
     },
     description: `The Ten of Swords shows a man lying face down on the ground, with ten swords plunged into his back. The scene is gruesome and violent, with dark clouds overhead and a sense of finality in the air. This card is often associated with betrayal, backstabbing, and defeat, and can indicate a painful ending or loss.
   
@@ -1175,11 +1057,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/60.jpg"),
     upright: {
       keyword: ["Intellect", "curiosity", "communication", "restlessness"],
-      link: "",
     },
     reverse: {
       keyword: ["Dishonesty", "manipulation", "sneakiness"],
-      link: "",
     },
     description: `The Page of Swords shows a young person holding a sword, with a look of curiosity and restlessness on their face. They stand on a hilltop, with the wind blowing their hair and clothes, and they seem ready for whatever challenges may come their way. The sword represents the power of the intellect and the importance of clear communication.
   
@@ -1194,13 +1074,13 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/61.jpg"),
     upright: {
       keyword: ["Ambitious", "action-oriented", "driven", "focused"],
-      meaning:
-        "The Knight of Swords represents ambition, action, and drive. He is focused on his goals and will do whatever it takes to achieve them. He is not afraid of taking risks and is willing to move quickly to achieve success. This card can indicate a time of great productivity and progress, as we are able to stay focused on our goals and move forward with confidence and determination.",
+      // meaning:
+      //   "The Knight of Swords represents ambition, action, and drive. He is focused on his goals and will do whatever it takes to achieve them. He is not afraid of taking risks and is willing to move quickly to achieve success. This card can indicate a time of great productivity and progress, as we are able to stay focused on our goals and move forward with confidence and determination.",
     },
     reverse: {
       keyword: ["Impulsive", "reckless", "rash"],
-      meaning:
-        "The Knight of Swords reversed can indicate a lack of focus and direction. We may be acting impulsively or making reckless decisions without considering the consequences. This card can also indicate a lack of patience and a tendency to act rashly. It is important to slow down and think things through before taking action.",
+      // meaning:
+      //   "The Knight of Swords reversed can indicate a lack of focus and direction. We may be acting impulsively or making reckless decisions without considering the consequences. This card can also indicate a lack of patience and a tendency to act rashly. It is important to slow down and think things through before taking action.",
     },
     description:
       "The Knight of Swords is depicted as a young warrior on horseback, charging forward with his sword raised high. He is a symbol of ambition, action, and drive, and represents the energy and focus needed to achieve success. His armor and horse are both adorned with images of birds, which represent the swift movement and quick thinking necessary for success.",
@@ -1214,11 +1094,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/62.jpg"),
     upright: {
       keyword: ["Independent", "intelligent", "clear-headed", "skeptical"],
-      link: "",
     },
     reverse: {
       keyword: ["Cold-hearted", "bitter", "manipulative"],
-      link: "",
     },
     description: `The Queen of Swords sits on a throne with a sword in one hand and a book in the other. She looks straight ahead with a calm and collected expression, exuding an air of intelligence and independence. Her sword is pointed upwards, representing the power of her intellect and her ability to see things clearly and logically.
   
@@ -1232,11 +1110,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/63.jpg"),
     upright: {
       keyword: ["Authority", "clear thinking", "truth", "judgment"],
-      link: "",
     },
     reverse: {
       keyword: ["Manipulation", "cruelty", "coldness"],
-      link: "",
     },
     description:
       "The King of Swords is a symbol of intellectual power and authority. He sits on his throne, holding his sword upright, with a look of stern determination on his face. He represents clear thinking, truth, and judgment, and he is not easily swayed by emotions or sentimentality. The sword represents the power of the intellect, and the King of Swords uses this power to make sound judgments and to cut through confusion and illusion.\n\nThis card can indicate a need for clear thinking and intellectual honesty in your life. It may be time to take a rational, logical approach to a problem, rather than relying on emotion or intuition. The King of Swords reminds us that truth and integrity are the foundations of authority and leadership.",
@@ -1249,19 +1125,19 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/64.jpg"),
     upright: {
       keyword: ["New beginnings", "material abundance", "manifestation"],
-      meaning: [
-        "The Ace of Pentacles represents a new beginning in the material world, such as a new job, business opportunity, or financial windfall.",
-        "It indicates that we have the potential to manifest our desires in the physical world, and that we should focus on practical, tangible goals.",
-        "This card is a reminder to take care of our material needs and to use our resources wisely.",
-      ],
+      // meaning: [
+      //   "The Ace of Pentacles represents a new beginning in the material world, such as a new job, business opportunity, or financial windfall.",
+      //   "It indicates that we have the potential to manifest our desires in the physical world, and that we should focus on practical, tangible goals.",
+      //   "This card is a reminder to take care of our material needs and to use our resources wisely.",
+      // ],
     },
     reverse: {
       keyword: ["Lost opportunity", "financial instability", "greed"],
-      meaning: [
-        "The Ace of Pentacles reversed may indicate a missed opportunity or a failure to manifest our desires in the material world.",
-        "It can also suggest financial instability or overspending, and a need to reevaluate our priorities.",
-        "This card can be a warning against greed and materialism, and a reminder to focus on what truly matters.",
-      ],
+      // meaning: [
+      //   "The Ace of Pentacles reversed may indicate a missed opportunity or a failure to manifest our desires in the material world.",
+      //   "It can also suggest financial instability or overspending, and a need to reevaluate our priorities.",
+      //   "This card can be a warning against greed and materialism, and a reminder to focus on what truly matters.",
+      // ],
     },
     description:
       "The Ace of Pentacles shows a large hand holding a pentacle, which is surrounded by lush foliage and a bright blue sky. The pentacle represents material abundance and the potential for manifestation, while the foliage and sky suggest growth and expansion. This card is a symbol of new beginnings in the material world, and the need to focus on practical, tangible goals.",
@@ -1279,17 +1155,15 @@ This card often indicates a period of loss or disappointment, whether it be a re
         "adaptability",
         "juggling priorities",
       ],
-      meaning: `The Two of Pentacles represents balance, flexibility, and adaptability. In the card, a figure stands with two pentacles in their hands, representing the need to juggle multiple priorities. The figure seems to be dancing or moving in a fluid way, suggesting the importance of finding harmony and rhythm in our lives.
-    
-    This card may suggest that we are facing multiple demands or challenges, and need to find a way to balance them all. It may also indicate that we need to be flexible and adaptable, and be willing to change our approach if needed. The Two of Pentacles reminds us that finding balance in our lives is an ongoing process, and that we may need to make adjustments as circumstances change.`,
-      link: "",
+      //   meaning: `The Two of Pentacles represents balance, flexibility, and adaptability. In the card, a figure stands with two pentacles in their hands, representing the need to juggle multiple priorities. The figure seems to be dancing or moving in a fluid way, suggesting the importance of finding harmony and rhythm in our lives.
+
+      // This card may suggest that we are facing multiple demands or challenges, and need to find a way to balance them all. It may also indicate that we need to be flexible and adaptable, and be willing to change our approach if needed. The Two of Pentacles reminds us that finding balance in our lives is an ongoing process, and that we may need to make adjustments as circumstances change.`,
     },
     reverse: {
       keyword: ["Imbalance", "disorganization", "overwhelm"],
-      meaning: `When the Two of Pentacles is reversed, it may indicate that we are struggling to find balance in our lives. We may feel overwhelmed by multiple demands or challenges, or may be having trouble keeping our priorities straight.
-    
-    This card may also suggest that we need to work on our organizational skills, and find a way to manage our time and resources more effectively. The Two of Pentacles reversed reminds us that finding balance in our lives requires effort and focus, and that we may need to seek help or guidance if we are feeling overwhelmed.`,
-      link: "",
+      //   meaning: `When the Two of Pentacles is reversed, it may indicate that we are struggling to find balance in our lives. We may feel overwhelmed by multiple demands or challenges, or may be having trouble keeping our priorities straight.
+
+      // This card may also suggest that we need to work on our organizational skills, and find a way to manage our time and resources more effectively. The Two of Pentacles reversed reminds us that finding balance in our lives requires effort and focus, and that we may need to seek help or guidance if we are feeling overwhelmed.`,
     },
     description: `The Two of Pentacles is a card about finding balance and harmony in our lives. It suggests that we may be facing multiple demands or challenges, and need to find a way to juggle them all. This card reminds us that finding balance is an ongoing process, and that we may need to make adjustments as circumstances change.
     
@@ -1305,11 +1179,9 @@ This card often indicates a period of loss or disappointment, whether it be a re
     image: require("assets/images/cards/26.jpg"),
     upright: {
       keyword: [],
-      link: "",
     },
     reverse: {
       keyword: [],
-      link: "",
     },
     description: ``,
     analysis: "",
