@@ -18,9 +18,9 @@ import { LinearGradient } from "expo-linear-gradient";
 import { BLACK_COLOR } from "../colors";
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
-// console.log(SCREEN_WIDTH);
+
 const PlayInfo = styled.View`
-  flex: 1;
+  flex: 1.4;
   /* opacity: 0.7; */
   justify-content: center;
   align-items: center;
@@ -42,18 +42,13 @@ const PlayInfoDesc = styled.Text`
 
 const PlayCanvas = styled.View`
   /* background-color: yellow; */
-  padding: 10px 5px;
+  padding: 40px 2px;
   flex: 4;
   flex-direction: row;
   /* width: ${SCREEN_WIDTH}px; */
   flex-wrap: wrap;
   overflow: scroll;
   justify-content: space-around;
-`;
-
-const Control = styled.View`
-  flex: 1;
-  background-color: aqua;
 `;
 
 const LoadingView = styled.View`
@@ -65,18 +60,40 @@ const LoadingView = styled.View`
   align-items: center;
 `;
 
+const Control = styled.View`
+  flex: 0.8;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  background-color: rgba(0, 0, 0, 0.3);
+`;
+const SuffleBtn = styled.TouchableOpacity`
+  background-color: purple;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+`;
+const ChangeBtn = styled(SuffleBtn)``;
+const SuffleText = styled.Text`
+  color: white;
+  font-weight: 500;
+`;
+const ChangeText = styled(SuffleText)``;
+
 // 배열에서 랜덤으로 10개를 선택하는 함수
-const getRandomItems = (arr, numItems) => {
+const getRandomItems = (numItems) => {
   // 배열의 길이가 요구하는 랜덤 아이템의 개수보다 작은 경우
-  if (arr.length <= numItems) {
-    return arr;
+  if (CARDS.length <= numItems) {
+    return CARDS;
   }
   const result = [];
 
   // 배열에서 랜덤으로 요구하는 아이템의 개수만큼 선택하기
   while (result.length < numItems) {
-    const randomIndex = Math.floor(Math.random() * arr.length);
-    const randomItem = arr[randomIndex];
+    const randomIndex = Math.floor(Math.random() * CARDS.length);
+    const randomItem = CARDS[randomIndex];
 
     // 이미 선택된 아이템인 경우 건너뛰기
     if (result.some((item) => item.id === randomItem.id)) {
@@ -87,12 +104,15 @@ const getRandomItems = (arr, numItems) => {
   return result;
 };
 
-const randomItems = getRandomItems(CARDS, 22);
 const Play = ({ navigation: { navigate }, route: { params } }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [count, setCount] = useState(0);
-  // console.log(count);
+  const [randomItems, setRandomItems] = useState([]);
   const selectTime = params.selectTime;
+
+  useEffect(() => {
+    suffleCard();
+  }, []);
 
   useEffect(() => {
     if (count >= selectTime) {
@@ -108,6 +128,11 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   // This function will be passed as a prop to the PlayCard component
   const handleCountChange = (newCount) => {
     setCount(newCount);
+  };
+
+  const suffleCard = () => {
+    setRandomItems(getRandomItems(22));
+    setCount(0);
   };
 
   return (
@@ -140,7 +165,14 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           />
         ))}
       </PlayCanvas>
-      <Control></Control>
+      <Control>
+        <SuffleBtn onPress={suffleCard}>
+          <SuffleText>Suffle</SuffleText>
+        </SuffleBtn>
+        <ChangeBtn>
+          <ChangeText>Change</ChangeText>
+        </ChangeBtn>
+      </Control>
       {isLoading && (
         <LoadingView>
           <ImageBackground
