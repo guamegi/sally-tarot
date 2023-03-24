@@ -39,8 +39,8 @@ const List = styled.FlatList`
 
 const radius = 16;
 const CardView = styled.View`
-  width: 120px;
-  height: 180px;
+  width: 100px;
+  height: 160px;
   border-radius: ${radius}px;
   /* border-width: 4px; */
   /* border-color: gray; */
@@ -56,7 +56,7 @@ const Bg = styled.ImageBackground``;
 
 const Title = styled.Text`
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Georgia";
   font-weight: 400;
   /* text-shadow: 1px 1px 5px black; */
@@ -94,7 +94,7 @@ const TotalMenu = ({
         <ContentView>
           <List
             data={MENU}
-            numColumns={2}
+            numColumns={3}
             columnWrapperStyle={{
               justifyContent: "space-around",
             }}
