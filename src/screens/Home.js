@@ -67,7 +67,7 @@ const TotalMenuArea = styled.View`
 
 const TotalMenu = styled(HeaderCabinet)`
   border-width: 0px;
-  padding: 8px 14px;
+  padding: 6px 14px;
   align-self: center;
   background-color: #2c3e50;
 `;
@@ -85,7 +85,7 @@ const Home = ({ navigation: { navigate } }) => {
           <HeaderCabinetText>Cabinet</HeaderCabinetText>
         </HeaderCabinet>
         <HeaderSetting onPress={() => navigate("Settings")}>
-          <Ionicons name="settings-outline" color="#d2dae2" size={28} />
+          <Ionicons name="settings-outline" color="#d2dae2" size={24} />
         </HeaderSetting>
       </Header>
       <Info>

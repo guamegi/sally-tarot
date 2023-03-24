@@ -8,7 +8,7 @@ import { BLACK_COLOR } from "../../colors";
 
 const Container = styled.TouchableHighlight`
   flex: 1;
-  margin: 50px 90px;
+  margin: 60px 110px;
   justify-content: flex-end;
   /* box-shadow: 0px 0px 24px white; */
   box-shadow: 0px 0px 24px black;
@@ -28,7 +28,7 @@ const MenuView = styled.View`
 
 const Title = styled.Text`
   color: white;
-  font-size: 38px;
+  font-size: 32px;
   font-family: "Georgia";
   font-weight: 400;
   padding: 0px 20px;
@@ -37,7 +37,7 @@ const Title = styled.Text`
 const SubTitle = styled.Text`
   color: white;
   opacity: 0.5;
-  font-size: 20px;
+  font-size: 16px;
   /* font-family: "Georgia"; */
   margin-top: 20px;
   padding: 0px 20px;
