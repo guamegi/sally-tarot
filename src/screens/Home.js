@@ -90,15 +90,15 @@ const Home = ({ navigation: { navigate } }) => {
       </Header>
       <Info>
         <InfoImg
-          style={StyleSheet.absoluteFill}
-          source={require("assets/images/playInfo.png")}
+          style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
+          source={require("assets/images/menu/growth.jpeg")}
         />
-        <LinearGradient
+        {/* <LinearGradient
           style={StyleSheet.absoluteFill}
           colors={["transparent", BLACK_COLOR]}
-        />
-        <InfoTitle>Home</InfoTitle>
-        <InfoDesc>Sally's Tarot</InfoDesc>
+        /> */}
+        <InfoTitle>Welcome to Sally's Tarot</InfoTitle>
+        <InfoDesc>Choose from one of the menus below</InfoDesc>
       </Info>
       <MenuListArea>
         <Swiper

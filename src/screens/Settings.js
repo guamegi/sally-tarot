@@ -58,13 +58,13 @@ const Settings = () => {
       <HeaderBack />
       <Info>
         <InfoImg
-          style={StyleSheet.absoluteFill}
-          source={require("assets/images/playInfo.png")}
+          style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
+          source={require("assets/images/menu/profession.jpeg")}
         />
-        <LinearGradient
+        {/* <LinearGradient
           style={StyleSheet.absoluteFill}
           colors={["transparent", BLACK_COLOR]}
-        />
+        /> */}
         <InfoTitle>Settings</InfoTitle>
         <InfoDesc>Sally's Tarot</InfoDesc>
         <InfoDesc>Ver 1.0</InfoDesc>

@@ -43,13 +43,13 @@ const Save = ({ navigation: { pop } }) => {
       <HeaderBack />
       <Info>
         <InfoImg
-          style={StyleSheet.absoluteFill}
-          source={require("assets/images/playInfo.png")}
+          style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
+          source={require("assets/images/menu/career.jpeg")}
         />
-        <LinearGradient
+        {/* <LinearGradient
           style={StyleSheet.absoluteFill}
           colors={["transparent", BLACK_COLOR]}
-        />
+        /> */}
         <InfoTitle>Cabinet</InfoTitle>
         <InfoDesc>View saved tarot results</InfoDesc>
       </Info>

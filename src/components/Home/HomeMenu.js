@@ -28,7 +28,7 @@ const MenuView = styled.View`
 
 const Title = styled.Text`
   color: white;
-  font-size: 32px;
+  font-size: 28px;
   font-family: "Georgia";
   font-weight: 400;
   padding: 0px 20px;

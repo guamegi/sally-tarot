@@ -144,13 +144,13 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       <HeaderBack />
       <PlayInfo>
         <PlayInfoImg
-          style={StyleSheet.absoluteFill}
-          source={require("assets/images/playInfo.png")}
+          style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
+          source={require("assets/images/menu/health.jpeg")}
         />
-        <LinearGradient
+        {/* <LinearGradient
           style={StyleSheet.absoluteFill}
           colors={["transparent", BLACK_COLOR]}
-        />
+        /> */}
         <PlayInfoTitle>{params.title}</PlayInfoTitle>
         <PlayInfoDesc>
           Seriously think the question in your mind, choose {selectTime} cards

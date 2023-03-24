@@ -81,13 +81,13 @@ const TotalMenu = ({
         <HeaderBack />
         <Info>
           <InfoImg
-            style={StyleSheet.absoluteFill}
-            source={require("assets/images/playInfo.png")}
+            style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
+            source={require("assets/images/menu/health.jpeg")}
           />
-          <LinearGradient
+          {/* <LinearGradient
             style={StyleSheet.absoluteFill}
             colors={["transparent", BLACK_COLOR]}
-          />
+          /> */}
           <InfoTitle>Total Menu</InfoTitle>
           <InfoDesc>Find a menu to choose from</InfoDesc>
         </Info>
