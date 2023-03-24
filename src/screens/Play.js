@@ -52,6 +52,7 @@ const PlayCanvas = styled.View`
 const LoadingView = styled.View`
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -177,18 +178,24 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       </Control>
       {isLoading && (
         <LoadingView>
-          <ImageBackground
-            resizeMode="cover"
+          <Image
+            resizeMode="contain"
             style={[
-              StyleSheet.absoluteFill,
-              { width: SCREEN_WIDTH, height: SCREEN_HEIGHT, opacity: 0.8 },
+              // StyleSheet.absoluteFill,
+              {
+                width: SCREEN_WIDTH,
+                position: "absolute",
+                opacity: 0.7,
+              },
             ]}
-            source={require("assets/images/playLoading.png")}
+            source={require("assets/images/appIcon.png")}
           />
-          <LinearGradient
-            style={StyleSheet.absoluteFill}
-            colors={["transparent", BLACK_COLOR]}
-          />
+          {/* <LinearGradient
+          style={StyleSheet.absoluteFill}
+          start={{ x: 0.5, y: 0.5 }}
+          end={{ x: 0.1, y: 0.5 }}
+          colors={["transparent", BLACK_COLOR]}
+        /> */}
           <ActivityIndicator size="large" color="white" />
           <Text
             style={{

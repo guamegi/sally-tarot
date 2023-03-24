@@ -8,7 +8,7 @@ import { BLACK_COLOR } from "../../colors";
 
 const Container = styled.TouchableHighlight`
   flex: 1;
-  margin: 80px 80px;
+  margin: 50px 90px;
   justify-content: flex-end;
   /* box-shadow: 0px 0px 24px white; */
   box-shadow: 0px 0px 24px black;

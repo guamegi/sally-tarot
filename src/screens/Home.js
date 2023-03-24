@@ -7,6 +7,30 @@ import { MENU } from "../data/menu";
 import Menu from "../components/Home/HomeMenu";
 import Swiper from "react-native-swiper";
 import { View } from "react-native";
+import { StyleSheet } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
+import { BLACK_COLOR } from "../colors";
+
+const Info = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+`;
+const InfoImg = styled.ImageBackground``;
+const InfoTitle = styled.Text`
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Georgia";
+  text-shadow: 1px 1px 5px black;
+`;
+const InfoDesc = styled.Text`
+  font-size: 16px;
+  color: white;
+  margin-top: 4px;
+  text-shadow: 1px 1px 5px black;
+`;
 
 const Header = styled.View`
   flex-direction: row;
@@ -64,6 +88,18 @@ const Home = ({ navigation: { navigate } }) => {
           <Ionicons name="settings-outline" color="#d2dae2" size={28} />
         </HeaderSetting>
       </Header>
+      <Info>
+        <InfoImg
+          style={StyleSheet.absoluteFill}
+          source={require("assets/images/playInfo.png")}
+        />
+        <LinearGradient
+          style={StyleSheet.absoluteFill}
+          colors={["transparent", BLACK_COLOR]}
+        />
+        <InfoTitle>Home</InfoTitle>
+        <InfoDesc>Sally's Tarot</InfoDesc>
+      </Info>
       <MenuListArea>
         <Swiper
           // showsPagination={false}

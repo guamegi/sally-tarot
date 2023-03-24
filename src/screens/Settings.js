@@ -1,4 +1,4 @@
-import { SectionList, View } from "react-native";
+import { SectionList, StyleSheet, View } from "react-native";
 import React from "react";
 import styled from "styled-components/native";
 import Container from "../components/Container";
@@ -6,6 +6,29 @@ import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
 import { SETTINGS_MENU } from "../data/settings";
 import SettingsListItem from "../components/Settings/SettingsListItem";
+import { LinearGradient } from "expo-linear-gradient";
+import { BLACK_COLOR } from "../colors";
+
+const Info = styled.View`
+  flex: 0.3;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+`;
+const InfoImg = styled.ImageBackground``;
+const InfoTitle = styled.Text`
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Georgia";
+  text-shadow: 1px 1px 5px black;
+`;
+const InfoDesc = styled.Text`
+  font-size: 16px;
+  color: white;
+  margin-top: 4px;
+  text-shadow: 1px 1px 5px black;
+`;
 
 const SectionHeader = styled.View`
   /* background-color: gray; */
@@ -33,6 +56,19 @@ const Settings = () => {
     <Container>
       <Background />
       <HeaderBack />
+      <Info>
+        <InfoImg
+          style={StyleSheet.absoluteFill}
+          source={require("assets/images/playInfo.png")}
+        />
+        <LinearGradient
+          style={StyleSheet.absoluteFill}
+          colors={["transparent", BLACK_COLOR]}
+        />
+        <InfoTitle>Settings</InfoTitle>
+        <InfoDesc>Sally's Tarot</InfoDesc>
+        <InfoDesc>Ver 1.0</InfoDesc>
+      </Info>
       <View style={{ flex: 1 }}>
         {/* TODO: 앱 이미지 추가하기 */}
         <SectionList

@@ -1,19 +1,34 @@
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  TouchableHighlight,
-} from "react-native";
+import { StyleSheet, TouchableHighlight } from "react-native";
 import React from "react";
 import styled from "styled-components/native";
 import Container from "../components/Container";
 import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
 import { LinearGradient } from "expo-linear-gradient";
+import { BLACK_COLOR } from "../colors";
 
 const ContentView = styled.View`
   flex: 1;
+`;
+
+const Info = styled.View`
+  flex: 0.3;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+`;
+const InfoImg = styled.ImageBackground``;
+const InfoTitle = styled.Text`
+  font-size: 24px;
+  color: white;
+  font-family: "Georgia";
+  text-shadow: 1px 1px 5px black;
+`;
+const InfoDesc = styled.Text`
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+  text-shadow: 1px 1px 5px black;
 `;
 
 const List = styled.FlatList`
@@ -64,6 +79,18 @@ const TotalMenu = ({
       <Container>
         <Background />
         <HeaderBack />
+        <Info>
+          <InfoImg
+            style={StyleSheet.absoluteFill}
+            source={require("assets/images/playInfo.png")}
+          />
+          <LinearGradient
+            style={StyleSheet.absoluteFill}
+            colors={["transparent", BLACK_COLOR]}
+          />
+          <InfoTitle>Total Menu</InfoTitle>
+          <InfoDesc>Find a menu to choose from</InfoDesc>
+        </Info>
         <ContentView>
           <List
             data={MENU}
