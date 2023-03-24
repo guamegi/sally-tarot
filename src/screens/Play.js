@@ -41,11 +41,9 @@ const PlayInfoDesc = styled.Text`
 `;
 
 const PlayCanvas = styled.View`
-  /* background-color: yellow; */
-  padding: 40px 2px;
+  padding: 40px 20px;
   flex: 4;
   flex-direction: row;
-  /* width: ${SCREEN_WIDTH}px; */
   flex-wrap: wrap;
   overflow: scroll;
   justify-content: space-around;
@@ -54,28 +52,31 @@ const PlayCanvas = styled.View`
 const LoadingView = styled.View`
   width: 100%;
   height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.4); */
   position: absolute;
   justify-content: center;
   align-items: center;
 `;
 
 const Control = styled.View`
+  padding: 0px 22px;
   flex: 0.8;
   flex-direction: row;
   justify-content: space-evenly;
-  /* align-items: center; */
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
 `;
 const SuffleBtn = styled.TouchableOpacity`
   background-color: purple;
-  width: 100px;
-  height: 50px;
+  /* width: 100px; */
+  flex: 1;
+  height: 54px;
   justify-content: center;
   align-items: center;
-  border-radius: 28px;
+  border-radius: 27px;
 `;
-const ChangeBtn = styled(SuffleBtn)``;
+const ChangeBtn = styled(SuffleBtn)`
+  flex: 1.5;
+  margin-left: 20px;
+`;
 const SuffleText = styled.Text`
   color: white;
   font-weight: 500;
@@ -84,7 +85,6 @@ const ChangeText = styled(SuffleText)``;
 
 // 배열에서 랜덤으로 10개를 선택하는 함수
 const getRandomItems = (numItems) => {
-  // 배열의 길이가 요구하는 랜덤 아이템의 개수보다 작은 경우
   if (CARDS.length <= numItems) {
     return CARDS;
   }
@@ -131,6 +131,8 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   };
 
   const suffleCard = () => {
+    // TODO: animation
+    // TODO: card reset
     setRandomItems(getRandomItems(22));
     setCount(0);
   };
@@ -182,6 +184,10 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
               { width: SCREEN_WIDTH, height: SCREEN_HEIGHT, opacity: 0.8 },
             ]}
             source={require("assets/images/playLoading.png")}
+          />
+          <LinearGradient
+            style={StyleSheet.absoluteFill}
+            colors={["transparent", BLACK_COLOR]}
           />
           <ActivityIndicator size="large" color="white" />
           <Text
