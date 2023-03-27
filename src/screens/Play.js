@@ -187,4 +187,4 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
     </Container>
   );
 };
-export default React.memo(Play);
+export default Play;

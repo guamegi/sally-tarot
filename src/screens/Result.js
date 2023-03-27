@@ -23,4 +23,4 @@ const Result = ({ navigation: { popToTop } }) => {
   );
 };
 
-export default React.memo(Result);
+export default Result;
