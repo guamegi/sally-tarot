@@ -11,7 +11,7 @@ const Background = () => {
       <Bg
         style={StyleSheet.absoluteFill}
         // source={require("assets/images/background.jpg")}
-        source={require("assets/images/bg3.jpg")}
+        source={require("assets/images/bg.jpg")}
       />
       {/* <LinearGradient
         style={StyleSheet.absoluteFill}

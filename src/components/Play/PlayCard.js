@@ -1,4 +1,3 @@
-import { View, Text, Image, Alert } from "react-native";
 import React from "react";
 import FlipCard from "react-native-flip-card";
 import styled from "styled-components/native";
@@ -19,7 +18,6 @@ const CardImg = styled.Image`
 
 const PlayCard = ({ card, count, onCountChange }) => {
   const handleFlipEnd = (isFlipEnd) => {
-    // isFlipEnd ? ++count : --count;
     let newCount;
     if (isFlipEnd) {
       newCount = count + 1;

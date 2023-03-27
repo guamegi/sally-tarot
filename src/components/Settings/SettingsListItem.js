@@ -10,7 +10,7 @@ const radius = 16;
 const Container = styled.TouchableHighlight`
   flex-direction: row;
   justify-content: space-between;
-  background-color: ${TRANSLUCENT_COLOR}
+  background-color: ${TRANSLUCENT_COLOR};
   padding: 20px;
   margin: 0px 20px;
 

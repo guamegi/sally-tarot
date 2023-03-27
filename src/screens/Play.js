@@ -28,28 +28,34 @@ const PlayInfo = styled.View`
   align-items: center;
   padding: 0px 20px;
 `;
-const InfoView = styled.View`
+const InfoRowView = styled.View`
   flex-direction: row;
+  padding: 0px 10px;
 `;
+const InfoColumn = styled.View`
+  margin-left: 12px;
+  width: 80%;
+  /* background-color: gray; */
+`;
+
 const PlayInfoImg = styled.Image`
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   border-radius: 10px;
   /* border-width: 1px;
   border-color: white; */
 `;
 const PlayInfoTitle = styled.Text`
-  line-height: 40px;
+  /* line-height: 40px; */
   font-size: 24px;
   color: white;
-  margin-left: 10px;
   font-family: "Georgia";
   text-shadow: 1px 1px 5px black;
 `;
 const PlayInfoDesc = styled.Text`
   font-size: 16px;
   color: white;
-  margin-top: 20px;
+  margin-top: 18px;
   text-shadow: 1px 1px 5px black;
 `;
 
@@ -159,14 +165,16 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       <Background />
       <HeaderBack />
       <PlayInfo>
-        <InfoView>
+        <InfoRowView>
           <PlayInfoImg resizeMode="stretch" source={params.backdropPath} />
-          <PlayInfoTitle>{params.title}</PlayInfoTitle>
-        </InfoView>
-        <PlayInfoDesc>
-          Seriously think the question in your mind, choose {selectTime} cards
-          out of 62
-        </PlayInfoDesc>
+          <InfoColumn>
+            <PlayInfoTitle>{params.title}</PlayInfoTitle>
+            <PlayInfoDesc>
+              Seriously think the question in your mind, choose {selectTime}{" "}
+              cards out of 62
+            </PlayInfoDesc>
+          </InfoColumn>
+        </InfoRowView>
       </PlayInfo>
       {/* TODO: 카드선택 설정 로드 */}
       <PlayCanvas>
@@ -201,15 +209,12 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
         <LoadingView>
           <Image
             resizeMode="contain"
-            style={[
-              // StyleSheet.absoluteFill,
-              {
-                width: SCREEN_WIDTH,
-                position: "absolute",
-                opacity: 0.7,
-              },
-            ]}
-            source={require("assets/images/appIcon.png")}
+            style={{
+              width: SCREEN_WIDTH,
+              position: "absolute",
+              opacity: 0.7,
+            }}
+            source={require("assets/images/playLoading.png")}
           />
           <ActivityIndicator size="large" color="white" />
           <Text
