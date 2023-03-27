@@ -1,4 +1,4 @@
-import { ImageBackground, StyleSheet } from "react-native";
+import { FlatList, ImageBackground, StyleSheet } from "react-native";
 import React, { useEffect, useState } from "react";
 import styled from "styled-components/native";
 import Background from "../components/Background";
@@ -49,14 +49,17 @@ const PlayInfoDesc = styled.Text`
 `;
 
 const PlayCanvas = styled.View`
-  padding: 40px;
+  padding: 34px;
   flex: 4;
-  flex-direction: row;
-  flex-wrap: wrap;
-  overflow: scroll;
+  overflow: hidden;
   justify-content: space-around;
-  margin: 10px;
+  align-items: center;
+  margin: 20px;
   border-radius: ${borderRadius}px;
+`;
+
+const Separator = styled.View`
+  height: 2px;
 `;
 
 const Control = styled.View`
@@ -165,14 +168,23 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           style={StyleSheet.absoluteFill}
           source={require("assets/images/tableBorder.png")}
         />
-        {randomItems.map((card) => (
-          <PlayCard
-            key={card.id}
-            card={card}
-            count={count}
-            onCountChange={handleCountChange}
-          />
-        ))}
+        <FlatList
+          data={randomItems}
+          numColumns={5}
+          columnWrapperStyle={{
+            justifyContent: "space-around",
+          }}
+          showsVerticalScrollIndicator={false}
+          ItemSeparatorComponent={() => <Separator />}
+          keyExtractor={(item) => item.id + ""}
+          renderItem={({ item }) => (
+            <PlayCard
+              card={item}
+              count={count}
+              onCountChange={handleCountChange}
+            />
+          )}
+        />
       </PlayCanvas>
       <Control>
         <SuffleBtn onPress={suffleCard}>
