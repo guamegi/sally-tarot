@@ -16,16 +16,9 @@ const CardImg = styled.Image`
   border-radius: 4px;
 `;
 
-const PlayCard = ({ card, count, onCountChange }) => {
-  const handleFlipEnd = (isFlipEnd) => {
-    let newCount;
-    if (isFlipEnd) {
-      newCount = count + 1;
-    } else {
-      newCount = count - 1;
-    }
-    onCountChange(newCount);
-    // console.log("count", count);
+const PlayCard = ({ card, handleSelectCard }) => {
+  const handleFlipEnd = () => {
+    handleSelectCard(card);
   };
 
   return (

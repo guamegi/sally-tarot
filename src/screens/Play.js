@@ -110,8 +110,8 @@ const getRandomItems = (numItems) => {
 
 const Play = ({ navigation: { navigate }, route: { params } }) => {
   const [isLoading, setIsLoading] = useState(false);
-  const [count, setCount] = useState(0);
   const [randomItems, setRandomItems] = useState([]);
+  const [selectedCard, setSelectedCard] = useState([]);
   const selectTime = params.selectTime;
 
   useEffect(() => {
@@ -119,26 +119,40 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   }, []);
 
   useEffect(() => {
-    if (count >= selectTime) {
+    // console.log("asdf:", selectedCard);
+    if (selectedCard.length >= selectTime) {
       setIsLoading(true);
       setTimeout(() => {
         setIsLoading(false);
-        navigate("Result");
+        navigate("Result", { cards: [...selectedCard] });
       }, 3000);
-      setCount(0);
     }
-  }, [count]);
+  }, [selectedCard]);
 
-  // This function will be passed as a prop to the PlayCard component
-  const handleCountChange = (newCount) => {
-    setCount(newCount);
+  const handleSelectCard = (newCard) => {
+    // 있으면 빼고, 없으면 넣고
+    const itemExists = selectedCard.some((item) => item.id === newCard.id);
+
+    if (itemExists) {
+      // Remove
+      const updatedItems = selectedCard.filter(
+        (item) => item.id !== newCard.id
+      );
+      setSelectedCard(updatedItems);
+      // console.log("a");
+    } else {
+      // Insert
+      const updatedItems = [...selectedCard, newCard];
+      setSelectedCard(updatedItems);
+      // console.log("b");
+    }
   };
 
   const suffleCard = () => {
     // TODO: animation
     // TODO: card reset
     setRandomItems(getRandomItems(22));
-    setCount(0);
+    setSelectedCard([]);
   };
 
   return (
@@ -178,11 +192,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           ItemSeparatorComponent={() => <Separator />}
           keyExtractor={(item) => item.id + ""}
           renderItem={({ item }) => (
-            <PlayCard
-              card={item}
-              count={count}
-              onCountChange={handleCountChange}
-            />
+            <PlayCard card={item} handleSelectCard={handleSelectCard} />
           )}
         />
       </PlayCanvas>
