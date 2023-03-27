@@ -58,8 +58,8 @@ const Result = ({ route: { params } }) => {
               <Text style={{ marginVertical: 10 }}>⭐️ name: {item.name}</Text>
               <View style={{ marginVertical: 10 }}>
                 <Text>🌟 keyword: </Text>
-                {item.upright.keyword.map((word) => (
-                  <View style={{}}>
+                {item.upright.keyword.map((word, index) => (
+                  <View key={index} style={{}}>
                     <Text>• {word}</Text>
                   </View>
                 ))}
