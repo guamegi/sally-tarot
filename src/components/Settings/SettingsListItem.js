@@ -4,12 +4,13 @@ import { Ionicons } from "@expo/vector-icons";
 import * as Application from "expo-application";
 import SettingsRadioSelection from "./SettingsRadioSelection";
 import { Alert } from "react-native";
+import { TRANSLUCENT_COLOR } from "../../colors";
 
 const radius = 16;
 const Container = styled.TouchableHighlight`
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: ${TRANSLUCENT_COLOR}
   padding: 20px;
   margin: 0px 20px;
 

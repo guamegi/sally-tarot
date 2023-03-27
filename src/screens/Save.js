@@ -4,7 +4,7 @@ import Container from "../components/Container";
 import Background from "../components/Background";
 import styled from "styled-components/native";
 import HeaderBack from "../components/HeaderBack";
-import { BLACK_COLOR } from "../colors";
+import { BLACK_COLOR, TRANSLUCENT_COLOR } from "../colors";
 import { LinearGradient } from "expo-linear-gradient";
 
 const GoPage = styled.TouchableOpacity`
@@ -18,7 +18,7 @@ const ContentView = styled.View`
 
 const Info = styled.View`
   flex: 0.2;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${TRANSLUCENT_COLOR};
   margin: 0px 20px;
   border-radius: 10px;
   justify-content: center;

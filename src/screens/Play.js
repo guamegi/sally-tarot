@@ -14,24 +14,35 @@ import HeaderBack from "../components/HeaderBack";
 import { StyleSheet } from "react-native";
 import { CARDS } from "../data/cards";
 import PlayCard from "../components/Play/PlayCard";
-import { LinearGradient } from "expo-linear-gradient";
-import { BLACK_COLOR } from "../colors";
+import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
 
+const borderRadius = 10;
 const PlayInfo = styled.View`
   flex: 1.2;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${TRANSLUCENT_COLOR};
   margin: 0px 20px;
-  border-radius: 10px;
+  border-radius: ${borderRadius}px;
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
 `;
-const PlayInfoImg = styled.ImageBackground``;
+const InfoView = styled.View`
+  flex-direction: row;
+`;
+const PlayInfoImg = styled.Image`
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  /* border-width: 1px;
+  border-color: white; */
+`;
 const PlayInfoTitle = styled.Text`
+  line-height: 40px;
   font-size: 24px;
   color: white;
+  margin-left: 10px;
   font-family: "Georgia";
   text-shadow: 1px 1px 5px black;
 `;
@@ -43,18 +54,20 @@ const PlayInfoDesc = styled.Text`
 `;
 
 const PlayCanvas = styled.View`
-  padding: 40px 20px;
+  padding: 40px;
   flex: 4;
   flex-direction: row;
   flex-wrap: wrap;
   overflow: scroll;
   justify-content: space-around;
+  margin: 10px;
+  border-radius: ${borderRadius}px;
 `;
 
 const LoadingView = styled.View`
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  height: ${SCREEN_HEIGHT}px;
+  background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -68,13 +81,13 @@ const Control = styled.View`
   /* background-color: rgba(0, 0, 0, 0.3); */
 `;
 const SuffleBtn = styled.TouchableOpacity`
-  background-color: purple;
+  background-color: ${MIDNIGHT_COLOR};
   /* width: 100px; */
   flex: 1;
   height: 54px;
   justify-content: center;
   align-items: center;
-  border-radius: 27px;
+  border-radius: ${borderRadius * 3}px;
 `;
 const ChangeBtn = styled(SuffleBtn)`
   flex: 1.5;
@@ -82,6 +95,7 @@ const ChangeBtn = styled(SuffleBtn)`
 `;
 const SuffleText = styled.Text`
   color: white;
+  font-size: 16px;
   font-weight: 500;
 `;
 const ChangeText = styled(SuffleText)``;
@@ -142,22 +156,13 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
 
   return (
     <Container>
-      {/* <Background /> */}
-      <ImageBackground
-        style={StyleSheet.absoluteFill}
-        source={require("assets/images/background.jpg")}
-      />
+      <Background />
       <HeaderBack />
       <PlayInfo>
-        {/* <PlayInfoImg
-          style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
-          source={require("assets/images/menu/health.jpeg")}
-        /> */}
-        {/* <LinearGradient
-          style={StyleSheet.absoluteFill}
-          colors={["transparent", BLACK_COLOR]}
-        /> */}
-        <PlayInfoTitle>{params.title}</PlayInfoTitle>
+        <InfoView>
+          <PlayInfoImg resizeMode="stretch" source={params.backdropPath} />
+          <PlayInfoTitle>{params.title}</PlayInfoTitle>
+        </InfoView>
         <PlayInfoDesc>
           Seriously think the question in your mind, choose {selectTime} cards
           out of 62
@@ -165,6 +170,16 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       </PlayInfo>
       {/* TODO: 카드선택 설정 로드 */}
       <PlayCanvas>
+        <ImageBackground
+          // resizeMode="stretch"
+          style={StyleSheet.absoluteFill}
+          source={require("assets/images/tableBg.jpg")}
+        />
+        <ImageBackground
+          resizeMode="stretch"
+          style={StyleSheet.absoluteFill}
+          source={require("assets/images/tableBorder.png")}
+        />
         {randomItems.map((card) => (
           <PlayCard
             key={card.id}
@@ -196,12 +211,6 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
             ]}
             source={require("assets/images/appIcon.png")}
           />
-          {/* <LinearGradient
-          style={StyleSheet.absoluteFill}
-          start={{ x: 0.5, y: 0.5 }}
-          end={{ x: 0.1, y: 0.5 }}
-          colors={["transparent", BLACK_COLOR]}
-        /> */}
           <ActivityIndicator size="large" color="white" />
           <Text
             style={{

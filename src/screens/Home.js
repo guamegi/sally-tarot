@@ -7,13 +7,11 @@ import { MENU } from "../data/menu";
 import Menu from "../components/Home/HomeMenu";
 import Swiper from "react-native-swiper";
 import { View } from "react-native";
-import { StyleSheet } from "react-native";
-import { LinearGradient } from "expo-linear-gradient";
-import { BLACK_COLOR } from "../colors";
+import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 
 const Info = styled.View`
   flex: 1;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${TRANSLUCENT_COLOR};
   margin: 0px 20px;
   border-radius: 10px;
   justify-content: center;
@@ -73,7 +71,7 @@ const TotalMenu = styled(HeaderCabinet)`
   /* padding: 6px 14px; */
   padding: 10px 22px;
   align-self: center;
-  background-color: #2c3e50;
+  background-color: ${MIDNIGHT_COLOR};
   /* background-color: white; */
 `;
 const TotalMenuText = styled(HeaderCabinetText)`
@@ -98,11 +96,7 @@ const Home = ({ navigation: { navigate } }) => {
           style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
           source={require("assets/images/menu/growth.jpeg")}
         /> */}
-        {/* <LinearGradient
-          style={StyleSheet.absoluteFill}
-          colors={["transparent", BLACK_COLOR]}
-        /> */}
-        <InfoTitle>Welcome to Sally's Tarot</InfoTitle>
+        <InfoTitle>Sally's Tarot</InfoTitle>
         <InfoDesc>Choose from one of the menus below</InfoDesc>
       </Info>
       <MenuListArea>

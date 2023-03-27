@@ -4,8 +4,7 @@ import styled from "styled-components/native";
 import Container from "../components/Container";
 import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
-import { LinearGradient } from "expo-linear-gradient";
-import { BLACK_COLOR } from "../colors";
+import { TRANSLUCENT_COLOR } from "../colors";
 
 const ContentView = styled.View`
   flex: 1;
@@ -13,7 +12,7 @@ const ContentView = styled.View`
 
 const Info = styled.View`
   flex: 0.2;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${TRANSLUCENT_COLOR};
   margin: 0px 20px;
   border-radius: 10px;
   justify-content: center;
@@ -41,12 +40,13 @@ const List = styled.FlatList`
 `;
 
 const radius = 16;
+const borderWidth = 3;
 const CardView = styled.View`
   width: 100px;
   height: 160px;
-  border-radius: ${radius}px;
-  /* border-width: 4px; */
-  /* border-color: gray; */
+  border-radius: ${radius + borderWidth}px;
+  border-width: ${borderWidth}px;
+  border-color: white;
   justify-content: center;
   align-items: center;
 `;
@@ -58,16 +58,12 @@ const Separator = styled.View`
 const Bg = styled.ImageBackground``;
 
 const Title = styled.Text`
+  /* color: white; */
   color: white;
   font-size: 16px;
   font-family: "Georgia";
   font-weight: 400;
-  /* text-shadow: 1px 1px 5px black; */
-`;
-
-const GradientView = styled.View`
-  border-radius: ${radius}px;
-  overflow: hidden;
+  text-shadow: 1px 1px 3px black;
 `;
 
 const TotalMenu = ({
@@ -118,12 +114,6 @@ const TotalMenu = ({
                     resizeMode="stretch"
                     source={item.backdropPath}
                   />
-                  <GradientView style={StyleSheet.absoluteFill}>
-                    <LinearGradient
-                      style={StyleSheet.absoluteFill}
-                      colors={["transparent", "#090a29", "transparent"]}
-                    />
-                  </GradientView>
                   <Title>{item.title}</Title>
                 </CardView>
               </TouchableHighlight>

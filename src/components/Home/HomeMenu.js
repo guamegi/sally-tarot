@@ -8,19 +8,21 @@ import { BLACK_COLOR } from "../../colors";
 
 const Container = styled.TouchableHighlight`
   flex: 1;
-  margin: 60px 110px;
+  margin: 50px 80px;
   justify-content: flex-end;
-  /* box-shadow: 0px 0px 24px white; */
-  box-shadow: 0px 0px 24px black;
+  /* box-shadow: 0px 0px 24px black; */
   /* background-color: gray; */
 `;
 
-const Bg = styled.ImageBackground``;
+const radius = 16;
+const borderWidth = 4;
+const Bg = styled.ImageBackground`
+  border-radius: ${radius + borderWidth}px;
+  border-width: ${borderWidth}px;
+  border-color: white;
+`;
 
 const MenuView = styled.View`
-  /* height: 200px; */
-  /* background-color: gray; */
-  /* border-radius: 20px; */
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
@@ -32,21 +34,16 @@ const Title = styled.Text`
   font-family: "Georgia";
   font-weight: 400;
   padding: 0px 20px;
-  /* text-shadow: 1px 1px 5px black; */
+  text-shadow: 1px 1px 5px black;
 `;
 const SubTitle = styled.Text`
   color: white;
-  opacity: 0.5;
+  opacity: 0.8;
   font-size: 16px;
   /* font-family: "Georgia"; */
   margin-top: 20px;
   padding: 0px 20px;
-  /* text-shadow: 1px 1px 3px black; */
-`;
-
-const GradientView = styled.View`
-  border-radius: 20px;
-  overflow: hidden;
+  text-shadow: 1px 1px 5px black;
 `;
 
 const Menu = ({ data }) => {
@@ -59,20 +56,14 @@ const Menu = ({ data }) => {
     >
       <>
         <Bg
-          // blurRadius={3}
+          // blurRadius={1}
           style={StyleSheet.absoluteFill}
           imageStyle={{
-            borderRadius: 20,
+            borderRadius: radius,
           }}
           resizeMode="stretch"
           source={data.backdropPath}
         />
-        <GradientView style={StyleSheet.absoluteFill}>
-          <LinearGradient
-            style={StyleSheet.absoluteFill}
-            colors={["transparent", BLACK_COLOR]}
-          />
-        </GradientView>
 
         <MenuView>
           <Title>{data.title}</Title>
