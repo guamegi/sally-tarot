@@ -13,6 +13,9 @@ import { BLACK_COLOR } from "../colors";
 
 const Info = styled.View`
   flex: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px 20px;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
@@ -67,9 +70,11 @@ const TotalMenuArea = styled.View`
 
 const TotalMenu = styled(HeaderCabinet)`
   border-width: 0px;
-  padding: 6px 14px;
+  /* padding: 6px 14px; */
+  padding: 10px 22px;
   align-self: center;
   background-color: #2c3e50;
+  /* background-color: white; */
 `;
 const TotalMenuText = styled(HeaderCabinetText)`
   font-size: 16px;
@@ -89,10 +94,10 @@ const Home = ({ navigation: { navigate } }) => {
         </HeaderSetting>
       </Header>
       <Info>
-        <InfoImg
+        {/* <InfoImg
           style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
           source={require("assets/images/menu/growth.jpeg")}
-        />
+        /> */}
         {/* <LinearGradient
           style={StyleSheet.absoluteFill}
           colors={["transparent", BLACK_COLOR]}

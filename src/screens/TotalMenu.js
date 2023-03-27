@@ -12,7 +12,10 @@ const ContentView = styled.View`
 `;
 
 const Info = styled.View`
-  flex: 0.3;
+  flex: 0.2;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px 20px;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
@@ -80,10 +83,10 @@ const TotalMenu = ({
         <Background />
         <HeaderBack />
         <Info>
-          <InfoImg
+          {/* <InfoImg
             style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
             source={require("assets/images/menu/health.jpeg")}
-          />
+          /> */}
           {/* <LinearGradient
             style={StyleSheet.absoluteFill}
             colors={["transparent", BLACK_COLOR]}

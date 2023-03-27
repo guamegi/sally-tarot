@@ -20,8 +20,10 @@ import { BLACK_COLOR } from "../colors";
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
 
 const PlayInfo = styled.View`
-  flex: 1.4;
-  /* opacity: 0.7; */
+  flex: 1.2;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px 20px;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
@@ -140,13 +142,17 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
 
   return (
     <Container>
-      <Background />
+      {/* <Background /> */}
+      <ImageBackground
+        style={StyleSheet.absoluteFill}
+        source={require("assets/images/background.jpg")}
+      />
       <HeaderBack />
       <PlayInfo>
-        <PlayInfoImg
+        {/* <PlayInfoImg
           style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
           source={require("assets/images/menu/health.jpeg")}
-        />
+        /> */}
         {/* <LinearGradient
           style={StyleSheet.absoluteFill}
           colors={["transparent", BLACK_COLOR]}
