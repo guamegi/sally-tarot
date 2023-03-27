@@ -64,4 +64,4 @@ const Save = ({ navigation: { pop } }) => {
   );
 };
 
-export default Save;
+export default React.memo(Save);

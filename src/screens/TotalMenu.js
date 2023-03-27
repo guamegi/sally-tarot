@@ -116,4 +116,4 @@ const TotalMenu = ({
   );
 };
 
-export default TotalMenu;
+export default React.memo(TotalMenu);
