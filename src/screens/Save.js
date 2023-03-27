@@ -1,18 +1,14 @@
-import { Text } from "react-native";
 import React from "react";
 import styled from "styled-components/native";
 import Container from "../components/Container";
 import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
 import { TRANSLUCENT_COLOR } from "../colors";
+import SaveItem from "../components/Save/SaveItem";
 
-const GoPage = styled.TouchableOpacity`
-  padding: 20px;
-  background-color: red;
-`;
-
-const ContentView = styled.View`
+const ContentView = styled.FlatList`
   flex: 1;
+  padding: 20px;
 `;
 
 const Info = styled.View`
@@ -24,13 +20,14 @@ const Info = styled.View`
   align-items: center;
   padding: 0px 20px;
 `;
-const InfoImg = styled.ImageBackground``;
+
 const InfoTitle = styled.Text`
   font-size: 24px;
   color: white;
   font-family: "Georgia";
   text-shadow: 1px 1px 5px black;
 `;
+
 const InfoDesc = styled.Text`
   font-size: 16px;
   color: white;
@@ -38,28 +35,37 @@ const InfoDesc = styled.Text`
   text-shadow: 1px 1px 5px black;
 `;
 
-const Save = ({ navigation: { pop } }) => {
+const Save = () => {
+  // TODO: 저장된 데이터 set 호출, Realm
+  const saveData = [
+    {
+      id: 1,
+      title: "test",
+      date: "2023.03.20 15:24",
+      image: require("assets/images/menu/love.jpeg"),
+    },
+    {
+      id: 2,
+      title: "test",
+      date: "2023.03.20 15:24",
+      image: require("assets/images/menu/love.jpeg"),
+    },
+  ];
+
   return (
     <Container>
       <Background />
       <HeaderBack />
       <Info>
-        {/* <InfoImg
-          style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
-          source={require("assets/images/menu/career.jpeg")}
-        /> */}
-        {/* <LinearGradient
-          style={StyleSheet.absoluteFill}
-          colors={["transparent", BLACK_COLOR]}
-        /> */}
         <InfoTitle>Cabinet</InfoTitle>
         <InfoDesc>View saved tarot results</InfoDesc>
       </Info>
-      <ContentView>
-        <GoPage onPress={() => pop()}>
-          <Text>go back</Text>
-        </GoPage>
-      </ContentView>
+      <ContentView
+        data={saveData}
+        // ItemSeparatorComponent={() => <Separator />}
+        keyExtractor={(item) => item.id + ""}
+        renderItem={({ item }) => <SaveItem item={item} />}
+      />
     </Container>
   );
 };
