@@ -1,11 +1,10 @@
-import { View, Text, StyleSheet } from "react-native";
+import { Text } from "react-native";
 import React from "react";
+import styled from "styled-components/native";
 import Container from "../components/Container";
 import Background from "../components/Background";
-import styled from "styled-components/native";
 import HeaderBack from "../components/HeaderBack";
-import { BLACK_COLOR, TRANSLUCENT_COLOR } from "../colors";
-import { LinearGradient } from "expo-linear-gradient";
+import { TRANSLUCENT_COLOR } from "../colors";
 
 const GoPage = styled.TouchableOpacity`
   padding: 20px;

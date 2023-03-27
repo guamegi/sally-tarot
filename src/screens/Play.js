@@ -1,22 +1,13 @@
-import {
-  ActivityIndicator,
-  Dimensions,
-  Image,
-  ImageBackground,
-  Text,
-  View,
-} from "react-native";
-import React, { useEffect, useRef, useState } from "react";
+import { ImageBackground, StyleSheet } from "react-native";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components/native";
 import Background from "../components/Background";
 import Container from "../components/Container";
 import HeaderBack from "../components/HeaderBack";
-import { StyleSheet } from "react-native";
 import { CARDS } from "../data/cards";
 import PlayCard from "../components/Play/PlayCard";
 import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
-
-const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
+import PlayLoading from "../components/Play/PlayLoading";
 
 const borderRadius = 10;
 const PlayInfo = styled.View`
@@ -26,11 +17,10 @@ const PlayInfo = styled.View`
   border-radius: ${borderRadius}px;
   justify-content: center;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0px 30px;
 `;
 const InfoRowView = styled.View`
   flex-direction: row;
-  padding: 0px 10px;
 `;
 const InfoColumn = styled.View`
   margin-left: 12px;
@@ -39,21 +29,20 @@ const InfoColumn = styled.View`
 `;
 
 const PlayInfoImg = styled.Image`
-  width: 80px;
-  height: 80px;
-  border-radius: 10px;
+  width: 74px;
+  height: 74px;
+  border-radius: ${borderRadius}px;
   /* border-width: 1px;
   border-color: white; */
 `;
 const PlayInfoTitle = styled.Text`
-  /* line-height: 40px; */
-  font-size: 24px;
+  font-size: 22px;
   color: white;
   font-family: "Georgia";
   text-shadow: 1px 1px 5px black;
 `;
 const PlayInfoDesc = styled.Text`
-  font-size: 16px;
+  /* font-size: 15px; */
   color: white;
   margin-top: 18px;
   text-shadow: 1px 1px 5px black;
@@ -70,25 +59,14 @@ const PlayCanvas = styled.View`
   border-radius: ${borderRadius}px;
 `;
 
-const LoadingView = styled.View`
-  width: 100%;
-  height: ${SCREEN_HEIGHT}px;
-  background-color: rgba(0, 0, 0, 0.9);
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-`;
-
 const Control = styled.View`
   padding: 0px 22px;
   flex: 0.8;
   flex-direction: row;
   justify-content: space-evenly;
-  /* background-color: rgba(0, 0, 0, 0.3); */
 `;
 const SuffleBtn = styled.TouchableOpacity`
   background-color: ${MIDNIGHT_COLOR};
-  /* width: 100px; */
   flex: 1;
   height: 54px;
   justify-content: center;
@@ -106,7 +84,7 @@ const SuffleText = styled.Text`
 `;
 const ChangeText = styled(SuffleText)``;
 
-// 배열에서 랜덤으로 10개를 선택하는 함수
+// 배열에서 랜덤으로 numItems개를 선택하는 함수
 const getRandomItems = (numItems) => {
   if (CARDS.length <= numItems) {
     return CARDS;
@@ -179,7 +157,6 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       {/* TODO: 카드선택 설정 로드 */}
       <PlayCanvas>
         <ImageBackground
-          // resizeMode="stretch"
           style={StyleSheet.absoluteFill}
           source={require("assets/images/tableBg.jpg")}
         />
@@ -205,30 +182,8 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           <ChangeText>Change</ChangeText>
         </ChangeBtn>
       </Control>
-      {isLoading && (
-        <LoadingView>
-          <Image
-            resizeMode="contain"
-            style={{
-              width: SCREEN_WIDTH,
-              position: "absolute",
-              opacity: 0.7,
-            }}
-            source={require("assets/images/playLoading.png")}
-          />
-          <ActivityIndicator size="large" color="white" />
-          <Text
-            style={{
-              color: "white",
-              fontSize: 22,
-              fontWeight: 500,
-              marginTop: 10,
-            }}
-          >
-            Loading...
-          </Text>
-        </LoadingView>
-      )}
+      {isLoading && <PlayLoading />}
+      {/* <PlayLoading /> */}
     </Container>
   );
 };

@@ -1,12 +1,12 @@
 import React from "react";
+import { View } from "react-native";
 import styled from "styled-components/native";
 import { Ionicons } from "@expo/vector-icons";
+import Swiper from "react-native-swiper";
 import Background from "../components/Background";
 import Container from "../components/Container";
 import { MENU } from "../data/menu";
 import Menu from "../components/Home/HomeMenu";
-import Swiper from "react-native-swiper";
-import { View } from "react-native";
 import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 
 const Info = styled.View`

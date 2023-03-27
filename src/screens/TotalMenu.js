@@ -19,7 +19,6 @@ const Info = styled.View`
   align-items: center;
   padding: 0px 20px;
 `;
-const InfoImg = styled.ImageBackground``;
 const InfoTitle = styled.Text`
   font-size: 24px;
   color: white;
@@ -58,7 +57,6 @@ const Separator = styled.View`
 const Bg = styled.ImageBackground``;
 
 const Title = styled.Text`
-  /* color: white; */
   color: white;
   font-size: 16px;
   font-family: "Georgia";
@@ -79,14 +77,6 @@ const TotalMenu = ({
         <Background />
         <HeaderBack />
         <Info>
-          {/* <InfoImg
-            style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
-            source={require("assets/images/menu/health.jpeg")}
-          /> */}
-          {/* <LinearGradient
-            style={StyleSheet.absoluteFill}
-            colors={["transparent", BLACK_COLOR]}
-          /> */}
           <InfoTitle>Total Menu</InfoTitle>
           <InfoDesc>Find a menu to choose from</InfoDesc>
         </Info>

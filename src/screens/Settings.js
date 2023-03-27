@@ -1,4 +1,4 @@
-import { SectionList, StyleSheet, View } from "react-native";
+import { SectionList, View } from "react-native";
 import React from "react";
 import styled from "styled-components/native";
 import Container from "../components/Container";
@@ -6,8 +6,6 @@ import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
 import { SETTINGS_MENU } from "../data/settings";
 import SettingsListItem from "../components/Settings/SettingsListItem";
-import { LinearGradient } from "expo-linear-gradient";
-import { BLACK_COLOR } from "../colors";
 
 const Info = styled.View`
   flex: 0.2;
@@ -18,7 +16,6 @@ const Info = styled.View`
   align-items: center;
   padding: 0px 20px;
 `;
-const InfoImg = styled.ImageBackground``;
 const InfoTitle = styled.Text`
   font-size: 24px;
   margin-bottom: 20px;
@@ -45,7 +42,6 @@ const SectionTitle = styled.Text`
   font-weight: 500;
   line-height: 26px;
   margin-left: 10px;
-  /* margin-top: 20px; */
 `;
 
 const ItemSeparator = styled.View`
@@ -60,14 +56,6 @@ const Settings = () => {
       <Background />
       <HeaderBack />
       <Info>
-        {/* <InfoImg
-          style={[StyleSheet.absoluteFill, { opacity: 0.5 }]}
-          source={require("assets/images/menu/profession.jpeg")}
-        /> */}
-        {/* <LinearGradient
-          style={StyleSheet.absoluteFill}
-          colors={["transparent", BLACK_COLOR]}
-        /> */}
         <InfoTitle>Settings</InfoTitle>
         <InfoDesc>Sally's Tarot</InfoDesc>
         <InfoDesc>Ver 1.0</InfoDesc>
