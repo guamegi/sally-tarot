@@ -27,6 +27,7 @@ const Title = styled.Text`
 `;
 const Date = styled.Text`
   color: white;
+  font-size: 13px;
   margin-top: 6px;
 `;
 const DeleteBtn = styled.TouchableOpacity`

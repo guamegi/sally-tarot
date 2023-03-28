@@ -30,7 +30,7 @@ const MenuView = styled.View`
 
 const Title = styled.Text`
   color: white;
-  font-size: 28px;
+  font-size: 22px;
   font-family: "Georgia";
   font-weight: 400;
   padding: 0px 20px;
@@ -39,7 +39,7 @@ const Title = styled.Text`
 const SubTitle = styled.Text`
   color: white;
   opacity: 0.8;
-  font-size: 16px;
+  font-size: 14px;
   /* font-family: "Georgia"; */
   margin-top: 20px;
   padding: 0px 20px;

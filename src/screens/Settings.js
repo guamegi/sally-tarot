@@ -17,14 +17,14 @@ const Info = styled.View`
   padding: 0px 20px;
 `;
 const InfoTitle = styled.Text`
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: white;
   font-family: "Georgia";
   text-shadow: 1px 1px 5px black;
 `;
 const InfoDesc = styled.Text`
-  font-size: 16px;
+  font-size: 12px;
   color: white;
   margin-top: 4px;
   text-shadow: 1px 1px 5px black;
@@ -37,7 +37,7 @@ const SectionHeader = styled.View`
   margin-top: 30px;
 `;
 const SectionTitle = styled.Text`
-  font-size: 24px;
+  font-size: 18px;
   color: white;
   font-weight: 500;
   line-height: 26px;

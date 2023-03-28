@@ -20,14 +20,14 @@ const Info = styled.View`
 `;
 const InfoImg = styled.ImageBackground``;
 const InfoTitle = styled.Text`
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: white;
   font-family: "Georgia";
   text-shadow: 1px 1px 5px black;
 `;
 const InfoDesc = styled.Text`
-  font-size: 16px;
+  font-size: 12px;
   color: white;
   margin-top: 4px;
   text-shadow: 1px 1px 5px black;
@@ -50,6 +50,7 @@ const HeaderCabinet = styled.TouchableOpacity`
 const HeaderCabinetText = styled.Text`
   color: #d2dae2;
   margin-left: 6px;
+  font-size: 12px;
   font-weight: 600;
   /* font-family: "Georgia"; */
 `;
@@ -75,7 +76,7 @@ const TotalMenu = styled(HeaderCabinet)`
   /* background-color: white; */
 `;
 const TotalMenuText = styled(HeaderCabinetText)`
-  font-size: 16px;
+  font-size: 14px;
 `;
 
 const Home = ({ navigation: { navigate } }) => {

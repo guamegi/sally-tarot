@@ -8,7 +8,7 @@ const Container = styled.View`
   width: 100%;
 `;
 const Title = styled.Text`
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   color: #d6d2d2;
 `;
@@ -37,7 +37,11 @@ const SettingsRadioSelection = ({ item }) => {
     <Container>
       <Title>{item}</Title>
       <RadioView>
-        <RadioGroup radioButtons={radioButtons} onPress={onPressRadioButton} />
+        <RadioGroup
+          containerStyle={{ fontSize: 12 }}
+          radioButtons={radioButtons}
+          onPress={onPressRadioButton}
+        />
         <Image
           source={selectedItem.value}
           style={{

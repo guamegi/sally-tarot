@@ -25,7 +25,7 @@ const Container = styled.TouchableHighlight`
 `;
 
 const Title = styled.Text`
-  font-size: 18px;
+  font-size: 14px;
   color: #d6d2d2;
 `;
 
@@ -52,7 +52,7 @@ const SettingsListItem = ({ item, isFirstElement, isLastElement }) => {
           "Leave a review": (
             <>
               <Title>{item}</Title>
-              <Ionicons name="chevron-forward" size={24} color="#d6d2d2" />
+              <Ionicons name="chevron-forward" size={14} color="#d6d2d2" />
             </>
           ),
           version: (

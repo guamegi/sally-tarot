@@ -33,13 +33,13 @@ const PlayInfoImg = styled.Image`
   border-radius: ${borderRadius}px;
 `;
 const PlayInfoTitle = styled.Text`
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   font-family: "Georgia";
   text-shadow: 1px 1px 5px black;
 `;
 const PlayInfoDesc = styled.Text`
-  /* font-size: 15px; */
+  font-size: 12px;
   color: white;
   margin-top: 18px;
   text-shadow: 1px 1px 5px black;
@@ -68,7 +68,7 @@ const Control = styled.View`
 const SuffleBtn = styled.TouchableOpacity`
   background-color: ${MIDNIGHT_COLOR};
   flex: 1;
-  height: 54px;
+  height: 50px;
   justify-content: center;
   align-items: center;
   border-radius: ${borderRadius * 3}px;
@@ -79,7 +79,7 @@ const ChangeBtn = styled(SuffleBtn)`
 `;
 const SuffleText = styled.Text`
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 `;
 const ChangeText = styled(SuffleText)``;
@@ -179,6 +179,12 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
         <FlatList
           data={randomItems}
           numColumns={5}
+          contentContainerStyle={{
+            width: "100%",
+            height: "100%",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
           columnWrapperStyle={{
             justifyContent: "space-around",
           }}

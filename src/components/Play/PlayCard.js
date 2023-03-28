@@ -3,8 +3,8 @@ import FlipCard from "react-native-flip-card";
 import styled from "styled-components/native";
 
 const Container = styled.View`
-  width: 60px;
-  height: 90px;
+  width: 50px;
+  height: 72px;
   margin: 2px;
 `;
 const FrontView = styled.View``;
@@ -25,7 +25,7 @@ const PlayCard = ({ card, handleSelectCard }) => {
 
   const handleFlipEnd = () => {
     handleSelectCard(card);
-    console.log(cardRef.current);
+    // console.log(cardRef.current);
     // console.log(cardRef.current.props.clickable);
     cardRef.current.props.clickable = false;
     // console.log(cardRef.current.props.clickable);
