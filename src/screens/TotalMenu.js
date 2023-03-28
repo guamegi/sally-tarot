@@ -41,8 +41,8 @@ const List = styled.FlatList`
 const radius = 16;
 const borderWidth = 3;
 const CardView = styled.View`
-  width: 100px;
-  height: 160px;
+  width: 90px;
+  height: 140px;
   border-radius: ${radius + borderWidth}px;
   border-width: ${borderWidth}px;
   border-color: white;
@@ -84,6 +84,13 @@ const TotalMenu = ({
           <List
             data={MENU}
             numColumns={3}
+            contentContainerStyle={{
+              width: "100%",
+              height: "100%",
+              // alignItems: "center",
+              // justifyContent: "center"
+              paddingVertical: 20,
+            }}
             columnWrapperStyle={{
               justifyContent: "space-around",
             }}
@@ -108,7 +115,6 @@ const TotalMenu = ({
                 </CardView>
               </TouchableHighlight>
             )}
-            contentContainerStyle={{ paddingBottom: 80 }}
           />
         </ContentView>
       </Container>

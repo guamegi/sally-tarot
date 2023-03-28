@@ -4,15 +4,15 @@ import { Ionicons } from "@expo/vector-icons";
 
 const Container = styled.View`
   width: 100%;
-  height: 50px;
+  height: 44px;
   margin: 10px 0px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 `;
 const Image = styled.Image`
-  width: 50px;
-  height: 50px;
+  width: 44px;
+  height: 44px;
   border-radius: 10px;
 `;
 const Column = styled.View`
@@ -21,13 +21,13 @@ const Column = styled.View`
   padding: 0px 10px;
 `;
 const Title = styled.Text`
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   overflow: hidden;
 `;
 const Date = styled.Text`
   color: white;
-  font-size: 13px;
+  font-size: 12px;
   margin-top: 6px;
 `;
 const DeleteBtn = styled.TouchableOpacity`
@@ -48,7 +48,7 @@ const SaveItem = ({ item }) => {
         <Date>{item.date}</Date>
       </Column>
       <DeleteBtn onPress={deleteItem}>
-        <Ionicons name="trash-outline" size={28} color="white" />
+        <Ionicons name="trash-outline" size={24} color="white" />
       </DeleteBtn>
     </Container>
   );
