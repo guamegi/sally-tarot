@@ -18,7 +18,7 @@ const Info = styled.View`
   align-items: center;
   padding: 0px 20px;
 `;
-const InfoImg = styled.ImageBackground``;
+// const InfoImg = styled.ImageBackground``;
 const InfoTitle = styled.Text`
   font-size: 20px;
   margin-bottom: 20px;
@@ -43,8 +43,8 @@ const HeaderCabinet = styled.TouchableOpacity`
   align-items: center;
   border-width: 1px;
   border-radius: 20px;
-  /* border-color: #d2dae2; */
-  border-color: #909499;
+  border-color: #d2dae2;
+  /* border-color: #909499; */
   flex-direction: row;
 `;
 const HeaderCabinetText = styled.Text`
@@ -139,7 +139,7 @@ const Home = ({ navigation: { navigate } }) => {
       </MenuListArea>
       <TotalMenuArea>
         <TotalMenu onPress={() => navigate("TotalMenu", { MENU })}>
-          <Ionicons name="menu-outline" color="#d2dae2" size={28} />
+          <Ionicons name="menu-outline" color="#d2dae2" size={22} />
           <TotalMenuText>Convert Menu</TotalMenuText>
         </TotalMenu>
       </TotalMenuArea>

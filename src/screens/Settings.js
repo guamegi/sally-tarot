@@ -40,8 +40,8 @@ const SectionTitle = styled.Text`
   font-size: 18px;
   color: white;
   font-weight: 500;
-  line-height: 26px;
-  margin-left: 10px;
+  /* line-height: 26px; */
+  margin-left: 6px;
 `;
 
 const ItemSeparator = styled.View`
@@ -65,6 +65,8 @@ const Settings = () => {
         <SectionList
           sections={SETTINGS_MENU}
           keyExtractor={(_, index) => index}
+          showsVerticalScrollIndicator={false}
+          contentContainerStyle={{ paddingBottom: 40 }}
           renderSectionHeader={({ section: { title, icon } }) => (
             <SectionHeader>
               {icon}
