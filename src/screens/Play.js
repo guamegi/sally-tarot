@@ -25,15 +25,12 @@ const InfoRowView = styled.View`
 const InfoColumn = styled.View`
   margin-left: 12px;
   width: 80%;
-  /* background-color: gray; */
 `;
 
 const PlayInfoImg = styled.Image`
   width: 74px;
   height: 74px;
   border-radius: ${borderRadius}px;
-  /* border-width: 1px;
-  border-color: white; */
 `;
 const PlayInfoTitle = styled.Text`
   font-size: 22px;
@@ -119,7 +116,6 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   }, []);
 
   useEffect(() => {
-    // console.log("asdf:", selectedCard);
     if (selectedCard.length >= selectTime) {
       setIsLoading(true);
       setTimeout(() => {
@@ -139,12 +135,10 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
         (item) => item.id !== newCard.id
       );
       setSelectedCard(updatedItems);
-      // console.log("a");
     } else {
       // Insert
       const updatedItems = [...selectedCard, newCard];
       setSelectedCard(updatedItems);
-      // console.log("b");
     }
   };
 
