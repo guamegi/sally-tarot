@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState } from "react";
 import FlipCard from "react-native-flip-card";
 import styled from "styled-components/native";
 
@@ -17,28 +17,20 @@ const CardImg = styled.Image`
 `;
 
 const PlayCard = ({ card, handleSelectCard }) => {
-  const cardRef = useRef();
-
-  // useEffect(() => {
-  //   cardRef.current.props.clickable = false;
-  // }, [cardRef]);
+  const [isClicked, setIsClicked] = useState(true);
 
   const handleFlipEnd = () => {
     handleSelectCard(card);
-    // console.log(cardRef.current);
-    // console.log(cardRef.current.props.clickable);
-    cardRef.current.props.clickable = false;
-    // console.log(cardRef.current.props.clickable);
+    setIsClicked(false);
   };
 
   return (
     <Container>
       <FlipCard
-        ref={cardRef}
         friction={10}
         flipHorizontal={true}
         flipVertical={false}
-        // clickable={true}
+        clickable={isClicked}
         onFlipEnd={handleFlipEnd}
       >
         <BackView>

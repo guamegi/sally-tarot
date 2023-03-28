@@ -126,20 +126,9 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   }, [selectedCard]);
 
   const handleSelectCard = (newCard) => {
-    // 있으면 빼고, 없으면 넣고
-    const itemExists = selectedCard.some((item) => item.id === newCard.id);
-
-    if (itemExists) {
-      // Remove
-      const updatedItems = selectedCard.filter(
-        (item) => item.id !== newCard.id
-      );
-      setSelectedCard(updatedItems);
-    } else {
-      // Insert
-      const updatedItems = [...selectedCard, newCard];
-      setSelectedCard(updatedItems);
-    }
+    // Insert
+    const updatedItems = [...selectedCard, newCard];
+    setSelectedCard(updatedItems);
   };
 
   const suffleCard = () => {
