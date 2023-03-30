@@ -37,7 +37,7 @@ const ItemView = styled.View`
 
 const Result = ({ route: { params } }) => {
   const cards = params.cards;
-  // console.log("cards:", cards);
+  console.log("cards:", cards);
   return (
     <Container>
       <Background />
@@ -53,8 +53,9 @@ const Result = ({ route: { params } }) => {
         <ContentArea
           data={cards}
           showsVerticalScrollIndicator={false}
+          keyExtractor={(item) => item.id}
           renderItem={({ item, index }) => (
-            <ItemView key={index}>
+            <ItemView>
               <Text style={{ marginVertical: 10 }}>⭐️ name: {item.name}</Text>
               <View style={{ marginVertical: 10 }}>
                 <Text>🌟 keyword: </Text>

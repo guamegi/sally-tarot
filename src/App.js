@@ -1,29 +1,100 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
-import React, { useEffect } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
+import Realm from "realm";
+import { DBContext } from "./context";
 import Root from "./navigation/Root";
 
 SplashScreen.preventAutoHideAsync();
 
+const schemaVersion = 3;
+const SaveSchema = {
+  name: "Save",
+  properties: {
+    _id: "int",
+    cards: { type: "list", objectType: "Card" },
+  },
+  primaryKey: "_id",
+};
+
+const UprightSchema = {
+  name: "Upright",
+  properties: {
+    keyword: { type: "list", objectType: "string" },
+    meaning: "string",
+  },
+};
+
+const CardSchema = {
+  name: "Card",
+  properties: {
+    id: { type: "int", indexed: true },
+    name: "string",
+    isReverse: "bool",
+    // image: { type: "string", default: "./images/cards/0.png" },
+    image: "int",
+    upright: { type: "Upright" },
+    reverse: { type: "Upright" },
+    description: "string",
+  },
+  primaryKey: "id",
+};
+
 export default function App() {
-  const [fontsLoaded] = useFonts({
+  const [ready, setReady] = useState(false);
+  const [realm, setRealm] = useState(null);
+
+  useFonts({
     Georgia: require("./assets/fonts/Georgia.ttf"),
   });
 
+  const startLoading = async () => {
+    const connection = await Realm.open({
+      path: "sallyTarotDB",
+      schema: [SaveSchema, CardSchema, UprightSchema],
+      schemaVersion: schemaVersion,
+      // migration: (oldRealm, newRealm) => {
+      //   if (newRealm.schemaVersion > oldRealm.schemaVersion) {
+      //   }
+      // },
+    });
+    console.log("connection:", connection);
+    setRealm(connection);
+  };
+
   // TODO: 임시
   useEffect(() => {
-    SplashScreen.hideAsync();
+    async function prepare() {
+      try {
+        startLoading();
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      } catch (e) {
+        console.warn(e);
+      } finally {
+        setReady(true);
+      }
+    }
+    prepare();
   }, []);
 
-  if (!fontsLoaded) {
+  const onLayoutRootView = useCallback(async () => {
+    if (ready) {
+      await SplashScreen.hideAsync();
+    }
+  }, [ready]);
+
+  if (!ready) {
     return null;
   }
+
   return (
-    <NavigationContainer>
-      <StatusBar style="auto" />
-      <Root />
-    </NavigationContainer>
+    <DBContext.Provider value={realm}>
+      <NavigationContainer onReady={onLayoutRootView}>
+        <StatusBar style="auto" />
+        <Root />
+      </NavigationContainer>
+    </DBContext.Provider>
   );
 }

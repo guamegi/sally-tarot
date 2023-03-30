@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components/native";
 import Container from "../components/Container";
 import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
 import { TRANSLUCENT_COLOR } from "../colors";
 import SaveItem from "../components/Save/SaveItem";
+import { LayoutAnimation } from "react-native";
+import { useDB } from "../context";
 
 const ContentView = styled.FlatList`
   flex: 1;
@@ -37,20 +39,38 @@ const InfoDesc = styled.Text`
 
 const Save = () => {
   // TODO: 저장된 데이터 set 호출, Realm
-  const saveData = [
-    {
-      id: 1,
-      title: "test",
-      date: "2023.03.20 15:24",
-      image: require("assets/images/menu/love.jpeg"),
-    },
-    {
-      id: 2,
-      title: "test",
-      date: "2023.03.20 15:24",
-      image: require("assets/images/menu/love.jpeg"),
-    },
-  ];
+  // const saveData = [
+  //   {
+  //     id: 1,
+  //     title: "test",
+  //     date: "2023.03.20 15:24",
+  //     image: require("assets/images/menu/love.jpeg"),
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "test",
+  //     date: "2023.03.20 15:24",
+  //     image: require("assets/images/menu/love.jpeg"),
+  //   },
+  // ];
+
+  const realm = useDB();
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    // console.log(realm);
+    if (realm) {
+      const data = realm.objects("Save");
+      // console.log(data);
+      data.addListener((data) => {
+        LayoutAnimation.spring();
+        setData([...data.sorted("_id", true)]);
+      });
+      return () => {
+        data.removeAllListeners();
+      };
+    }
+  }, []);
 
   return (
     <Container>
@@ -60,12 +80,14 @@ const Save = () => {
         <InfoTitle>Save</InfoTitle>
         <InfoDesc>View saved tarot results</InfoDesc>
       </Info>
-      <ContentView
-        data={saveData}
-        // ItemSeparatorComponent={() => <Separator />}
-        keyExtractor={(item) => item.id + ""}
-        renderItem={({ item }) => <SaveItem item={item} />}
-      />
+      {data && data.length > 0 && (
+        <ContentView
+          data={data}
+          // ItemSeparatorComponent={() => <Separator />}
+          keyExtractor={(item) => item._id + ""}
+          renderItem={({ item }) => <SaveItem item={item} />}
+        />
+      )}
     </Container>
   );
 };

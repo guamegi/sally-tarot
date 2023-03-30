@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components/native";
 import { Ionicons } from "@expo/vector-icons";
+import { useDB } from "../../context";
+import { useNavigation } from "@react-navigation/native";
 
 const Container = styled.TouchableOpacity`
   width: 100%;
@@ -37,17 +39,32 @@ const DeleteBtn = styled.TouchableOpacity`
 `;
 
 const SaveItem = ({ item }) => {
-  const deleteItem = () => {
-    console.log("delete");
+  const navigation = useNavigation();
+  const realm = useDB();
+  // console.log(item);
+
+  const deleteItem = (id) => {
+    realm.write(() => {
+      const data = realm.objectForPrimaryKey("Save", id);
+      realm.delete(data);
+    });
   };
+
+  const moveResult = () => {
+    navigation.navigate("Result", item);
+  };
+
+  // const date = new Date(item._id);
+  console.log(item._id);
+
   return (
-    <Container onPress={() => console.log("clicked")}>
-      <Image source={item.image} />
+    <Container onPress={moveResult}>
+      <Image source={item.cards[0].image} />
       <Column>
-        <Title>{item.title}</Title>
-        <Date>{item.date}</Date>
+        <Title>{item.cards[0].name}</Title>
+        <Date>{item._id}</Date>
       </Column>
-      <DeleteBtn onPress={deleteItem}>
+      <DeleteBtn onPress={() => deleteItem(item._id)}>
         <Ionicons name="trash-outline" size={24} color="white" />
       </DeleteBtn>
     </Container>
