@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components/native";
 import { Ionicons } from "@expo/vector-icons";
 
-const Container = styled.View`
+const Container = styled.TouchableOpacity`
   width: 100%;
   height: 44px;
   margin: 10px 0px;
@@ -41,7 +41,7 @@ const SaveItem = ({ item }) => {
     console.log("delete");
   };
   return (
-    <Container>
+    <Container onPress={() => console.log("clicked")}>
       <Image source={item.image} />
       <Column>
         <Title>{item.title}</Title>

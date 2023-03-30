@@ -41,7 +41,7 @@ const Result = ({ route: { params } }) => {
   return (
     <Container>
       <Background />
-      <HeaderClose />
+      <HeaderClose cards={cards} />
       <Wrapper>
         <ImageArea>
           {cards.map((card) => (

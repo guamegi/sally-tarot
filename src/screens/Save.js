@@ -57,7 +57,7 @@ const Save = () => {
       <Background />
       <HeaderBack />
       <Info>
-        <InfoTitle>Cabinet</InfoTitle>
+        <InfoTitle>Save</InfoTitle>
         <InfoDesc>View saved tarot results</InfoDesc>
       </Info>
       <ContentView
