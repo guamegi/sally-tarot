@@ -38,7 +38,7 @@ const Header = styled.View`
   justify-content: space-between;
   padding: 10px 28px;
 `;
-const HeaderCabinet = styled.TouchableOpacity`
+const HeaderSave = styled.TouchableOpacity`
   padding: 2px 14px;
   align-items: center;
   border-width: 1px;
@@ -47,7 +47,7 @@ const HeaderCabinet = styled.TouchableOpacity`
   /* border-color: #909499; */
   flex-direction: row;
 `;
-const HeaderCabinetText = styled.Text`
+const HeaderSaveText = styled.Text`
   color: #d2dae2;
   margin-left: 6px;
   font-size: 12px;
@@ -67,7 +67,7 @@ const TotalMenuArea = styled.View`
   justify-content: center;
 `;
 
-const TotalMenu = styled(HeaderCabinet)`
+const TotalMenu = styled(HeaderSave)`
   border-width: 0px;
   /* padding: 6px 14px; */
   padding: 10px 22px;
@@ -75,7 +75,7 @@ const TotalMenu = styled(HeaderCabinet)`
   background-color: ${MIDNIGHT_COLOR};
   /* background-color: white; */
 `;
-const TotalMenuText = styled(HeaderCabinetText)`
+const TotalMenuText = styled(HeaderSaveText)`
   font-size: 14px;
 `;
 
@@ -84,10 +84,10 @@ const Home = ({ navigation: { navigate } }) => {
     <Container>
       <Background />
       <Header>
-        <HeaderCabinet onPress={() => navigate("Save")}>
+        <HeaderSave onPress={() => navigate("Save")}>
           <Ionicons name="save-outline" color="#d2dae2" size={18} />
-          <HeaderCabinetText>Cabinet</HeaderCabinetText>
-        </HeaderCabinet>
+          <HeaderSaveText>Save</HeaderSaveText>
+        </HeaderSave>
         <HeaderSetting onPress={() => navigate("Settings")}>
           <Ionicons name="settings-outline" color="#d2dae2" size={24} />
         </HeaderSetting>
