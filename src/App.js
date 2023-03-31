@@ -25,7 +25,6 @@ const CardSchema = {
     id: { type: "int", indexed: true },
     name: "string",
     isReverse: "bool",
-    // image: { type: "string", default: "./images/cards/0.png" },
     image: "int",
     upright: { type: "Upright" },
     reverse: { type: "Upright" },
