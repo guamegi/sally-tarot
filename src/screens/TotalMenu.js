@@ -38,11 +38,12 @@ const List = styled.FlatList`
   /* background-color: gray; */
 `;
 
-const radius = 16;
+const radius = 54;
 const borderWidth = 3;
 const CardView = styled.View`
-  width: 90px;
-  height: 140px;
+  width: 108px;
+  height: 108px;
+  background-color: rgba(224, 220, 224, 0.3);
   border-radius: ${radius + borderWidth}px;
   border-width: ${borderWidth}px;
   border-color: white;
@@ -51,7 +52,7 @@ const CardView = styled.View`
 `;
 
 const Separator = styled.View`
-  height: 20px;
+  height: 24px;
 `;
 
 const Bg = styled.ImageBackground``;
@@ -104,7 +105,7 @@ const TotalMenu = ({
               >
                 <CardView>
                   <Bg
-                    style={StyleSheet.absoluteFill}
+                    style={[StyleSheet.absoluteFill, { margin: 10 }]}
                     imageStyle={{
                       borderRadius: radius,
                     }}

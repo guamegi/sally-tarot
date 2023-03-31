@@ -4,27 +4,29 @@ import styled from "styled-components/native";
 import { LinearGradient } from "expo-linear-gradient";
 import { useNavigation } from "@react-navigation/native";
 import { StyleSheet } from "react-native";
-import { BLACK_COLOR } from "../../colors";
+import { BLACK_COLOR, TRANSLUCENT_COLOR } from "../../colors";
 
+const radius = 40;
+const borderWidth = 4;
 const Container = styled.TouchableHighlight`
   flex: 1;
   margin: 50px 80px;
   justify-content: flex-end;
-  /* box-shadow: 0px 0px 24px black; */
-  /* background-color: gray; */
+  /* background-color: ${TRANSLUCENT_COLOR}; */
+  /* background-color: rgba(39, 10, 43, 0.9); */
+  background-color: rgba(224, 220, 224, 0.3);
+  border-radius: ${radius}px;
 `;
 
-const radius = 16;
-const borderWidth = 4;
 const Bg = styled.ImageBackground`
-  border-radius: ${radius + borderWidth}px;
-  border-width: ${borderWidth}px;
-  border-color: white;
+  margin: 0px 40px;
+  margin-bottom: 40px;
 `;
 
 const MenuView = styled.View`
   justify-content: center;
   align-items: center;
+  padding: 0px 10px;
   padding-bottom: 20px;
 `;
 
@@ -51,17 +53,18 @@ const Menu = ({ data }) => {
   // console.log(data);
   return (
     <Container
-      underlayColor="transparent"
+      // underlayColor="transparent"
+      underlayColor="rgba(224, 220, 224, 0.3)"
       onPress={() => navigation.navigate("Play", data)}
     >
       <>
         <Bg
-          // blurRadius={1}
           style={StyleSheet.absoluteFill}
           imageStyle={{
             borderRadius: radius,
           }}
-          resizeMode="stretch"
+          // resizeMode="stretch"
+          resizeMode="contain"
           source={data.backdropPath}
         />
 
