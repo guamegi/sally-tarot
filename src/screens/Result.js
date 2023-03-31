@@ -37,7 +37,7 @@ const ItemView = styled.View`
 
 const Result = ({ route: { params } }) => {
   const cards = params.cards;
-  console.log("cards:", cards);
+  // console.log("cards:", cards);
   return (
     <Container>
       <Background />

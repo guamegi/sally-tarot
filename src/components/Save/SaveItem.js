@@ -51,7 +51,8 @@ const SaveItem = ({ item }) => {
   };
 
   const moveResult = () => {
-    navigation.navigate("Result", item);
+    // navigation.navigate("Result", item);
+    navigation.navigate("Result", { cards: [...item.cards] });
   };
 
   // getTime to localeString
