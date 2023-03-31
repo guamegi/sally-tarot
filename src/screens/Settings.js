@@ -6,10 +6,11 @@ import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
 import { SETTINGS_MENU } from "../data/settings";
 import SettingsListItem from "../components/Settings/SettingsListItem";
+import { TRANSLUCENT_COLOR } from "../colors";
 
 const Info = styled.View`
   flex: 0.2;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${TRANSLUCENT_COLOR};
   margin: 0px 20px;
   border-radius: 10px;
   justify-content: center;

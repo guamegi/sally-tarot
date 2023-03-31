@@ -29,7 +29,7 @@ const Wrapper = styled.TouchableOpacity`
 `;
 
 const actionForMenuItem = () => {
-  Alert.alert("test");
+  Alert.alert("Leave a review");
   // TODO: link google play
 };
 
