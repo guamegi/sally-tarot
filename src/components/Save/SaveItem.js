@@ -27,7 +27,7 @@ const Title = styled.Text`
   color: white;
   overflow: hidden;
 `;
-const Date = styled.Text`
+const DateText = styled.Text`
   color: white;
   font-size: 12px;
   margin-top: 6px;
@@ -41,7 +41,7 @@ const DeleteBtn = styled.TouchableOpacity`
 const SaveItem = ({ item }) => {
   const navigation = useNavigation();
   const realm = useDB();
-  // console.log(item);
+  // console.log(item.cards);
 
   const deleteItem = (id) => {
     realm.write(() => {
@@ -54,15 +54,15 @@ const SaveItem = ({ item }) => {
     navigation.navigate("Result", item);
   };
 
-  // const date = new Date(item._id);
-  console.log(item._id);
+  // getTime to localeString
+  const newDate = new Date(item._id).toLocaleString();
 
   return (
     <Container onPress={moveResult}>
       <Image source={item.cards[0].image} />
       <Column>
         <Title>{item.cards[0].name}</Title>
-        <Date>{item._id}</Date>
+        <DateText>{newDate}</DateText>
       </Column>
       <DeleteBtn onPress={() => deleteItem(item._id)}>
         <Ionicons name="trash-outline" size={24} color="white" />

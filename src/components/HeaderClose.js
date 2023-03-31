@@ -29,7 +29,7 @@ const CloseBtn = styled(ShareBtn)``;
 const HeaderClose = ({ cards }) => {
   const navigation = useNavigation();
   const realm = useDB();
-  console.log("cards:", cards);
+  // console.log("cards:", cards);
 
   const result = cards
     .map(

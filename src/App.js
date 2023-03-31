@@ -19,14 +19,6 @@ const SaveSchema = {
   primaryKey: "_id",
 };
 
-const UprightSchema = {
-  name: "Upright",
-  properties: {
-    keyword: { type: "list", objectType: "string" },
-    meaning: "string",
-  },
-};
-
 const CardSchema = {
   name: "Card",
   properties: {
@@ -40,6 +32,14 @@ const CardSchema = {
     description: "string",
   },
   primaryKey: "id",
+};
+
+const UprightSchema = {
+  name: "Upright",
+  properties: {
+    keyword: { type: "list", objectType: "string" },
+    meaning: "string",
+  },
 };
 
 export default function App() {
@@ -60,7 +60,7 @@ export default function App() {
       //   }
       // },
     });
-    console.log("connection:", connection);
+    // console.log("connection:", connection);
     setRealm(connection);
   };
 
