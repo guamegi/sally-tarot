@@ -16,14 +16,15 @@ const Container = styled.View`
 const LoadingImage = styled.Image`
   width: ${SCREEN_WIDTH}px;
   position: absolute;
-  opacity: 0.7;
+  opacity: 0.8;
 `;
 
 const LoadingText = styled.Text`
   color: white;
-  font-size: 22px;
-  font-weight: 500;
-  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-shadow: 1px 1px 5px black;
 `;
 
 const PlayLoading = () => {
@@ -31,7 +32,7 @@ const PlayLoading = () => {
     <Container>
       <LoadingImage
         resizeMode="contain"
-        source={require("assets/images/playLoading.png")}
+        source={require("assets/images/loading.png")}
       />
       <ActivityIndicator size="large" color="white" />
       <LoadingText>Loading...</LoadingText>

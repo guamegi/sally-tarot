@@ -173,7 +173,6 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           </InfoColumn>
         </InfoRowView>
       </PlayInfo>
-      {/* TODO: 카드선택 설정 로드 */}
       <PlayCanvas>
         <ImageBackground
           style={StyleSheet.absoluteFill}
