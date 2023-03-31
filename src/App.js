@@ -9,7 +9,7 @@ import Root from "./navigation/Root";
 
 SplashScreen.preventAutoHideAsync();
 
-const schemaVersion = 3;
+const schemaVersion = 4;
 const SaveSchema = {
   name: "Save",
   properties: {
@@ -29,7 +29,7 @@ const CardSchema = {
     reverse: { type: "Upright" },
     description: "string",
   },
-  primaryKey: "id",
+  // primaryKey: "id",
 };
 const UprightSchema = {
   name: "Upright",

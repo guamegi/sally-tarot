@@ -58,12 +58,16 @@ const HeaderClose = ({ cards }) => {
       return null; // or return a placeholder component or message
     }
     // if (realm) {
-    realm.write(() => {
-      realm.create("Save", {
-        _id: Date.now(),
-        cards: [...cards],
+    try {
+      realm.write(() => {
+        realm.create("Save", {
+          _id: Date.now(),
+          cards: [...cards],
+        });
       });
-    });
+    } catch (e) {
+      console.error(e);
+    }
     navigation.popToTop();
     // }
   };
