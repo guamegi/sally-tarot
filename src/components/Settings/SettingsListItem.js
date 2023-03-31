@@ -6,22 +6,15 @@ import SettingsRadioSelection from "./SettingsRadioSelection";
 import { Alert } from "react-native";
 import { TRANSLUCENT_COLOR } from "../../colors";
 
-const radius = 16;
+const radius = 10;
 const Container = styled.View`
   flex-direction: row;
   justify-content: space-between;
   background-color: ${TRANSLUCENT_COLOR};
+  /* background-color: rgba(0, 0, 0, 0.6); */
   padding: 20px;
   margin: 0px 20px;
-
-  border-top-left-radius: ${({ isFirstElement }) =>
-    isFirstElement ? `${radius}px` : "0px"};
-  border-top-right-radius: ${({ isFirstElement }) =>
-    isFirstElement ? `${radius}px` : "0px"};
-  border-bottom-left-radius: ${({ isLastElement }) =>
-    isLastElement ? `${radius}px` : "0px"};
-  border-bottom-right-radius: ${({ isLastElement }) =>
-    isLastElement ? `${radius}px` : "0px"};
+  border-radius: ${radius}px;
 `;
 
 const Title = styled.Text`
@@ -35,37 +28,33 @@ const Wrapper = styled.TouchableOpacity`
   justify-content: space-between;
 `;
 
-const actionForMenuItem = (item) => {
-  if (item === "Leave a review") {
-    // console.log(item);
-    Alert.alert("test");
-    // TODO: link google play
-  }
+const actionForMenuItem = () => {
+  Alert.alert("test");
+  // TODO: link google play
 };
 
-const SettingsListItem = ({ item, isFirstElement, isLastElement }) => {
+const SettingsListItem = ({ itemData }) => {
   return (
-    <Container isFirstElement={isFirstElement} isLastElement={isLastElement}>
+    <Container>
       {
         {
-          "Shuffle cards": <SettingsRadioSelection item={item} />,
-          "Card selection": <SettingsRadioSelection item={item} />,
+          "Card selection": <SettingsRadioSelection itemData={itemData} />,
           "Leave a review": (
             <Wrapper
-              onPress={() => actionForMenuItem(item)}
+              onPress={() => actionForMenuItem()}
               // underlayColor="rgba(0, 0, 0, 0.4)"
             >
-              <Title>{item}</Title>
+              <Title>{itemData}</Title>
               <Ionicons name="chevron-forward" size={14} color="#d6d2d2" />
             </Wrapper>
           ),
           version: (
             <>
-              <Title>{item}</Title>
+              <Title>{itemData}</Title>
               <Title>{Application.nativeApplicationVersion}</Title>
             </>
           ),
-        }[item]
+        }[itemData]
       }
     </Container>
   );

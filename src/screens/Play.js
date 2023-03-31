@@ -8,6 +8,7 @@ import { CARDS } from "../data/cards";
 import PlayCard from "../components/Play/PlayCard";
 import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 import PlayLoading from "../components/Play/PlayLoading";
+import { useDB } from "../context";
 
 const borderRadius = 10;
 const PlayInfo = styled.View`
@@ -109,14 +110,32 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [randomItems, setRandomItems] = useState([]);
   const [selectedCard, setSelectedCard] = useState([]);
-  const selectTime = params.selectTime;
+  // const selectTime = params.selectTime;
+
+  const realm = useDB();
+  const [cardInfoData, setCardInfoData] = useState(1);
+  // console.log(cardInfoData);
 
   useEffect(() => {
     suffleCard();
+
+    // load data
+    if (realm) {
+      const data = realm.objects("Settings");
+      // console.log(realm, data[0].cardSelection);
+      if (data[0]) {
+        data.addListener((data) => {
+          setCardInfoData(data[0].cardSelection);
+        });
+        return () => {
+          data.removeAllListeners();
+        };
+      }
+    }
   }, []);
 
   useEffect(() => {
-    if (selectedCard.length >= selectTime) {
+    if (selectedCard.length >= cardInfoData) {
       setIsLoading(true);
       setTimeout(() => {
         setIsLoading(false);
@@ -148,7 +167,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           <InfoColumn>
             <PlayInfoTitle>{params.title}</PlayInfoTitle>
             <PlayInfoDesc>
-              Seriously think the question in your mind, choose {selectTime}{" "}
+              Seriously think the question in your mind, choose {cardInfoData}{" "}
               cards out of 62
             </PlayInfoDesc>
           </InfoColumn>

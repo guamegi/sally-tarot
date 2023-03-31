@@ -1,4 +1,4 @@
-import { SectionList, View } from "react-native";
+import { FlatList, View } from "react-native";
 import React from "react";
 import styled from "styled-components/native";
 import Container from "../components/Container";
@@ -58,31 +58,23 @@ const Settings = () => {
       <Info>
         <InfoTitle>Settings</InfoTitle>
         <InfoDesc>Sally's Tarot</InfoDesc>
-        <InfoDesc>Ver 1.0</InfoDesc>
       </Info>
       <View style={{ flex: 1 }}>
         {/* TODO: 앱 이미지 추가하기 */}
-        <SectionList
-          sections={SETTINGS_MENU}
+        <FlatList
+          data={SETTINGS_MENU}
           keyExtractor={(_, index) => index}
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{ paddingBottom: 40 }}
-          renderSectionHeader={({ section: { title, icon } }) => (
-            <SectionHeader>
-              {icon}
-              <SectionTitle>{title}</SectionTitle>
-            </SectionHeader>
-          )}
-          renderItem={(props) => {
-            const isFirstElement = props.index === 0;
-            const isLastElement = props.index === props.section.data.length - 1;
-
+          renderItem={({ item }) => {
             return (
-              <SettingsListItem
-                item={props.item}
-                isFirstElement={isFirstElement}
-                isLastElement={isLastElement}
-              />
+              <>
+                <SectionHeader>
+                  {item.icon}
+                  <SectionTitle>{item.title}</SectionTitle>
+                </SectionHeader>
+                <SettingsListItem itemData={item.data} />
+              </>
             );
           }}
           ItemSeparatorComponent={() => <ItemSeparator />}

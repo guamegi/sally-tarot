@@ -5,72 +5,38 @@ export const SETTINGS_MENU = [
   {
     title: "Customize",
     icon: <AntDesign name="setting" size={22} color="white" />,
-    data: ["Shuffle cards", "Card selection"],
+    data: "Card selection",
   },
   {
     title: "Service Center",
     icon: <AntDesign name="customerservice" size={22} color="white" />,
-    data: ["Leave a review"],
+    data: "Leave a review",
   },
   {
     title: "Information",
     icon: <AntDesign name="infocirlceo" size={22} color="white" />,
-    data: ["version"],
+    data: "version",
   },
 ];
 
-export const SHUFFLE_CARDS = [
-  {
-    id: "1",
-    label: "Option 1",
-    labelStyle: { color: "#d6d2d2", fontSize: 13 },
-    color: "#d6d2d2",
-    selected: true,
-    value: require("assets/images/menu/daily.jpeg"),
-    // borderSize: 5,
-    // circleStyle: { width: 10, height: 10 },
-  },
-  {
-    id: "2",
-    label: "Option 2",
-    labelStyle: { color: "#d6d2d2", fontSize: 13 },
-    color: "#d6d2d2",
-    selected: false,
-    value: require("assets/images/menu/career.jpeg"),
-  },
-  {
-    id: "3",
-    label: "Option 3",
-    labelStyle: { color: "#d6d2d2", fontSize: 13 },
-    color: "#d6d2d2",
-    selected: false,
-    value: require("assets/images/menu/family.jpeg"),
-  },
-];
-
+// RadioButton props
 export const CARD_SELECTION = [
   {
     id: "1",
-    label: "Option 4",
-    labelStyle: { color: "#d6d2d2", fontSize: 13 },
+    label: "1 Card",
+    labelStyle: { color: "#d6d2d2", fontSize: 14 },
     color: "#d6d2d2",
     selected: true,
-    value: require("assets/images/menu/finance.jpeg"),
+    size: 20,
+    value: 1,
   },
   {
     id: "2",
-    label: "Option 5",
-    labelStyle: { color: "#d6d2d2", fontSize: 13 },
+    label: "3 Cards",
+    labelStyle: { color: "#d6d2d2", fontSize: 14 },
     color: "#d6d2d2",
     selected: false,
-    value: require("assets/images/menu/growth.jpeg"),
-  },
-  {
-    id: "3",
-    label: "Option 6",
-    labelStyle: { color: "#d6d2d2", fontSize: 13 },
-    color: "#d6d2d2",
-    selected: false,
-    value: require("assets/images/menu/love.jpeg"),
+    size: 20,
+    value: 3,
   },
 ];

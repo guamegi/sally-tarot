@@ -18,7 +18,6 @@ const SaveSchema = {
   },
   primaryKey: "_id",
 };
-
 const CardSchema = {
   name: "Card",
   properties: {
@@ -32,13 +31,22 @@ const CardSchema = {
   },
   primaryKey: "id",
 };
-
 const UprightSchema = {
   name: "Upright",
   properties: {
     keyword: { type: "list", objectType: "string" },
     meaning: "string",
   },
+};
+
+const SettingsSchema = {
+  name: "Settings",
+  properties: {
+    _id: "string",
+    showReversedCard: "bool?",
+    cardSelection: "int",
+  },
+  primaryKey: "_id",
 };
 
 export default function App() {
@@ -52,14 +60,9 @@ export default function App() {
   const startLoading = async () => {
     const connection = await Realm.open({
       path: "sallyTarotDB",
-      schema: [SaveSchema, CardSchema, UprightSchema],
+      schema: [SaveSchema, CardSchema, UprightSchema, SettingsSchema],
       schemaVersion: schemaVersion,
-      // migration: (oldRealm, newRealm) => {
-      //   if (newRealm.schemaVersion > oldRealm.schemaVersion) {
-      //   }
-      // },
     });
-    // console.log("connection:", connection);
     setRealm(connection);
   };
 

@@ -38,27 +38,10 @@ const InfoDesc = styled.Text`
 `;
 
 const Save = () => {
-  // TODO: 저장된 데이터 set 호출, Realm
-  // const saveData = [
-  //   {
-  //     id: 1,
-  //     title: "test",
-  //     date: "2023.03.20 15:24",
-  //     image: require("assets/images/menu/love.jpeg"),
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "test",
-  //     date: "2023.03.20 15:24",
-  //     image: require("assets/images/menu/love.jpeg"),
-  //   },
-  // ];
-
   const realm = useDB();
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    // console.log(realm);
     if (realm) {
       const data = realm.objects("Save");
       // console.log(data);

@@ -73,7 +73,6 @@ const TotalMenu = styled(HeaderSave)`
   padding: 10px 22px;
   align-self: center;
   background-color: ${MIDNIGHT_COLOR};
-  /* background-color: white; */
 `;
 const TotalMenuText = styled(HeaderSaveText)`
   font-size: 14px;

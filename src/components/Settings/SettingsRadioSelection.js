@@ -1,8 +1,8 @@
-import { View, Text, Image } from "react-native";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components/native";
 import RadioGroup from "react-native-radio-buttons-group";
-import { CARD_SELECTION, SHUFFLE_CARDS } from "../../data/settings";
+import { CARD_SELECTION } from "../../data/settings";
+import { useDB } from "../../context";
 
 const Container = styled.View`
   width: 100%;
@@ -14,43 +14,61 @@ const Title = styled.Text`
 `;
 
 const RadioView = styled.View`
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-  margin: 10px 0px;
+  margin: 20px 0px;
 `;
 
-const SettingsRadioSelection = ({ item }) => {
-  // console.log(item);
-  // 카드섞기 / 카드선택 데이터 구분
-  // TODO: 카드 데이터들 localstorage 저장/로드
-  // TODO: 카드 데이터들 이미지 교체
-  const [radioButtons, setRadioButtons] = useState(
-    item === "Shuffle cards" ? SHUFFLE_CARDS : CARD_SELECTION
-  );
+const SettingsRadioSelection = ({ itemData }) => {
+  const realm = useDB();
+  const [radioButtons, setRadioButtons] = useState(CARD_SELECTION);
+
+  useEffect(() => {
+    // load data, set radio btn
+    const data = realm.objects("Settings");
+    if (data[0]) {
+      const newRadioButtons = [...CARD_SELECTION];
+
+      if (data[0].cardSelection === 1) {
+        newRadioButtons[0].selected = true;
+        newRadioButtons[1].selected = false;
+      } else {
+        newRadioButtons[0].selected = false;
+        newRadioButtons[1].selected = true;
+      }
+      setRadioButtons(newRadioButtons);
+    }
+  }, []);
 
   function onPressRadioButton(radioButtonsArray) {
     setRadioButtons([...radioButtonsArray]);
+    saveData(radioButtonsArray);
   }
-  const selectedItem = radioButtons.find((item) => item.selected);
+
+  const saveData = (radioButtonsArray) => {
+    const selectedBtn = radioButtonsArray.find((radio) => radio.selected);
+
+    realm.write(() => {
+      realm.create(
+        "Settings",
+        {
+          _id: "userInfo",
+          cardSelection: selectedBtn.value,
+        },
+        "modified"
+      );
+    });
+  };
+
   return (
     <Container>
-      <Title>{item}</Title>
+      <Title>{itemData}</Title>
       <RadioView>
         <RadioGroup
-          containerStyle={{ fillColor: "pink", borderColor: "cyan" }}
-          // circleStyle={{ borderColor: "#ffff00" }}
-          // circleStyle={{ fillColor: "pink", borderColor: "cyan" }}
           radioButtons={radioButtons}
           onPress={onPressRadioButton}
-        />
-        <Image
-          source={selectedItem.value}
-          style={{
-            // flex: 0.4,
-            width: 100,
-            height: 100,
-            borderRadius: 10,
+          layout="row"
+          containerStyle={{
+            justifyContent: "space-evenly",
+            // backgroundColor: "gray",
           }}
         />
       </RadioView>
