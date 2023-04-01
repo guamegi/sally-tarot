@@ -9,6 +9,7 @@ import PlayCard from "../components/Play/PlayCard";
 import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 import PlayLoading from "../components/Play/PlayLoading";
 import { useDB } from "../context";
+import { LayoutAnimation } from "react-native";
 
 const borderRadius = 10;
 const PlayInfo = styled.View`
@@ -68,7 +69,7 @@ const Control = styled.View`
 `;
 const SuffleBtn = styled.TouchableOpacity`
   background-color: ${MIDNIGHT_COLOR};
-  flex: 1;
+  flex: 0.5;
   height: 50px;
   justify-content: center;
   align-items: center;
@@ -136,6 +137,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
 
   useEffect(() => {
     if (selectedCard.length >= cardInfoData) {
+      LayoutAnimation.spring();
       setIsLoading(true);
       setTimeout(() => {
         setIsLoading(false);
@@ -151,8 +153,14 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   };
 
   const suffleCard = () => {
-    // TODO: animation
-    // TODO: card reset
+    // animation
+    LayoutAnimation.configureNext({
+      duration: 500,
+      create: { type: "easeInEaseOut", property: "scaleY" },
+      update: { type: "spring", springDamping: 0.4 },
+      delete: { type: "easeInEaseOut", property: "scaleY" },
+    });
+
     setRandomItems(getRandomItems(22));
     setSelectedCard([]);
   };
@@ -207,9 +215,9 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
         <SuffleBtn onPress={suffleCard}>
           <SuffleText>Suffle</SuffleText>
         </SuffleBtn>
-        <ChangeBtn>
+        {/* <ChangeBtn>
           <ChangeText>Change</ChangeText>
-        </ChangeBtn>
+        </ChangeBtn> */}
       </Control>
       {isLoading && <PlayLoading />}
       {/* <PlayLoading /> */}
