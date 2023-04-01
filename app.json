@@ -3,9 +3,18 @@
     "name": "sally-tarot",
     "slug": "sally-tarot",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "icon": "./src/assets/images/appIcon.png",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.guamegi.sallytarot"
+    },
+    "ios": {
+      "bundleIdentifier": "com.guamegi.sallytarot"
+    }
   },
-  "name": "sally-tarot"
+  "name": "sally-tarot",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-7307128452071420~8510020533",
+    "ios_app_id": "ca-app-pub-7307128452071420~7753426344"
+  }
 }

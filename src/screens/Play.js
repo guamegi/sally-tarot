@@ -10,6 +10,15 @@ import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 import PlayLoading from "../components/Play/PlayLoading";
 import { useDB } from "../context";
 import { LayoutAnimation } from "react-native";
+import { TestIds, useInterstitialAd } from "react-native-google-mobile-ads";
+import { Platform } from "react-native";
+import { InterstitialAdAppId } from "../utils";
+
+const adUnitId = __DEV__
+  ? TestIds.INTERSTITIAL
+  : Platform.OS === "android"
+  ? InterstitialAdAppId.android
+  : InterstitialAdAppId.ios;
 
 const borderRadius = 10;
 const PlayInfo = styled.View`
@@ -84,7 +93,6 @@ const SuffleText = styled.Text`
   font-size: 14px;
   font-weight: 500;
 `;
-const ChangeText = styled(SuffleText)``;
 
 // 배열에서 랜덤으로 numItems개를 선택하는 함수
 const getRandomItems = (numItems) => {
@@ -108,19 +116,21 @@ const getRandomItems = (numItems) => {
 };
 
 const Play = ({ navigation: { navigate }, route: { params } }) => {
+  const realm = useDB();
   const [isLoading, setIsLoading] = useState(false);
   const [randomItems, setRandomItems] = useState([]);
   const [selectedCard, setSelectedCard] = useState([]);
-  // const selectTime = params.selectTime;
-
-  const realm = useDB();
   const [cardInfoData, setCardInfoData] = useState(1);
-  // console.log(cardInfoData);
+
+  // google ads hooks
+  const { isClosed, load, show } = useInterstitialAd(adUnitId, {
+    requestNonPersonalizedAdsOnly: true,
+  });
 
   useEffect(() => {
     suffleCard();
 
-    // load data
+    // load cardSelection(1 or 3) data
     if (realm) {
       const data = realm.objects("Settings");
       // console.log(realm, data[0].cardSelection);
@@ -136,15 +146,30 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   }, []);
 
   useEffect(() => {
+    load();
+  }, [load]);
+
+  useEffect(() => {
     if (selectedCard.length >= cardInfoData) {
       LayoutAnimation.spring();
       setIsLoading(true);
+
       setTimeout(() => {
         setIsLoading(false);
-        navigate("Result", { cards: [...selectedCard] });
+        try {
+          show();
+        } catch (e) {
+          console.log(e);
+        }
       }, 3000);
     }
   }, [selectedCard]);
+
+  useEffect(() => {
+    if (isClosed) {
+      navigate("Result", { cards: [...selectedCard] });
+    }
+  }, [isClosed]);
 
   const handleSelectCard = (newCard) => {
     // Insert
@@ -215,9 +240,6 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
         <SuffleBtn onPress={suffleCard}>
           <SuffleText>Suffle</SuffleText>
         </SuffleBtn>
-        {/* <ChangeBtn>
-          <ChangeText>Change</ChangeText>
-        </ChangeBtn> */}
       </Control>
       {isLoading && <PlayLoading />}
       {/* <PlayLoading /> */}

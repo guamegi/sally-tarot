@@ -1,4 +1,4 @@
-package com.sallytarot;
+package com.guamegi.sallytarot;
 
 import android.os.Build;
 import android.os.Bundle;

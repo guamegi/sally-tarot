@@ -113,13 +113,13 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.sallytarot"
+    namespace 'com.guamegi.sallytarot'
     defaultConfig {
-        applicationId "com.sallytarot"
+        applicationId 'com.guamegi.sallytarot'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
 
     splits {
