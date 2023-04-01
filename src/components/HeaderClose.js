@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components/native";
 import { MaterialIcons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
-import { Share, View } from "react-native";
+import { Alert, Share, View } from "react-native";
 import { useDB } from "../context";
 
 const Container = styled.View`
@@ -54,22 +54,26 @@ const HeaderClose = ({ cards }) => {
   };
 
   const onSave = () => {
-    if (!cards || !Array.isArray(cards)) {
-      return null; // or return a placeholder component or message
-    }
-    // if (realm) {
-    try {
-      realm.write(() => {
-        realm.create("Save", {
-          _id: Date.now(),
-          cards: [...cards],
+    if (cards && Array.isArray(cards)) {
+      try {
+        realm.write(() => {
+          realm.create("Save", {
+            _id: Date.now(),
+            cards: [...cards],
+          });
         });
-      });
-    } catch (e) {
-      console.error(e);
+      } catch (e) {
+        console.error(e);
+      }
+
+      // alert saved message
+      Alert.alert("Card Info", "Saved Successfully!", [
+        {
+          text: "OK",
+          onPress: () => navigation.popToTop(),
+        },
+      ]);
     }
-    navigation.popToTop();
-    // }
   };
 
   const routes = navigation.getState()?.routes;
