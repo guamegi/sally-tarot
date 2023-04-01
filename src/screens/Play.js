@@ -24,8 +24,8 @@ const borderRadius = 10;
 const PlayInfo = styled.View`
   flex: 1.2;
   background-color: ${TRANSLUCENT_COLOR};
-  margin: 0px 20px;
-  border-radius: ${borderRadius}px;
+  /* margin: 0px 20px;
+  border-radius: ${borderRadius}px; */
   justify-content: center;
   align-items: center;
   padding: 0px 30px;
@@ -152,8 +152,13 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   useEffect(() => {
     if (selectedCard.length >= cardInfoData) {
       LayoutAnimation.spring();
-      setIsLoading(true);
 
+      // 마지막 카드 선택시 delay 없이 loadingView show 방지
+      setTimeout(() => {
+        setIsLoading(true);
+      }, 1000);
+
+      // loadingView hide & 스크린 이동
       setTimeout(() => {
         setIsLoading(false);
         try {
@@ -161,7 +166,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
         } catch (e) {
           console.log(e);
         }
-      }, 3000);
+      }, 4000);
     }
   }, [selectedCard]);
 

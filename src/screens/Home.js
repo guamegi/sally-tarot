@@ -10,10 +10,10 @@ import Menu from "../components/Home/HomeMenu";
 import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 
 const Info = styled.View`
-  flex: 1;
+  flex: 0.8;
   background-color: ${TRANSLUCENT_COLOR};
-  margin: 0px 20px;
-  border-radius: 10px;
+  /* margin: 0px 20px;
+  border-radius: 10px; */
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
@@ -37,6 +37,7 @@ const Header = styled.View`
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 28px;
+  margin-top: 10px;
 `;
 const HeaderSave = styled.TouchableOpacity`
   padding: 2px 14px;

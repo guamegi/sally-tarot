@@ -11,8 +11,8 @@ import { TRANSLUCENT_COLOR } from "../colors";
 const Info = styled.View`
   flex: 0.2;
   background-color: ${TRANSLUCENT_COLOR};
-  margin: 0px 20px;
-  border-radius: 10px;
+  /* margin: 0px 20px;
+  border-radius: 10px; */
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
