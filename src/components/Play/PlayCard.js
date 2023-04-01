@@ -19,7 +19,7 @@ const CardImg = styled.Image`
 const PlayCard = ({ card, handleSelectCard }) => {
   const [isClicked, setIsClicked] = useState(true);
 
-  const handleFlipEnd = () => {
+  const handleFlipStart = () => {
     handleSelectCard(card);
     setIsClicked(false);
   };
@@ -31,7 +31,8 @@ const PlayCard = ({ card, handleSelectCard }) => {
         flipHorizontal={true}
         flipVertical={false}
         clickable={isClicked}
-        onFlipEnd={handleFlipEnd}
+        onFlipStart={handleFlipStart}
+        // onFlipEnd={handleFlipEnd}
       >
         <BackView>
           <CardImg
