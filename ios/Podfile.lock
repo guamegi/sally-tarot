@@ -424,7 +424,7 @@ PODS:
     - React-jsi (= 0.71.4)
     - React-logger (= 0.71.4)
     - React-perflogger (= 0.71.4)
-  - RealmJS (11.5.1):
+  - RealmJS (11.7.0):
     - React
   - RNGoogleMobileAds (10.0.1):
     - Google-Mobile-Ads-SDK (= 10.2.0)
@@ -645,7 +645,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: ad17efcfb2fa8f6bfd8ac0cf48d96668b8b28e0b
   React-runtimeexecutor: 8fa50b38df6b992c76537993a2b0553d3b088004
   ReactCommon: b49a4b00ca6d181ff74b17c12b2d59ac4add0bde
-  RealmJS: 8007ce57d45f60523c49699cf739bcec87522fde
+  RealmJS: 10958b8a9d1f3a981c1b50bdc1da8396002e75a4
   RNGoogleMobileAds: d19cad1a07bf49793c8b83a7e6d7c692dd258bb0
   RNScreens: 218801c16a2782546d30bd2026bb625c0302d70f
   Yoga: 79dd7410de6f8ad73a77c868d3d368843f0c93e0
