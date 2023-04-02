@@ -128,7 +128,9 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   });
 
   useEffect(() => {
-    suffleCard();
+    setTimeout(() => {
+      suffleCard();
+    }, 100);
 
     // load cardSelection(1 or 3) data
     if (realm) {
