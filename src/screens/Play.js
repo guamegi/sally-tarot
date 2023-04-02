@@ -226,7 +226,8 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           numColumns={5}
           contentContainerStyle={{
             width: "100%",
-            height: "100%",
+            // height: "100%",
+            // paddingVertical: 30,
             alignItems: "center",
             justifyContent: "center",
           }}

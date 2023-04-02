@@ -38,11 +38,11 @@ const List = styled.FlatList`
   /* background-color: gray; */
 `;
 
-const radius = 54;
+const radius = 50;
 const borderWidth = 3;
 const CardView = styled.View`
-  width: 108px;
-  height: 108px;
+  width: 100px;
+  height: 100px;
   background-color: rgba(224, 220, 224, 0.3);
   border-radius: ${radius + borderWidth}px;
   border-width: ${borderWidth}px;
