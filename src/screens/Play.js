@@ -153,10 +153,9 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
 
   useEffect(() => {
     if (selectedCard.length >= cardInfoData) {
-      LayoutAnimation.spring();
-
-      // 마지막 카드 선택시 delay 없이 loadingView show 방지
+      // 마지막 카드 선택시 delay
       setTimeout(() => {
+        LayoutAnimation.spring();
         setIsLoading(true);
       }, 1000);
 
