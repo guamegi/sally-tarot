@@ -6,6 +6,7 @@ import * as SplashScreen from "expo-splash-screen";
 import Realm from "realm";
 import { DBContext } from "./context";
 import Root from "./navigation/Root";
+import "./i18n";
 
 SplashScreen.preventAutoHideAsync();
 

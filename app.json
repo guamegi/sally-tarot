@@ -4,13 +4,18 @@
     "slug": "sally-tarot",
     "version": "1.0.0",
     "icon": "./src/assets/images/appIcon.png",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "com.guamegi.sallytarot"
     },
     "ios": {
       "bundleIdentifier": "com.guamegi.sallytarot"
-    }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
   },
   "name": "sally-tarot",
   "react-native-google-mobile-ads": {

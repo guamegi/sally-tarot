@@ -8,6 +8,7 @@ import Container from "../components/Container";
 import { MENU } from "../data/menu";
 import Menu from "../components/Home/HomeMenu";
 import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
+import { useTranslation } from "react-i18next";
 
 const Info = styled.View`
   flex: 0.8;
@@ -80,13 +81,15 @@ const TotalMenuText = styled(HeaderSaveText)`
 `;
 
 const Home = ({ navigation: { navigate } }) => {
+  const { t } = useTranslation("home");
+
   return (
     <Container>
       <Background />
       <Header>
         <HeaderSave onPress={() => navigate("Save")}>
           <Ionicons name="save-outline" color="#d2dae2" size={18} />
-          <HeaderSaveText>Save</HeaderSaveText>
+          <HeaderSaveText>{t("save")}</HeaderSaveText>
         </HeaderSave>
         <HeaderSetting onPress={() => navigate("Settings")}>
           <Ionicons name="settings-outline" color="#d2dae2" size={24} />
