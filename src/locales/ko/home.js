@@ -30,5 +30,5 @@ export default {
       desc: "비즈니스 및 직업적 성장을 위한 타로 읽기",
     },
   ],
-  convert: "Convert Menu",
+  convert: "전체 메뉴 보기",
 };

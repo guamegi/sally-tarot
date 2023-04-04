@@ -101,7 +101,7 @@ const Home = ({ navigation: { navigate } }) => {
           source={require("assets/images/menu/growth.jpeg")}
         /> */}
         <InfoTitle>Sally's Tarot</InfoTitle>
-        <InfoDesc>Choose from one of the menus below</InfoDesc>
+        <InfoDesc>{t("info.desc")}</InfoDesc>
       </Info>
       <MenuListArea>
         <Swiper
@@ -143,7 +143,7 @@ const Home = ({ navigation: { navigate } }) => {
       <TotalMenuArea>
         <TotalMenu onPress={() => navigate("TotalMenu", { MENU })}>
           <Ionicons name="menu-outline" color="#d2dae2" size={22} />
-          <TotalMenuText>Convert Menu</TotalMenuText>
+          <TotalMenuText>{t("convert")}</TotalMenuText>
         </TotalMenu>
       </TotalMenuArea>
     </Container>
