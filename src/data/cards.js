@@ -1,3 +1,6 @@
+/**
+ * deprecated. locales/cards 로 대체.
+ */
 export const CARDS = {
   en: [
     {
