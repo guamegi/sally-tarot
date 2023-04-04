@@ -2,63 +2,54 @@ export default {
   data: [
     {
       id: 0,
-      name: "The Fool",
+      name: "바보",
       isReverse: false,
       image: require("assets/images/cards/0.jpg"),
       upright: {
-        keyword: ["Beginnings", "innocence", "spontaneity", "a free spirit"],
+        keyword: ["시작", "순수", "자발적", "자유로운 영혼"],
         meaning:
-          "The Fool card represents new beginnings, adventure, taking risks, trust in instincts, and living in the moment. It encourages you to embrace your inner free spirit and not worry too much about the future or consequences. The card suggests that you have unlimited potential and should take the leap of faith into the unknown with optimism and courage.",
+          "Fool 카드는 새로운 시작, 모험, 위험 감수, 본능에 대한 신뢰, 현재를 살아가는 것을 나타냅니다. 내면의 자유로운 정신을 포용하고 미래나 결과에 대해 너무 걱정하지 않도록 격려합니다. 이 카드는 당신에게 무한한 잠재력이 있으며 낙천주의와 용기를 가지고 미지의 세계로 믿음의 도약을 해야 함을 암시합니다.",
       },
       reverse: {
-        keyword: ["Holding back", "recklessness", "risk-taking"],
+        keyword: ["주저함", "무모함", "위험 감수"],
         meaning:
-          "In reverse, The Fool card suggests that you may be holding back or feeling stuck. You may be too cautious or hesitant to take risks, or you may be taking too many risks without considering the consequences. It's important to find a balance between spontaneity and caution, and to be mindful of your actions and decisions.",
+          "반대의 The Fool 카드는 당신이 주저하거나 막힌 느낌을 받을 수 있음을 암시합니다. 위험을 감수하기에는 너무 조심스럽거나 주저하거나 결과를 고려하지 않고 너무 많은 위험을 감수하고 있을 수 있습니다. 자발성과 주의 사이의 균형을 찾고 자신의 행동과 결정을 염두에 두는 것이 중요합니다.",
       },
-      description: `The Fool is numbered 0 – the number of unlimited potential – and so does not have a specific place in the sequence of the Tarot cards. The Fool can be placed either at the beginning of the Major Arcana or at the end. The Major Arcana is often considered The Fool’s journey through life and as such, he is ever present and therefore needs no number. 
+      description: `Fool은 무한한 잠재력의 수인 0으로 번호가 매겨져 있으므로 타로 카드 순서에서 특정 위치를 차지하지 않습니다. Fool은 Major Arcana의 시작 부분이나 끝에 배치할 수 있습니다. Major Arcana는 종종 The Fool의 삶의 여정으로 간주되어 항상 존재하므로 숫자가 필요하지 않습니다.
   
-    On The Fool Tarot card, a young man stands on the edge of a cliff, without a care in the world, as he sets out on a new adventure. He is gazing upwards toward the sky (and the Universe) and is seemingly unaware that he is about to skip off a precipice into the unknown. Over his shoulder rests a modest knapsack containing everything he needs – which isn’t much (let’s say he’s a minimalist). The white rose in his left hand represents his purity and innocence. And at his feet is a small white dog, representing loyalty and protection, that encourages him to charge forward and learn the lessons he came to learn. The mountains behind The Fool symbolize the challenges yet to come. They are forever present, but The Fool doesn’t care about them right now; he’s more focused on starting his expedition.`,
+      The Fool 타로 카드에서 한 젊은이가 새로운 모험을 시작하면서 세상 걱정 없이 절벽 끝에 서 있습니다. 그는 하늘(및 우주)을 향해 위쪽을 응시하고 있으며 미지의 세계로 벼랑을 ​​뛰어내리려 한다는 사실을 인식하지 못하는 것 같습니다. 그의 어깨 위에는 그가 필요한 모든 것이 들어 있는 겸손한 배낭이 놓여 있습니다. 그의 왼손에 있는 흰 장미는 그의 순수함과 순수함을 상징합니다. 그리고 그의 발 아래에는 충성심과 보호를 상징하는 작은 흰색 개가 있습니다. 이 개는 앞으로 돌격하고 그가 배우러 온 교훈을 배우도록 격려합니다. The Fool 뒤에 있는 산은 아직 오지 않은 도전을 상징합니다. 그들은 영원히 존재하지만 The Fool은 지금 당장 그들을 신경 쓰지 않습니다. 그는 탐험을 시작하는 데 더 집중하고 있습니다.`,
     },
     {
       id: 1,
-      name: "The Magician",
+      name: "마술사",
       isReverse: false,
       image: require("assets/images/cards/1.jpg"),
       upright: {
-        keyword: ["Manifestation", "resourcefulness", "power", "alignment"],
+        keyword: ["명시, 발현", "수완", "힘", "조정"],
         meaning:
-          "The Magician card represents your ability to manifest your desires, be resourceful, and tap into your power and potential. It suggests that you have everything you need within you to achieve your goals, and encourages you to align your thoughts, intentions, and actions to create the reality you desire.",
+          "마술사 카드는 당신의 욕망을 표현하고, 자원이 풍부하며, 당신의 힘과 잠재력을 활용하는 능력을 나타냅니다. 목표를 달성하는 데 필요한 모든 것이 내부에 있음을 암시하고 원하는 현실을 만들기 위해 생각, 의도 및 행동을 조정하도록 권장합니다.",
       },
       reverse: {
-        keyword: ["Manipulation", "poor planning", "misuse of power"],
+        keyword: ["조작", "빈약한 계획", "권력 남용"],
         meaning:
-          "In reverse, The Magician card suggests that you may be using your power for selfish or unethical purposes, or that you may be lacking in planning and foresight. It's important to be mindful of your actions and intentions, and to use your power for the greater good.",
+          "반대의 The Magician 카드는 당신이 이기적이거나 비윤리적인 목적을 위해 당신의 힘을 사용하고 있거나 계획과 예지력이 부족할 수 있음을 암시합니다. 자신의 행동과 의도를 염두에 두고 더 큰 이익을 위해 힘을 사용하는 것이 중요합니다.",
       },
-      description: `The Magician is numbered 1 and is the first card in the Major Arcana. He represents the power of manifestation and the ability to tap into the universal forces to create your reality. 
+      description: `마술사는 번호가 1이며 Major Arcana의 첫 번째 카드입니다. 그는 발현의 힘과 당신의 현실을 창조하기 위해 보편적인 힘을 활용할 수 있는 능력을 나타냅니다.
   
-    On The Magician Tarot card, a young man stands before a table adorned with the symbols of the four elements - pentacle, wand, cup, and sword - representing earth, air, water, and fire, respectively. He holds a wand in his right hand, pointing it towards the heavens, and a small wand in his left hand, pointing it towards the ground. This gesture symbolizes the connection between the spiritual and physical realms, and the Magician's ability to bridge the gap between them. Above his head is the symbol for infinity, suggesting the limitless potential of the universe. The red roses on the table represent passion and desire, while the white lilies represent purity and spiritual power.`,
+      The Magician 타로 카드에서 청년은 각각 지구, 공기, 물, 불을 나타내는 네 가지 요소인 펜타클, 지팡이, 컵, 검의 상징으로 장식된 테이블 앞에 서 있습니다. 그는 오른손에 지팡이를 들고 하늘을 가리키고 있고 작은 지팡이는 왼손에 땅을 가리키고 있습니다. 이 제스처는 영적 영역과 물리적 영역 사이의 연결과 그 사이의 간격을 메우는 마술사의 능력을 상징합니다. 그의 머리 위에는 우주의 무한한 잠재력을 암시하는 무한의 상징이 있습니다. 테이블 위의 빨간 장미는 열정과 욕망을, 흰 백합은 순수함과 영적 힘을 나타냅니다.`,
     },
     {
       id: 2,
-      name: "The High Priestess",
+      name: "대 여사제",
       isReverse: false,
       image: require("assets/images/cards/2.jpg"),
       upright: {
-        keyword: [
-          "Intuition",
-          "sacred knowledge",
-          "divine feminine",
-          "the subconscious mind",
-        ],
+        keyword: ["직관", "신성한 지식", "신성한 여성", "잠재의식"],
         meaning:
-          "The High Priestess card represents your intuition, inner wisdom, and connection to the divine feminine. It suggests that you have access to hidden knowledge and mysteries, and encourages you to trust your intuition and inner guidance. The card may also indicate secrets or hidden influences at play.",
+          "대 여사제 카드는 당신의 직감, 내면의 지혜, 신성한 여성과의 연결을 나타냅니다. 그것은 당신이 숨겨진 지식과 신비에 접근할 수 있음을 암시하고 당신의 직감과 내면의 인도를 신뢰하도록 격려합니다. 카드는 또한 비밀이나 숨겨진 영향력을 나타낼 수도 있습니다.",
       },
       reverse: {
-        keyword: [
-          "Secrets",
-          "disconnected from intuition",
-          "withdrawal and silence",
-        ],
+        keyword: ["비밀", "직감에서 단절", "철회와 침묵"],
         meaning: `In reverse, The High Priestess card suggests that you may be disconnected from your intuition and inner wisdom, or that you may be suppressing your emotions or desires. The card may also indicate secrets or hidden influences being exposed, or a need for greater transparency and honesty.`,
       },
       description: `The High Priestess sits in front of a thin veil decorated with pomegranates. The veil represents the separate conscious and subconscious realms, the seen and the unseen, and serves to keep casual onlookers out. Only the initiated may enter. The pomegranates on the veil are a symbol of abundance, fertility and the divine feminine, and are sacred to Persephone who ate a pomegranate seed in the underworld and was forced to return every year.
