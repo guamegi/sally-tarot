@@ -7,6 +7,7 @@ import HeaderBack from "../components/HeaderBack";
 import { SETTINGS_MENU } from "../data/settings";
 import SettingsListItem from "../components/Settings/SettingsListItem";
 import { TRANSLUCENT_COLOR } from "../colors";
+import { useTranslation } from "react-i18next";
 
 const Info = styled.View`
   flex: 0.2;
@@ -52,13 +53,15 @@ const ItemSeparator = styled.View`
 `;
 
 const Settings = () => {
+  const { t } = useTranslation("settings");
+
   return (
     <Container>
       <Background />
       <HeaderBack />
       <Info>
-        <InfoTitle>Settings</InfoTitle>
-        <InfoDesc>Sally's Tarot</InfoDesc>
+        <InfoTitle>{t("info.title")}</InfoTitle>
+        <InfoDesc>{t("info.desc")}</InfoDesc>
       </Info>
       <View style={{ flex: 1 }}>
         {/* TODO: 앱 이미지 추가하기 */}

@@ -3,6 +3,7 @@ import styled from "styled-components/native";
 import RadioGroup from "react-native-radio-buttons-group";
 import { CARD_SELECTION } from "../../data/settings";
 import { useDB } from "../../context";
+import { useTranslation } from "react-i18next";
 
 const Container = styled.View`
   width: 100%;
@@ -20,6 +21,7 @@ const RadioView = styled.View`
 const SettingsRadioSelection = ({ itemData }) => {
   const realm = useDB();
   const [radioButtons, setRadioButtons] = useState(CARD_SELECTION);
+  const { t } = useTranslation("settings");
 
   useEffect(() => {
     // load data, set radio btn
@@ -60,7 +62,7 @@ const SettingsRadioSelection = ({ itemData }) => {
 
   return (
     <Container>
-      <Title>{itemData}</Title>
+      <Title>{t("customize.desc")}</Title>
       <RadioView>
         <RadioGroup
           radioButtons={radioButtons}

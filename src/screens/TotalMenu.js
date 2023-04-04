@@ -5,6 +5,7 @@ import Container from "../components/Container";
 import Background from "../components/Background";
 import HeaderBack from "../components/HeaderBack";
 import { TRANSLUCENT_COLOR } from "../colors";
+import { useTranslation } from "react-i18next";
 
 const ContentView = styled.View`
   flex: 1;
@@ -68,22 +69,23 @@ const Title = styled.Text`
 const TotalMenu = ({
   navigation: { navigate },
   route: {
-    params: { MENU },
+    params: { menuList },
   },
 }) => {
   // console.log(menu);
+  const { t } = useTranslation("totalMenu");
   return (
-    MENU && (
+    menuList && (
       <Container>
         <Background />
         <HeaderBack />
         <Info>
-          <InfoTitle>Total Menu</InfoTitle>
-          <InfoDesc>Find a menu to choose from</InfoDesc>
+          <InfoTitle>{t("info.title")}</InfoTitle>
+          <InfoDesc>{t("info.desc")}</InfoDesc>
         </Info>
         <ContentView>
           <List
-            data={MENU}
+            data={menuList}
             numColumns={3}
             contentContainerStyle={{
               width: "100%",

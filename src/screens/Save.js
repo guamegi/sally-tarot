@@ -7,6 +7,7 @@ import { TRANSLUCENT_COLOR } from "../colors";
 import SaveItem from "../components/Save/SaveItem";
 import { LayoutAnimation } from "react-native";
 import { useDB } from "../context";
+import { useTranslation } from "react-i18next";
 
 const ContentView = styled.FlatList`
   flex: 1;
@@ -40,6 +41,7 @@ const InfoDesc = styled.Text`
 const Save = () => {
   const realm = useDB();
   const [data, setData] = useState([]);
+  const { t } = useTranslation("save");
 
   useEffect(() => {
     if (realm) {
@@ -60,8 +62,8 @@ const Save = () => {
       <Background />
       <HeaderBack />
       <Info>
-        <InfoTitle>Save</InfoTitle>
-        <InfoDesc>View saved tarot results</InfoDesc>
+        <InfoTitle>{t("info.title")}</InfoTitle>
+        <InfoDesc>{t("info.desc")}</InfoDesc>
       </Info>
       {data && data.length > 0 && (
         <ContentView

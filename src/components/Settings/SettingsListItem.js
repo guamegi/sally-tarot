@@ -5,6 +5,7 @@ import * as Application from "expo-application";
 import SettingsRadioSelection from "./SettingsRadioSelection";
 import { Alert } from "react-native";
 import { TRANSLUCENT_COLOR } from "../../colors";
+import { useTranslation } from "react-i18next";
 
 const radius = 10;
 const Container = styled.View`
@@ -34,6 +35,7 @@ const actionForMenuItem = () => {
 };
 
 const SettingsListItem = ({ itemData }) => {
+  const { t } = useTranslation("settings");
   return (
     <Container>
       {
@@ -44,13 +46,13 @@ const SettingsListItem = ({ itemData }) => {
               onPress={() => actionForMenuItem()}
               // underlayColor="rgba(0, 0, 0, 0.4)"
             >
-              <Title>{itemData}</Title>
+              <Title>{t("service.desc")}</Title>
               <Ionicons name="chevron-forward" size={14} color="#d6d2d2" />
             </Wrapper>
           ),
           version: (
             <>
-              <Title>{itemData}</Title>
+              <Title>{t("version.desc")}</Title>
               <Title>{Application.nativeApplicationVersion}</Title>
             </>
           ),

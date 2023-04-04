@@ -1,17 +1,23 @@
-import { FlatList, ImageBackground, StyleSheet } from "react-native";
+import {
+  FlatList,
+  ImageBackground,
+  StyleSheet,
+  Platform,
+  LayoutAnimation,
+} from "react-native";
 import React, { useEffect, useState } from "react";
 import styled from "styled-components/native";
+import { TestIds, useInterstitialAd } from "react-native-google-mobile-ads";
+import { useTranslation } from "react-i18next";
+
 import Background from "../components/Background";
 import Container from "../components/Container";
 import HeaderBack from "../components/HeaderBack";
-import { CARDS } from "../data/cards";
+// import { CARDS } from "../data/cards";
 import PlayCard from "../components/Play/PlayCard";
 import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 import PlayLoading from "../components/Play/PlayLoading";
 import { useDB } from "../context";
-import { LayoutAnimation } from "react-native";
-import { TestIds, useInterstitialAd } from "react-native-google-mobile-ads";
-import { Platform } from "react-native";
 import { InterstitialAdAppId } from "../utils";
 
 const adUnitId = __DEV__
@@ -84,10 +90,6 @@ const SuffleBtn = styled.TouchableOpacity`
   align-items: center;
   border-radius: ${borderRadius * 3}px;
 `;
-const ChangeBtn = styled(SuffleBtn)`
-  flex: 1.5;
-  margin-left: 20px;
-`;
 const SuffleText = styled.Text`
   color: white;
   font-size: 14px;
@@ -95,16 +97,16 @@ const SuffleText = styled.Text`
 `;
 
 // 배열에서 랜덤으로 numItems개를 선택하는 함수
-const getRandomItems = (numItems) => {
-  if (CARDS.length <= numItems) {
-    return CARDS;
+const getRandomItems = (numItems, cardData) => {
+  if (cardData.length <= numItems) {
+    return cardData;
   }
   const result = [];
 
   // 배열에서 랜덤으로 요구하는 아이템의 개수만큼 선택하기
   while (result.length < numItems) {
-    const randomIndex = Math.floor(Math.random() * CARDS.length);
-    const randomItem = CARDS[randomIndex];
+    const randomIndex = Math.floor(Math.random() * cardData.length);
+    const randomItem = cardData[randomIndex];
 
     // 이미 선택된 아이템인 경우 건너뛰기
     if (result.some((item) => item.id === randomItem.id)) {
@@ -115,6 +117,7 @@ const getRandomItems = (numItems) => {
   return result;
 };
 
+// let cardList;
 const Play = ({ navigation: { navigate }, route: { params } }) => {
   const realm = useDB();
   const [isLoading, setIsLoading] = useState(false);
@@ -126,6 +129,11 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   const { isClosed, load, show } = useInterstitialAd(adUnitId, {
     requestNonPersonalizedAdsOnly: true,
   });
+
+  const { t } = useTranslation(["play", "cards"]);
+  // const aa = t("shuffle", { ns: "play" });
+  const cardData = t("data", { ns: "cards", returnObjects: true });
+  // console.log(aa, bb.length);
 
   useEffect(() => {
     setTimeout(() => {
@@ -192,7 +200,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       delete: { type: "easeInEaseOut", property: "scaleY" },
     });
 
-    setRandomItems(getRandomItems(22));
+    setRandomItems(getRandomItems(22, cardData));
     setSelectedCard([]);
   };
 
@@ -206,8 +214,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           <InfoColumn>
             <PlayInfoTitle>{params.title}</PlayInfoTitle>
             <PlayInfoDesc>
-              Seriously think the question in your mind, choose {cardInfoData}{" "}
-              cards out of 62
+              {t("info.n.desc", { ns: "play", n: cardInfoData })}
             </PlayInfoDesc>
           </InfoColumn>
         </InfoRowView>
@@ -245,7 +252,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
       </PlayCanvas>
       <Control>
         <SuffleBtn onPress={suffleCard}>
-          <SuffleText>Suffle</SuffleText>
+          <SuffleText>{t("shuffle", { ns: "play" })}</SuffleText>
         </SuffleBtn>
       </Control>
       {isLoading && <PlayLoading />}

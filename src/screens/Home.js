@@ -9,6 +9,7 @@ import { MENU } from "../data/menu";
 import Menu from "../components/Home/HomeMenu";
 import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 import { useTranslation } from "react-i18next";
+import { getLocales } from "expo-localization";
 
 const Info = styled.View`
   flex: 0.8;
@@ -82,6 +83,8 @@ const TotalMenuText = styled(HeaderSaveText)`
 
 const Home = ({ navigation: { navigate } }) => {
   const { t } = useTranslation("home");
+  const deviceLanguage = getLocales()[0].languageCode || "en";
+  const menuList = deviceLanguage === "ko" ? MENU.ko : MENU.en;
 
   return (
     <Container>
@@ -135,13 +138,13 @@ const Home = ({ navigation: { navigate } }) => {
             />
           }
         >
-          {MENU.map((item) => (
+          {menuList.map((item) => (
             <Menu key={item.no} data={item} />
           ))}
         </Swiper>
       </MenuListArea>
       <TotalMenuArea>
-        <TotalMenu onPress={() => navigate("TotalMenu", { MENU })}>
+        <TotalMenu onPress={() => navigate("TotalMenu", { menuList })}>
           <Ionicons name="menu-outline" color="#d2dae2" size={22} />
           <TotalMenuText>{t("convert")}</TotalMenuText>
         </TotalMenu>

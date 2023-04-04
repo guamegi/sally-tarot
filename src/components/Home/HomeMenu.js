@@ -1,13 +1,11 @@
-import { Text, TouchableOpacity, View } from "react-native";
 import React from "react";
 import styled from "styled-components/native";
-import { LinearGradient } from "expo-linear-gradient";
 import { useNavigation } from "@react-navigation/native";
 import { StyleSheet } from "react-native";
-import { BLACK_COLOR, TRANSLUCENT_COLOR } from "../../colors";
+import { TRANSLUCENT_COLOR } from "../../colors";
 
 const radius = 40;
-const borderWidth = 4;
+// const borderWidth = 4;
 const Container = styled.TouchableHighlight`
   flex: 1;
   margin: 50px 80px;
