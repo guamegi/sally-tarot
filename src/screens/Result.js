@@ -1,9 +1,10 @@
-import { Image, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import React from "react";
+import styled from "styled-components/native";
+import { SimpleAccordion } from "react-native-simple-accordion";
 import Background from "../components/Background";
 import Container from "../components/Container";
 import HeaderClose from "../components/HeaderClose";
-import styled from "styled-components/native";
 
 const Wrapper = styled.View`
   /* background-color: gray; */
@@ -56,18 +57,31 @@ const Result = ({ route: { params } }) => {
           keyExtractor={(item) => item.id}
           renderItem={({ item, index }) => (
             <ItemView>
-              <Text style={{ marginVertical: 10 }}>⭐️ name: {item.name}</Text>
+              <Text style={{ marginVertical: 10 }}>⭐️ {item.name}</Text>
               <View style={{ marginVertical: 10 }}>
-                <Text>🌟 keyword: </Text>
                 {item.upright.keyword.map((word, index) => (
                   <View key={index} style={{}}>
                     <Text>• {word}</Text>
                   </View>
                 ))}
               </View>
-              <Text style={{ marginVertical: 10 }}>
-                ⭐️ description: {item.description}
-              </Text>
+              {/* 카드설명. 아코디언 */}
+              {/* <View>
+                <Text style={{ marginVertical: 10 }}>{item.description}</Text>
+              </View> */}
+              <SimpleAccordion
+                viewInside={
+                  <View>
+                    <Text style={{ marginVertical: 10 }}>
+                      {item.description}
+                    </Text>
+                  </View>
+                }
+                title={"Card Description"}
+                viewContainerStyle={{ backgroundColor: "#E0E0E0" }}
+              />
+              {/* 해석 */}
+              <Text style={{ marginVertical: 10 }}>{item.upright.meaning}</Text>
             </ItemView>
           )}
           contentContainerStyle={{ paddingBottom: 80 }}

@@ -21,32 +21,32 @@ export default {
     },
     {
       id: 1,
-      name: "마술사",
+      name: "마법사",
       isReverse: false,
       image: require("assets/images/cards/1.jpg"),
       upright: {
         keyword: ["명시, 발현", "수완", "힘", "조정"],
         meaning:
-          "마술사 카드는 당신의 욕망을 표현하고, 자원이 풍부하며, 당신의 힘과 잠재력을 활용하는 능력을 나타냅니다. 목표를 달성하는 데 필요한 모든 것이 내부에 있음을 암시하고 원하는 현실을 만들기 위해 생각, 의도 및 행동을 조정하도록 권장합니다.",
+          "마법사 카드는 당신의 욕망을 표현하고, 자원이 풍부하며, 당신의 힘과 잠재력을 활용하는 능력을 나타냅니다. 목표를 달성하는 데 필요한 모든 것이 내부에 있음을 암시하고 원하는 현실을 만들기 위해 생각, 의도 및 행동을 조정하도록 권장합니다.",
       },
       reverse: {
         keyword: ["조작", "빈약한 계획", "권력 남용"],
         meaning:
           "반대의 The Magician 카드는 당신이 이기적이거나 비윤리적인 목적을 위해 당신의 힘을 사용하고 있거나 계획과 예지력이 부족할 수 있음을 암시합니다. 자신의 행동과 의도를 염두에 두고 더 큰 이익을 위해 힘을 사용하는 것이 중요합니다.",
       },
-      description: `마술사는 번호가 1이며 Major Arcana의 첫 번째 카드입니다. 그는 발현의 힘과 당신의 현실을 창조하기 위해 보편적인 힘을 활용할 수 있는 능력을 나타냅니다.
+      description: `마법사는 번호가 1이며 Major Arcana의 첫 번째 카드입니다. 그는 발현의 힘과 당신의 현실을 창조하기 위해 보편적인 힘을 활용할 수 있는 능력을 나타냅니다.
   
-      The Magician 타로 카드에서 청년은 각각 지구, 공기, 물, 불을 나타내는 네 가지 요소인 펜타클, 지팡이, 컵, 검의 상징으로 장식된 테이블 앞에 서 있습니다. 그는 오른손에 지팡이를 들고 하늘을 가리키고 있고 작은 지팡이는 왼손에 땅을 가리키고 있습니다. 이 제스처는 영적 영역과 물리적 영역 사이의 연결과 그 사이의 간격을 메우는 마술사의 능력을 상징합니다. 그의 머리 위에는 우주의 무한한 잠재력을 암시하는 무한의 상징이 있습니다. 테이블 위의 빨간 장미는 열정과 욕망을, 흰 백합은 순수함과 영적 힘을 나타냅니다.`,
+      The Magician 타로 카드에서 청년은 각각 지구, 공기, 물, 불을 나타내는 네 가지 요소인 펜타클, 지팡이, 컵, 검의 상징으로 장식된 테이블 앞에 서 있습니다. 그는 오른손에 지팡이를 들고 하늘을 가리키고 있고 작은 지팡이는 왼손에 땅을 가리키고 있습니다. 이 제스처는 영적 영역과 물리적 영역 사이의 연결과 그 사이의 간격을 메우는 마법사의 능력을 상징합니다. 그의 머리 위에는 우주의 무한한 잠재력을 암시하는 무한의 상징이 있습니다. 테이블 위의 빨간 장미는 열정과 욕망을, 흰 백합은 순수함과 영적 힘을 나타냅니다.`,
     },
     {
       id: 2,
-      name: "대 여사제",
+      name: "여사제",
       isReverse: false,
       image: require("assets/images/cards/2.jpg"),
       upright: {
-        keyword: ["직관", "신성한 지식", "신성한 여성", "잠재의식"],
+        keyword: ["직관", "지성", "신성한 여성", "잠재의식"],
         meaning:
-          "대 여사제 카드는 당신의 직감, 내면의 지혜, 신성한 여성과의 연결을 나타냅니다. 그것은 당신이 숨겨진 지식과 신비에 접근할 수 있음을 암시하고 당신의 직감과 내면의 인도를 신뢰하도록 격려합니다. 카드는 또한 비밀이나 숨겨진 영향력을 나타낼 수도 있습니다.",
+          "여사제 카드는 당신의 직감, 내면의 지혜, 신성한 여성과의 연결을 나타냅니다. 그것은 당신이 숨겨진 지식과 신비에 접근할 수 있음을 암시하고 당신의 직감과 내면의 인도를 신뢰하도록 격려합니다. 카드는 또한 비밀이나 숨겨진 영향력을 나타낼 수도 있습니다.",
       },
       reverse: {
         keyword: ["비밀", "직감에서 단절", "철회와 침묵"],
@@ -60,7 +60,7 @@ export default {
     },
     {
       id: 3,
-      name: "The Empress",
+      name: "여황제",
       isReverse: false,
       image: require("assets/images/cards/3.jpg"),
       upright: {
@@ -75,7 +75,7 @@ export default {
     },
     {
       id: 4,
-      name: "The Emperor",
+      name: "황제",
       isReverse: false,
       image: require("assets/images/cards/4.jpg"),
       upright: {
@@ -95,7 +95,7 @@ export default {
     },
     {
       id: 5,
-      name: "The Hierophant",
+      name: "교황",
       isReverse: false,
       image: require("assets/images/cards/5.jpg"),
       upright: {
@@ -116,7 +116,7 @@ export default {
     },
     {
       id: 6,
-      name: "The Lovers",
+      name: "연인",
       isReverse: false,
       image: require("assets/images/cards/6.jpg"),
       upright: {
@@ -142,7 +142,7 @@ export default {
     },
     {
       id: 7,
-      name: "The Chariot",
+      name: "전차",
       isReverse: false,
       image: require("assets/images/cards/7.jpg"),
       upright: {
@@ -157,7 +157,7 @@ export default {
     },
     {
       id: 8,
-      name: "Strength",
+      name: "힘",
       isReverse: false,
       image: require("assets/images/cards/8.jpg"),
       upright: {
@@ -181,7 +181,7 @@ export default {
     },
     {
       id: 9,
-      name: "The Hermit",
+      name: "은둔자",
       isReverse: false,
       image: require("assets/images/cards/9.jpg"),
       upright: {
@@ -204,7 +204,7 @@ export default {
     },
     {
       id: 10,
-      name: "Wheel Of Fortune",
+      name: "운명의 수레바퀴",
       isReverse: false,
       image: require("assets/images/cards/10.jpg"),
       upright: {
@@ -228,7 +228,7 @@ export default {
     },
     {
       id: 11,
-      name: "Justice",
+      name: "정의",
       isReverse: false,
       image: require("assets/images/cards/11.jpg"),
       upright: {
@@ -243,7 +243,7 @@ export default {
     },
     {
       id: 12,
-      name: "The Hanged Man",
+      name: "매달린 남자",
       isReverse: false,
       image: require("assets/images/cards/12.jpg"),
       upright: {
@@ -258,7 +258,7 @@ export default {
     },
     {
       id: 13,
-      name: "Death",
+      name: "죽음",
       isReverse: false,
       image: require("assets/images/cards/13.jpg"),
       upright: {
@@ -277,7 +277,7 @@ export default {
     },
     {
       id: 14,
-      name: "Temperance",
+      name: "절제",
       isReverse: false,
       image: require("assets/images/cards/14.jpg"),
       upright: {
@@ -292,7 +292,7 @@ export default {
     },
     {
       id: 15,
-      name: "The Devil",
+      name: "악마",
       isReverse: false,
       image: require("assets/images/cards/15.jpg"),
       upright: {
@@ -317,7 +317,7 @@ export default {
     },
     {
       id: 16,
-      name: "The Tower",
+      name: "탑",
       isReverse: false,
       image: require("assets/images/cards/16.jpg"),
       upright: {
@@ -342,7 +342,7 @@ export default {
     },
     {
       id: 17,
-      name: "The Star",
+      name: "별",
       isReverse: false,
       image: require("assets/images/cards/17.jpg"),
       upright: {
@@ -360,7 +360,7 @@ export default {
     },
     {
       id: 18,
-      name: "The Moon",
+      name: "달",
       isReverse: false,
       image: require("assets/images/cards/18.jpg"),
       upright: {
@@ -378,7 +378,7 @@ export default {
     },
     {
       id: 19,
-      name: "The Sun",
+      name: "태양",
       isReverse: false,
       image: require("assets/images/cards/19.jpg"),
       upright: {
@@ -393,7 +393,7 @@ export default {
     },
     {
       id: 20,
-      name: "Judgement",
+      name: "심판",
       isReverse: false,
       image: require("assets/images/cards/20.jpg"),
       upright: {
@@ -408,7 +408,7 @@ export default {
     },
     {
       id: 21,
-      name: "The World",
+      name: "세계",
       isReverse: false,
       image: require("assets/images/cards/21.jpg"),
       upright: {
@@ -425,7 +425,7 @@ export default {
     },
     {
       id: 22,
-      name: "Ace of Wands",
+      name: "완드A",
       isReverse: false,
       image: require("assets/images/cards/22.jpg"),
       upright: {
@@ -440,7 +440,7 @@ export default {
     },
     {
       id: 23,
-      name: "Two of Wands",
+      name: "완드2",
       isReverse: false,
       image: require("assets/images/cards/23.jpg"),
       upright: {
@@ -455,7 +455,7 @@ export default {
     },
     {
       id: 24,
-      name: "Three of Wands",
+      name: "완드3",
       isReverse: false,
       image: require("assets/images/cards/24.jpg"),
       upright: {
@@ -472,7 +472,7 @@ export default {
     },
     {
       id: 25,
-      name: "Four of Wands",
+      name: "완드4",
       isReverse: false,
       image: require("assets/images/cards/25.jpg"),
       upright: {
@@ -489,7 +489,7 @@ export default {
     },
     {
       id: 26,
-      name: "Five of Wands",
+      name: "완드5",
       isReverse: false,
       image: require("assets/images/cards/26.jpg"),
       upright: {
@@ -508,7 +508,7 @@ export default {
     },
     {
       id: 27,
-      name: "Six of Wands",
+      name: "완드6",
       isReverse: false,
       image: require("assets/images/cards/27.jpg"),
       upright: {
@@ -523,7 +523,7 @@ export default {
     },
     {
       id: 28,
-      name: "Seven of Wands",
+      name: "완드7",
       isReverse: false,
       image: require("assets/images/cards/28.jpg"),
       upright: {
@@ -538,7 +538,7 @@ export default {
     },
     {
       id: 29,
-      name: "Eight of Wands",
+      name: "완드8",
       isReverse: false,
       image: require("assets/images/cards/29.jpg"),
       upright: {
@@ -553,7 +553,7 @@ export default {
     },
     {
       id: 30,
-      name: "Nine of Wands",
+      name: "완드9",
       isReverse: false,
       image: require("assets/images/cards/30.jpg"),
       upright: {
@@ -568,7 +568,7 @@ export default {
     },
     {
       id: 31,
-      name: "Ten of Wands",
+      name: "완드10",
       isReverse: false,
       image: require("assets/images/cards/31.jpg"),
       upright: {
@@ -583,7 +583,7 @@ export default {
     },
     {
       id: 32,
-      name: "Page of Wands",
+      name: "완드의 페이지",
       isReverse: false,
       image: require("assets/images/cards/32.jpg"),
       upright: {
@@ -598,7 +598,7 @@ export default {
     },
     {
       id: 33,
-      name: "Knight of Wands",
+      name: "완드의 나이트",
       isReverse: false,
       image: require("assets/images/cards/33.jpg"),
       upright: {
@@ -613,7 +613,7 @@ export default {
     },
     {
       id: 34,
-      name: "Queen of Wands",
+      name: "완드의 퀸",
       isReverse: false,
       image: require("assets/images/cards/34.jpg"),
       upright: {
@@ -630,7 +630,7 @@ export default {
     },
     {
       id: 35,
-      name: "King of Wands",
+      name: "완드의 킹",
       isReverse: false,
       image: require("assets/images/cards/35.jpg"),
       upright: {
@@ -645,7 +645,7 @@ export default {
     },
     {
       id: 36,
-      name: "Ace of Cups",
+      name: "컵A",
       isReverse: false,
       image: require("assets/images/cards/36.jpg"),
       upright: {
@@ -660,7 +660,7 @@ export default {
     },
     {
       id: 37,
-      name: "Two of Cups",
+      name: "컵2",
       isReverse: false,
       image: require("assets/images/cards/37.jpg"),
       upright: {
@@ -680,7 +680,7 @@ export default {
     },
     {
       id: 38,
-      name: "Three of Cups",
+      name: "컵3",
       isReverse: false,
       image: require("assets/images/cards/38.jpg"),
       upright: {
@@ -695,7 +695,7 @@ export default {
     },
     {
       id: 39,
-      name: "Four of Cups",
+      name: "컵4",
       isReverse: false,
       image: require("assets/images/cards/39.jpg"),
       upright: {
@@ -710,7 +710,7 @@ export default {
     },
     {
       id: 40,
-      name: "Five of Cups",
+      name: "컵5",
       isReverse: false,
       image: require("assets/images/cards/40.jpg"),
       upright: {
@@ -725,7 +725,7 @@ export default {
     },
     {
       id: 41,
-      name: "Six of Cups",
+      name: "컵6",
       isReverse: false,
       image: require("assets/images/cards/41.jpg"),
       upright: {
@@ -745,7 +745,7 @@ export default {
     },
     {
       id: 42,
-      name: "Seven of Cups",
+      name: "컵7",
       isReverse: false,
       image: require("assets/images/cards/42.jpg"),
       upright: {
@@ -760,7 +760,7 @@ export default {
     },
     {
       id: 43,
-      name: "Eight of Cups",
+      name: "컵8",
       isReverse: false,
       image: require("assets/images/cards/43.jpg"),
       upright: {
@@ -780,7 +780,7 @@ export default {
     },
     {
       id: 44,
-      name: "Nine of Cups",
+      name: "컵9",
       isReverse: false,
       image: require("assets/images/cards/44.jpg"),
       upright: {
@@ -795,7 +795,7 @@ export default {
     },
     {
       id: 45,
-      name: "Ten of Cups",
+      name: "컵10",
       isReverse: false,
       image: require("assets/images/cards/45.jpg"),
       upright: {
@@ -810,7 +810,7 @@ export default {
     },
     {
       id: 46,
-      name: "Page of Cups",
+      name: "컵의 페이지",
       isReverse: false,
       image: require("assets/images/cards/46.jpg"),
       upright: {
@@ -831,7 +831,7 @@ export default {
     },
     {
       id: 47,
-      name: "Knight of Cups",
+      name: "컵의 나이트",
       isReverse: false,
       image: require("assets/images/cards/47.jpg"),
       upright: {
@@ -846,7 +846,7 @@ export default {
     },
     {
       id: 48,
-      name: "Queen of Cups",
+      name: "컵의 퀸",
       isReverse: false,
       image: require("assets/images/cards/48.jpg"),
       upright: {
@@ -861,7 +861,7 @@ export default {
     },
     {
       id: 49,
-      name: "King of Cups",
+      name: "컵의 킹",
       isReverse: false,
       image: require("assets/images/cards/49.jpg"),
       upright: {
@@ -876,7 +876,7 @@ export default {
     },
     {
       id: 50,
-      name: "Ace of Swords",
+      name: "소드A",
       isReverse: false,
       image: require("assets/images/cards/50.jpg"),
       upright: {
@@ -891,7 +891,7 @@ export default {
     },
     {
       id: 51,
-      name: "Two of Swords",
+      name: "소드2",
       isReverse: false,
       image: require("assets/images/cards/51.jpg"),
       upright: {
@@ -913,7 +913,7 @@ export default {
     },
     {
       id: 52,
-      name: "Three of Swords",
+      name: "소드3",
       isReverse: false,
       image: require("assets/images/cards/52.jpg"),
       upright: {
@@ -929,7 +929,7 @@ export default {
     },
     {
       id: 53,
-      name: "Four of Swords",
+      name: "소드4",
       isReverse: false,
       image: require("assets/images/cards/53.jpg"),
       upright: {
@@ -944,7 +944,7 @@ export default {
     },
     {
       id: 54,
-      name: "Five of Swords",
+      name: "소드5",
       isReverse: false,
       image: require("assets/images/cards/54.jpg"),
       upright: {
@@ -959,7 +959,7 @@ export default {
     },
     {
       id: 55,
-      name: "Six of Swords",
+      name: "소드6",
       isReverse: false,
       image: require("assets/images/cards/55.jpg"),
       upright: {
@@ -981,7 +981,7 @@ export default {
     },
     {
       id: 56,
-      name: "Seven of Swords",
+      name: "소드7",
       isReverse: false,
       image: require("assets/images/cards/56.jpg"),
       upright: {
@@ -997,9 +997,25 @@ export default {
       description:
         "The Seven of Swords depicts a figure sneaking away with five swords, leaving two behind. This card can represent deceit, trickery, or betrayal, as well as the importance of honesty and integrity. It suggests a need to be cautious and aware of any potential deception or manipulation, and to act with transparency and honesty in all situations. When reversed, this card can indicate a release from the burden of secrets and dishonesty, and a restoration of trust and harmony.",
     },
+
+    {
+      id: 57,
+      name: "소드8",
+      isReverse: false,
+      image: require("assets/images/cards/57.jpg"),
+      upright: {
+        keyword: ["Deception", "betrayal", "mind games", "strategy"],
+        meaning: "",
+      },
+      reverse: {
+        keyword: ["Coming clean", "confession", "revealing the truth"],
+        meaning: "",
+      },
+      description: "",
+    },
     {
       id: 58,
-      name: "Nine of Swords",
+      name: "소드9",
       isReverse: false,
       image: require("assets/images/cards/58.jpg"),
       upright: {
@@ -1014,7 +1030,7 @@ export default {
     },
     {
       id: 59,
-      name: "Ten of Swords",
+      name: "소드10",
       isReverse: false,
       image: require("assets/images/cards/59.jpg"),
       upright: {
@@ -1029,7 +1045,7 @@ export default {
     },
     {
       id: 60,
-      name: "Page of Swords",
+      name: "소드의 페이지",
       isReverse: false,
       image: require("assets/images/cards/60.jpg"),
       upright: {
@@ -1046,7 +1062,7 @@ export default {
     },
     {
       id: 61,
-      name: "Knight of Swords",
+      name: "소드의 나이트",
       isReverse: false,
       image: require("assets/images/cards/61.jpg"),
       upright: {
@@ -1063,7 +1079,7 @@ export default {
     },
     {
       id: 62,
-      name: "Queen of Swords",
+      name: "소드의 퀸",
       isReverse: false,
       image: require("assets/images/cards/62.jpg"),
       upright: {
@@ -1078,7 +1094,7 @@ export default {
     },
     {
       id: 63,
-      name: "King of Swords",
+      name: "소드의 킹",
       isReverse: false,
       image: require("assets/images/cards/63.jpg"),
       upright: {
@@ -1093,7 +1109,7 @@ export default {
     },
     {
       id: 64,
-      name: "Ace of Pentacles",
+      name: "펜타클A",
       isReverse: false,
       image: require("assets/images/cards/64.jpg"),
       upright: {
@@ -1113,7 +1129,7 @@ export default {
     },
     {
       id: 65,
-      name: "Two of Pentacles",
+      name: "펜타클2",
       isReverse: false,
       image: require("assets/images/cards/65.jpg"),
       upright: {
@@ -1133,7 +1149,7 @@ export default {
     },
     {
       id: 66,
-      name: "Three of Pentacles",
+      name: "펜타클3",
       isReverse: false,
       image: require("assets/images/cards/66.jpg"),
       upright: {
@@ -1153,7 +1169,7 @@ export default {
     },
     {
       id: 67,
-      name: "Four of Pentacles",
+      name: "펜타클4",
       isReverse: false,
       image: require("assets/images/cards/67.jpg"),
       upright: {
@@ -1168,7 +1184,7 @@ export default {
     },
     {
       id: 68,
-      name: "Five of Pentacles",
+      name: "펜타클5",
       isReverse: false,
       image: require("assets/images/cards/68.jpg"),
       upright: {
@@ -1186,7 +1202,7 @@ export default {
     },
     {
       id: 69,
-      name: "Six of Pentacles",
+      name: "펜타클6",
       isReverse: false,
       image: require("assets/images/cards/69.jpg"),
       upright: {
@@ -1208,7 +1224,7 @@ export default {
     },
     {
       id: 70,
-      name: "Seven of Pentacles",
+      name: "펜타클7",
       isReverse: false,
       image: require("assets/images/cards/70.jpg"),
       upright: {
@@ -1234,7 +1250,7 @@ export default {
     },
     {
       id: 71,
-      name: "Eight of Pentacles",
+      name: "펜타클8",
       isReverse: false,
       image: require("assets/images/cards/71.jpg"),
       upright: {
@@ -1263,7 +1279,7 @@ export default {
     },
     {
       id: 72,
-      name: "Nine of Pentacles",
+      name: "펜타클9",
       isReverse: false,
       image: require("assets/images/cards/72.jpg"),
       upright: {
@@ -1283,7 +1299,7 @@ export default {
     },
     {
       id: 73,
-      name: "Ten of Pentacles",
+      name: "펜타클10",
       isReverse: false,
       image: require("assets/images/cards/73.jpg"),
       upright: {
@@ -1304,7 +1320,7 @@ export default {
     },
     {
       id: 74,
-      name: "Page of Pentacles",
+      name: "펜타클의 페이지",
       isReverse: false,
       image: require("assets/images/cards/74.jpg"),
       upright: {
@@ -1329,7 +1345,7 @@ export default {
     },
     {
       id: 75,
-      name: "Knight of Pentacles",
+      name: "펜타클의 나이트",
       isReverse: false,
       image: require("assets/images/cards/75.jpg"),
       upright: {
@@ -1350,7 +1366,7 @@ export default {
     },
     {
       id: 76,
-      name: "Queen of Pentacles",
+      name: "펜타클의 퀸",
       isReverse: false,
       image: require("assets/images/cards/76.jpg"),
       upright: {
@@ -1371,7 +1387,7 @@ export default {
     },
     {
       id: 77,
-      name: "King of Pentacles",
+      name: "펜타클의 킹",
       isReverse: false,
       image: require("assets/images/cards/77.jpg"),
       upright: {

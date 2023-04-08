@@ -3,9 +3,9 @@ import { initReactI18next } from "react-i18next";
 import { ko, en } from "./locales";
 import { getLocales } from "expo-localization";
 
-// TODO: languageCode가 undefined 예외처리
+// languageCode가 undefined 예외처리
 const deviceLanguage = getLocales()[0].languageCode || "en";
-console.log(deviceLanguage);
+// console.log(deviceLanguage);
 
 i18n.use(initReactI18next).init({
   compatibilityJSON: "v3",
