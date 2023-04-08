@@ -5,6 +5,9 @@ import { SimpleAccordion } from "react-native-simple-accordion";
 import Background from "../components/Background";
 import Container from "../components/Container";
 import HeaderClose from "../components/HeaderClose";
+import { getLocales } from "expo-localization";
+
+const deviceLanguage = getLocales()[0].languageCode || "en";
 
 const Wrapper = styled.View`
   /* background-color: gray; */
@@ -66,19 +69,25 @@ const Result = ({ route: { params } }) => {
                 ))}
               </View>
               {/* 카드설명. 아코디언 */}
-              {/* <View>
-                <Text style={{ marginVertical: 10 }}>{item.description}</Text>
-              </View> */}
               <SimpleAccordion
                 viewInside={
                   <View>
-                    <Text style={{ marginVertical: 10 }}>
+                    <Text style={{ color: "white", marginVertical: 10 }}>
                       {item.description}
                     </Text>
                   </View>
                 }
-                title={"Card Description"}
-                viewContainerStyle={{ backgroundColor: "#E0E0E0" }}
+                title={
+                  deviceLanguage === "ko" ? "카드 설명" : "Card Description"
+                }
+                titleStyle={{
+                  fontSize: 14,
+                  color: "white",
+                  textAlign: "center",
+                }}
+                bannerStyle={{ backgroundColor: "#3c40c6" }}
+                arrowColor="white"
+                viewContainerStyle={{ backgroundColor: "#575fcf" }}
               />
               {/* 해석 */}
               <Text style={{ marginVertical: 10 }}>{item.upright.meaning}</Text>
