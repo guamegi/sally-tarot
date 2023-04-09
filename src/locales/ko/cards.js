@@ -13,11 +13,11 @@ export default {
       reverse: {
         keyword: ["주저함", "무모함", "위험 감수"],
         meaning:
-          "반대의 The Fool 카드는 당신이 주저하거나 막힌 느낌을 받을 수 있음을 암시합니다. 위험을 감수하기에는 너무 조심스럽거나 주저하거나 결과를 고려하지 않고 너무 많은 위험을 감수하고 있을 수 있습니다. 자발성과 주의 사이의 균형을 찾고 자신의 행동과 결정을 염두에 두는 것이 중요합니다.",
+          "반대의 바보 카드는 당신이 주저하거나 막힌 느낌을 받을 수 있음을 암시합니다. 위험을 감수하기에는 너무 조심스럽거나 주저하거나 결과를 고려하지 않고 너무 많은 위험을 감수하고 있을 수 있습니다. 자발성과 주의 사이의 균형을 찾고 자신의 행동과 결정을 염두에 두는 것이 중요합니다.",
       },
-      description: `Fool은 무한한 잠재력의 수인 0으로 번호가 매겨져 있으므로 타로 카드 순서에서 특정 위치를 차지하지 않습니다. Fool은 Major Arcana의 시작 부분이나 끝에 배치할 수 있습니다. Major Arcana는 종종 The Fool의 삶의 여정으로 간주되어 항상 존재하므로 숫자가 필요하지 않습니다.
+      description: `바보 카드는 무한한 잠재력의 수인 0으로 번호가 매겨져 있으므로 타로 카드 순서에서 특정 위치를 차지하지 않습니다. 바보 카드는 Major Arcana의 시작 부분이나 끝에 배치할 수 있습니다. Major Arcana는 종종 바보의 삶의 여정으로 간주되어 항상 존재하므로 숫자가 필요하지 않습니다.
   
-      The Fool 타로 카드에서 한 젊은이가 새로운 모험을 시작하면서 세상 걱정 없이 절벽 끝에 서 있습니다. 그는 하늘(및 우주)을 향해 위쪽을 응시하고 있으며 미지의 세계로 벼랑을 ​​뛰어내리려 한다는 사실을 인식하지 못하는 것 같습니다. 그의 어깨 위에는 그가 필요한 모든 것이 들어 있는 겸손한 배낭이 놓여 있습니다. 그의 왼손에 있는 흰 장미는 그의 순수함과 순수함을 상징합니다. 그리고 그의 발 아래에는 충성심과 보호를 상징하는 작은 흰색 개가 있습니다. 이 개는 앞으로 돌격하고 그가 배우러 온 교훈을 배우도록 격려합니다. The Fool 뒤에 있는 산은 아직 오지 않은 도전을 상징합니다. 그들은 영원히 존재하지만 The Fool은 지금 당장 그들을 신경 쓰지 않습니다. 그는 탐험을 시작하는 데 더 집중하고 있습니다.`,
+      바보 타로 카드에서 한 젊은이가 새로운 모험을 시작하면서 세상 걱정 없이 절벽 끝에 서 있습니다. 그는 하늘(및 우주)을 향해 위쪽을 응시하고 있으며 미지의 세계로 벼랑을 ​​뛰어내리려 한다는 사실을 인식하지 못하는 것 같습니다. 그의 어깨 위에는 그가 필요한 모든 것이 들어 있는 겸손한 배낭이 놓여 있습니다. 그의 왼손에 있는 흰 장미는 그의 순수함과 순수함을 상징합니다. 그리고 그의 발 아래에는 충성심과 보호를 상징하는 작은 흰색 개가 있습니다. 이 개는 앞으로 돌격하고 그가 배우러 온 교훈을 배우도록 격려합니다. 바보 뒤에 있는 산은 아직 오지 않은 도전을 상징합니다. 그들은 영원히 존재하지만 바보은 지금 당장 그들을 신경 쓰지 않습니다. 그는 탐험을 시작하는 데 더 집중하고 있습니다.`,
     },
     {
       id: 1,
@@ -32,11 +32,11 @@ export default {
       reverse: {
         keyword: ["조작", "빈약한 계획", "권력 남용"],
         meaning:
-          "반대의 The Magician 카드는 당신이 이기적이거나 비윤리적인 목적을 위해 당신의 힘을 사용하고 있거나 계획과 예지력이 부족할 수 있음을 암시합니다. 자신의 행동과 의도를 염두에 두고 더 큰 이익을 위해 힘을 사용하는 것이 중요합니다.",
+          "반대의 마법사 카드는 당신이 이기적이거나 비윤리적인 목적을 위해 당신의 힘을 사용하고 있거나 계획과 예지력이 부족할 수 있음을 암시합니다. 자신의 행동과 의도를 염두에 두고 더 큰 이익을 위해 힘을 사용하는 것이 중요합니다.",
       },
       description: `마법사는 번호가 1이며 Major Arcana의 첫 번째 카드입니다. 그는 발현의 힘과 당신의 현실을 창조하기 위해 보편적인 힘을 활용할 수 있는 능력을 나타냅니다.
   
-      The Magician 타로 카드에서 청년은 각각 지구, 공기, 물, 불을 나타내는 네 가지 요소인 펜타클, 지팡이, 컵, 검의 상징으로 장식된 테이블 앞에 서 있습니다. 그는 오른손에 지팡이를 들고 하늘을 가리키고 있고 작은 지팡이는 왼손에 땅을 가리키고 있습니다. 이 제스처는 영적 영역과 물리적 영역 사이의 연결과 그 사이의 간격을 메우는 마법사의 능력을 상징합니다. 그의 머리 위에는 우주의 무한한 잠재력을 암시하는 무한의 상징이 있습니다. 테이블 위의 빨간 장미는 열정과 욕망을, 흰 백합은 순수함과 영적 힘을 나타냅니다.`,
+      마법사 타로 카드에서 청년은 각각 지구, 공기, 물, 불을 나타내는 네 가지 요소인 펜타클, 지팡이, 컵, 검의 상징으로 장식된 테이블 앞에 서 있습니다. 그는 오른손에 지팡이를 들고 하늘을 가리키고 있고 작은 지팡이는 왼손에 땅을 가리키고 있습니다. 이 제스처는 영적 영역과 물리적 영역 사이의 연결과 그 사이의 간격을 메우는 마법사의 능력을 상징합니다. 그의 머리 위에는 우주의 무한한 잠재력을 암시하는 무한의 상징이 있습니다. 테이블 위의 빨간 장미는 열정과 욕망을, 흰 백합은 순수함과 영적 힘을 나타냅니다.`,
     },
     {
       id: 2,
@@ -50,13 +50,14 @@ export default {
       },
       reverse: {
         keyword: ["비밀", "직감에서 단절", "철회와 침묵"],
-        meaning: `In reverse, The High Priestess card suggests that you may be disconnected from your intuition and inner wisdom, or that you may be suppressing your emotions or desires. The card may also indicate secrets or hidden influences being exposed, or a need for greater transparency and honesty.`,
+        meaning: `반대의 여사제 카드는 당신이 직관과 내면의 지혜와 단절되어 있거나 감정이나 욕망을 억누르고 있을 수 있음을 암시합니다. 이 카드는 비밀이나 숨겨진 영향력이 노출되거나 더 큰 투명성과 정직성이 필요함을 나타낼 수도 있습니다.`,
       },
-      description: `The High Priestess sits in front of a thin veil decorated with pomegranates. The veil represents the separate conscious and subconscious realms, the seen and the unseen, and serves to keep casual onlookers out. Only the initiated may enter. The pomegranates on the veil are a symbol of abundance, fertility and the divine feminine, and are sacred to Persephone who ate a pomegranate seed in the underworld and was forced to return every year.
+      description: `여사제는 석류로 장식된 얇은 베일 앞에 앉아 있습니다. 베일은 의식과 잠재의식의 분리된 영역, 보이는 것과 보이지 않는 것을 나타내며, 무심코 구경하는 사람들을 막는 역할을 합니다. 입문자만 들어갈 수 있습니다. 베일 위의 석류는 풍요와 다산, 신성한 여성성을 상징하며 지하세계에서 석류씨를 먹고 매년 강제로 귀환해야 했던 페르세포네에게 신성한 것입니다.
 
-    On either side of The High Priestess stand two pillars, marking the entrance to this sacred, mystical temple (also associated with the Temple of Solomon). One pillar is black with the letter B (Boaz, meaning ‘in his strength’) and the other is white with the letter J (Jachin, meaning ‘he will establish’). The black and white colors of the pillars symbolize duality – masculine and feminine, darkness and light – stating that knowledge and acceptance of duality are required to enter this sacred space.
+      여사제의 양쪽에는 이 신성하고 신비로운 사원(또한 솔로몬 사원과 관련됨)의 입구를 표시하는 두 개의 기둥이 서 있습니다. 한 기둥은 검은색으로 B(Boaz, '그의 힘으로'라는 의미)라는 글자가 있고 다른 기둥은 흰색으로 J(Jachin, '그가 세울 것이다'라는 의미)라는 글자가 있습니다. 기둥의 흑백 색상은 남성과 여성, 어둠과 빛의 이중성을 상징하며 이 신성한 공간에 들어가기 위해서는 이중성에 대한 지식과 수용이 필요함을 나타냅니다.
     
-    The High Priestess wears a blue robe with a cross on her chest and a horned diadem (or crown), both a symbol of her divine knowledge and her status as a divine ruler. In her lap, she holds a scroll with the letter TORA, signifying the Greater Law (according to A. E. Waite). It is partly covered, signifying that this sacred knowledge is both explicit and implicit, it will only be revealed when the student is ready to look beyond the material realm. The crescent moon at her feet symbolizes her connection with the divine feminine, her intuition and subconscious mind, and the natural cycles of the moon.`,
+      여사제은 그녀의 신성한 지식과 신성한 통치자로서의 지위를 상징하는 뿔이 달린 왕관(또는 왕관)과 가슴에 십자가가 있는 파란색 로브를 입습니다. 그녀의 무릎에는 더 큰 법(A. E. Waite에 따르면)을 의미하는 TORA라는 글자가 있는 두루마리가 있습니다. 그것은 부분적으로 가려져 있어 이 신성한 지식이 명시적이면서도 암묵적이라는 것을 의미하며 학생이 물질적 영역 너머를 볼 준비가 되었을 때만 드러날 것입니다. 그녀의 발밑에 있는 초승달은 신성한 여성, 그녀의 직관과 잠재의식, 달의 자연적인 순환과 그녀의 연결을 상징합니다.
+    `,
     },
     {
       id: 3,
@@ -64,14 +65,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/3.jpg"),
       upright: {
-        keyword: ["Femininity", "beauty", "nature", "nurturing", "abundance"],
-        meaning: `The Empress represents feminine energy, creativity, nurturing, and abundance. She is a reminder to connect with nature and the cycles of life. This card can indicate a time of fertility and growth, whether it be in a creative project, a relationship, or a personal endeavor. It is a card of beauty, grace, and motherly love.`,
+        keyword: ["여성", "아름다움", "자연", "양육", "풍부"],
+        meaning: `여황제는 여성의 에너지, 창의성, 양육 및 풍요를 나타냅니다. 그녀는 자연과 삶의 순환과 연결되어 있음을 일깨워줍니다. 이 카드는 창의적인 프로젝트, 관계, 개인적인 노력 등 다산과 성장의 시간을 나타낼 수 있습니다. 아름다움, 우아함, 모성애의 카드입니다.
+        `,
       },
       reverse: {
-        keyword: ["Creative block", "dependence on others"],
-        meaning: `In reverse, The Empress can suggest a creative block or a feeling of being stuck. It may also indicate a reliance on others or a lack of independence. It's important to connect with one's own inner resources and creativity in order to move forward.`,
+        keyword: ["사랑", "타인에 대한 의존"],
+        meaning: `반대로 The Empress는 창의적인 블록이나 막힌 느낌을 제안할 수 있습니다. 또한 다른 사람에게 의존하거나 독립성이 부족함을 나타낼 수도 있습니다. 앞으로 나아가기 위해서는 자신의 내적 자원과 창의성을 연결하는 것이 중요합니다.
+        `,
       },
-      description: `The Empress is a symbol of femininity and abundance. She is surrounded by nature and draws her energy from the earth. The pomegranates on her robe represent fertility and the cushion with the symbol of Venus reflects her connection with love and beauty. The Empress is a reminder to nurture oneself and others and to connect with the cycles of life. She represents the energy of creation and the power of the feminine.`,
+      description: `여황제는 여성성과 풍요의 상징입니다. 그녀는 자연에 둘러싸여 있으며 지구에서 에너지를 얻습니다. 그녀의 가운에 있는 석류는 다산을 상징하고 비너스의 상징이 있는 쿠션은 사랑과 아름다움에 대한 그녀의 연결을 나타냅니다. 여황제는 자신과 타인을 양육하고 삶의 순환과 연결하도록 상기시켜줍니다. 그녀는 창조의 에너지와 여성의 힘을 나타냅니다.
+      `,
     },
     {
       id: 4,
@@ -79,19 +83,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/4.jpg"),
       upright: {
-        keyword: ["Authority", "establishment", "structure", "a father figure"],
-        meaning: `The Emperor represents authority, structure, and a sense of stability. He is a father figure and a symbol of leadership and control. This card can indicate a need for discipline and order in one's life, or a time to establish oneself as a leader or mentor. It is a card of power, protection, and rationality.`,
+        keyword: ["권한", "설립", "구조", "아버지의 모습"],
+        meaning: `황제는 권위, 구조 및 안정감을 나타냅니다. 그는 아버지의 모습이며 리더십과 통제의 상징입니다. 이 카드는 자신의 삶에서 규율과 질서가 필요하거나 리더나 멘토로 자신을 확립해야 할 때를 나타낼 수 있습니다. 힘, 보호, 합리성의 카드입니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Domination",
-          "excessive control",
-          "lack of discipline",
-          "inflexibility",
-        ],
-        meaning: `In reverse, The Emperor can suggest an abuse of power, excessive control, or a lack of flexibility. It may also indicate a disregard for emotions and a need to reconnect with one's intuition. It's important to balance power with empathy and understanding in order to lead effectively.`,
+        keyword: ["지배", "과도한 통제", "규율 부족", "고집"],
+        meaning: `반대로 The Emperor는 권력 남용, 과도한 통제 또는 유연성 부족을 암시할 수 있습니다. 또한 감정을 무시하고 자신의 직관과 다시 연결해야 할 필요성을 나타낼 수도 있습니다. 효과적으로 이끌기 위해서는 힘과 공감 및 이해의 균형을 맞추는 것이 중요합니다.
+        `,
       },
-      description: `The Emperor is a symbol of authority and control. He sits on his throne with a stern expression, representing his rational and logical nature. The ram's heads on his throne and scepter reflect his power and strength, while the ankh on his robe represents his connection to the divine. The Emperor is a reminder to establish order and structure in one's life, and to take control of one's destiny with discipline and rationality.`,
+      description: `황제는 권위와 지배의 상징이다. 이성적이고 논리적인 성격을 대변하는 엄격한 표정으로 왕좌에 앉는다. 그의 왕좌와 홀에 있는 숫양의 머리는 그의 힘과 힘을 반영하는 반면, 그의 옷에 있는 앙크는 신과의 연결을 나타냅니다. 황제는 자신의 삶에 질서와 구조를 확립하고 규율과 합리성을 가지고 자신의 운명을 통제하도록 일깨워주는 존재입니다.
+      `,
     },
     {
       id: 5,
@@ -99,20 +101,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/5.jpg"),
       upright: {
-        keyword: [
-          "Spiritual wisdom",
-          "religious beliefs",
-          "conformity",
-          "tradition",
-          "institutions",
-        ],
-        meaning: `The Hierophant represents tradition, conformity, and adherence to established structures and institutions. It can indicate a need for spiritual guidance and seeking answers from religious or other authoritative figures. This card also highlights the importance of maintaining a sense of community and group identity.`,
+        keyword: ["영적인 지혜", "종교적 신념", "적합성", "전통적", "기관"],
+        meaning: `Hierophant는 전통, 적합성 및 기존 구조 및 제도에 대한 준수를 나타냅니다. 영적 인도가 필요하고 종교적 또는 기타 권위 있는 인물로부터 답을 구해야 함을 나타낼 수 있습니다. 이 카드는 또한 공동체 의식과 집단 정체성을 유지하는 것의 중요성을 강조합니다.
+        `,
       },
       reverse: {
-        keyword: ["Personal beliefs", "freedom", "challenging the status quo"],
-        meaning: `In reverse, The Hierophant suggests a rejection of traditional values and a desire to break free from established norms and conventions. It may indicate a need to explore unorthodox beliefs or to find a spiritual path outside of established institutions.`,
+        keyword: ["개인적인 신념", "자유", "현상 유지에 도전"],
+        meaning: `반대로 The Hierophant는 전통적인 가치에 대한 거부와 기존 규범과 관습에서 벗어나려는 열망을 제안합니다. 그것은 비정통적인 믿음을 탐구하거나 기존 제도 밖에서 영적인 길을 찾아야 할 필요성을 나타낼 수 있습니다.
+        `,
       },
-      description: `The Hierophant is a figure of authority and wisdom, often associated with religious leaders or other figures who hold positions of power within established institutions. He sits between two pillars, representing the balance of masculine and feminine energies. The three tiers of his crown symbolize the three worlds of the divine, the human, and the underworld. The Hierophant reminds us of the importance of tradition and community while also encouraging us to question established beliefs and seek our own spiritual path.`,
+      description: `Hierophant는 권위와 지혜의 인물이며 종종 종교 지도자 또는 기존 기관 내에서 권력을 가진 다른 인물과 관련이 있습니다. 그는 남성 에너지와 여성 에너지의 균형을 나타내는 두 기둥 사이에 앉아 있습니다. 그의 왕관의 세 층은 신성, 인간 및 지하 세계의 세 세계를 상징합니다. Hierophant는 우리에게 전통과 공동체의 중요성을 상기시키는 동시에 기존 신념에 의문을 제기하고 우리 자신의 영적 길을 찾도록 격려합니다.
+      `,
     },
     {
       id: 6,
@@ -120,25 +119,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/6.jpg"),
       upright: {
-        keyword: [
-          "Love",
-          "harmony",
-          "relationships",
-          "values alignment",
-          "choices",
-        ],
-        meaning: `The Lovers card represents love, relationships, and choices. It is a reminder to follow your heart and make decisions based on what feels right. This card can indicate a new romantic partnership or a deepening of an existing one. It can also suggest a need for balance and harmony in all types of relationships, not just romantic ones.`,
+        keyword: ["사랑", "조화", "관계", "선택"],
+        meaning: `연인 카드는 사랑, 관계 및 선택을 나타냅니다. 그것은 당신의 마음을 따르고 옳다고 느끼는 것에 따라 결정을 내리도록 상기시켜줍니다. 이 카드는 새로운 연인 관계 또는 기존 관계의 심화를 나타낼 수 있습니다. 또한 낭만적인 관계뿐만 아니라 모든 유형의 관계에서 균형과 조화가 필요함을 암시할 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Self-love",
-          "disharmony",
-          "imbalance",
-          "misalignment of values",
-        ],
-        meaning: `In reverse, The Lovers can suggest disharmony and a lack of balance in relationships. It may indicate unhealthy partnerships or a betrayal of trust. It's important to reassess your relationships and make choices that align with your values and beliefs.`,
+        keyword: ["자기애", "부조화", "불균형", "잘못된 가치관"],
+        meaning: `반대로 The Lovers는 관계의 부조화와 균형 부족을 암시할 수 있습니다. 그것은 건강하지 못한 파트너십이나 신뢰의 배반을 나타낼 수 있습니다. 관계를 재평가하고 가치와 신념에 맞는 선택을 하는 것이 중요합니다.
+        `,
       },
-      description: `The Lovers card shows two figures, often interpreted as Adam and Eve, standing in the Garden of Eden under an angel, representing Raphael, the archangel of air, who blesses their union. The card represents the union of masculine and feminine energies and the balance that can be achieved in relationships. The Lovers can also symbolize the choices that we make in life and the importance of listening to our intuition.`,
+      description: `Lovers 카드는 천사 아래 에덴 동산에 서있는 아담과 이브로 해석되는 두 인물을 보여줍니다. 이는 그들의 결합을 축복하는 공기의 대천사 라파엘을 나타냅니다. 카드는 남성적 에너지와 여성적 에너지의 결합과 관계에서 달성할 수 있는 균형을 나타냅니다. 연인들은 또한 우리가 인생에서 내리는 선택과 직감에 귀를 기울이는 것의 중요성을 상징할 수 있습니다.
+      `,
     },
     {
       id: 7,
@@ -146,14 +137,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/7.jpg"),
       upright: {
-        keyword: ["Control", "willpower", "success", "action", "determination"],
-        meaning: `The Chariot represents willpower, control, and determination. This card indicates that the querent is in control of their life and has the necessary focus to achieve their goals. The Chariot can also indicate a victory or a successful journey. It reminds us that we have the power to overcome obstacles and challenges through sheer force of will.`,
+        keyword: ["제어", "의지력", "성공", "행동", "결정"],
+        meaning: `전차는 의지력, 통제력, 결단력을 나타냅니다. 이 카드는 의뢰인이 자신의 삶을 통제하고 목표를 달성하는 데 필요한 초점을 가지고 있음을 나타냅니다. 전차는 승리나 성공적인 여정을 나타낼 수도 있습니다. 그것은 우리에게 순전한 의지의 힘으로 장애물과 도전을 극복할 수 있는 힘이 있음을 상기시켜줍니다.
+        `,
       },
       reverse: {
-        keyword: ["Self-discipline", "opposition", "lack of direction"],
-        meaning: `In reverse, The Chariot can suggest self-doubt or a lack of control. It may indicate a defeat or a sense of being lost. This card reminds us to trust in ourselves and our abilities, and to regain control over our lives.`,
+        keyword: ["자기 규율", "반대", "방향성 부족"],
+        meaning: `반대로 The Chariot은 자기 의심이나 통제력 부족을 암시할 수 있습니다. 패배 또는 패배감을 나타낼 수 있습니다. 이 카드는 우리 자신과 우리의 능력을 신뢰하고 우리의 삶에 대한 통제력을 되찾도록 일깨워줍니다.
+        `,
       },
-      description: `The Chariot is a symbol of willpower and control. The charioteer drives the chariot with a fierce determination and focus, representing the power of the mind to overcome obstacles. The sphinxes pulling the chariot represent the opposing forces that must be harnessed and controlled. The Chariot reminds us that we are in control of our own destiny, and that victory can be achieved through focus and determination.`,
+      description: `전차는 의지력과 통제력의 상징입니다. 마부는 맹렬한 결단력과 집중력으로 마차를 몰며 장애물을 극복하는 마음의 힘을 나타냅니다. 마차를 끄는 스핑크스는 통제하고 통제해야 하는 반대 세력을 나타냅니다. Chariot은 우리가 자신의 운명을 통제하고 있으며 승리는 집중과 결단력을 통해 달성될 수 있음을 상기시켜줍니다.
+      `,
     },
     {
       id: 8,
@@ -161,23 +155,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/8.jpg"),
       upright: {
-        keyword: [
-          "Strength",
-          "courage",
-          "persuasion",
-          "influence",
-          "compassion",
-        ],
+        keyword: ["힘", "용기", "설득", "영향", "동정심"],
         meaning:
-          "Strength represents courage, inner power, and resilience. It indicates that one has the strength to overcome any obstacles or challenges. This card reminds us that true strength comes from within and that we have the power to control our own destiny.",
+          "힘은 용기, 내면의 힘, 회복력을 나타냅니다. 어떤 장애물이나 어려움도 극복할 수 있는 힘이 있음을 나타냅니다. 이 카드는 우리에게 진정한 힘은 내면에서 나오며 우리 자신의 운명을 통제할 수 있는 힘이 있음을 상기시켜줍니다.",
       },
       reverse: {
-        keyword: ["Inner strength", "self-doubt", "low energy", "raw emotion"],
-        meaning:
-          "In reverse, Strength can suggest feelings of self-doubt, weakness, or insecurity. It may be a reminder to tap into one's inner strength and build confidence. This card can also indicate the need to be patient and gentle with oneself.",
+        keyword: ["내면의 힘", "자기 의심", "에너지 부족", "원시 감정"],
+        meaning: `반대로 Strength는 자기 의심, 약점 또는 불안감을 암시할 수 있습니다. 그것은 자신의 내면의 힘을 활용하고 자신감을 키우라는 알림일 수 있습니다. 이 카드는 또한 자신에게 인내심과 부드러움이 필요함을 나타낼 수 있습니다.
+          `,
       },
-      description:
-        "The Strength card depicts a woman taming a lion. This represents the power of inner strength and self-control over external forces. The infinity symbol above her head signifies the infinite potential of our inner strength. The card reminds us that true strength comes from within, and with it, we can overcome any obstacles in our path.",
+      description: `Strength 카드는 사자를 길들이는 여성을 묘사합니다. 이것은 내면의 힘과 외부의 힘에 대한 자제력을 나타냅니다. 그녀의 머리 위의 무한대 기호는 우리 내면의 힘의 무한한 잠재력을 의미합니다. 카드는 우리에게 진정한 힘은 내면에서 나오며, 그것으로 우리는 앞길에 있는 모든 장애물을 극복할 수 있음을 상기시킵니다.
+        `,
     },
     {
       id: 9,
@@ -185,22 +173,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/9.jpg"),
       upright: {
-        keyword: [
-          "Soul-searching",
-          "introspection",
-          "being alone",
-          "inner guidance",
-        ],
-        meaning:
-          "The Hermit represents introspection, contemplation, and solitude. It's a time to withdraw from the outside world and focus on one's inner world. This card can indicate a need for reflection and self-discovery. It's important to take the time to understand oneself and find inner peace.",
+        keyword: ["성찰", "사색", "고독", "내면의 평화"],
+        meaning: `은둔자는 성찰, 사색, 고독을 나타냅니다. 외부 세계에서 물러나 자신의 내면 세계에 집중하는 시간입니다. 이 카드는 성찰과 자기 발견의 필요성을 나타낼 수 있습니다. 자신을 이해하고 내면의 평화를 찾는 시간을 갖는 것이 중요합니다.
+          `,
       },
       reverse: {
-        keyword: ["Isolation", "loneliness", "withdrawal"],
-        meaning:
-          "In reverse, The Hermit can suggest a feeling of loneliness or isolation. It may indicate a tendency to withdraw from others or a fear of social interaction. It's important to find a balance between introspection and connection with others.",
+        keyword: ["격리", "외로움", "철수"],
+        meaning: `반대로 The Hermit은 외로움이나 고립감을 암시할 수 있습니다. 다른 사람에게서 물러나는 경향이나 사회적 상호 작용에 대한 두려움을 나타낼 수 있습니다. 성찰과 타인과의 연결 사이에서 균형을 찾는 것이 중요합니다.
+          `,
       },
-      description:
-        "The Hermit is a symbol of wisdom and self-discovery. He is often depicted holding a lantern, representing the light of knowledge and guidance. The snow on the mountain represents purity and clarity of thought, and the staff represents the support and guidance needed to navigate through life's challenges. The Hermit reminds us to take the time for self-reflection and to seek guidance when needed.",
+      description: `은둔자는 지혜와 자기 발견의 상징입니다. 그는 종종 지식과 인도의 빛을 상징하는 랜턴을 들고 있는 것으로 묘사됩니다. 산 위의 눈은 생각의 순수함과 명료함을 나타내고 직원은 인생의 도전을 헤쳐나가는 데 필요한 지원과 안내를 나타냅니다. 은둔자는 우리에게 자기 성찰의 시간을 갖고 필요할 때 지침을 구하도록 상기시킵니다.
+        `,
     },
     {
       id: 10,
@@ -208,23 +191,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/10.jpg"),
       upright: {
-        keyword: [
-          "Good luck",
-          "karma",
-          "life cycles",
-          "destiny",
-          "a turning point",
-        ],
-        meaning:
-          "The Wheel of Fortune represents the cyclical nature of life and the constant changes that we experience. It is a reminder that everything is always in motion and that our fortunes can change at any moment. This card often indicates a turning point or a moment of fate in one's life. It can also suggest upward mobility and positive changes if approached with an open and accepting attitude.",
+        keyword: ["행운", "업보", "라이프 사이클", "운명", "전환점"],
+        meaning: `Wheel of Fortune은 삶의 주기적인 특성과 우리가 경험하는 끊임없는 변화를 나타냅니다. 모든 것이 항상 움직이고 있으며 우리의 운명은 언제든지 바뀔 수 있음을 상기시켜줍니다. 이 카드는 종종 인생의 전환점이나 운명의 순간을 나타냅니다. 개방적이고 수용적인 태도로 접근하면 상향 이동성과 긍정적인 변화를 암시할 수도 있습니다.
+          `,
       },
       reverse: {
-        keyword: ["Bad luck", "resistance to change", "breaking cycles"],
-        meaning:
-          "In reverse, the Wheel of Fortune can indicate being stuck in a negative cycle or experiencing bad luck. It may also suggest a resistance to change or a fear of the unknown. It is important to remain open and adaptable during times of transition in order to overcome obstacles and move forward.",
+        keyword: ["불운", "변화에 대한 저항", "순환이 깨짐"],
+        meaning: `반대로 Wheel of Fortune은 부정적인 주기에 갇히거나 불운을 경험하고 있음을 나타낼 수 있습니다. 또한 변화에 대한 저항이나 미지에 대한 두려움을 암시할 수도 있습니다. 장애물을 극복하고 앞으로 나아가기 위해서는 변화의 시기에 개방적이고 적응력을 유지하는 것이 중요합니다.
+          `,
       },
-      description:
-        "The Wheel of Fortune depicts a large wheel turning in the heavens. The four figures on the corners of the card represent the four fixed signs of the zodiac (Leo, Taurus, Aquarius, and Scorpio), symbolizing stability and balance. The sphinx at the top of the wheel represents knowledge and wisdom. The snake on the right side of the wheel represents life's challenges, while the Anubis on the left represents transitions and transformation. The Wheel of Fortune reminds us that everything is in constant motion, and that we must be prepared to adapt to life's changes in order to succeed.",
+      description: `The Wheel of Fortune은 하늘에서 회전하는 큰 바퀴를 묘사합니다. 카드 모서리에 있는 4개의 숫자는 안정성과 균형을 상징하는 12궁도의 4개 고정 표시(사자자리, 황소자리, 물병자리, 전갈자리)를 나타냅니다. 바퀴 꼭대기에 있는 스핑크스는 지식과 지혜를 나타냅니다. 바퀴의 오른쪽에 있는 뱀은 삶의 도전을 나타내고 왼쪽에 있는 아누비스는 전환과 변화를 나타냅니다. 행운의 수레바퀴는 모든 것이 끊임없이 움직이고 성공하기 위해서는 삶의 변화에 ​​적응할 준비가 되어 있어야 한다는 것을 상기시켜 줍니다.
+        `,
     },
     {
       id: 11,
@@ -232,14 +209,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/11.jpg"),
       upright: {
-        keyword: ["Justice", "fairness", "truth", "cause and effect", "law"],
-        meaning: `Justice represents balance, fairness, and truth. This card suggests that a situation will be resolved in a just manner, and that the truth will be revealed. It is a reminder to stay true to oneself and to act with integrity. Justice can also indicate legal matters, contracts, or negotiations, and may suggest a need for compromise or finding common ground.`,
+        keyword: ["정의", "공정", "진실", "원인과 결과", "법"],
+        meaning: `정의는 균형, 공정성 및 진실을 나타냅니다. 이 카드는 상황이 공정하게 해결되고 진실이 밝혀질 것임을 암시합니다. 자기 자신에게 충실하고 성실하게 행동해야 한다는 점을 일깨워 주는 것입니다. 정의는 또한 법적 문제, 계약 또는 협상을 나타낼 수 있으며 타협 또는 공통점 찾기의 필요성을 제안할 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Unfairness", "lack of accountability", "dishonesty"],
-        meaning: `In reverse, Justice can indicate injustice, dishonesty, or a lack of accountability. It may suggest that a situation is not being resolved fairly, or that someone is not being truthful. It's important to reassess the situation and make sure that one is acting with integrity and seeking the truth.`,
+        keyword: ["불공정", "책임감 부족", "정직하지 않음"],
+        meaning: `반대로 정의는 불의, 부정직 또는 책임 부족을 나타낼 수 있습니다. 상황이 공정하게 해결되지 않거나 누군가가 진실하지 않다는 것을 암시할 수 있습니다. 상황을 재평가하고 정직하게 행동하고 진실을 찾고 있는지 확인하는 것이 중요합니다.
+        `,
       },
-      description: `Justice is a symbol of balance and fairness. The scales in her hand represent the weighing of evidence and the balance of opposing forces. The sword represents truth and the power of the law. Justice reminds us to act with integrity and to seek the truth, even when it may be difficult. She is a reminder that fairness and balance are important in all aspects of life.`,
+      description: `정의는 균형과 공정의 상징입니다. 그녀의 손에 있는 저울은 증거의 무게와 반대 세력의 균형을 나타냅니다. 칼은 진리와 율법의 권능을 상징합니다. 정의는 우리가 정직하게 행동하고 어렵더라도 진실을 찾도록 일깨워줍니다. 그녀는 삶의 모든 측면에서 공정성과 균형이 중요하다는 사실을 일깨워줍니다.
+      `,
     },
     {
       id: 12,
@@ -247,14 +227,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/12.jpg"),
       upright: {
-        keyword: ["Pause", "surrender", "letting go", "new perspectives"],
-        meaning: `The Hanged Man represents the act of letting go, surrendering, and gaining a new perspective. It's a reminder to pause and consider the situation from a different angle. This card often indicates a sacrifice or a willingness to make a change in order to achieve one's goals.`,
+        keyword: ["정지", "항복", "놓아주다", "새로운 관점"],
+        meaning: `매달린 남자는 놓아주고, 항복하고, 새로운 관점을 얻는 행위를 나타냅니다. 일시 중지하고 다른 각도에서 상황을 고려하라는 알림입니다. 이 카드는 종종 자신의 목표를 달성하기 위해 변화하려는 희생이나 의지를 나타냅니다.
+        `,
       },
       reverse: {
-        keyword: ["Delays", "resistance", "stalling", "indecision"],
-        meaning: `In reverse, The Hanged Man can suggest stubbornness, resistance to change, or a feeling of being stuck. It's important to let go of old patterns and beliefs in order to move forward.`,
+        keyword: ["지연", "저항", "실속", "우유부단"],
+        meaning: `거꾸로 The Hanged Man은 완고함, 변화에 대한 저항 또는 갇힌 느낌을 암시할 수 있습니다. 앞으로 나아가기 위해서는 오래된 패턴과 신념을 버리는 것이 중요합니다.
+        `,
       },
-      description: `The Hanged Man is often depicted upside down, suspended by one foot. This position represents surrender and sacrifice, a willingness to let go of old beliefs and perspectives. The Hanged Man invites us to see the world from a different point of view, to pause and consider our situation before making a decision. This card can indicate a time of transition, a sacrifice that must be made in order to achieve a goal, or a period of waiting and reflection. Ultimately, The Hanged Man is a symbol of letting go and gaining a new perspective.`,
+      description: `매달린 남자는 종종 한 발로 매달린 거꾸로 거꾸로 묘사됩니다. 이 위치는 항복과 희생, 오래된 신념과 관점을 기꺼이 버리려는 의지를 나타냅니다. The Hanged Man은 우리가 다른 관점에서 세상을 보고 결정을 내리기 전에 잠시 멈추고 우리의 상황을 고려하도록 초대합니다. 이 카드는 전환의 시간, 목표를 달성하기 위해 치러야 하는 희생 또는 기다림과 반성의 기간을 나타낼 수 있습니다. 궁극적으로 The Hanged Man은 놓아주고 새로운 관점을 얻는 상징입니다.
+      `,
     },
     {
       id: 13,
@@ -262,33 +245,35 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/13.jpg"),
       upright: {
-        keyword: ["Endings", "change", "transformation", "transition"],
-        meaning: `Death represents the end of a cycle and the beginning of something new. It is a card of change, transformation, and transition. It may indicate a time to surrender and let go of old patterns, relationships, or beliefs that no longer serve a purpose. Although the card may seem ominous, it is a reminder that death is a natural part of the cycle of life.`,
+        keyword: ["결말", "변화", "변환", "이행"],
+        meaning: `죽음은 순환의 끝과 새로운 무언가의 시작을 나타냅니다. 변화, 변혁, 전환의 카드입니다. 더 이상 목적에 부합하지 않는 오래된 패턴, 관계 또는 신념을 포기하고 놓아야 할 때를 나타낼 수 있습니다. 카드가 불길하게 보일 수 있지만 죽음은 삶의 순환에서 자연스러운 부분임을 상기시켜줍니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Resistance to change",
-          "personal transformation",
-          "inner purging",
-        ],
-        meaning: `In reverse, Death can indicate a resistance to change or a fear of the unknown. It may also suggest a need to let go of attachments or relationships that are preventing growth and transformation. It is important to embrace the inevitability of change and trust in the universe's plan.`,
+        keyword: ["변화에 대한 저항", "개인적인 변화", "내부적인 청산"],
+        meaning: `반대로 죽음은 변화에 대한 저항이나 미지에 대한 두려움을 나타낼 수 있습니다. 또한 성장과 변화를 방해하는 애착이나 관계를 놓아야 할 필요성을 암시할 수도 있습니다. 우주의 계획에 대한 신뢰와 변화의 필연성을 받아들이는 것이 중요합니다.
+        `,
       },
-      description: `Death is a card of transformation and change. It represents the end of one cycle and the beginning of another. The skeleton riding the horse symbolizes the inevitability of death, while the bishop and child in the foreground represent the different stages of life. The rising sun in the background reminds us that life goes on, and that new beginnings are always possible.`,
+      description: `죽음은 변형과 변화의 카드입니다. 한 주기의 끝과 다른 주기의 시작을 나타냅니다. 말을 탄 해골은 죽음의 필연성을 상징하며, 전경의 주교와 아이는 삶의 여러 단계를 나타냅니다. 배경의 떠오르는 태양은 인생이 계속되고 새로운 시작이 항상 가능하다는 것을 상기시켜줍니다.
+      `,
     },
     {
       id: 14,
       name: "절제",
       isReverse: false,
       image: require("assets/images/cards/14.jpg"),
+      keyword: ["균형", "절제", "인내심", "목적"],
       upright: {
-        keyword: ["Balance", "moderation", "patience", "purpose"],
-        meaning: `Temperance is a card of balance and moderation. It suggests the need for patience and self-control, and the importance of finding harmony in all areas of life. This card also indicates a need for healing and restoration, both physically and emotionally.`,
+        meaning: `절제는 균형과 절제의 카드입니다. 그것은 인내와 자제력의 필요성과 삶의 모든 영역에서 조화를 찾는 것의 중요성을 시사합니다. 이 카드는 또한 육체적으로나 정서적으로 치유와 회복의 필요성을 나타냅니다.
+        `,
       },
       reverse: {
-        keyword: ["Imbalance", "excess", "self-healing", "re-alignment"],
-        meaning: `In reverse, Temperance can indicate a lack of balance or extremes in behavior. It may suggest an overindulgence in one area of life, leading to imbalance or disharmony. It's important to find a middle ground and practice moderation in all things.`,
+        keyword: ["불균형", "초과", "자가 치유", "재정렬"],
+        meaning: `반대로 절제는 균형이 부족하거나 행동이 극단적임을 나타낼 수 있습니다. 그것은 삶의 한 영역에 대한 지나친 방종을 시사하여 불균형이나 부조화로 이어질 수 있습니다. 중간 지점을 찾고 모든 일에서 절제를 실천하는 것이 중요합니다.
+        `,
       },
-      description: `Temperance is a card of balance and harmony. The angel on the card represents a mediator or messenger, bringing together opposing forces and finding common ground. The two cups symbolize the mixing of different elements to create something new. This card encourages patience, self-control, and the blending of different aspects of life to find a sense of wholeness.`,
+      description: `절제는 균형과 조화의 카드입니다. 카드의 천사는 중재자 또는 메신저를 나타내며 반대 세력을 모으고 공통점을 찾습니다. 두 개의 컵은 서로 다른 요소가 혼합되어 새로운 것을 창조함을 상징합니다. 이 카드는 온전함을 찾기 위해 인내, 자제력, 삶의 다양한 측면을 혼합하도록 권장합니다.
+      `,
     },
     {
       id: 15,
@@ -296,24 +281,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/15.jpg"),
       upright: {
-        keyword: [
-          "Shadow self",
-          "attachment",
-          "addiction",
-          "restriction",
-          "sexuality",
-        ],
-        meaning: `The Devil represents the shadow side of ourselves that is ruled by fear, addiction, and materialism. It can indicate a time of feeling trapped or enslaved to our own desires or to external forces. This card reminds us to confront our fears and to take responsibility for our own actions in order to break free from negative patterns.`,
+        keyword: ["내면의 그림자", "부착", "탐닉", "제한", "성별"],
+        meaning: `악마는 두려움, 중독, 물질주의가 지배하는 우리 자신의 그림자 측면을 나타냅니다. 그것은 우리 자신의 욕망이나 외부의 힘에 갇히거나 노예가 된 느낌의 시간을 나타낼 수 있습니다. 이 카드는 부정적인 패턴에서 벗어나기 위해 두려움에 맞서고 자신의 행동에 책임을 져야 한다는 것을 상기시켜줍니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Releasing limiting beliefs",
-          "exploring dark thoughts",
-          "detachment",
-        ],
-        meaning: `In reverse, The Devil suggests a release from fear, addiction, or negative patterns. It can indicate a time of self-awareness and breaking free from constraints. This card reminds us that we have the power to overcome obstacles and to find freedom in our lives.`,
+        keyword: ["제한적 신념 해제", "어두운 생각을 탐구", "분리"],
+        meaning: `반대로 The Devil은 두려움, 중독 또는 부정적인 패턴으로부터의 해방을 제안합니다. 그것은 자기 인식과 제약에서 벗어나는 시간을 나타낼 수 있습니다. 이 카드는 장애물을 극복하고 삶에서 자유를 찾을 수 있는 힘이 우리에게 있음을 상기시켜줍니다.
+        `,
       },
-      description: `The Devil is a symbol of temptation, materialism, and addiction. The chains around the figures in the card represent the things that bind us and prevent us from being truly free. The card is a reminder that we have the power to break free from these chains, but we must be willing to confront our fears and take action. The Devil can also indicate a need for self-reflection and a recognition of the things that are holding us back.`,
+      description: `악마는 유혹, 물질주의, 중독의 상징입니다. 카드의 인물을 둘러싼 사슬은 우리를 묶고 진정한 자유를 방해하는 것을 나타냅니다. 이 카드는 우리가 이러한 사슬에서 벗어날 수 있는 힘이 있지만 두려움에 맞서고 행동을 취해야 한다는 것을 상기시켜줍니다. 악마는 또한 자기 성찰의 필요성과 우리를 방해하는 것들에 대한 인식을 나타낼 수 있습니다.
+      `,
     },
     {
       id: 16,
@@ -321,24 +299,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/16.jpg"),
       upright: {
-        keyword: [
-          "Sudden change",
-          "upheaval",
-          "chaos",
-          "revelation",
-          "awakening",
-        ],
-        meaning: `The Tower is a card that represents sudden change and upheaval. It often appears in a reading when one's foundations are being shaken or when a situation is no longer sustainable. While this can be a difficult and painful process, it is often necessary in order to create space for growth and new beginnings. The Tower can also represent awakening, as it shakes us out of our complacency and forces us to confront the truth.`,
+        keyword: ["급격한 변화", "대변동", "혼돈", "시현", "각성"],
+        meaning: `탑은 급격한 변화와 격변을 나타내는 카드입니다. 자신의 기반이 흔들리거나 상황이 더 이상 지속될 수 없을 때 독서에 자주 등장합니다. 이것은 어렵고 고통스러운 과정일 수 있지만 성장과 새로운 시작을 위한 공간을 만들기 위해 종종 필요합니다. 탑은 우리를 안일함에서 벗어나게 하고 진실을 직시하도록 강요하기 때문에 각성을 나타낼 수도 있습니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Personal transformation",
-          "fear of change",
-          "averting disaster",
-        ],
-        meaning: `In reverse, The Tower can indicate a fear of change or a tendency to avoid difficult situations. It may suggest a need to confront one's fears and embrace the necessary upheaval in order to move forward. It can also indicate a delay in the process of change.`,
+        keyword: ["개인적인 변화", "변화에 대한 두려움", "재앙을 피함"],
+        meaning: `반대로 The Tower는 변화에 대한 두려움이나 어려운 상황을 피하려는 경향을 나타낼 수 있습니다. 앞으로 나아가기 위해 자신의 두려움에 맞서고 필요한 격변을 받아들여야 할 필요성을 암시할 수 있습니다. 또한 변경 프로세스의 지연을 나타낼 수도 있습니다.
+        `,
       },
-      description: `The Tower is a card that represents sudden change and upheaval. In the image, a tower is being struck by lightning, causing it to crumble and fall apart. People are falling from the tower, indicating that the change is unexpected and may be accompanied by chaos and disruption. However, the lightning also represents a flash of insight and awareness that can come with sudden change. The Tower is a reminder to trust the process and embrace the upheaval, as it can ultimately lead to growth and transformation.`,
+      description: `탑은 급격한 변화와 격변을 나타내는 카드입니다. 이미지에서 탑은 번개에 맞아 부서지고 무너지고 있습니다. 사람들이 탑에서 떨어지고 있는데 이는 예상치 못한 변화이며 혼돈과 혼란을 수반할 수 있음을 나타냅니다. 그러나 번개는 또한 갑작스러운 변화와 함께 올 수 있는 통찰력과 인식의 섬광을 나타냅니다. The Tower는 궁극적으로 성장과 변혁으로 이어질 수 있는 과정을 신뢰하고 격변을 포용해야 한다는 것을 상기시켜줍니다.
+      `,
     },
     {
       id: 17,
@@ -346,17 +317,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/17.jpg"),
       upright: {
-        keyword: ["Hope", "faith", "purpose", "renewal", "spirituality"],
-        meaning:
-          "The Star represents hope, inspiration, renewal, and spirituality. It is a card of optimism and a reminder that there is always light in the darkness. This card encourages you to connect with your higher self and trust in the universe. It is a sign that things are about to get better, and that you should keep moving forward with faith and courage.",
+        keyword: ["희망", "믿음", "목적", "갱신", "영성"],
+        meaning: `별은 희망, 영감, 갱신 및 영성을 나타냅니다. 그것은 낙천주의의 카드이며 항상 어둠 속에 빛이 있다는 것을 상기시켜줍니다. 이 카드는 당신이 더 높은 자아와 연결되고 우주를 신뢰하도록 격려합니다. 상황이 나아질 것이라는 신호이며 믿음과 용기를 가지고 계속 앞으로 나아가야 한다는 신호입니다.
+          `,
       },
       reverse: {
-        keyword: ["Lack of faith", "despair", "self-trust", "disconnection"],
-        meaning:
-          "In reverse, The Star can indicate a loss of faith, depression, or hopelessness. You may be feeling disconnected from your spirituality or struggling to find meaning in your life. It's important to remember that this is only temporary, and that the light will return. Use this time to reflect on what you truly believe in and to seek out sources of inspiration and hope.",
+        keyword: ["믿음의 부족", "절망", "자기 신뢰", "단절"],
+        meaning: `반대로 The Star는 믿음의 상실, 우울증 또는 절망을 나타낼 수 있습니다. 영성과 단절된 느낌을 받거나 삶의 의미를 찾기 위해 고군분투하고 있을 수 있습니다. 이것은 일시적일 뿐이며 빛이 돌아올 것임을 기억하는 것이 중요합니다. 이 시간을 사용하여 진정으로 믿는 것이 무엇인지 생각하고 영감과 희망의 원천을 찾으십시오.
+          `,
       },
-      description:
-        "The Star is a symbol of hope and renewal. The woman in the card represents the connection between heaven and earth, and the water represents the flow of life. The stars in the sky represent guidance and inspiration, and the seven smaller stars represent the chakras. The Star encourages you to connect with your higher self and to trust in the universe. It is a card of optimism and a reminder that there is always light in the darkness.",
+      description: `별은 희망과 갱신의 상징입니다. 카드 속 여자는 하늘과 땅의 연결을 나타내고 물은 생명의 흐름을 나타냅니다. 하늘의 별은 인도와 영감을 나타내고 일곱 개의 작은 별은 차크라를 나타냅니다. The Star는 당신이 더 높은 자아와 연결되고 우주를 신뢰하도록 격려합니다. 그것은 낙천주의의 카드이며 항상 어둠 속에 빛이 있다는 것을 상기시켜줍니다.
+        `,
     },
     {
       id: 18,
@@ -364,17 +335,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/18.jpg"),
       upright: {
-        keyword: ["Illusion", "fear", "anxiety", "subconscious", "intuition"],
-        meaning:
-          "The Moon represents the unconscious mind, dreams, and intuition. It can indicate confusion, fear, or uncertainty, and a need to trust one's instincts. The card is often associated with the feminine and the power of the moon, and can indicate hidden or mysterious aspects of oneself or a situation.",
+        keyword: ["환각", "두려움", "불안", "잠재의식", "직관"],
+        meaning: `달은 무의식, 꿈, 직관을 나타냅니다. 혼란, 두려움 또는 불확실성, 본능을 믿어야 할 필요성을 나타낼 수 있습니다. 이 카드는 종종 여성성과 달의 힘과 관련이 있으며 자신이나 상황의 숨겨진 또는 신비한 측면을 나타낼 수 있습니다.
+          `,
       },
       reverse: {
-        keyword: ["Release of fear", "repressed emotion", "inner confusion"],
-        meaning:
-          "In reverse, The Moon can suggest a release of fear or repressed emotions. It may indicate a time to confront and overcome one's fears, or a time to delve deeper into one's own psyche and uncover hidden truths. The card can also indicate a need for clarity and a release from confusion or uncertainty.",
+        keyword: ["두려움의 해방", "억압된 감정", "내면의 혼란"],
+        meaning: `반대로 The Moon은 두려움이나 억압된 감정의 해방을 암시할 수 있습니다. 그것은 자신의 두려움에 직면하고 극복해야 할 때를 나타낼 수도 있고, 자신의 정신을 더 깊이 파고들어 숨겨진 진실을 밝혀야 할 때를 나타낼 수도 있습니다. 이 카드는 또한 명확성이 필요하고 혼란이나 불확실성에서 벗어나야 함을 나타낼 수 있습니다.
+          `,
       },
-      description:
-        "The Moon is a symbol of the unconscious mind, intuition, and hidden aspects of oneself. The two dogs represent the conscious and unconscious minds, and the crayfish emerging from the water represents the emergence of repressed emotions. The moon in the sky is a symbol of feminine power and the cyclical nature of life.",
+      description: `달은 자신의 무의식과 직관, 숨겨진 측면을 상징한다. 두 마리의 개는 의식과 무의식을 나타내고, 물에서 나오는 가재는 억압된 감정의 출현을 나타낸다. 하늘의 달은 여성의 힘과 생명의 순환성을 상징합니다.
+        `,
     },
     {
       id: 19,
@@ -382,14 +353,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/19.jpg"),
       upright: {
-        keyword: ["Positivity", "fun", "warmth", "success", "vitality"],
-        meaning: `The Sun represents joy, vitality, and positive energy. It is a card of good health, success, and happiness. This card can indicate a time of renewal, growth, and new beginnings. It is a reminder to embrace life with enthusiasm and to stay optimistic even in difficult times.`,
+        keyword: ["긍정", "기쁨", "따뜻함", "성공", "활력"],
+        meaning: `태양은 기쁨, 활력, 긍정적인 에너지를 나타냅니다. 건강, 성공, 행복의 카드입니다. 이 카드는 갱신, 성장 및 새로운 시작의 시간을 나타낼 수 있습니다. 열정으로 삶을 포용하고 어려운 시기에도 낙관적인 자세를 유지하도록 일깨워줍니다.
+        `,
       },
       reverse: {
-        keyword: ["Inner child", "feeling down", "overly optimistic"],
-        meaning: `In reverse, The Sun can suggest a temporary period of depression or lack of energy. It may also indicate a delay in success or a setback in one's plans. It's important to stay positive and to keep moving forward despite these challenges.`,
+        keyword: ["내면의 아이", "우울한 기분", "지나치게 낙관적"],
+        meaning: `반대로 The Sun은 일시적인 우울증이나 에너지 부족을 암시할 수 있습니다. 또한 성공의 지연이나 계획의 차질을 나타낼 수도 있습니다. 이러한 어려움에도 불구하고 긍정적인 자세를 유지하고 계속 앞으로 나아가는 것이 중요합니다.
+        `,
       },
-      description: `The Sun is a symbol of vitality, success, and joy. The child on the horse represents innocence and the pure expression of life energy. The sunflowers in the background represent the solar plexus, which is associated with personal power and self-esteem. The Sun is a reminder to embrace life with enthusiasm and to enjoy the journey.`,
+      description: `태양은 활력, 성공, 기쁨의 상징입니다. 말을 탄 아이는 순수함과 생명 에너지의 순수한 표현을 나타냅니다. 배경의 해바라기는 개인의 힘과 자존감과 관련된 태양 신경총을 나타냅니다. The Sun은 열정으로 삶을 포용하고 여행을 즐기도록 상기시켜줍니다.
+      `,
     },
     {
       id: 20,
@@ -397,14 +371,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/20.jpg"),
       upright: {
-        keyword: ["Judgement", "rebirth", "inner calling", "absolution"],
-        meaning: `The Judgement card shows naked men, women, and children rising from their graves, arms outspread and looking up into the sky. Above, Archangel Gabriel – the Messenger of God – blows his trumpet. The people respond to his call, ready to be judged and to find out if they will be accepted into the heavens or not. In the background is an extensive mountain range, signifying the insurmountable obstacles and the impossibility of avoiding judgement.`,
+        keyword: ["심판", "갱생", "내면의 부름", "사면"],
+        meaning: `심판 카드는 벌거벗은 남자, 여자, 아이들이 무덤에서 일어나 팔을 벌리고 하늘을 올려다보는 모습을 보여줍니다. 위에서는 신의 메신저인 대천사 가브리엘이 나팔을 불고 있습니다. 백성은 그의 부르심에 응하여 심판을 받고 그들이 하늘로 받아들여질 것인지 알아보려고 준비합니다. 배경에는 극복할 수 없는 장애물과 판단을 피할 수 없음을 나타내는 광대한 산맥이 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Self-doubt", "inner critic", "ignoring the call"],
-        meaning: `The Judgement card in reverse suggests that you may be ignoring a call or a message that is trying to come through to you. You may be experiencing self-doubt or a harsh inner critic that is preventing you from hearing your inner voice. It's important to listen to your intuition and trust your instincts. This card can also indicate that you may be avoiding responsibility or accountability for your actions, and you need to face the consequences of your decisions.`,
+        keyword: ["자기 의심", "내면의 비판", "무시"],
+        meaning: `거꾸로 된 심판 카드는 당신에게 걸려오는 전화나 메시지를 무시하고 있을 수 있음을 암시합니다. 당신은 내면의 목소리를 듣지 못하게 막는 자기 의심이나 가혹한 내면의 비판을 경험하고 있을지도 모릅니다. 직감에 귀를 기울이고 본능을 신뢰하는 것이 중요합니다. 이 카드는 또한 자신의 행동에 대한 책임을 회피하고 있으며 자신의 결정의 결과에 직면해야 함을 나타낼 수 있습니다.
+        `,
       },
-      description: `The Judgement card represents a time of reckoning and a call to awaken from the past and prepare for the future. It signals a time of evaluation and contemplation, where we must examine our past decisions and actions, take responsibility for them, and make amends. This card is associated with a rebirth and a new beginning, where we can release ourselves from the burdens of the past and move forward with renewed purpose and clarity.`,
+      description: `심판 카드는 심판의 시간과 과거로부터 깨어나 미래를 준비하라는 외침을 나타냅니다. 그것은 우리가 과거의 결정과 행동을 반성하고 그에 대한 책임을 지고 수정해야 하는 평가와 숙고의 시간을 의미합니다. 이 카드는 중생 및 새로운 시작과 관련이 있으며, 여기서 우리는 과거의 짐에서 벗어나 새로운 목적과 명확성을 가지고 앞으로 나아갈 수 있습니다.
+      `,
     },
     {
       id: 21,
@@ -412,16 +389,19 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/21.jpg"),
       upright: {
-        keyword: ["Completion", "integration", "accomplishment", "travel"],
-        meaning: `The World card signifies completion and accomplishment. You have achieved a significant milestone or reached the end of a long journey. This card represents a sense of wholeness and a feeling of being complete, having integrated all aspects of yourself and your life. You have learned important lessons along the way, and now you can use your newfound knowledge and experience to pursue your next adventure with confidence. This card can also indicate travel, particularly to foreign lands.`,
+        keyword: ["완성", "완수", "여행"],
+        meaning: `세계 카드는 완성과 성취를 의미합니다. 중요한 이정표를 달성했거나 긴 여정의 끝에 도달했습니다. 이 카드는 자신과 삶의 모든 측면을 통합하여 온전함과 완전함을 나타냅니다. 그 과정에서 중요한 교훈을 얻었으며 이제 새로 얻은 지식과 경험을 사용하여 자신 있게 다음 모험을 추구할 수 있습니다. 이 카드는 특히 외국 땅으로의 여행을 나타낼 수도 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Seeking personal closure", "short-cuts", "delays"],
-        meaning: `The reversed World card suggests that you may be seeking personal closure or resolution. You feel like something is missing or incomplete, and you are searching for a way to tie up loose ends. This card can also indicate a tendency to take shortcuts or the need to slow down and take your time to avoid delays or obstacles. You may feel like you are spinning your wheels and not making progress, but remember that true completion takes time and effort.`,
+        keyword: ["개인적인 종결", "지름길", "지연"],
+        meaning: `뒤집힌 세계 카드는 당신이 개인적인 종결이나 해결책을 찾고 있을 수 있음을 암시합니다. 뭔가 빠졌거나 불완전한 것 같은 느낌이 들고 느슨한 끝을 묶을 방법을 찾고 있습니다. 이 카드는 또한 지름길을 택하는 경향이나 속도를 늦추고 지연이나 장애물을 피하기 위해 시간을 할애해야 할 필요성을 나타낼 수 있습니다. 수레바퀴를 돌고 있고 진전이 없는 것처럼 느낄 수 있지만 진정한 완성에는 시간과 노력이 필요함을 기억하십시오.
+        `,
       },
-      description: `The World card shows a naked woman wrapped in a purple cloth, dancing inside a large laurel wreath. She looks behind her to the past, while her body moves forward to the future. In her hands are two wands or batons, like the one The Magician holds. It is a symbol that what was manifested with The Magician has now come to completion with The World. The wreath is circular, symbolizing a continual cycle of successful completion and new beginnings because, as the woman steps through the wreath, she is completing one phase but beginning another one almost straight away.
+      description: `세계 카드에는 보라색 천으로 싸인 벌거벗은 여성이 큰 월계관 안에서 춤을 추는 모습이 나와 있습니다. 그녀는 과거를 뒤돌아보고 몸은 미래를 향해 나아갑니다. 그녀의 손에는 The Magician이 들고 있는 것과 같은 두 개의 지팡이 또는 지휘봉이 있습니다. The Magician에서 현현한 것이 이제 The World에서 완성되었다는 상징입니다. 화환은 원형이며 성공적인 완료와 새로운 시작의 연속적인 주기를 상징합니다. 왜냐하면 여성이 화환을 통과할 때 그녀는 한 단계를 완료하지만 거의 곧바로 다른 단계를 시작하기 때문입니다.
 
-    Around the wreath are four figures (a lion, bull, cherub and eagle), similar to those in the Wheel of Fortune. Both The World and the Wheel of Fortune speak to the cyclical nature of your life and your progression through its cycles. The four figures represent the four fixed signs of the Zodiac—Leo, Taurus, Aquarius, and Scorpio. They are symbolic of the four elements, the four suits of Tarot, four compass points, four seasons, and the four corners of the Universe. They are here to guide you from one phase to the next, bringing balance and harmony to your journey.`,
+      화환 주위에는 Wheel of Fortune에 있는 것과 유사한 네 개의 형상(사자, 황소, 천사, 독수리)이 있습니다. The World와 Wheel of Fortune은 모두 삶의 주기적인 특성과 주기를 통한 진행에 대해 이야기합니다. 네 개의 숫자는 조디악의 네 가지 고정된 별자리인 사자자리, 황소자리, 물병자리, 전갈자리를 나타냅니다. 그것들은 네 가지 요소, 타로의 네 벌, 네 개의 나침반 점, 사계절, 우주의 네 모서리를 상징합니다. 그들은 여기에서 한 단계에서 다음 단계로 안내하여 여정에 균형과 조화를 가져옵니다.
+    `,
     },
     {
       id: 22,
@@ -429,14 +409,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/22.jpg"),
       upright: {
-        keyword: ["New beginnings", "inspiration", "energy", "creativity"],
-        meaning: `The Ace of Wands represents the spark of inspiration that ignites the flame of creativity within you. This card is a sign of new beginnings, energy, enthusiasm, and passion. It suggests that you have the power and strength to make things happen and manifest your desires. It's a time to take action and seize opportunities that come your way. Your intuition is guiding you, and you are filled with confidence and determination.`,
+        keyword: ["새로운 시작", "영감", "에너지", "창의성"],
+        meaning: `Ace of Wands는 당신 안에 있는 창의성의 불꽃을 점화시키는 영감의 불꽃을 나타냅니다. 이 카드는 새로운 시작, 에너지, 열정, 열정의 표시입니다. 그것은 당신이 일이 일어나게 하고 당신의 욕망을 표현할 수 있는 힘과 힘이 있음을 암시합니다. 지금은 행동을 취하고 자신에게 오는 기회를 포착해야 할 때입니다. 당신의 직감이 당신을 인도하고 있으며 당신은 자신감과 결단력으로 가득 차 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Delays", "lack of direction", "lack of energy"],
-        meaning: `The reversed Ace of Wands suggests that you may be feeling stuck, uninspired, or lacking in motivation. You may be unsure of what direction to take or feel overwhelmed by the options available to you. It's important to take a step back and reconnect with your passions and inner fire. Look for new sources of inspiration and be open to exploring new ideas and opportunities. Trust that the creative spark will return in due time.`,
+        keyword: ["지연", "방향의 부족", "에너지 부족"],
+        meaning: `거꾸로 된 Ace of Wands는 당신이 갇혀 있거나, 영감을 받지 못했거나, 동기 부여가 부족하다고 느낄 수 있음을 시사합니다. 어떤 방향을 택해야 할지 확신이 서지 않거나 사용할 수 있는 옵션에 압도당할 수 있습니다. 한 걸음 물러서서 열정과 내면의 불을 다시 연결하는 것이 중요합니다. 새로운 영감의 원천을 찾고 열린 자세로 새로운 아이디어와 기회를 탐색하십시오. 창의적인 불꽃이 때가 되면 돌아올 것이라고 믿으세요.
+        `,
       },
-      description: `The Ace of Wands shows a hand holding a wand or staff, which is sprouting new leaves. This wand represents the primal energy of creation, the power of the Universe, and the potential for growth and expansion. The leaves on the wand represent the fiery energy of passion and creativity that fuels your dreams and goals. The mountains in the background symbolize the challenges you may face, but also the strength and stability that comes from overcoming them.`,
+      description: `Ace of Wands는 새 잎사귀가 돋아나는 지팡이나 지팡이를 들고 있는 손을 보여줍니다. 이 지팡이는 창조의 원초적 에너지, 우주의 힘, 성장과 확장의 잠재력을 나타냅니다. 지팡이의 잎사귀는 꿈과 목표에 연료를 공급하는 열정과 창의성의 불타는 에너지를 나타냅니다. 배경의 산은 당신이 직면할 수 있는 도전과 그것을 극복함으로써 오는 강인함과 안정을 상징합니다.
+      `,
     },
     {
       id: 23,
@@ -444,14 +427,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/23.jpg"),
       upright: {
-        keyword: ["Planning", "preparation", "progress", "decisions"],
-        meaning: `The Two of Wands is a card of planning and progress. You have taken the spark of inspiration from the Ace of Wands and have decided to turn it into something more concrete. You are now thinking about the steps that you need to take to turn your vision into a reality. This card suggests that you are in the planning phase of a new project or idea, and you are thinking about the best way to proceed. You are full of potential and have many options available to you.`,
+        keyword: ["계획", "준비", "진행", "결정"],
+        meaning: `Two of Wands는 계획과 진행의 카드입니다. 당신은 Ace of Wands에서 영감의 불꽃을 얻었고 그것을 더 구체적인 것으로 바꾸기로 결정했습니다. 이제 비전을 현실로 바꾸기 위해 취해야 할 단계에 대해 생각하고 있습니다. 이 카드는 당신이 새로운 프로젝트나 아이디어의 계획 단계에 있고 진행하는 가장 좋은 방법에 대해 생각하고 있음을 나타냅니다. 당신은 잠재력이 풍부하고 많은 옵션을 사용할 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Lack of planning", "bad choices", "fear of the unknown"],
-        meaning: `When the Two of Wands is reversed, it can suggest that you are not making progress in your plans. You may be feeling stuck or blocked and are unsure of how to move forward. Alternatively, you may be rushing into things without thinking them through properly, which could lead to bad decisions. This card suggests that you need to slow down and take the time to plan things out properly before taking action.`,
+        keyword: ["계획의 부족", "나쁜 선택", "미지에 대한 두려움"],
+        meaning: `Two of Wands가 반전되면 계획이 진행되지 않고 있음을 나타낼 수 있습니다. 막히거나 막힌 느낌이 들고 앞으로 어떻게 나아가야 할지 확신이 서지 않을 수 있습니다. 또는 제대로 생각하지 않고 일에 몰두하여 잘못된 결정을 내릴 수 있습니다. 이 카드는 조치를 취하기 전에 속도를 늦추고 적절한 계획을 세우는 데 시간을 할애해야 함을 시사합니다.
+        `,
       },
-      description: `The Two of Wands shows a man holding a globe and standing on a rooftop, looking out over the horizon. He is holding a wand in his other hand, and a second wand is planted firmly in the ground next to him. The globe represents the potential of your idea or project, and the wand in the man’s hand symbolizes his personal power and ability to make it happen. The second wand in the ground represents the solid foundation that you have built so far, and the potential for growth and expansion. The man’s stance suggests that he is ready and willing to take action to move his plans forward.`,
+      description: `Two of Wands는 한 남자가 지구본을 들고 옥상에 서서 수평선 너머를 내다보는 모습을 보여줍니다. 그는 다른 손에 지팡이를 들고 있고, 두 번째 지팡이는 그의 옆 땅에 단단히 박혀 있습니다. 지구본은 당신의 아이디어나 프로젝트의 잠재력을 나타내고, 남자의 손에 있는 지팡이는 그것을 실현할 수 있는 개인적인 힘과 능력을 상징합니다. 바닥에 있는 두 번째 지팡이는 지금까지 구축한 견고한 기반과 성장 및 확장 가능성을 나타냅니다. 그 남자의 입장은 그가 자신의 계획을 추진하기 위해 행동을 취할 준비가 되어 있고 의지가 있음을 암시합니다.
+      `,
     },
     {
       id: 24,
@@ -459,16 +445,18 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/24.jpg"),
       upright: {
-        keyword: ["Expansion", "progress", "growth", "opportunity"],
-        meaning: `The Three of Wands represents the initial stages of exploring new horizons and expanding your worldview. You have left the safety and security of your comfort zone and are now exploring new opportunities, environments, and experiences that will help you grow and develop. You are full of potential and are excited about the possibilities that lie ahead.`,
+        keyword: ["확장", "진전", "성장", "기회"],
+        meaning: `Three of Wands는 새로운 지평을 탐험하고 세계관을 확장하는 초기 단계를 나타냅니다. 당신은 안전지대의 안전과 보안을 떠났고 이제 당신의 성장과 발전을 도울 새로운 기회, 환경, 경험을 탐색하고 있습니다. 당신은 잠재력이 풍부하고 앞으로 펼쳐질 가능성에 대해 들떠 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Missed opportunities", "lack of growth", "setbacks"],
-        meaning: `The Three of Wands reversed suggests that you may be limiting your potential by holding onto self-limiting beliefs or by failing to see the big picture. You may be focusing too much on the small details and losing sight of the larger goal or failing to see the opportunities that lie ahead. It's time to take a step back, re-evaluate your situation, and look at the bigger picture to see where you can grow and expand your horizons.`,
+        keyword: ["기회를 놓침", "성장 부족", "좌절"],
+        meaning: `Three of Wands가 거꾸로 된 것은 자기 제한적 신념을 고수하거나 큰 그림을 보지 못함으로써 잠재력을 제한할 수 있음을 시사합니다. 작은 세부 사항에 너무 집중하고 더 큰 목표를 놓치거나 앞에 놓인 기회를 보지 못할 수 있습니다. 한 걸음 물러서서 상황을 재평가하고 더 큰 그림을 보고 어디에서 성장하고 시야를 넓힐 수 있는지 확인해야 할 때입니다.
+        `,
       },
-      description: `The Three of Wands shows a man standing on a cliff, looking out over the sea. He holds three wands, symbolizing the progress and growth that comes from taking action. The man has left the safety of the castle (as seen in the Two of Wands) and has ventured out into the unknown.
-
-    The ships in the distance represent the opportunities that await him. The man is in a position of power and has the ability to expand his horizons and achieve great things.`,
+      description: `The Three of Wands는 절벽 위에 서서 바다를 내다보는 한 남자를 보여줍니다. 그는 행동을 취하는 데서 오는 진보와 성장을 상징하는 세 개의 지팡이를 들고 있습니다. 그 남자는 안전한 성(Two of Wands에서 볼 수 있음)을 떠나 미지의 세계로 모험을 떠났습니다.
+      멀리 있는 배들은 그를 기다리고 있는 기회를 나타냅니다. 남자는 권력의 위치에 있고 자신의 지평을 넓히고 위대한 일을 성취할 수 있는 능력이 있습니다.
+    `,
     },
     {
       id: 25,
@@ -476,16 +464,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/25.jpg"),
       upright: {
-        keyword: ["Celebration", "harmony", "homecoming"],
-        meaning:
-          "The Four of Wands signifies a time of celebration, harmony, and homecoming. It represents the successful completion of a project or milestone, and the satisfaction and happiness that comes with it. This card encourages you to celebrate your achievements and enjoy the company of loved ones.",
+        keyword: ["축하", "조화", "귀향"],
+        meaning: `Four of Wands는 축하, 조화, 귀향의 시간을 의미합니다. 그것은 프로젝트나 이정표의 성공적인 완료와 그에 따른 만족과 행복을 나타냅니다. 이 카드는 당신의 성취를 축하하고 사랑하는 사람들과 함께 즐길 수 있도록 격려합니다.
+          `,
       },
       reverse: {
-        keyword: ["Disruption", "misalignment", "disconnection"],
-        meaning:
-          "When reversed, the Four of Wands can indicate a disruption in your plans or a lack of harmony in your relationships. You may feel disconnected from loved ones or out of sync with the people around you. It is important to address any conflicts or misalignments and work towards finding common ground.",
+        keyword: ["분열", "혼란", "단절"],
+        meaning: `반전되면 Four of Wands는 계획의 혼란이나 관계의 조화 부족을 나타낼 수 있습니다. 사랑하는 사람과 단절되거나 주변 사람들과 동떨어진 느낌을 받을 수 있습니다. 갈등이나 불일치를 해결하고 공통점을 찾기 위해 노력하는 것이 중요합니다.
+          `,
       },
-      description: `The Four of Wands depicts a group of people celebrating under a canopy of flowers and ribbons. The scene is joyous and harmonious, indicating a time of celebration and homecoming. The card represents the successful completion of a project and the satisfaction that comes with it. It also signifies the importance of harmony and connection with others.`,
+      description: `Four of Wands는 꽃과 리본 캐노피 아래에서 축하하는 사람들을 묘사합니다. 장면은 즐겁고 조화로우며 축하와 귀향의 시간을 나타냅니다. 카드는 프로젝트의 성공적인 완료와 그에 따른 만족을 나타냅니다. 또한 다른 사람과의 조화와 연결의 중요성을 의미합니다.
+      `,
     },
     {
       id: 26,
@@ -493,18 +482,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/26.jpg"),
       upright: {
-        keyword: ["Competition", "challenges", "conflict"],
-        meaning: `The Five of Wands typically represents conflict, competition, and struggle. It may indicate that there are many different forces at work, and that these forces are competing with one another. However, this card can also indicate that this conflict is not necessarily a bad thing. It can be an opportunity for growth and development, as long as it is approached with the right mindset.`,
+        keyword: ["경쟁", "도전", "충돌"],
+        meaning: `Five of Wands는 일반적으로 갈등, 경쟁 및 투쟁을 나타냅니다. 그것은 작용하고 있는 많은 다른 힘이 있고 이러한 힘이 서로 경쟁하고 있음을 나타낼 수 있습니다. 그러나 이 카드는 이 갈등이 반드시 나쁜 것만은 아니라는 것을 나타낼 수도 있습니다. 올바른 마음가짐으로 접근한다면 성장과 발전의 기회가 될 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Avoidance of conflict",
-          "inner conflict",
-          "personal struggle",
-        ],
-        meaning: `When reversed, the Five of Wands suggests that conflict and competition are coming to an end, and that there may be an opportunity for resolution and agreement. This can be a time for healing and bringing people together, as long as everyone is willing to let go of their differences and work towards a common goal.`,
+        keyword: ["갈등의 회피", "내적 갈등", "개인적인 투쟁"],
+        meaning: `반대의 Five of Wands는 갈등과 경쟁이 끝나고 해결과 합의의 기회가 있을 수 있음을 암시합니다. 모든 사람이 기꺼이 차이점을 버리고 공동의 목표를 향해 노력하는 한, 지금은 사람들을 치유하고 하나로 모으는 시간이 될 수 있습니다.
+        `,
       },
-      description: `The Five of Wands shows five young men, each holding a wand, and energetically attacking each other, as if in a playful battle. The background is a sunny, bright sky, representing the dawn of a new day and the beginning of hope. The men are all wearing different-colored clothes, representing different passions, ideas, and motivations. They are all eager to fight for what they believe in, but they lack direction and coordination. The message of the Five of Wands is that sometimes you need to work together with others, even if you have different ideas, to achieve a common goal.`,
+      description: `The Five of Wands는 각각 지팡이를 들고 장난기 가득한 전투를 벌이듯 서로를 공격하는 다섯 명의 청년을 보여줍니다. 배경은 맑고 밝은 하늘로 새로운 날의 새벽과 희망의 시작을 나타냅니다. 남자들은 모두 다른 열정, 아이디어, 동기를 나타내는 다른 색상의 옷을 입고 있습니다. 그들은 모두 자신이 믿는 것을 위해 열심히 싸우지만 방향과 조정이 부족합니다. Five of Wands의 메시지는 때로는 생각이 다르더라도 공동의 목표를 달성하기 위해 다른 사람들과 협력해야 한다는 것입니다.
+      `,
     },
     {
       id: 27,
@@ -512,14 +500,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/27.jpg"),
       upright: {
-        keyword: ["Victory", "public recognition", "progress"],
-        meaning: `The Six of Wands is a card of victory, recognition, and achievement. It represents a time of triumph after a period of hard work and struggle. You may be receiving recognition for your accomplishments, or experiencing a sense of pride and satisfaction in your achievements. This card encourages you to continue to work hard and to believe in yourself, as your efforts will be rewarded.`,
+        keyword: ["승리", "대중의 인정", "진전"],
+        meaning: `Six of Wands는 승리, 인정, 성취의 카드입니다. 그것은 노력과 투쟁의 기간 후에 승리의 시간을 나타냅니다. 성취에 대한 인정을 받거나 성취에 대한 자부심과 만족감을 경험할 수 있습니다. 이 카드는 노력에 대한 보상을 받을 수 있으므로 계속해서 열심히 일하고 자신을 믿으라고 격려합니다.
+        `,
       },
       reverse: {
-        keyword: ["Egotism", "setback", "lack of support"],
-        meaning: `When the Six of Wands appears reversed, it can indicate self-doubt and feelings of disappointment. You may be questioning your abilities or experiencing setbacks in your goals. This card reminds you to stay focused and believe in yourself, even when things get tough. With perseverance and determination, you can overcome any obstacle and achieve your goals.`,
+        keyword: ["아집", "방해", "지원 부족"],
+        meaning: `Six of Wands가 거꾸로 나타나면 자기 의심과 실망감을 나타낼 수 있습니다. 자신의 능력에 의문을 제기하거나 목표에 차질이 생길 수 있습니다. 이 카드는 힘든 상황에서도 집중하고 자신을 믿으라고 일깨워줍니다. 인내와 결단력으로 어떤 장애물도 극복하고 목표를 달성할 수 있습니다.
+        `,
       },
-      description: `The Six of Wands depicts a man riding a horse, carrying a staff with a laurel wreath at the top, a symbol of victory. He is being celebrated by a crowd of people, who cheer him on and hold their own wands in the air. The card represents a sense of accomplishment and recognition, and encourages you to celebrate your own victories and accomplishments.`,
+      description: `Six of Wands는 승리의 상징인 월계관이 꼭대기에 달린 지팡이를 들고 말을 타는 남자를 묘사합니다. 그는 그를 응원하고 자신의 지팡이를 공중에 들고 있는 군중들에 의해 축하받고 있습니다. 이 카드는 성취감과 인정을 나타내며 자신의 승리와 성취를 축하하도록 격려합니다.
+      `,
     },
     {
       id: 28,
@@ -527,14 +518,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/28.jpg"),
       upright: {
-        keyword: ["Challenge", "competition", "protection"],
-        meaning: `The Seven of Wands depicts a person standing on a hill, holding a wand and fighting off six other wands that are coming at them. The card represents a time of challenge and competition, where one must fight to maintain their position or defend themselves against rivals. The card also signifies the importance of perseverance in the face of adversity.`,
+        keyword: ["도전", "경쟁", "보호"],
+        meaning: `The Seven of Wands는 언덕 위에 서서 지팡이를 들고 다가오는 6개의 다른 지팡이와 싸우는 사람을 묘사합니다. 이 카드는 자신의 위치를 ​​유지하거나 라이벌로부터 자신을 방어하기 위해 싸워야 하는 도전과 경쟁의 시간을 나타냅니다. 이 카드는 또한 역경에 직면했을 때 인내의 중요성을 나타냅니다.
+        `,
       },
       reverse: {
-        keyword: ["Giving up", "exhaustion", "overwhelm"],
-        meaning: `Reversed, the Seven of Wands can indicate a lack of confidence or willingness to fight for one's beliefs or position. It can also suggest the need to choose battles wisely and not waste energy on unwinnable fights.`,
+        keyword: ["포기", "피로", "압도하다"],
+        meaning: `반대로 Seven of Wands는 자신의 신념이나 입장을 위해 싸우려는 자신감이나 의지가 부족함을 나타낼 수 있습니다. 또한 승리할 수 없는 싸움에 에너지를 낭비하지 않고 현명하게 전투를 선택해야 할 필요성을 암시할 수 있습니다.
+        `,
       },
-      description: `The Seven of Wands shows a young man standing on a hill, holding a wand in his hand, and defending himself against six other wands that are attacking him from below. The man is wearing a red shirt, which represents his strength and courage. He is standing tall and strong, despite the odds against him. The message of the Seven of Wands is that you may face challenges and competition from others, but you have the strength and courage to protect yourself and overcome them. Don't give up, even if you feel overwhelmed or exhausted.`,
+      description: `The Seven of Wands는 한 젊은이가 언덕 위에 서서 손에 지팡이를 들고 아래에서 그를 공격하는 여섯 개의 다른 지팡이로부터 자신을 방어하는 모습을 보여줍니다. 남자는 그의 힘과 용기를 나타내는 빨간 셔츠를 입고 있습니다. 그는 불리한 상황에도 불구하고 키가 크고 강하게 서 있습니다. Seven of Wands의 메시지는 다른 사람의 도전과 경쟁에 직면할 수 있지만 자신을 보호하고 극복할 수 있는 힘과 용기가 있다는 것입니다. 압도되거나 지쳐도 포기하지 마십시오.
+      `,
     },
     {
       id: 29,
@@ -542,14 +536,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/29.jpg"),
       upright: {
-        keyword: ["Rapid action", "movement", "quick decisions", "change"],
-        meaning: `The Eight of Wands indicates swift action and movement. It suggests that you may be in a situation where things are moving quickly and you need to act fast. It can also represent a sudden change or a burst of energy. This card encourages you to take advantage of the momentum and make quick decisions to move forward.`,
+        keyword: ["신속한 조치", "움직임", "빠른 결정", "변화"],
+        meaning: `Eight of Wands는 신속한 행동과 움직임을 나타냅니다. 일이 빠르게 진행되고 빠르게 행동해야 하는 상황에 처할 수 있음을 암시합니다. 갑작스러운 변화나 폭발적인 에너지를 나타낼 수도 있습니다. 이 카드는 추진력을 활용하고 앞으로 나아가기 위한 빠른 결정을 내리도록 권장합니다.
+        `,
       },
       reverse: {
-        keyword: ["Delays", "frustration", "procrastination"],
-        meaning: `The Eight of Wands reversed suggests delays, frustration, and procrastination. You may be feeling stuck or unable to make progress in a situation that requires swift action. It can also indicate miscommunication or obstacles that are preventing you from moving forward. This card encourages you to take a step back and assess the situation to find a way to overcome the obstacles.`,
+        keyword: ["지연", "좌절"],
+        meaning: `Eight of Wands가 거꾸로 된 것은 지연, 좌절, 꾸물거림을 암시합니다. 신속한 조치가 필요한 상황에서 막히거나 진행이 불가능하다고 느낄 수 있습니다. 또한 앞으로 나아가는 데 방해가 되는 잘못된 의사소통이나 장애물을 나타낼 수도 있습니다. 이 카드는 장애물을 극복할 방법을 찾기 위해 한 걸음 물러서서 상황을 평가하도록 권장합니다.
+        `,
       },
-      description: `The Eight of Wands depicts eight wands flying through the air, indicating swift movement and action. The background is clear, suggesting that there are no obstacles in the way of progress. The card represents a time of swift action and change, encouraging you to make quick decisions and take advantage of opportunities that come your way. It also reminds you to stay focused and maintain momentum to reach your goals.`,
+      description: `The Eight of Wands는 공중을 날아다니는 8개의 지팡이를 묘사하여 신속한 움직임과 행동을 나타냅니다. 배경이 명확하여 진행에 장애물이 없음을 나타냅니다. 이 카드는 빠른 행동과 변화의 시간을 나타내며, 빠른 결정을 내리고 다가오는 기회를 활용하도록 격려합니다. 또한 목표를 달성하기 위해 집중하고 추진력을 유지하도록 상기시켜줍니다.
+      `,
     },
     {
       id: 30,
@@ -557,14 +554,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/30.jpg"),
       upright: {
-        keyword: ["Resilience", "courage", "persistence", "test of faith"],
-        meaning: `The Nine of Wands depicts a figure standing alone, holding a wand and looking exhausted, but determined to keep going. The card represents resilience and perseverance in the face of challenges, and the courage to make a last stand if necessary. It can also indicate the need for rest and recovery after a long struggle.`,
+        keyword: ["회복력", "용기", "고집", "믿음의 시험"],
+        meaning: `The Nine of Wands는 홀로 서서 지팡이를 들고 지쳐 보이지만 계속 나아가기로 결심한 인물을 묘사합니다. 이 카드는 도전에 직면한 회복력과 인내, 그리고 필요한 경우 최후의 저항을 할 수 있는 용기를 나타냅니다. 오랜 투쟁 끝에 휴식과 회복이 필요함을 나타낼 수도 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Exhaustion", "fatigue", "overwhelm"],
-        meaning: `Reversed, the Nine of Wands may indicate exhaustion, burnout, or the feeling of being overwhelmed by the challenges ahead. It can also indicate a loss of confidence or the decision to give up on a project or goal.`,
+        keyword: ["피로", "압도하다"],
+        meaning: `반대로 Nine of Wands는 피로, 탈진 또는 앞으로의 도전에 압도당하는 느낌을 나타낼 수 있습니다. 또한 자신감을 잃거나 프로젝트나 목표를 포기하기로 결정했음을 나타낼 수도 있습니다.
+        `,
       },
-      description: `The Nine of Wands represents the resilience and perseverance needed to overcome obstacles and challenges. It reminds us that even when we feel exhausted and overwhelmed, we have the strength and determination to keep going. However, it also warns us to take care of ourselves and to rest when necessary, so that we don't become completely burnt out or lose sight of our goals.`,
+      description: `Nine of Wands는 장애물과 도전을 극복하는 데 필요한 탄력성과 인내를 나타냅니다. 그것은 우리가 지치고 압도될 때에도 계속 나아갈 힘과 결단력이 있음을 상기시켜 줍니다. 그러나 완전히 지치거나 목표를 놓치는 일이 없도록 자신을 돌보고 필요할 때 휴식을 취하라고 경고하기도 합니다.
+      `,
     },
     {
       id: 31,
@@ -572,14 +572,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/31.jpg"),
       upright: {
-        keyword: ["Burden", "responsibility", "hard work", "completion"],
-        meaning: `The Ten of Wands indicates a heavy burden or responsibility that the seeker is carrying. It can signify that they are taking on too much, and may need to delegate or let go of some tasks to avoid burnout. Despite the challenges, the card also indicates that the seeker is capable of handling the workload and can succeed with perseverance.`,
+        keyword: ["부담", "책임", "힘든 일", "완성"],
+        meaning: `Ten of Wands는 찾는 사람이 지고 있는 무거운 짐이나 책임을 나타냅니다. 그것은 그들이 너무 많은 일을 하고 있다는 것을 의미할 수 있으며, 번아웃을 피하기 위해 일부 작업을 위임하거나 놓아야 할 수도 있습니다. 어려움에도 불구하고 카드는 찾는 사람이 작업량을 처리할 수 있고 인내로 성공할 수 있음을 나타냅니다.
+        `,
       },
       reverse: {
-        keyword: ["Release", "relief", "lightening the load"],
-        meaning: `Reversed, the Ten of Wands can indicate that the seeker has finally let go of a heavy burden and is experiencing a sense of relief. It may also indicate that they have realized that they cannot handle everything on their own and have asked for help, resulting in a lighter workload and a sense of release.`,
+        keyword: ["풀어줌", "안도감", "짐을 가볍게 함"],
+        meaning: `반대로 Ten of Wands는 찾는 사람이 마침내 무거운 짐을 내려놓고 안도감을 느끼고 있음을 나타낼 수 있습니다. 그것은 또한 그들이 스스로 모든 것을 처리할 수 없다는 것을 깨닫고 도움을 요청하여 더 가벼운 작업량과 해방감을 갖게 되었음을 나타낼 수 있습니다.
+        `,
       },
-      description: `The Ten of Wands depicts a figure carrying a heavy load of wands, representing the burdens and responsibilities that they are carrying. The figure is hunched over, indicating the weight of the load, but they continue to move forward. The card represents the challenges and difficulties that come with hard work and the need for perseverance and determination to overcome them.`,
+      description: `The Ten of Wands는 무거운 지팡이를 들고 있는 인물을 묘사하며 그들이 지고 있는 부담과 책임을 나타냅니다. 그림은 짐의 무게를 나타내는 몸을 구부리지만 계속 앞으로 나아갑니다. 이 카드는 노력과 함께 오는 도전과 어려움, 그리고 이를 극복하기 위한 인내와 결단력의 필요성을 나타냅니다.
+      `,
     },
     {
       id: 32,
@@ -587,14 +590,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/32.jpg"),
       upright: {
-        keyword: ["Inspiration", "exploration", "free spirit", "adventure"],
-        meaning: `The Page of Wands signifies the beginning of a creative journey or a new phase in one's life that holds great potential. It represents inspiration, enthusiasm, and the courage to pursue one's dreams. This card encourages taking risks and exploring new opportunities. It suggests that you may be on the verge of a breakthrough or a new discovery that could change the course of your life.`,
+        keyword: ["영감", "탐구", "자유로운 영혼", "모험"],
+        meaning: `Page of Wands는 창의적인 여정의 시작 또는 큰 잠재력을 지닌 삶의 새로운 단계를 의미합니다. 영감, 열정, 꿈을 추구하는 용기를 나타냅니다. 이 카드는 위험을 감수하고 새로운 기회를 탐색하도록 권장합니다. 그것은 당신이 인생의 과정을 바꿀 수 있는 돌파구 또는 새로운 발견의 직전에 있을 수 있음을 시사합니다.
+        `,
       },
       reverse: {
-        keyword: ["Setbacks", "delays", "frustration"],
-        meaning: `When the Page of Wands is reversed, it may indicate a lack of direction or purpose. You may be feeling uncertain about your path or struggling to find the inspiration and motivation to pursue your goals. This card suggests delays or missed opportunities, and the need to re-evaluate your plans and priorities. It may be time to seek guidance from others or take a step back to gain a new perspective.`,
+        keyword: ["좌절", "지연", "좌절"],
+        meaning: `Page of Wands가 반전되면 방향이나 목적이 없음을 나타낼 수 있습니다. 자신의 진로에 대해 불확실함을 느끼거나 목표를 추구하기 위한 영감과 동기를 찾기 위해 고군분투하고 있을 수 있습니다. 이 카드는 지연 또는 놓친 기회와 계획 및 우선 순위를 재평가할 필요성을 제안합니다. 다른 사람의 지도를 구하거나 새로운 관점을 얻기 위해 한 걸음 물러나야 할 때일 수 있습니다.
+        `,
       },
-      description: `The Page of Wands is depicted as a young person holding a wand with both hands, looking off into the distance as if imagining the possibilities ahead. The desert landscape in the background suggests the vast potential of the creative realm. The salamander at the bottom of the card symbolizes transformation and the power of fire, which represents the passion and enthusiasm needed to pursue one's dreams.`,
+      description: `The Page of Wands는 두 손으로 지팡이를 들고 마치 미래의 가능성을 상상하는 것처럼 먼 곳을 바라보는 젊은이로 묘사됩니다. 배경의 사막 풍경은 창작 영역의 광대한 잠재력을 암시합니다. 카드 하단의 도롱뇽은 변화와 불의 힘을 상징하며 꿈을 향해 나아가는 열정과 열정을 상징합니다.
+      `,
     },
     {
       id: 33,
@@ -602,14 +608,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/33.jpg"),
       upright: {
-        keyword: ["Action", "adventure", "fearlessness", "courage"],
-        meaning: `The Knight of Wands is a card of action, adventure, and fearlessness. He is always on the move, seeking out new experiences and opportunities. This card can indicate a time of great energy and enthusiasm, where you feel confident and capable of taking on anything that comes your way. It encourages you to embrace your passions and pursue your goals with determination and vigor.`,
+        keyword: ["행동", "모험", "대담함", "용기"],
+        meaning: `Knight of Wands는 행동, 모험, 대담함의 카드입니다. 그는 항상 움직이며 새로운 경험과 기회를 찾습니다. 이 카드는 자신에게 오는 모든 일을 감당할 수 있고 자신감을 느끼는 엄청난 에너지와 열정의 시간을 나타낼 수 있습니다. 열정을 포용하고 결단력과 활력으로 목표를 추구하도록 격려합니다.
+        `,
       },
       reverse: {
-        keyword: ["Haste", "scattered energy", "stubbornness"],
-        meaning: `The reversed Knight of Wands can indicate a tendency towards haste, recklessness, and impulsiveness. You may be acting without thinking things through, or taking unnecessary risks that could lead to negative consequences. It is important to slow down, think things through, and make thoughtful decisions during this time. It may also be a time to reevaluate your goals and passions, and make sure that you are pursuing what truly matters to you.`,
+        keyword: ["서두름", "힘의 분산", "고집"],
+        meaning: `거꾸로 된 Knight of Wands는 서두르고, 무모하고, 충동적인 경향을 나타낼 수 있습니다. 충분히 생각하지 않고 행동하거나 부정적인 결과를 초래할 수 있는 불필요한 위험을 감수하고 있을 수 있습니다. 이 시간 동안 속도를 늦추고, 생각하고, 신중한 결정을 내리는 것이 중요합니다. 또한 목표와 열정을 재평가하고 자신에게 진정으로 중요한 것을 추구하고 있는지 확인해야 할 때일 수도 있습니다.
+        `,
       },
-      description: `The Knight of Wands is depicted as a young, energetic warrior, riding a horse and holding a wand. He is dressed in armor, and his horse is also decorated with colorful armor. The Knight is surrounded by a desert landscape, indicating a sense of adventure and exploration. The wand he holds symbolizes his passion and creative energy, which he is ready to channel into action.`,
+      description: `Knight of Wands는 말을 타고 지팡이를 들고 있는 젊고 활기찬 전사로 묘사됩니다. 그는 갑옷을 입고 있고 그의 말도 화려한 갑옷으로 장식되어 있습니다. Knight는 모험과 탐험의 감각을 나타내는 사막 풍경으로 둘러싸여 있습니다. 그가 들고 있는 지팡이는 그가 행동으로 옮길 준비가 된 그의 열정과 창조적인 에너지를 상징합니다.
+      `,
     },
     {
       id: 34,
@@ -617,16 +626,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/34.jpg"),
       upright: {
-        keyword: ["Confidence", "determination", "courage", "independence"],
-        meaning: `The Queen of Wands represents a strong, confident, and creative woman who is not afraid to take risks and pursue her passions. She has a magnetic personality and attracts others with her charisma and leadership qualities. When this card appears upright, it may suggest that you should embrace your inner Queen of Wands and tap into your own courage, confidence, and creativity to achieve your goals.`,
+        keyword: ["자신감", "결정", "용기", "독립"],
+        meaning: `Queen of Wands는 위험을 무릅쓰고 자신의 열정을 추구하는 것을 두려워하지 않는 강하고 자신감 있고 창의적인 여성을 나타냅니다. 그녀는 매력적인 성격을 가지고 있으며 카리스마와 리더십 자질로 다른 사람들을 매료시킵니다. 이 카드가 똑바로 나타나면 내면의 완드 여왕을 포용하고 목표를 달성하기 위해 자신의 용기, 자신감 및 창의성을 활용해야 함을 암시할 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Selfishness", "Jealousy", "Insecurity"],
-        meaning: `In reverse, the Queen of Wands may indicate that you are allowing your insecurities and jealousy to cloud your judgment and prevent you from being your best self. You may be focused too much on your own needs and not taking the needs of others into consideration. It's important to address these negative traits and work on building your confidence and generosity towards others.`,
+        keyword: ["이기주의", "질투", "불안정"],
+        meaning: `반대로 완드의 여왕은 당신이 불안감과 질투로 인해 판단력이 흐려지고 당신이 최고의 자아가 되는 것을 막고 있음을 나타낼 수 있습니다. 자신의 필요에만 너무 집중하고 다른 사람의 필요는 고려하지 않을 수 있습니다. 이러한 부정적인 특성을 해결하고 다른 사람에 대한 자신감과 관대함을 구축하기 위해 노력하는 것이 중요합니다.
+        `,
       },
-      description: `The Queen of Wands is a strong and confident woman who is passionate about life. She is not afraid to go after what she wants and can be quite forceful when she needs to be. Her wand is a symbol of her power and her creativity.
-  
-    The Queen of Wands can represent a time in your life when you need to be strong and confident. She can also represent a person, most likely a woman, who is very confident and independent, and who has a lot of creative energy.`,
+      description: `The Queen of Wands는 삶에 대한 열정을 가진 강하고 자신감 있는 여성입니다. 그녀는 자신이 원하는 것을 추구하는 것을 두려워하지 않으며 필요할 때 상당히 강력할 수 있습니다. 그녀의 지팡이는 그녀의 힘과 창의성의 상징입니다.
+    `,
     },
     {
       id: 35,
@@ -634,14 +644,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/35.jpg"),
       upright: {
-        keyword: ["Big picture", "leader", "entrepreneur", "bold"],
-        meaning: `The King of Wands is a natural born leader with a clear vision of the big picture. He is confident and charismatic, inspiring those around him to follow his lead. This card represents a time of taking charge, asserting authority, and using one's creativity and passion to achieve great things.`,
+        keyword: ["큰 그림", "리더", "기업가", "용감한"],
+        meaning: `King of Wands는 큰 그림에 대한 명확한 비전을 가진 타고난 리더입니다. 그는 자신감 있고 카리스마가 있어 주변 사람들이 자신을 따르도록 영감을 줍니다. 이 카드는 책임을 지고, 권위를 주장하고, 창의력과 열정을 사용하여 위대한 일을 성취하는 시간을 나타냅니다.
+        `,
       },
       reverse: {
-        keyword: ["Impulsiveness", "egotistical", "overbearing"],
-        meaning: `When reversed, the King of Wands can indicate impulsiveness, recklessness, or stubbornness. The negative aspects of this card suggest a need to be more open to other perspectives and to listen to the advice of others rather than charging ahead without a plan.`,
+        keyword: ["충동", "이기적인", "뽐내는"],
+        meaning: `반대로 King of Wands는 충동성, 무모함 또는 완고함을 나타낼 수 있습니다. 이 카드의 부정적인 측면은 다른 관점에 더 개방적이어야 하고 계획 없이 앞서 나가기보다는 다른 사람의 조언에 귀를 기울일 필요가 있음을 시사합니다.
+        `,
       },
-      description: `The King of Wands sits on his throne, holding his wand with confidence and authority. The salamanders on his robe represent his fiery nature, and the lions on the throne signify his strength and power. The King of Wands is a visionary leader who inspires others to achieve great things with his creative ideas and confident demeanor.`,
+      description: `지팡이의 왕은 자신감과 권위를 가지고 지팡이를 들고 왕좌에 앉아 있습니다. 그의 로브에 있는 도롱뇽은 그의 불 같은 본성을 나타내고 왕좌에 있는 사자는 그의 힘과 힘을 상징합니다. King of Wands는 창의적인 아이디어와 자신감 있는 태도로 다른 사람들이 위대한 일을 성취하도록 영감을 주는 선구적인 리더입니다.
+      `,
     },
     {
       id: 36,
@@ -649,14 +662,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/36.jpg"),
       upright: {
-        keyword: ["New emotions", "creativity", "spirituality", "intuition"],
-        meaning: `The Ace of Cups is a card of new beginnings, particularly in matters of the heart and emotions. It represents emotional fulfillment, joy, and a deep connection with one's intuition. This is a time to follow your heart and trust your instincts. The Ace of Cups can also signify the start of a new relationship, the birth of a child, or other happy events.`,
+        keyword: ["새로운 감정", "창의성", "영성", "직관"],
+        meaning: `컵의 에이스는 특히 마음과 감정의 문제에서 새로운 시작의 카드입니다. 정서적 성취감, 기쁨, 직관과의 깊은 연결을 나타냅니다. 이것은 당신의 마음을 따르고 당신의 본능을 믿어야 할 때입니다. 컵 에이스는 새로운 관계의 시작, 아이의 탄생 또는 기타 행복한 사건을 의미할 수도 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Blocked creativity", "emotional instability", "emptiness"],
-        meaning: `When the Ace of Cups appears reversed, it may indicate a blockage of creativity or emotional expression. You may feel empty or disconnected, lacking the emotional fulfillment that you desire. It's important to address any emotional issues and work on opening yourself up to love and joy.`,
+        keyword: ["차단된 창의성", "정서적 불안정", "공허함"],
+        meaning: `컵의 에이스(Ace of Cups)가 거꾸로 표시되면 창의성이나 감정 표현이 차단되었음을 나타낼 수 있습니다. 공허함이나 단절감을 느낄 수 있으며 원하는 감정적 성취감이 부족할 수 있습니다. 감정적 문제를 해결하고 사랑과 기쁨에 마음을 여는 것이 중요합니다.
+        `,
       },
-      description: `The Ace of Cups is a card of new beginnings and emotional fulfillment. In the Rider-Waite deck, a hand holding a cup overflowing with water appears from a cloud, symbolizing the overflowing of emotions and love. The five streams of water flowing into the cup represent the five senses and the emotional and intuitive aspects of the self. The Ace of Cups reminds us to open ourselves up to the love and joy that life has to offer and to trust our intuition and emotions.`,
+      description: `Ace of Cups는 새로운 시작과 정서적 성취의 카드입니다. 라이더-웨이트 덱에는 물이 가득 찬 컵을 들고 있는 손이 구름 사이로 나타나 넘치는 감정과 사랑을 상징한다. 컵에 흐르는 다섯 줄기의 물줄기는 오감과 자아의 감성적이고 직관적인 측면을 나타냅니다. 컵의 에이스(Ace of Cups)는 삶이 제공하는 사랑과 기쁨에 우리 자신을 개방하고 우리의 직관과 감정을 신뢰하도록 일깨워줍니다.
+      `,
     },
     {
       id: 37,
@@ -664,19 +680,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/37.jpg"),
       upright: {
-        keyword: [
-          "Unified love",
-          "partnership",
-          "harmony",
-          "mutual attraction",
-        ],
-        meaning: `The Two of Cups represents the beginning of a new partnership or relationship, built on a strong emotional connection and mutual understanding. It can indicate a deepening of an existing bond or the potential for a new romantic relationship. The card suggests that both parties are willing to make a commitment to each other, and there is a sense of balance and equality in the relationship.`,
+        keyword: ["통일된 사랑", "협력 관계", "조화", "상호 매력"],
+        meaning: `Two of Cups는 강한 감정적 연결과 상호 이해를 바탕으로 구축된 새로운 파트너십 또는 관계의 시작을 나타냅니다. 기존 유대감이 깊어지거나 새로운 연인 관계의 가능성을 나타낼 수 있습니다. 이 카드는 양 당사자가 서로에게 기꺼이 약속하고 관계에 균형과 평등이 있음을 암시합니다.
+        `,
       },
       reverse: {
-        keyword: ["Imbalanced relationship", "breakup", "disharmony"],
-        meaning: `In reverse, the Two of Cups may indicate an imbalance in a relationship, with one party giving more than the other. It can also suggest the breakdown of a partnership or a lack of emotional connection. Disharmony and disagreements may arise, and it is important to communicate openly and honestly to resolve any issues.`,
+        keyword: ["불균형한 관계", "붕괴", "부조화"],
+        meaning: `반대의 Two of Cups는 한 쪽이 다른 쪽보다 더 많이 주는 관계의 불균형을 나타낼 수 있습니다. 또한 파트너십의 붕괴 또는 정서적 연결의 부족을 암시할 수도 있습니다. 불일치가 발생할 수 있으며 문제를 해결하기 위해 공개적이고 정직하게 의사 소통하는 것이 중요합니다.
+        `,
       },
-      description: `The Two of Cups shows two figures facing each other, holding cups and exchanging their contents. The card represents the joining of two people in a partnership or relationship. The wings of the caduceus, a symbol of Hermes, can be seen in the background, representing balance and harmony.`,
+      description: `Two of Cups는 컵을 들고 내용물을 교환하는 두 인물이 서로 마주보고 있는 모습을 보여줍니다. 카드는 파트너십 또는 관계에서 두 사람의 결합을 나타냅니다. 배경에는 헤르메스의 상징인 카두세우스의 날개가 나타나 균형과 조화를 상징합니다.
+      `,
     },
     {
       id: 38,
@@ -684,14 +698,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/38.jpg"),
       upright: {
-        keyword: ["Celebration", "friendship", "creativity", "collaboration"],
-        meaning: `The Three of Cups represents celebration, friendship, and community. It often appears when you are surrounded by those you love and care for, celebrating an event or achievement. This card also signifies the importance of connection with others and the joy that comes from sharing experiences.`,
+        keyword: ["축하", "우정", "창의성", "협동"],
+        meaning: `Three of Cups는 축하, 우정, 공동체를 나타냅니다. 그것은 종종 당신이 사랑하고 아끼는 사람들에게 둘러싸여 사건이나 성취를 축하할 때 나타납니다. 이 카드는 또한 다른 사람과의 연결의 중요성과 경험 공유에서 오는 기쁨을 의미합니다.
+        `,
       },
       reverse: {
-        keyword: ["Independence", "overindulgence", "excess"],
-        meaning: `In reverse, the Three of Cups can indicate a lack of connection or exclusion from a group or community. It may suggest that you are feeling lonely or left out. Alternatively, it could indicate that your social life is too active and that you need to focus on balance and moderation.`,
+        keyword: ["독립", "방종", "과잉"],
+        meaning: `역으로 Three of Cups는 연결이 부족하거나 그룹이나 커뮤니티에서 제외되었음을 나타낼 수 있습니다. 외로움을 느끼거나 소외감을 느끼고 있음을 암시할 수 있습니다. 또는 사회 생활이 너무 활동적이며 균형과 절제에 집중해야 함을 나타낼 수 있습니다.
+        `,
       },
-      description: `The Three of Cups depicts three women holding cups and dancing in a circle. They are surrounded by fruit, flowers, and a general sense of abundance. This card is often associated with weddings, parties, and other social events.`,
+      description: `Three of Cups는 컵을 들고 원을 그리며 춤추는 세 명의 여성을 묘사합니다. 그들은 과일, 꽃, 그리고 일반적인 풍요로움으로 둘러싸여 있습니다. 이 카드는 종종 결혼식, 파티 및 기타 사교 행사와 관련이 있습니다.
+      `,
     },
     {
       id: 39,
@@ -699,14 +716,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/39.jpg"),
       upright: {
-        keyword: ["Meditation", "contemplation", "apathy", "discontent"],
-        meaning: `The Four of Cups shows a figure sitting under a tree with three cups in front of them, while a hand holding out a fourth cup appears from a cloud. The card suggests a state of apathy or disconnectedness, where the person is too focused on their own thoughts and emotions to see the opportunities and blessings that are being offered to them. It advises taking a step back to contemplate one's situation and to open oneself up to new experiences.`,
+        keyword: ["심사 숙고", "묵상", "냉담", "불만"],
+        meaning: `Four of Cups는 앞에 세 개의 컵이 있는 나무 아래 앉아 있는 모습을 보여주고 있고, 네 번째 컵을 들고 있는 손이 구름 속에서 나타납니다. 이 카드는 자신의 생각과 감정에 너무 집중하여 자신에게 제공되는 기회와 축복을 보지 못하는 무관심 또는 단절 상태를 암시합니다. 자신의 상황을 숙고하고 새로운 경험에 자신을 개방하기 위해 한 걸음 뒤로 물러나라고 조언합니다.
+        `,
       },
       reverse: {
-        keyword: ["New perspectives", "acceptance", "openness"],
-        meaning: `In reverse, the Four of Cups indicates a shift away from apathy and towards acceptance and gratitude. The person may have gained a new perspective on their situation, or have come to appreciate what they already have. The card encourages embracing new opportunities and being open to positive change.`,
+        keyword: ["새로운 관점", "수락", "개방 상태"],
+        meaning: `반대로 Four of Cups는 무관심에서 수용과 감사로의 전환을 나타냅니다. 그 사람은 자신의 상황에 대해 새로운 관점을 얻었거나 이미 가지고 있는 것에 감사하게 되었을 수 있습니다. 이 카드는 새로운 기회를 수용하고 긍정적인 변화에 열려 있도록 장려합니다.
+        `,
       },
-      description: `The Four of Cups represents a time of introspection and contemplation. It suggests the need to step back from the distractions of the world and focus on one's own thoughts and feelings. However, the card also warns against becoming too inwardly focused and missing out on the blessings that life has to offer. It encourages finding a balance between contemplation and engagement with the world around us.`,
+      description: `Four of Cups는 성찰과 사색의 시간을 나타냅니다. 그것은 세상의 산만함에서 한 발짝 물러나 자신의 생각과 감정에 집중할 필요성을 시사합니다. 그러나 이 카드는 또한 너무 내면에 집중하여 삶이 제공하는 축복을 놓치는 것에 대해 경고합니다. 그것은 묵상과 우리 주변 세계에 대한 참여 사이의 균형을 찾도록 격려합니다.
+      `,
     },
     {
       id: 40,
@@ -714,14 +734,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/40.jpg"),
       upright: {
-        keyword: ["Loss", "grief", "disappointment", "moving on"],
-        meaning: `The Five of Cups suggests that you may be experiencing feelings of loss, grief, or disappointment. You may be dwelling on what you have lost, rather than what you still have. It's important to acknowledge and process these feelings, but don't forget to also focus on what remains and what you can still gain.`,
+        keyword: ["손실", "고통", "실망", "나아가다"],
+        meaning: `Five of Cups는 상실감, 슬픔 또는 실망감을 경험할 수 있음을 시사합니다. 당신은 당신이 아직 가지고 있는 것보다 잃어버린 것에 대해 생각하고 있을지도 모릅니다. 이러한 감정을 인정하고 처리하는 것이 중요하지만 남아 있는 것과 여전히 얻을 수 있는 것에 초점을 맞추는 것도 잊지 마십시오.
+        `,
       },
       reverse: {
-        keyword: ["Acceptance", "forgiveness", "finding peace"],
-        meaning: `In reverse, the Five of Cups suggests that you are beginning to accept your losses and move on. You may be finding peace in the situation and focusing on what remains. It's important to allow yourself to grieve and process your feelings, but don't let them hold you back from moving forward.`,
+        keyword: ["수락", "용서", "평화를 찾다"],
+        meaning: `반대로 Five of Cups는 손실을 받아들이고 앞으로 나아가기 시작했음을 암시합니다. 상황에서 평화를 찾고 남은 것에 집중할 수 있습니다. 자신의 감정을 슬퍼하고 처리하도록 허용하는 것이 중요하지만, 앞으로 나아가는 데 방해가 되지 않도록 하세요.
+        `,
       },
-      description: `The Five of Cups shows a figure standing before three spilled cups, mourning their loss. Two cups remain standing behind them, but they are not noticed. The card represents feelings of loss, grief, and disappointment. It can indicate a time of mourning, regret, or sorrow. It's important to acknowledge these feelings and work through them, but don't forget to also focus on what remains and what you can still gain.`,
+      description: `Five of Cups는 세 개의 엎질러진 컵 앞에 서서 그들의 상실을 애도하는 인물을 보여줍니다. 두 개의 컵이 그들 뒤에 남아 있지만 눈에 띄지 않습니다. 카드는 상실감, 슬픔, 실망감을 나타냅니다. 애도, 후회 또는 슬픔의 시간을 나타낼 수 있습니다. 이러한 감정을 인정하고 해결하는 것이 중요하지만 남아 있는 것과 여전히 얻을 수 있는 것에 초점을 맞추는 것도 잊지 마십시오.
+      `,
     },
     {
       id: 41,
@@ -729,19 +752,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/41.jpg"),
       upright: {
-        keyword: [
-          "Nostalgia",
-          "innocence",
-          "past connections",
-          "happy memories",
-        ],
-        meaning: `The Six of Cups is a card that speaks to innocence and nostalgia. It depicts two children exchanging flowers, symbolizing the giving and receiving of gifts and the innocence of childhood. The card represents memories and the longing for simpler times. It may indicate a time of reflection or the need to reconnect with your inner child.`,
+        keyword: ["향수, 그리움", "순수", "과거 연결", "행복한 추억"],
+        meaning: `Six of Cups는 순수함과 향수를 나타내는 카드입니다. 두 아이가 꽃을 교환하는 모습을 묘사하여 선물을 주고받는 것과 동심의 순수함을 상징합니다. 카드는 추억과 단순한 시간에 대한 갈망을 나타냅니다. 반성의 시간이나 내면의 아이와 다시 연결해야 할 필요성을 나타낼 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Moving on", "leaving the past behind", "acceptance"],
-        meaning: `Reversed, the Six of Cups can indicate a refusal to move on from the past or an unrealistic view of the world. It may suggest a need to let go of old ways of thinking or patterns of behavior in order to move forward. Be mindful of being overly naive or idealistic in your approach to life.`,
+        keyword: ["계속 나아감", "과거를 뒤로하고", "수락"],
+        meaning: `반대로 Six of Cups는 과거에서 벗어나는 것을 거부하거나 세상에 대한 비현실적인 관점을 나타낼 수 있습니다. 앞으로 나아가기 위해서는 낡은 ​​사고방식이나 행동 패턴을 버려야 할 필요성을 암시할 수 있습니다. 삶에 대한 접근 방식에서 지나치게 순진하거나 이상주의적이 되지 않도록 주의하세요.
+        `,
       },
-      description: `The Six of Cups is a card of innocence and nostalgia, representing memories and the longing for simpler times. It may indicate a time of reflection or the need to reconnect with your inner child. The card reminds us to cherish the happy moments of the past while still moving forward and embracing the present.`,
+      description: `Six of Cups는 순진함과 향수의 카드로 단순한 시대에 대한 추억과 그리움을 나타냅니다. 반성의 시간이나 내면의 아이와 다시 연결해야 할 필요성을 나타낼 수 있습니다. 카드는 과거의 행복한 순간을 소중히 여기면서도 현재를 품고 앞으로 나아가도록 상기시켜줍니다.
+      `,
     },
     {
       id: 42,
@@ -749,14 +770,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/42.jpg"),
       upright: {
-        keyword: ["Opportunities", "choices", "imagination", "fantasy"],
-        meaning: `The Seven of Cups represents a multitude of options and choices. It may indicate that the querent is faced with many different possibilities and is struggling to choose the right path. The card also suggests a rich imagination and the potential for creativity. However, it warns of the danger of being tempted by unrealistic or impractical options.`,
+        keyword: ["기회", "선택", "상상력", "공상"],
+        meaning: `Seven of Cups는 다양한 옵션과 선택을 나타냅니다. 이는 의뢰인이 다양한 가능성에 직면해 있고 올바른 길을 선택하기 위해 고군분투하고 있음을 나타낼 수 있습니다. 이 카드는 또한 풍부한 상상력과 창의력의 잠재력을 암시합니다. 그러나 그것은 비현실적이거나 비현실적인 선택의 유혹에 빠질 위험이 있음을 경고합니다.
+        `,
       },
       reverse: {
-        keyword: ["Overwhelm", "confusion", "dissatisfaction"],
-        meaning: `In reverse, the Seven of Cups indicates that the querent may be overwhelmed by choices or struggling to make a decision. They may also be prone to indulging in unrealistic fantasies or being tempted by illusions. The card suggests the need for clarity and practicality in decision-making.`,
+        keyword: ["압도하다", "혼란", "불만"],
+        meaning: `반대로 Seven of Cups는 의뢰인이 선택에 압도당하거나 결정을 내리기 위해 고군분투할 수 있음을 나타냅니다. 그들은 또한 비현실적인 환상에 빠지거나 환상의 유혹에 빠지기 쉽습니다. 이 카드는 의사 결정에서 명확성과 실용성이 필요함을 시사합니다.
+        `,
       },
-      description: `The Seven of Cups depicts a figure standing before a group of seven cups, each containing a different object or image. Some of the cups hold desirable objects, such as a crown or a beautiful woman, while others hold more negative images, such as a snake or a skull. The card represents the need to make choices, but also the danger of being misled by temptation or illusion.`,
+      description: `The Seven of Cups는 각각 다른 물체나 이미지를 담고 있는 7개의 컵 그룹 앞에 서 있는 인물을 묘사합니다. 일부 컵에는 왕관이나 아름다운 여성과 같은 바람직한 물건이 들어 있고 다른 컵에는 뱀이나 해골과 같은 더 부정적인 이미지가 들어 있습니다. 이 카드는 선택해야 할 필요성을 나타내지만 유혹이나 환상에 현혹될 위험도 나타냅니다.
+      `,
     },
     {
       id: 43,
@@ -764,19 +788,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/43.jpg"),
       upright: {
-        keyword: [
-          "Abandonment",
-          "leaving behind",
-          "moving on",
-          "disillusionment",
-        ],
-        meaning: `The Eight of Cups indicates the need to walk away from something that no longer serves your highest good. You may be feeling disillusioned or disappointed with a situation or relationship that you had hoped would bring you fulfillment. It's time to let go and move on, even though it may be difficult. Trust that there are better things in store for you.`,
+        keyword: ["포기", "남겨두다", "계속 나아감", "환면"],
+        meaning: `Eight of Cups는 더 이상 당신의 최고선에 도움이 되지 않는 무언가로부터 멀어져야 할 필요성을 나타냅니다. 성취감을 가져다주길 바랐던 상황이나 관계에 환멸을 느끼거나 실망할 수도 있습니다. 힘들더라도 놓아주고 나아가야 할 때입니다. 당신을 위해 더 좋은 일이 준비되어 있음을 믿으십시오.
+        `,
       },
       reverse: {
-        keyword: ["Hope", "new beginnings", "fresh perspective"],
-        meaning: `When the Eight of Cups appears reversed, it can indicate a fear of change or a reluctance to let go of something that is no longer serving you. You may be holding onto a situation or relationship out of habit or comfort, even though it's not bringing you happiness. This can lead to stagnation and a lack of growth. It's important to be honest with yourself about what you truly want and take steps towards making positive changes.`,
+        keyword: ["희망", "새로운 시작", "신선한 관점"],
+        meaning: `Eight of Cups가 거꾸로 나타나면 변화에 대한 두려움이나 더 이상 도움이 되지 않는 것을 놓아주기를 꺼리는 것을 나타낼 수 있습니다. 행복을 가져다주지는 못하더라도 습관이나 편안함으로 상황이나 관계를 붙잡고 있을지도 모릅니다. 이것은 침체와 성장 부족으로 이어질 수 있습니다. 자신이 진정으로 원하는 것이 무엇인지 스스로에게 정직하고 긍정적인 변화를 만들기 위한 조치를 취하는 것이 중요합니다.
+        `,
       },
-      description: `The Eight of Cups shows a figure walking away from a stack of cups, representing the emotional baggage they are leaving behind. The moon in the sky suggests that this is a journey of the soul. While it can be difficult to let go of the past, the figure is moving towards a more fulfilling future.`,
+      description: `Eight of Cups는 컵 더미에서 멀어지는 모습을 보여주며, 그들이 남기고 있는 감정적인 짐을 나타냅니다. 하늘의 달은 이것이 영혼의 여정임을 암시합니다. 과거를 버리는 것이 어려울 수 있지만, 그 모습은 더 만족스러운 미래를 향해 나아가고 있습니다.
+      `,
     },
     {
       id: 44,
@@ -784,14 +806,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/44.jpg"),
       upright: {
-        keyword: ["Satisfaction", "gratitude", "indulgence", "pleasure"],
-        meaning: `The Nine of Cups is often called the "wish card" as it represents a time of great satisfaction and contentment. In the traditional Rider-Waite-Smith imagery, the card shows a man sitting in front of nine cups, with his arms crossed and a smile on his face. The cups behind him represent his accomplishments, and he appears to be basking in the glow of his own success.`,
+        keyword: ["만족", "고마움", "대사", "기쁨"],
+        meaning: `Nine of Cups는 큰 만족과 만족의 시간을 나타내기 때문에 종종 "위시 카드"라고 불립니다. 카드는 팔짱을 끼고 얼굴에 미소를 지으며 9개의 컵 앞에 앉아 있는 남자를 보여줍니다. 그의 뒤에 있는 컵은 그의 업적을 나타내며 그는 자신의 성공의 빛을 쬐고 있는 것처럼 보입니다.
+        `,
       },
       reverse: {
-        keyword: ["Inner happiness", "fulfillment", "shallow satisfaction"],
-        meaning: `When the Nine of Cups appears in reverse, it may indicate a lack of inner happiness or fulfillment. You may be struggling with finding satisfaction in your accomplishments or feeling unfulfilled in your relationships. Be cautious of seeking shallow satisfaction or indulging in unhealthy habits as a means of filling this void. Instead, take time to reflect on your values and goals, and consider making changes that align with your true desires and passions.`,
+        keyword: ["내면의 행복", "이행", "얕은 만족"],
+        meaning: `Nine of Cups가 거꾸로 나타나면 내면의 행복이나 성취감이 부족함을 나타낼 수 있습니다. 당신은 당신의 성취에서 만족을 찾거나 당신의 관계에서 성취되지 않은 느낌을 받는 데 어려움을 겪을 수 있습니다. 이 공허함을 채우기 위한 수단으로 얕은 만족을 추구하거나 건강에 해로운 습관에 빠지지 않도록 주의하십시오. 대신 시간을 내어 자신의 가치와 목표를 되돌아보고 자신의 진정한 바람과 열정에 맞는 변화를 고려해보세요.
+        `,
       },
-      description: `The Nine of Cups is often associated with the phrase "happiness is within reach." It suggests that we have achieved a state of contentment and are able to enjoy the pleasures of life. This card reminds us to be grateful for what we have, but to also remain humble and continue to strive for personal growth and development.`,
+      description: `Nine of Cups는 종종 "행복은 가까이에 있습니다."라는 문구와 관련이 있습니다. 그것은 우리가 만족의 상태에 도달했고 삶의 즐거움을 누릴 수 있음을 암시합니다. 이 카드는 우리가 가진 것에 감사함과 동시에 겸손함을 유지하고 개인의 성장과 발전을 위해 계속 노력해야 함을 상기시켜줍니다.
+      `,
     },
     {
       id: 45,
@@ -799,14 +824,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/45.jpg"),
       upright: {
-        keyword: ["Happiness", "harmony", "fulfillment", "joy"],
-        meaning: `The Ten of Cups is a card that represents ultimate happiness, harmony, and contentment. It often depicts a happy family or group of people, with a rainbow overhead symbolizing the fulfillment of all their hopes and dreams. This card suggests that everything is coming together in the best possible way, and you are experiencing a deep sense of emotional satisfaction and fulfillment. Your relationships with loved ones are strong and you feel a deep sense of love and belonging.`,
+        keyword: ["행복", "조화", "이행", "기쁨"],
+        meaning: `Ten of Cups는 궁극의 행복, 조화, 만족을 나타내는 카드입니다. 그것은 종종 그들의 모든 희망과 꿈의 성취를 상징하는 무지개 머리 위로 행복한 가족이나 사람들의 그룹을 묘사합니다. 이 카드는 모든 것이 최선의 방식으로 결합되고 있으며 깊은 감정적 만족과 성취감을 경험하고 있음을 나타냅니다. 사랑하는 사람들과의 관계는 강하고 깊은 사랑과 소속감을 느낍니다.
+        `,
       },
       reverse: {
-        keyword: ["Disconnection", "misalignment", "unrealistic expectations"],
-        meaning: `In the reversed position, the Ten of Cups suggests that there may be tension or conflict in your relationships. Perhaps there are unrealistic expectations or unmet needs that are causing disharmony and disrupting the happiness you had once felt. It may be a time to reassess your priorities and make sure you are communicating your needs clearly. If there is conflict, it is important to work together to resolve it and restore harmony in your relationships.`,
+        keyword: ["단절", "부조화", "비현실적인 기대"],
+        meaning: `거꾸로 된 Ten of Cups는 관계에 긴장이나 갈등이 있을 수 있음을 암시합니다. 부조화를 일으키고 한때 느꼈던 행복을 방해하는 비현실적인 기대나 충족되지 않은 욕구가 있을 수 있습니다. 우선 순위를 재평가하고 요구 사항을 명확하게 전달하고 있는지 확인해야 할 때일 수 있습니다. 갈등이 있다면 함께 해결하고 관계의 조화를 회복하는 것이 중요합니다.
+        `,
       },
-      description: `The Ten of Cups is often seen as one of the most positive cards in the deck, as it represents a sense of deep contentment and happiness in all areas of life. It is a reminder to cherish the people you love and to focus on the good things in life. However, it is also important to be realistic about your expectations and work together to resolve any conflicts that may arise. When this card appears in a reading, it is a sign of peace, harmony, and a strong sense of community.`,
+      description: `Ten of Cups는 삶의 모든 영역에서 깊은 만족감과 행복감을 나타내기 때문에 데크에서 가장 긍정적인 카드 중 하나로 간주되는 경우가 많습니다. 사랑하는 사람을 소중히 여기고 인생의 좋은 점에 집중하라는 알림입니다. 그러나 기대에 대해 현실적으로 생각하고 발생할 수 있는 갈등을 해결하기 위해 함께 노력하는 것도 중요합니다. 이 카드가 읽기에 나타나면 평화, 조화, 강한 공동체 의식의 표시입니다.
+      `,
     },
     {
       id: 46,
@@ -814,20 +842,19 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/46.jpg"),
       upright: {
-        keyword: ["Creativity", "imagination", "empathy", "intuition"],
-        meaning: `The Page of Cups is a card of youthful energy and creativity. It often indicates a new idea or project that is just starting to take shape. This card can also represent a young person who is sensitive, empathetic, and in touch with their emotions.`,
+        keyword: ["창의성", "상상력", "공감", "직관"],
+        meaning: `Page of Cups는 젊은 에너지와 창의성의 카드입니다. 종종 형태를 갖추기 시작한 새로운 아이디어나 프로젝트를 나타냅니다. 이 카드는 또한 민감하고 공감하며 자신의 감정과 접촉하는 젊은이를 나타낼 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Blocked creativity",
-          "emotional immaturity",
-          "lack of sensitivity",
-        ],
-        meaning: `When reversed, the Page of Cups can indicate emotional immaturity or insecurity. This card may suggest that you are not being honest with yourself or others about your true feelings. You may be manipulating others or allowing yourself to be manipulated by someone else.`,
+        keyword: ["차단된 창의성", "정서적 미성숙", "감수성 부족"],
+        meaning: `페이지를 뒤집으면 정서적 미숙함이나 불안정함을 나타낼 수 있습니다. 이 카드는 당신이 당신의 진정한 감정에 대해 당신 자신이나 다른 사람들에게 정직하지 않다는 것을 암시할 수 있습니다. 다른 사람을 조종하거나 다른 사람이 자신을 조종하도록 허용할 수 있습니다.
+        `,
       },
-      description: `The Page of Cups is a member of the Court Cards in the suit of Cups in the Tarot. He is depicted as a young man holding a cup or a chalice, often with a fish popping out of it. The fish represents the unconscious mind and the depth of emotions that the Page is in touch with.
+      description: `Page of Cups는 타로의 컵 소송에서 법원 카드의 구성원입니다. 그는 컵이나 성배를 들고 있는 청년으로 묘사되며, 종종 컵에서 물고기가 튀어나옵니다. 물고기는 무의식과 페이지가 접촉하는 감정의 깊이를 나타냅니다.
 
-    The Page of Cups is a reminder to embrace your inner child and tap into your creativity and emotions. This card encourages you to follow your heart and pursue your passions, even if they seem unconventional or impractical. The Page of Cups represents the youthful energy of new beginnings and the potential for growth and change.`,
+      Page of Cups는 내면의 아이를 포용하고 창의력과 감정을 활용하라는 알림입니다. 이 카드는 관습에 얽매이지 않거나 비현실적으로 보이더라도 마음을 따르고 열정을 추구하도록 격려합니다. Page of Cups는 새로운 시작의 젊은 에너지와 성장과 변화의 가능성을 나타냅니다.
+    `,
     },
     {
       id: 47,
@@ -835,14 +862,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/47.jpg"),
       upright: {
-        keyword: ["Romance", "charm", "grace", "emotion"],
-        meaning: `The Knight of Cups represents a charming, romantic, and creative individual who is in touch with their emotions. This card often suggests the pursuit of a new relationship or the deepening of an existing one. The Knight of Cups is driven by his emotions and is not afraid to take risks to follow his heart. He is a dreamer who is always in search of beauty and inspiration.`,
+        keyword: ["로맨스", "매력", "우아함", "감정"],
+        meaning: `Knight of Cups는 자신의 감정과 소통하는 매력적이고 낭만적이며 창의적인 개인을 나타냅니다. 이 카드는 종종 새로운 관계 추구 또는 기존 관계의 심화를 암시합니다. Knight of Cups는 자신의 감정에 이끌리고 자신의 마음을 따르기 위해 위험을 감수하는 것을 두려워하지 않습니다. 그는 항상 아름다움과 영감을 찾는 몽상가입니다.
+        `,
       },
       reverse: {
-        keyword: ["Moodiness", "overindulgence", "manipulation"],
-        meaning: `When the Knight of Cups appears in reverse, it may suggest that the individual is being driven too much by their emotions and may be prone to mood swings and unrealistic expectations. They may be using their emotions to manipulate others or to avoid dealing with reality. This card can also indicate the need to take a more practical approach to matters of the heart.`,
+        keyword: ["우울", "방종", "시장 조작"],
+        meaning: `Knight of Cups가 거꾸로 나타나면 개인이 감정에 너무 많이 몰리고 기분 변화와 비현실적인 기대에 빠지기 쉽다는 것을 암시할 수 있습니다. 그들은 감정을 사용하여 다른 사람을 조작하거나 현실을 다루는 것을 회피할 수 있습니다. 이 카드는 또한 마음의 문제에 대해 보다 실용적인 접근 방식을 취해야 할 필요성을 나타낼 수 있습니다.
+        `,
       },
-      description: `The Knight of Cups is a card that embodies the qualities of a romantic and creative individual. This knight is in touch with his emotions and uses his intuition to navigate through life. He is often seen as a dreamer who is always in search of beauty and inspiration. The Knight of Cups represents the pursuit of a new relationship or the deepening of an existing one. This card encourages us to follow our hearts and take risks in matters of love and creativity. However, we should also be aware of the potential for emotional manipulation and the need to maintain a practical approach to life.`,
+      description: `Knight of Cups는 낭만적이고 창의적인 개인의 자질을 구현하는 카드입니다. 이 기사는 자신의 감정과 접촉하고 직관을 사용하여 인생을 탐색합니다. 그는 항상 아름다움과 영감을 찾는 몽상가로 여겨집니다. Knight of Cups는 새로운 관계 추구 또는 기존 관계의 심화를 나타냅니다. 이 카드는 우리가 마음을 따르고 사랑과 창의성의 문제에서 위험을 감수하도록 격려합니다. 그러나 우리는 감정을 조작할 가능성과 삶에 대한 실용적인 접근 방식을 유지해야 할 필요성도 인식해야 합니다.
+      `,
     },
     {
       id: 48,
@@ -850,14 +880,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/48.jpg"),
       upright: {
-        keyword: ["Nurturing", "empathy", "compassion", "intuition"],
-        meaning: `The Queen of Cups embodies emotional intelligence, empathy, and sensitivity. She trusts her intuition and inner voice, and is able to connect with others on a deep emotional level. This card suggests a time to be receptive to your feelings and those of others, and to nurture your emotional wellbeing. You may find yourself being more compassionate and nurturing towards others, and feeling a sense of emotional fulfillment in doing so.`,
+        keyword: ["양육", "공감", "동정심", "직관"],
+        meaning: `Queen of Cups는 감성 지능, 공감 및 감수성을 구현합니다. 그녀는 자신의 직감과 내면의 목소리를 신뢰하고 깊은 감정 수준에서 다른 사람들과 연결할 수 있습니다. 이 카드는 당신과 다른 사람들의 감정을 수용하고 당신의 정서적 웰빙을 키워야 할 때를 제안합니다. 당신은 다른 사람들에게 더 연민을 느끼고 양육하며 그렇게 함으로써 정서적 성취감을 느끼는 자신을 발견할 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Martyrdom", "codependency", "emotional instability"],
-        meaning: `When reversed, the Queen of Cups can indicate emotional instability, moodiness, and a lack of emotional boundaries. You may find yourself overwhelmed by your emotions, or having difficulty expressing them in a healthy way. This card is a reminder to take care of yourself emotionally, set healthy boundaries, and seek support if needed.`,
+        keyword: ["순교", "상호의존성", "정서적 불안정"],
+        meaning: `반전되면 컵의 여왕은 정서적 불안정, 침울함, 감정적 경계의 부족을 나타낼 수 있습니다. 감정에 압도당하거나 건강한 방식으로 감정을 표현하는 데 어려움을 겪을 수 있습니다. 이 카드는 감정적으로 자신을 돌보고, 건강한 경계를 설정하고, 필요한 경우 지원을 구하라는 알림입니다.
+        `,
       },
-      description: `In the Rider-Waite-Smith tradition, the Queen of Cups is depicted as a serene woman holding a cup adorned with angelic figures. She sits by the sea, representing her connection to the subconscious and emotional depths. The Queen of Cups encourages us to trust our intuition and emotions, and to honor our emotional needs with compassion and kindness.`,
+      description: `Rider-Waite-Smith 전통에서 컵의 여왕은 천사의 형상으로 장식된 컵을 들고 있는 고요한 여성으로 묘사됩니다. 그녀는 바다 옆에 앉아 잠재 의식과 감정의 깊이에 대한 그녀의 연결을 나타냅니다. 컵의 여왕은 우리가 직관과 감정을 믿고 연민과 친절로 감정적 필요를 존중하도록 격려합니다.
+      `,
     },
     {
       id: 49,
@@ -865,14 +898,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/49.jpg"),
       upright: {
-        keyword: ["Compassion", "empathy", "diplomacy", "creativity"],
-        meaning: `The King of Cups represents emotional maturity, balance, and compassion. He is a master of his emotions and is able to navigate through difficult situations with calmness and grace. He uses his intuition and empathy to understand the emotions of others and is able to offer support and guidance when needed.`,
+        keyword: ["동정심", "공감", "외교", "창의성"],
+        meaning: `King of Cups는 정서적 성숙, 균형 및 연민을 나타냅니다. 그는 감정의 주인이며 평온함과 우아함으로 어려운 상황을 헤쳐나갈 수 있습니다. 그는 직감과 공감을 사용하여 다른 사람의 감정을 이해하고 필요할 때 지원과 안내를 제공할 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Emotional manipulation", "moodiness", "manipulation"],
-        meaning: `When reversed, the King of Cups can indicate emotional manipulation, moodiness, and a lack of emotional control. This can manifest as using emotions to control others or being unable to control one's own emotions, leading to erratic behavior and mood swings.`,
+        keyword: ["감정 조작", "우울", "시장 조작"],
+        meaning: `반전되면 King of Cups는 감정 조작, 침울함, 감정 조절 부족을 나타낼 수 있습니다. 이것은 다른 사람을 통제하기 위해 감정을 사용하거나 자신의 감정을 통제할 수 없는 것으로 나타나서 불규칙한 행동과 기분 변화로 이어질 수 있습니다.
+        `,
       },
-      description: `The King of Cups is a symbol of emotional balance and maturity. He represents someone who is able to navigate through difficult situations with calmness and grace, using his intuition and empathy to understand the emotions of others. He values harmony and peace in all relationships and is able to find solutions that benefit everyone involved. The King of Cups reminds us to remain emotionally balanced and approach situations with compassion and understanding.`,
+      description: `King of Cups는 정서적 균형과 성숙의 상징입니다. 그는 다른 사람의 감정을 이해하기 위해 자신의 직관과 공감을 사용하여 평온함과 우아함으로 어려운 상황을 헤쳐나갈 수 있는 사람을 나타냅니다. 그는 모든 관계에서 조화와 평화를 소중히 여기며 관련된 모든 사람에게 유익한 해결책을 찾을 수 있습니다. King of Cups는 감정적으로 균형을 유지하고 동정심과 이해심으로 상황에 접근하도록 상기시킵니다.
+      `,
     },
     {
       id: 50,
@@ -880,14 +916,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/50.jpg"),
       upright: {
-        keyword: ["Clarity", "power", "truth", "mental force"],
-        meaning: `The Ace of Swords is a card of clarity, focus, and breakthroughs. It indicates a new level of understanding or awareness that will allow you to cut through confusion and mental fog. This card suggests a time of intellectual power and sharpness of mind, giving you the ability to see through illusions and find solutions to problems.`,
+        keyword: ["명쾌함", "힘", "진실", "정신력"],
+        meaning: `Ace of Swords는 명확성, 집중 및 혁신의 카드입니다. 혼란과 정신적인 안개를 뚫고 나갈 수 있는 새로운 수준의 이해 또는 인식을 나타냅니다. 이 카드는 환상을 꿰뚫어보고 문제에 대한 해결책을 찾을 수 있는 능력을 제공하는 지적인 힘과 마음의 예리함의 시간을 암시합니다.
+        `,
       },
       reverse: {
-        keyword: ["Confusion", "chaos", "disorder", "falsehood"],
-        meaning: `When reversed, the Ace of Swords suggests that you may be feeling confused or uncertain. You may be having trouble making decisions or finding clarity in a particular situation. It can also indicate a lack of mental discipline or the inability to see things clearly, which can lead to mistakes or misjudgments.`,
+        keyword: ["혼란", "혼돈", "무질서", "거짓말"],
+        meaning: `반대로 하면 Ace of Swords는 혼란스럽거나 불확실하다고 느낄 수 있음을 나타냅니다. 특정 상황에서 결정을 내리거나 명확성을 찾는 데 어려움을 겪을 수 있습니다. 또한 정신 훈련이 부족하거나 사물을 명확하게 볼 수 없어 실수나 오판으로 이어질 수 있음을 나타낼 수 있습니다.
+        `,
       },
-      description: `The Ace of Swords is a symbol of mental clarity and intellectual power. The sword represents the mind and the power of thought, while the crown represents the clarity and focus that comes with a new level of understanding. The Ace of Swords is a card of breakthroughs and new beginnings, indicating that you have the mental strength and power to cut through confusion and find a path forward. This card encourages you to use your intellect and mental faculties to solve problems and make decisions with confidence and clarity.`,
+      description: `Ace of Swords는 정신적 명료성과 지적 능력의 상징입니다. 칼은 마음과 생각의 힘을 나타내고 왕관은 새로운 수준의 이해와 함께 제공되는 명확성과 초점을 나타냅니다. Ace of Swords는 돌파구와 새로운 시작의 카드로, 혼란을 헤쳐나가고 앞으로 나아갈 길을 찾을 수 있는 정신력과 힘이 있음을 나타냅니다. 이 카드는 당신의 지성과 정신 능력을 사용하여 문제를 해결하고 자신감 있고 명확하게 결정을 내리도록 격려합니다.
+      `,
     },
     {
       id: 51,
@@ -895,21 +934,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/51.jpg"),
       upright: {
-        keyword: ["Stalemate", "difficult decisions", "indecision", "truce"],
-        meaning: `The Two of Swords often appears when a difficult decision must be made, but the querent feels stuck or uncertain. The card shows a woman blindfolded, holding two crossed swords in front of her. This suggests that she may be hesitant to make a move for fear of making the wrong choice. The water and rocks in the background suggest that emotions are at play in this situation, and that the decision may have significant consequences.`,
+        keyword: ["수가 막히다", "어려운 결정", "우유부단", "휴전"],
+        meaning: `Two of Swords는 어려운 결정을 내려야 할 때 자주 나타나지만 의뢰인은 막히거나 불확실하다고 느낍니다. 카드에는 눈을 가린 여성이 두 자루의 검을 들고 있는 모습이 담겨 있습니다. 이것은 그녀가 잘못된 선택을 할까봐 두려워서 움직이기를 주저할 수 있음을 시사합니다. 배경의 물과 바위는 이 상황에서 감정이 작용하고 있으며 그 결정이 중대한 결과를 초래할 수 있음을 암시합니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Indecision",
-          "confusion",
-          "information overload",
-          "disruption",
-        ],
-        meaning: `When the Two of Swords appears reversed, it may suggest that the querent is avoiding making a difficult decision or is resisting change. They may be struggling with feelings of fear or uncertainty, and may be hesitant to make a move for fear of making the wrong choice.`,
+        keyword: ["우유부단", "혼란", "정보 과부하", "분열"],
+        meaning: `Two of Swords가 거꾸로 표시되면 의뢰인이 어려운 결정을 피하거나 변화에 저항하고 있음을 암시할 수 있습니다. 그들은 두려움이나 불확실성으로 어려움을 겪고 있을 수 있으며 잘못된 선택을 할까봐 두려워 행동을 주저할 수 있습니다.
+        `,
       },
-      description: `The Two of Swords is a card of difficult choices and emotional conflict. In the traditional Rider-Waite-Smith imagery, the card shows a woman seated with her back to the water, holding two crossed swords in front of her. Her posture suggests that she may be blindfolded or otherwise unable to see the situation clearly. The swords represent the difficult decision that must be made, and the water and rocks in the background suggest that emotions are at play in this situation.
-
-    This card can indicate a stalemate or impasse, where neither option seems like the right one. The querent may feel stuck or uncertain, and may need to take a step back to gain clarity and perspective. Ultimately, the Two of Swords reminds us that sometimes difficult choices must be made, and that it is important to approach them with clarity, focus, and honesty.`,
+      description: `Two of Swords는 어려운 선택과 감정적 갈등의 카드입니다. 카드는 그녀 앞에 두 개의 교차 검을 들고 물을 등지고 앉아있는 여성을 보여줍니다. 그녀의 자세는 그녀가 눈을 가리고 있거나 상황을 명확하게 볼 수 없음을 시사합니다. 칼은 내려야 할 어려운 결정을 나타내고 배경의 물과 바위는 이 상황에서 감정이 작용하고 있음을 나타냅니다.
+    `,
     },
     {
       id: 52,
@@ -917,14 +952,16 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/52.jpg"),
       upright: {
-        keyword: ["Heartbreak", "sadness", "betrayal", "rejection"],
-        meaning: `The Three of Swords in the upright position signifies emotional pain, heartbreak, and sorrow. It suggests that you may be experiencing the end of a relationship, betrayal, or rejection. This card reminds you to allow yourself to grieve and process your emotions, rather than repressing or denying them. It can also indicate the need for self-reflection and introspection to gain clarity on the situation and learn from the experience.`,
+        keyword: ["비탄", "비애", "배신", "배제"],
+        meaning: `직립 자세의 검 세 개는 정서적 고통, 비탄, 슬픔을 의미합니다. 관계의 끝, 배신 또는 거절을 경험하고 있을 수 있음을 암시합니다. 이 카드는 감정을 억누르거나 부정하기보다는 슬퍼하고 처리하도록 허용하도록 상기시켜줍니다. 또한 상황을 명확하게 파악하고 경험을 통해 배우기 위해 자기 성찰과 성찰이 필요함을 나타낼 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Recovery", "forgiveness", "moving on"],
-        meaning: `In the reverse position, the Three of Swords suggests that you are on the path to recovery and healing from emotional pain. You may be learning to forgive yourself or others and moving on from a difficult situation. It can indicate that you are gaining a new perspective and finding inner peace. However, this card also warns against rushing the healing process and ignoring any unresolved emotions or issues.`,
+        keyword: ["회복", "용서", "계속 나아감"],
+        meaning: `반대 입장에서 Three of Swords는 당신이 감정적 고통으로부터 회복하고 치유하는 길에 있음을 암시합니다. 자신이나 다른 사람을 용서하고 어려운 상황에서 벗어나는 법을 배우고 있을지도 모릅니다. 그것은 당신이 새로운 관점을 얻고 내면의 평화를 찾고 있음을 나타낼 수 있습니다. 그러나 이 카드는 또한 치유 과정을 서두르고 해결되지 않은 감정이나 문제를 무시하는 것에 대해 경고합니다.
+        `,
       },
-      description: `The Three of Swords depicts a heart pierced by three swords, against a stormy background. This card represents heartbreak, sadness, betrayal, and rejection. It can indicate a painful experience of loss or separation, either in a relationship or another area of your life. This card suggests that you may be feeling hurt, alone, or disillusioned.
+      description: `The Three of Swords는 폭풍우가 치는 배경을 배경으로 세 개의 칼로 찔린 심장을 묘사합니다. 이 카드는 비탄, 슬픔, 배신, 거절을 나타냅니다. 그것은 관계나 삶의 다른 영역에서 상실이나 분리의 고통스러운 경험을 나타낼 수 있습니다. 이 카드는 당신이 상처받거나 외롭거나 환멸을 느끼고 있음을 암시합니다.
     `,
     },
     {
@@ -933,14 +970,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/53.jpg"),
       upright: {
-        keyword: ["Rest", "recuperation", "solitude", "contemplation"],
-        meaning: `The Four of Swords often appears when you need to take a break from the hustle and bustle of daily life. This card suggests that you may be feeling mentally or emotionally exhausted and need time to recharge your batteries. It can also indicate a need for solitude, reflection, and contemplation. Use this time to focus on self-care, meditation, or other practices that help you restore your energy and find inner peace.`,
+        keyword: ["휴식", "회복", "고독", "묵상"],
+        meaning: `사검은 일상의 번잡함에서 벗어나 휴식이 필요할 때 자주 등장합니다. 이 카드는 당신이 정신적으로나 감정적으로 지쳐 있고 배터리를 재충전할 시간이 필요함을 암시합니다. 또한 고독, 반성 및 사색이 필요함을 나타낼 수도 있습니다. 이 시간을 사용하여 에너지를 회복하고 내면의 평화를 찾는 데 도움이 되는 자기 관리, 명상 또는 기타 관행에 집중하십시오.
+        `,
       },
       reverse: {
-        keyword: ["Exhaustion", "burnout", "overstimulation"],
-        meaning: `When the Four of Swords appears in reverse, it can indicate that you are having difficulty finding the rest and recovery you need. You may be struggling with burnout, restlessness, or a lack of progress in your personal or professional life. This card reminds you that it's important to prioritize your own well-being and take the time you need to recharge your batteries. Consider seeking out new strategies or support systems to help you overcome any obstacles you may be facing.`,
+        keyword: ["피로", "탈진", "과잉 자극"],
+        meaning: `Four of Swords가 거꾸로 나타나면 필요한 휴식과 회복을 찾는 데 어려움을 겪고 있음을 나타낼 수 있습니다. 소진, 안절부절, 개인 생활이나 직업 생활의 진전 부족으로 어려움을 겪고 있을 수 있습니다. 이 카드는 자신의 웰빙을 우선시하고 배터리를 재충전하는 데 필요한 시간을 갖는 것이 중요함을 상기시켜줍니다. 직면할 수 있는 장애물을 극복하는 데 도움이 되는 새로운 전략이나 지원 시스템을 찾는 것을 고려하십시오.
+        `,
       },
-      description: `In the traditional Rider-Waite-Smith imagery, the Four of Swords shows a knight lying on a bed, with three swords hung on the wall behind him and a fourth sword lying beneath him. The image suggests a state of rest, recovery, and withdrawal from the world. The swords represent the mental and emotional challenges that the knight has faced, and the need to take a break from these struggles in order to heal and regain strength.`,
+      description: `Four of Swords는 침대에 누워있는 기사를 보여줍니다. 그 뒤에 벽에 세 개의 검이 걸려 있고 그 아래에 네 번째 검이 놓여 있습니다. 이미지는 휴식, 회복 및 세상으로부터의 철수 상태를 암시합니다. 칼은 기사가 직면한 정신적, 감정적 도전과 치유하고 힘을 되찾기 위해 이러한 투쟁에서 휴식을 취해야 할 필요성을 나타냅니다.
+      `,
     },
     {
       id: 54,
@@ -948,14 +988,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/54.jpg"),
       upright: {
-        keyword: ["Conflict", "defeat", "betrayal", "loss"],
-        meaning: `The Five of Swords is often associated with conflict and discord, particularly in relationships or group settings. This card can indicate that you have experienced a loss or defeat, and may feel like you have been betrayed by those around you. It may be tempting to resort to unethical or underhanded tactics to get what you want, but ultimately this approach will only lead to further conflict and isolation. Instead, the Five of Swords reminds us to choose our battles wisely, to seek resolution through communication and compromise, and to be mindful of the impact our actions have on those around us.`,
+        keyword: ["갈등", "패배", "배신", "손실"],
+        meaning: `Five of Swords는 종종 특히 관계나 그룹 설정에서 갈등과 불화와 관련이 있습니다. 이 카드는 당신이 상실이나 패배를 경험했음을 나타낼 수 있으며 주변 사람들에게 배신당한 것처럼 느낄 수 있습니다. 원하는 것을 얻기 위해 비윤리적이거나 불공정한 전술에 의지하고 싶을 수도 있지만 궁극적으로 이러한 접근 방식은 더 많은 갈등과 고립을 초래할 뿐입니다. 대신 Five of Swords는 전투를 현명하게 선택하고, 의사소통과 타협을 통해 해결을 추구하고, 우리의 행동이 주변 사람들에게 미치는 영향을 염두에 두도록 상기시킵니다.
+        `,
       },
       reverse: {
-        keyword: ["Reconciliation", "making amends", "compromise"],
-        meaning: `When reversed, the Five of Swords suggests that you may be in a position to reconcile with someone you have been in conflict with. This card can indicate a willingness to make amends, to seek forgiveness, and to find common ground. It is important to approach this process with sincerity and a willingness to listen and understand the other person's perspective. Remember that healing takes time, and that it is important to be patient and compassionate with yourself and others as you navigate this process.`,
+        keyword: ["화해", "보상", "타협"],
+        meaning: `반대로 하면 Five of Swords는 당신이 갈등을 겪었던 누군가와 화해할 수 있는 위치에 있을 수 있음을 시사합니다. 이 카드는 보상하고, 용서를 구하고, 공통점을 찾으려는 의지를 나타낼 수 있습니다. 상대방의 입장을 경청하고 이해하려는 진심과 의지를 가지고 이 과정에 접근하는 것이 중요합니다. 치유에는 시간이 걸리며 이 과정을 탐색할 때 자신과 다른 사람들에게 인내심과 연민을 갖는 것이 중요하다는 점을 기억하십시오.
+        `,
       },
-      description: `In the traditional Rider-Waite-Smith imagery, the Five of Swords shows a man holding three swords, while two others lie on the ground. Two figures can be seen walking away in the background, suggesting that the man has achieved victory over his opponents, but at a significant cost. The Five of Swords reminds us that conflict and competition can be costly, and that it is important to consider the long-term consequences of our actions. Sometimes, it is better to compromise or walk away from a situation rather than to insist on winning at all costs.`,
+      description: `Five of Swords는 세 개의 검을 들고 있는 남자를 보여주고 다른 두 개는 바닥에 누워 있습니다. 배경에서 두 인물이 걸어가는 것을 볼 수 있는데, 이는 그 남자가 상대를 이겼지만 상당한 대가를 치르고 있음을 암시합니다. The Five of Swords는 갈등과 경쟁이 비용이 많이 들 수 있으며 우리 행동의 장기적인 결과를 고려하는 것이 중요하다는 것을 상기시켜줍니다. 때로는 어떤 대가를 치르더라도 승리를 고집하는 것보다 타협하거나 상황에서 벗어나는 것이 더 나을 수 있습니다.
+      `,
     },
     {
       id: 55,
@@ -963,21 +1006,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/55.jpg"),
       upright: {
-        keyword: ["Transition", "change", "moving on", "leaving behind"],
-        meaning:
-          "The Six of Swords often represents a difficult transition or journey. It suggests leaving behind something that was once familiar and moving on to something new. While this can be a painful process, the card brings hope for a brighter future and the potential for emotional growth. The card may also suggest seeking guidance or support during this time of change.",
+        keyword: ["이행", "변화", "계속 나아감", "남겨두다"],
+        meaning: `Six of Swords는 종종 어려운 전환 또는 여정을 나타냅니다. 익숙했던 것을 버리고 새로운 것으로 나아가는 것을 의미합니다. 이것은 고통스러운 과정일 수 있지만 카드는 더 밝은 미래에 대한 희망과 정서적 성장의 잠재력을 가져다줍니다. 카드는 또한 이 변화의 시기에 지침이나 지원을 구하도록 제안할 수 있습니다.
+          `,
       },
       reverse: {
-        keyword: [
-          "Resistance to change",
-          "emotional baggage",
-          "unfinished business",
-        ],
-        meaning:
-          "In reverse, the Six of Swords may indicate a resistance to change or a struggle to let go of emotional baggage from the past. It suggests that there may be unfinished business or unresolved issues that need to be addressed before moving on. Alternatively, the reverse meaning may also indicate being stuck in a situation or feeling directionless.",
+        keyword: ["변화에 대한 저항", "감정적 짐", "미완성 사업"],
+        meaning: `반대로 Six of Swords는 변화에 대한 저항이나 과거의 감정적 짐을 내려놓기 위한 투쟁을 나타낼 수 있습니다. 계속 진행하기 전에 해결해야 할 미완성 사업이나 해결되지 않은 문제가 있을 수 있음을 암시합니다. 또는 반대의 의미는 상황에 갇혀 있거나 방향이 없는 느낌을 나타낼 수도 있습니다.
+          `,
       },
-      description:
-        "The Six of Swords shows a figure and a child in a boat, with six swords underneath them. The water is calm and the sky is clear, indicating that the journey ahead may be smoother than the one they are leaving behind. The swords can represent the challenges or difficulties that have been faced, but are now being left behind. The child can symbolize innocence and the potential for new beginnings, while the figure represents a guide or mentor who is leading the way to a brighter future.",
+      description: `Six of Swords는 보트에 탄 아이와 그 아래에 여섯 개의 검이 있는 모습을 보여줍니다. 물은 잔잔하고 하늘은 맑아서 앞으로의 여정이 떠나는 여정보다 순조로울 수 있음을 나타냅니다. 칼은 직면한 도전이나 어려움을 나타낼 수 있지만 지금은 뒤쳐져 있습니다. 아이는 순수함과 새로운 시작의 가능성을 상징하며, 인물은 더 밝은 미래로 가는 길잡이 또는 멘토를 나타냅니다.
+        `,
     },
     {
       id: 56,
@@ -985,33 +1024,32 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/56.jpg"),
       upright: {
-        keyword: ["Deception", "betrayal", "mind games", "strategy"],
-        meaning:
-          "The Seven of Swords can indicate deceit, trickery, or betrayal. Someone may be trying to deceive or manipulate you, or you may be tempted to engage in dishonest behavior yourself. Be cautious and try to see through any illusions or false promises. It is important to act with integrity and honesty in all situations, even if it may be more difficult in the short term.",
+        keyword: ["기만", "배신", "심리게임", "전략"],
+        meaning: `Seven of Swords는 속임수, 속임수 또는 배신을 나타낼 수 있습니다. 누군가가 당신을 속이거나 조종하려고 할 수도 있고, 스스로 부정직한 행동에 가담하고 싶은 유혹을 느낄 수도 있습니다. 조심하고 환상이나 거짓 약속을 꿰뚫어 보도록 노력하십시오. 단기적으로는 더 어려워지더라도 모든 상황에서 청렴하고 정직하게 행동하는 것이 중요합니다.
+          `,
       },
       reverse: {
-        keyword: ["Coming clean", "confession", "revealing the truth"],
-        meaning:
-          "When reversed, the Seven of Swords suggests a need for honesty and transparency. You may need to confront the truth of a situation, even if it is uncomfortable or difficult. It can also indicate a release from the burden of secrets or dishonesty, and a restoration of trust and harmony in your relationships. Take responsibility for your actions and be truthful with yourself and others.",
+        keyword: ["깨끗해지다", "고백", "진실을 밝힘"],
+        meaning: `역순으로 Seven of Swords는 정직과 투명성의 필요성을 암시합니다. 불편하거나 어렵더라도 상황의 진실을 직시해야 할 수도 있습니다. 또한 비밀이나 부정직의 부담에서 벗어나 관계에서 신뢰와 조화가 회복되었음을 나타낼 수도 있습니다. 자신의 행동에 책임을 지고 자신과 타인에게 정직하십시오.
+          `,
       },
-      description:
-        "The Seven of Swords depicts a figure sneaking away with five swords, leaving two behind. This card can represent deceit, trickery, or betrayal, as well as the importance of honesty and integrity. It suggests a need to be cautious and aware of any potential deception or manipulation, and to act with transparency and honesty in all situations. When reversed, this card can indicate a release from the burden of secrets and dishonesty, and a restoration of trust and harmony.",
+      description: `Seven of Swords는 두 개의 검을 남기고 다섯 개의 검을 들고 몰래 빠져나가는 인물을 묘사합니다. 이 카드는 정직과 성실의 중요성뿐만 아니라 속임수, 속임수 또는 배신을 나타낼 수 있습니다. 잠재적인 속임수나 조작에 주의하고 인식하고 모든 상황에서 투명하고 정직하게 행동할 필요가 있음을 시사합니다. 반전되면 이 카드는 비밀과 부정직의 부담에서 벗어나 신뢰와 조화의 회복을 나타낼 수 있습니다.
+        `,
     },
-
     {
       id: 57,
       name: "소드8",
       isReverse: false,
       image: require("assets/images/cards/57.jpg"),
       upright: {
-        keyword: ["Deception", "betrayal", "mind games", "strategy"],
-        meaning: "",
+        keyword: ["과감함", "열정", "행동", "의지"],
+        meaning: `Eight of Swords는 열정과 의지를 가진 대담하고 결단력있는 행동을 나타냅니다. 당신이 현재 직면한 문제를 해결하기 위해 적극적으로 대처하고자 하는 용기와 끈기가 필요할 것입니다. 당신의 용기와 헌신이 결국 성공으로 이어질 것입니다. 이 카드는 당신이 어려운 상황에서도 굴하지 않고 직면하여 승리할 수 있음을 상기시킵니다.`,
       },
       reverse: {
-        keyword: ["Coming clean", "confession", "revealing the truth"],
-        meaning: "",
+        keyword: ["무모함", "추진력 부족", "부주의"],
+        meaning: `역순으로 Eight of Swords는 무모한 행동과 충동, 그리고 부족한 계획성을 나타냅니다. 새로운 계획을 추진하기 전에 충분한 준비를 하지 않고서는 현실적인 성공을 얻을 수 없을 것입니다. 이 카드는 성급한 행동과 부주의를 경계하라는 경고입니다.`,
       },
-      description: "",
+      description: `Eight of Swords는 검을 든 인물이 눈앞에서 거대한 성벽을 향해 도약하고 있는 모습이 그려져 있습니다. 이는 열정과 의지를 가진 대담하고 결단력있는 행동을 나타내는데, 새로운 도전이나 문제에 직면하였을 때 두려움 없이 대처하고자 하는 용기와 끈기가 필요하다는 것을 상기시킵니다. 이 카드는 성장과 성공을 이루기 위해서는 자신에게 도전적인 상황을 만들어 자신의 한계를 극복해야 한다는 것을 상기시킵니다.`,
     },
     {
       id: 58,
@@ -1019,14 +1057,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/58.jpg"),
       upright: {
-        keyword: ["Anxiety", "fear", "nightmares", "mental anguish"],
-        meaning: `The Nine of Swords represents anxiety, fear, and worries that keep you up at night. This card can indicate that you are experiencing a period of intense stress or mental anguish, which may be caused by external or internal factors. You may feel trapped in your own thoughts, unable to escape the cycle of negative thinking and self-doubt. The Nine of Swords is a reminder that our thoughts can create our reality, and that it's important to be mindful of the stories we tell ourselves.`,
+        keyword: ["불안", "두려움", "악몽", "정신적 괴로움"],
+        meaning: `Nine of Swords는 밤에 잠 못 이루게 만드는 불안, 두려움, 걱정을 나타냅니다. 이 카드는 외부적 또는 내부적 요인으로 인해 발생할 수 있는 극심한 스트레스 또는 정신적 괴로움을 겪고 있음을 나타낼 수 있습니다. 자신의 생각에 갇혀 부정적인 생각과 자기 의심의 순환에서 벗어날 수 없다고 느낄 수 있습니다. The Nine of Swords는 우리의 생각이 현실을 창조할 수 있다는 것과 우리가 스스로에게 하는 이야기를 염두에 두는 것이 중요하다는 것을 일깨워줍니다.
+        `,
       },
       reverse: {
-        keyword: ["Releasing fear", "facing reality", "inner turmoil"],
-        meaning: `When reversed, the Nine of Swords suggests that you are beginning to find ways to alleviate your anxiety and worries. You may be learning to let go of negative thought patterns, or finding ways to manage your stress levels. This card can indicate a period of release, relief, and acceptance. You may be learning to forgive yourself or others for past mistakes, and moving towards a more positive and empowered state of mind.`,
+        keyword: ["두려움 해소", "현실을 직시하다", "내적 혼란"],
+        meaning: `반대로 하면 Nine of Swords는 불안과 걱정을 완화할 방법을 찾기 시작했음을 암시합니다. 부정적인 생각 패턴을 버리거나 스트레스 수준을 관리하는 방법을 찾는 방법을 배우고 있을 수 있습니다. 이 카드는 석방, 완화 및 수용 기간을 나타낼 수 있습니다. 과거의 실수에 대해 자신이나 다른 사람을 용서하는 법을 배우고 더 긍정적이고 힘 있는 마음 상태로 나아가고 있을지도 모릅니다.
+        `,
       },
-      description: `The Nine of Swords depicts a person sitting up in bed, their head in their hands, while nine swords hang on the wall behind them. This card represents anxiety, fear, nightmares, and worries that keep you up at night. It can indicate a period of intense stress or mental anguish, which may be caused by external or internal factors. You may feel trapped in your own thoughts, unable to escape the cycle of negative thinking and self-doubt. The Nine of Swords is a reminder that our thoughts can create our reality, and that it's important to be mindful of the stories we tell ourselves.`,
+      description: `나인 오브 소드(Nine of Swords)는 머리를 손으로 감싸고 침대에 앉아 있는 사람을 묘사하고 있으며, 그 뒤에는 아홉 개의 검이 벽에 걸려 있습니다. 이 카드는 불안, 두려움, 악몽, 밤에 잠 못 이루는 걱정을 나타냅니다. 외부 또는 내부 요인으로 인해 발생할 수 있는 강렬한 스트레스 또는 정신적 괴로움의 기간을 나타낼 수 있습니다. 자신의 생각에 갇혀 부정적인 생각과 자기 의심의 순환에서 벗어날 수 없다고 느낄 수 있습니다. The Nine of Swords는 우리의 생각이 현실을 창조할 수 있다는 것과 우리가 스스로에게 하는 이야기를 염두에 두는 것이 중요하다는 것을 일깨워줍니다.
+      `,
     },
     {
       id: 59,
@@ -1034,14 +1075,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/59.jpg"),
       upright: {
-        keyword: ["Betrayal", "backstabbing", "defeat", "ending"],
-        meaning: `The Ten of Swords is a card of painful endings, betrayal, and deep wounds. It usually indicates that a difficult situation or chapter in your life is coming to an end, and that the process may be painful or traumatic. This card can also suggest that you have been deeply hurt or betrayed by someone you trusted.`,
+        keyword: ["배신", "중상모략", "패배시키다", "종결"],
+        meaning: `Ten of Swords는 고통스러운 결말, 배신, 깊은 상처의 카드입니다. 일반적으로 어려운 상황이나 인생의 한 장이 끝나가고 있으며 그 과정이 고통스럽거나 충격적일 수 있음을 나타냅니다. 이 카드는 또한 당신이 믿었던 사람에게 깊은 상처를 받았거나 배신당했다는 것을 암시할 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Recovery", "resurrection", "hope"],
-        meaning: `The reversed Ten of Swords suggests that you are ready to start anew. You have gone through a painful process of endings and are now ready to rise from the ashes. This card can represent a rebirth or a second chance at life.`,
+        keyword: ["회복", "부활", "희망"],
+        meaning: `뒤집힌 Ten of Swords는 새로 시작할 준비가 되었음을 나타냅니다. 당신은 고통스러운 결말의 과정을 겪었고 이제 잿더미에서 일어날 준비가 되었습니다. 이 카드는 중생 또는 인생의 두 번째 기회를 나타낼 수 있습니다.
+        `,
       },
-      description: `The Ten of Swords depicts a figure lying face down with ten swords in their back, representing a painful and traumatic ending. The sky is dark and ominous, indicating a sense of loss and despair. This card can be difficult to see, but it reminds us that even in the darkest moments, there is always the potential for growth and transformation.`,
+      description: `Ten of Swords는 열 개의 검을 등에 메고 엎드린 모습을 묘사하며 고통스럽고 충격적인 결말을 나타냅니다. 하늘은 어둡고 불길하여 상실감과 절망감을 나타냅니다. 이 카드는 보기 어려울 수 있지만 가장 어두운 순간에도 항상 성장과 변화의 가능성이 있음을 상기시켜 줍니다.
+      `,
     },
     {
       id: 60,
@@ -1049,16 +1093,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/60.jpg"),
       upright: {
-        keyword: ["Intellect", "curiosity", "communication", "restlessness"],
-        meaning: `The Page of Swords represents a young, curious and intelligent individual with a natural ability for problem-solving and strategic thinking. This card often suggests a time of mental agility, curiosity, and the exploration of new ideas or perspectives. You may feel energized to take action and pursue your goals with sharp focus and determination.`,
+        keyword: ["지력", "호기심", "의사소통", "불안"],
+        meaning: `Page of Swords는 문제 해결 및 전략적 사고를 위한 타고난 능력을 지닌 젊고 호기심이 많으며 지능적인 개인을 나타냅니다. 이 카드는 종종 정신적 민첩성, 호기심, 새로운 아이디어나 관점의 탐구의 시간을 암시합니다. 예리한 집중력과 결단력으로 목표를 추구하고 행동을 취하려는 활력을 느낄 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Dishonesty", "manipulation", "sneakiness"],
-        meaning: `When the Page of Swords appears reversed, it can indicate a lack of direction, impulsiveness, or reckless behavior. You may be feeling overwhelmed or unsure of how to proceed with your goals or tasks, leading to a tendency to act without careful consideration.`,
+        keyword: ["부정직", "시장 조작", "교활함"],
+        meaning: `Page of Swords가 거꾸로 표시되면 방향이 없거나 충동적이거나 무모한 행동을 나타낼 수 있습니다. 목표나 작업을 어떻게 진행해야 할지 압도되거나 확신이 없어 신중하게 고려하지 않고 행동하는 경향이 있을 수 있습니다.
+        `,
       },
-      description: `The Page of Swords is a youthful and energetic figure who stands ready for action, with a sword in his hand and a look of determination on his face. He represents the qualities of curiosity, mental agility, and a thirst for knowledge. This card suggests that you may be entering a phase of exploration and learning, where you are eager to take on new challenges and pursue your goals with enthusiasm.
-
-    The Page of Swords encourages you to stay alert and aware, ready to face any challenges that may come your way. He reminds you to trust in your own abilities and to be confident in your capacity for learning and growth. With his sword, he symbolizes the power of communication and the importance of clear thinking and effective communication in achieving success. This card is a reminder to stay curious, stay focused, and stay sharp.`,
+      description: `The Page of Swords는 손에 검을 들고 결연한 표정을 짓고 행동할 준비가 된 젊고 활기찬 인물입니다. 그는 호기심, 정신적 민첩성, 지식에 대한 갈증의 특성을 나타냅니다. 이 카드는 당신이 새로운 도전에 도전하고 열정적으로 목표를 추구하는 탐구와 배움의 단계에 접어들고 있음을 암시합니다.
+      `,
     },
     {
       id: 61,
@@ -1066,16 +1111,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/61.jpg"),
       upright: {
-        keyword: ["Ambitious", "action-oriented", "driven", "focused"],
-        meaning:
-          "The Knight of Swords represents ambition, action, and drive. He is focused on his goals and will do whatever it takes to achieve them. He is not afraid of taking risks and is willing to move quickly to achieve success. This card can indicate a time of great productivity and progress, as we are able to stay focused on our goals and move forward with confidence and determination.",
+        keyword: ["거창한", "행동지향적", "중심의", "집중"],
+        meaning: `Knight of Swords는 야망, 행동 및 추진력을 나타냅니다. 그는 자신의 목표에 집중하고 목표를 달성하기 위해 필요한 모든 것을 할 것입니다. 그는 위험을 감수하는 것을 두려워하지 않으며 성공을 위해 신속하게 움직일 의향이 있습니다. 이 카드는 우리가 목표에 집중하고 자신감과 결단력을 가지고 앞으로 나아갈 수 있기 때문에 생산성과 발전의 시간을 나타낼 수 있습니다.
+          `,
       },
       reverse: {
-        keyword: ["Impulsive", "reckless", "rash"],
-        meaning:
-          "The Knight of Swords reversed can indicate a lack of focus and direction. We may be acting impulsively or making reckless decisions without considering the consequences. This card can also indicate a lack of patience and a tendency to act rashly. It is important to slow down and think things through before taking action.",
+        keyword: ["충동적", "무모한", "발진"],
+        meaning: `거꾸로 된 Knight of Swords는 초점과 방향이 부족함을 나타낼 수 있습니다. 결과를 고려하지 않고 충동적으로 행동하거나 무모한 결정을 내릴 수 있습니다. 이 카드는 또한 인내심 부족과 성급하게 행동하는 경향을 나타낼 수 있습니다. 행동을 취하기 전에 속도를 늦추고 생각하는 것이 중요합니다.
+          `,
       },
-      description: `The Knight of Swords is depicted as a young warrior on horseback, charging forward with his sword raised high. He is a symbol of ambition, action, and drive, and represents the energy and focus needed to achieve success. His armor and horse are both adorned with images of birds, which represent the swift movement and quick thinking necessary for success.`,
+      description: `Knight of Swords는 말을 탄 젊은 전사가 검을 높이 들고 앞으로 돌진하는 모습으로 묘사됩니다. 그는 야망, 행동 및 추진력의 상징이며 성공을 달성하는 데 필요한 에너지와 초점을 나타냅니다. 그의 갑옷과 말은 성공에 필요한 빠른 움직임과 빠른 생각을 나타내는 새의 이미지로 장식되어 있습니다.
+      `,
     },
     {
       id: 62,
@@ -1083,14 +1129,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/62.jpg"),
       upright: {
-        keyword: ["Independent", "intelligent", "clear-headed", "skeptical"],
-        meaning: `The Queen of Swords represents clarity of thought, intellectual power, objectivity, and independence. This card indicates that you have a keen intellect and the ability to make sound judgments based on reason and logic. You are able to see situations and people for what they truly are, without being swayed by emotions or biases. This card suggests that you may need to make a decision or take action that requires a clear and analytical mind.`,
+        keyword: ["독립적인", "지능적인", "명석한", "의심많은"],
+        meaning: `Queen of Swords는 생각의 명확성, 지적 능력, 객관성 및 독립성을 나타냅니다. 이 카드는 당신이 예리한 지성과 이성과 논리에 기반한 건전한 판단을 내리는 능력을 가지고 있음을 나타냅니다. 감정이나 편견에 휘둘리지 않고 상황과 사람을 있는 그대로 볼 수 있습니다. 이 카드는 명확하고 분석적인 마음이 필요한 결정을 내리거나 조치를 취해야 할 수도 있음을 시사합니다.
+        `,
       },
       reverse: {
-        keyword: ["Cold-hearted", "bitter", "manipulative"],
-        meaning: `When reversed, the Queen of Swords can indicate cruelty, coldness, and bitterness. You may be using your intelligence and sharp tongue to hurt others or to push them away. Alternatively, you may be overly critical of yourself and others, and unable to see the positive qualities in people or situations. This card suggests that you may need to work on developing compassion and empathy, and to learn to balance your intellect with your emotions."`,
+        keyword: ["냉정함", "격렬한", "교활한"],
+        meaning: `반대로 검의 여왕은 잔인함, 냉정함, 비통함을 나타낼 수 있습니다. 다른 사람을 해치거나 밀어내기 위해 지능과 날카로운 혀를 사용하고 있을지도 모릅니다. 또는 자신과 타인에 대해 지나치게 비판적일 수 있으며 사람이나 상황에서 긍정적인 특성을 볼 수 없습니다. 이 카드는 연민과 공감을 개발하고 지성과 감정의 균형을 맞추는 방법을 배워야 할 수도 있음을 시사합니다.
+        `,
       },
-      description: `The Queen of Swords sits on her throne, holding a sword upright in her right hand. Her left hand is outstretched, pointing forward. She wears a stern expression, and her dress is adorned with butterflies and clouds. The butterflies symbolize transformation and the clouds symbolize the power of the mind. The Queen of Swords represents the mature, intellectual woman who is able to navigate the world with clarity and objectivity.`,
+      description: `검의 여왕은 오른손에 검을 똑바로 들고 왕좌에 앉아 있습니다. 그녀의 왼손은 앞으로 뻗은 채 앞으로 향하고 있다. 그녀는 근엄한 표정을 짓고 있으며 드레스는 나비와 구름으로 장식되어 있습니다. 나비는 변화를 상징하고 구름은 마음의 힘을 상징합니다. Queen of Swords는 명확하고 객관적으로 세상을 탐색할 수 있는 성숙하고 지적인 여성을 나타냅니다.
+      `,
     },
     {
       id: 63,
@@ -1098,14 +1147,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/63.jpg"),
       upright: {
-        keyword: ["Authority", "clear thinking", "truth", "judgment"],
-        meaning: `The King of Swords represents authority, truth, clarity, and mental power. He is a strong and intelligent leader who is fair and just. This card may indicate that you or someone around you has a sharp mind and is able to cut through confusion to see the truth of a situation. The King of Swords is also associated with legal matters and may indicate the need to seek legal advice or representation.`,
+        keyword: ["권한", "명확한 생각", "진실", "심판"],
+        meaning: `King of Swords는 권위, 진실, 명확성 및 정신력을 나타냅니다. 그는 공정하고 정의로운 강하고 지능적인 지도자입니다. 이 카드는 당신이나 당신 주변의 누군가가 예리한 마음을 가지고 있고 혼란을 뚫고 상황의 진실을 볼 수 있음을 나타낼 수 있습니다. King of Swords는 법적 문제와도 관련이 있으며 법적 조언이나 변호가 필요함을 나타낼 수 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Manipulation", "cruelty", "coldness"],
-        meaning: `When reversed, the King of Swords can indicate the misuse of power, manipulation, and cruelty. This card may suggest that someone in a position of authority is using their power to manipulate and control others, or that you may be tempted to do the same. It is important to remember that true leadership comes from a place of fairness, respect, and compassion, and that any abuse of power will ultimately lead to negative consequences.`,
+        keyword: ["시장 조작", "잔인함", "추위"],
+        meaning: `반대로 검의 왕은 권력의 남용, 조작, 잔인함을 나타낼 수 있습니다. 이 카드는 권위 있는 위치에 있는 누군가가 다른 사람을 조종하고 통제하기 위해 자신의 힘을 사용하고 있거나 당신도 그렇게 하려는 유혹을 받을 수 있음을 암시할 수 있습니다. 진정한 리더십은 공정성, 존중, 연민의 장소에서 나오며 권력 남용은 궁극적으로 부정적인 결과를 초래할 것임을 기억하는 것이 중요합니다.
+        `,
       },
-      description: `The King of Swords is depicted as a stern and powerful figure, seated on a throne and holding a sword upright in his right hand. His left hand is open, indicating his willingness to listen and consider other viewpoints. The sword represents the power of his intellect and his ability to cut through confusion and see the truth. The King of Swords is often associated with legal matters, as well as leadership and authority. He values truth, fairness, and justice above all else, and is not afraid to make difficult decisions when necessary.`,
+      description: `검의 왕은 왕좌에 앉아 오른손에 검을 똑바로 들고 있는 엄격하고 강력한 인물로 묘사됩니다. 그의 왼손은 열려 있어 다른 관점을 듣고 고려하려는 그의 의지를 나타냅니다. 칼은 그의 지력과 혼란을 뚫고 진실을 보는 능력을 나타냅니다. King of Swords는 종종 법적 문제, 리더십 및 권위와 관련이 있습니다. 그는 진실과 공정, 정의를 무엇보다 중요시하며, 필요할 때 어려운 결정을 내리는 것을 두려워하지 않습니다.
+      `,
     },
     {
       id: 64,
@@ -1113,19 +1165,19 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/64.jpg"),
       upright: {
-        keyword: ["New beginnings", "material abundance", "manifestation"],
-        meaning: `The Ace of Pentacles represents a new beginning in the material world, such as a new job, business opportunity, or financial windfall.
-      It indicates that we have the potential to manifest our desires in the physical world, and that we should focus on practical, tangible goals.
-      This card is a reminder to take care of our material needs and to use our resources wisely.`,
+        keyword: ["새로운 시작", "물질적 풍요", "표명"],
+        meaning: `Ace of Pentacles는 새로운 직업, 사업 기회 또는 재정적 횡재와 같은 물질 세계의 새로운 시작을 나타냅니다.
+        그것은 우리가 물리적 세계에서 우리의 욕망을 표현할 수 있는 잠재력을 가지고 있으며 실용적이고 가시적인 목표에 집중해야 함을 나타냅니다.
+        이 카드는 물질적 필요를 돌보고 자원을 현명하게 사용하라는 알림입니다.`,
       },
       reverse: {
-        keyword: ["Lost opportunity", "financial instability", "greed"],
-        meaning: `The Ace of Pentacles reversed may indicate a missed opportunity or a failure to manifest our desires in the material world.
-      It can also suggest financial instability or overspending, and a need to reevaluate our priorities.
-      This card can be a warning against greed and materialism, and a reminder to focus on what truly matters.`,
+        keyword: ["잃어버린 기회", "재정적 불안정", "탐욕"],
+        meaning: `뒤집힌 펜타클의 에이스는 기회를 놓쳤거나 물질 세계에서 우리의 욕망을 표현하지 못했음을 나타낼 수 있습니다.
+        또한 재정적 불안정이나 과다 지출, 우선 순위를 재평가해야 할 필요성을 암시할 수 있습니다.
+        이 카드는 탐욕과 물질주의에 대한 경고가 될 수 있으며 진정으로 중요한 것에 집중하도록 상기시켜줍니다.`,
       },
-      description: `The Ace of Pentacles shows a large hand holding a pentacle, which is surrounded by lush foliage and a bright blue sky. 
-    The pentacle represents material abundance and the potential for manifestation, while the foliage and sky suggest growth and expansion. This card is a symbol of new beginnings in the material world, and the need to focus on practical, tangible goals.`,
+      description: `Ace of Pentacles는 무성한 잎사귀와 밝은 푸른 하늘로 둘러싸인 펜타클을 들고 있는 큰 손을 보여줍니다.
+      펜타클은 물질적 풍요와 발현 가능성을 나타내며 잎과 하늘은 성장과 확장을 나타냅니다. 이 카드는 물질 세계의 새로운 시작과 실용적이고 가시적인 목표에 집중해야 할 필요성을 상징합니다.`,
     },
     {
       id: 65,
@@ -1133,19 +1185,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/65.jpg"),
       upright: {
-        keyword: [
-          "Balance",
-          "flexibility",
-          "adaptability",
-          "juggling priorities",
-        ],
-        meaning: `The Two of Pentacles represents balance, flexibility, and adaptability. In the card, a figure stands with two pentacles in their hands, representing the need to juggle multiple priorities. The figure seems to be dancing or moving in a fluid way, suggesting the importance of finding harmony and rhythm in our lives.`,
+        keyword: ["균형", "유연성", "적응성", "우선순위"],
+        meaning: `Two of Pentacles는 균형, 유연성 및 적응성을 나타냅니다. 카드에는 손에 펜타클 두 개를 들고 서 있는 인물이 있는데, 이는 여러 우선순위를 저글링해야 할 필요성을 나타냅니다. 그 모습은 유동적으로 춤을 추거나 움직이는 것처럼 보이며, 우리 삶에서 조화와 리듬을 찾는 것의 중요성을 암시합니다.
+        `,
       },
       reverse: {
-        keyword: ["Imbalance", "disorganization", "overwhelm"],
-        meaning: `When the Two of Pentacles is reversed, it may indicate that we are struggling to find balance in our lives. We may feel overwhelmed by multiple demands or challenges, or may be having trouble keeping our priorities straight.`,
+        keyword: ["불균형", "해체", "압도하다"],
+        meaning: `Two of Pentacles가 반전되면 우리가 삶의 균형을 찾기 위해 고군분투하고 있음을 나타낼 수 있습니다. 우리는 여러 가지 요구나 도전에 압도당하거나 우선순위를 바로잡는 데 어려움을 겪을 수 있습니다.
+        `,
       },
-      description: `The Two of Pentacles is a card about finding balance and harmony in our lives. It suggests that we may be facing multiple demands or challenges, and need to find a way to juggle them all. This card reminds us that finding balance is an ongoing process, and that we may need to make adjustments as circumstances change.`,
+      description: `Two of Pentacles는 우리 삶의 균형과 조화를 찾는 카드입니다. 그것은 우리가 여러 가지 요구나 도전에 직면할 수 있고 그것들을 모두 처리할 방법을 찾아야 한다는 것을 암시합니다. 이 카드는 균형을 찾는 것이 지속적인 과정이며 상황이 변함에 따라 조정해야 할 수도 있음을 상기시켜 줍니다.
+      `,
     },
     {
       id: 66,
@@ -1153,19 +1203,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/66.jpg"),
       upright: {
-        keyword: [
-          "Collaboration",
-          "teamwork",
-          "skill-building",
-          "implementation",
-        ],
-        meaning: `The Three of Pentacles is a card about collaboration, teamwork, and skill-building. In the card, three figures are shown working together on a project, each contributing their unique skills and expertise to create something of lasting value. This card suggests that we may need to work with others to achieve our goals, and that by combining our strengths and talents, we can create something greater than we could alone.`,
+        keyword: ["협력", "팀워크", "기술 구축", "구현"],
+        meaning: `Three of Pentacles는 협업, 팀워크 및 기술 구축에 관한 카드입니다. 카드에는 프로젝트에서 함께 작업하는 세 명의 인물이 표시되며, 각자 고유한 기술과 전문 지식을 제공하여 지속적인 가치를 창출합니다. 이 카드는 우리가 목표를 달성하기 위해 다른 사람들과 협력해야 할 수도 있고 우리의 강점과 재능을 결합함으로써 우리가 혼자서 할 수 있는 것보다 더 큰 것을 만들 수 있음을 시사합니다.
+        `,
       },
       reverse: {
-        keyword: ["Lack of teamwork", "miscommunication", "low-quality work"],
-        meaning: `When the Three of Pentacles is reversed, it may indicate a lack of collaboration or teamwork. We may be struggling to work with others effectively, or may not be communicating our needs or ideas clearly. This card can also suggest that the quality of our work may suffer if we try to go it alone.`,
+        keyword: ["팀워크 부족", "잘못된 의사소통", "작업의 질 저하"],
+        meaning: `Three of Pentacles가 반전되면 협업 또는 팀워크가 부족함을 나타낼 수 있습니다. 우리는 다른 사람들과 효과적으로 일하는 데 어려움을 겪고 있거나 우리의 필요나 아이디어를 명확하게 전달하지 못하고 있을 수 있습니다. 이 카드는 또한 우리가 혼자 하려고 하면 작업의 질이 저하될 수 있음을 암시할 수 있습니다.
+        `,
       },
-      description: `The Three of Pentacles is a reminder that we don't have to go it alone. Sometimes, working with others can bring out the best in us and help us achieve more than we ever could on our own. This card encourages us to seek out others who can complement our skills and share our vision, and to be open to learning from them as we work together to create something of lasting value.`,
+      description: `Three of Pentacles는 우리가 혼자 갈 필요가 없다는 것을 상기시켜줍니다. 때때로 다른 사람들과 함께 일하는 것은 우리 안에 있는 최고의 모습을 끌어내고 우리가 스스로 할 수 있는 것보다 더 많은 것을 성취하도록 도울 수 있습니다. 이 카드는 우리의 기술을 보완하고 비전을 공유할 수 있는 다른 사람을 찾고, 지속적인 가치를 창출하기 위해 함께 노력하면서 그들로부터 배움을 열도록 격려합니다.
+      `,
     },
     {
       id: 67,
@@ -1173,14 +1221,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/67.jpg"),
       upright: {
-        keyword: ["Security", "conservation", "control", "possessiveness"],
-        meaning: `The Four of Pentacles represents a need for security and control. In the card, a figure sits with four pentacles, holding them tightly to their chest. This suggests a tendency toward possessiveness and a desire to maintain what we already have.`,
+        keyword: ["보안", "보존", "제어", "소유욕"],
+        meaning: `Four of Pentacles는 보안과 통제의 필요성을 나타냅니다. 카드에는 4개의 펜타클을 가슴에 단단히 고정한 인물이 앉아 있습니다. 이것은 소유욕에 대한 경향과 우리가 이미 가지고 있는 것을 유지하려는 욕구를 암시합니다.
+        `,
       },
       reverse: {
-        keyword: ["Financial insecurity", "greed", "generosity", "charity"],
-        meaning: `When the Four of Pentacles is reversed, it may indicate financial insecurity or a fear of loss. We may be clinging too tightly to our possessions or resources, or may be afraid to take risks. This card suggests the importance of practicing generosity and being willing to share our resources with others.`,
+        keyword: ["재정적 불안정", "탐욕", "관대", "자선 단체"],
+        meaning: `Four of Pentacles가 반전되면 재정적 불안정이나 손실에 대한 두려움을 나타낼 수 있습니다. 우리는 소유물이나 자원에 너무 집착하거나 위험을 무릅쓰는 것을 두려워할 수 있습니다. 이 카드는 관대함을 실천하고 우리의 자원을 다른 사람들과 기꺼이 공유하는 것의 중요성을 시사합니다.
+        `,
       },
-      description: `The Four of Pentacles is a card about security and control. It reminds us of the importance of financial stability and the need to conserve our resources. However, it also cautions against being too possessive or greedy, and encourages us to practice generosity and share our wealth with others when we can.`,
+      description: `Four of Pentacles는 보안과 통제에 관한 카드입니다. 재정 안정의 중요성과 자원 보존의 필요성을 일깨워줍니다. 그러나 그것은 또한 너무 소유욕이 강하거나 탐욕스럽지 않도록 경고하고 관대함을 실천하고 우리가 할 수 있을 때 우리의 부를 다른 사람들과 나누도록 격려합니다.
+      `,
     },
     {
       id: 68,
@@ -1188,17 +1239,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/68.jpg"),
       upright: {
-        keyword: ["Hardship", "poverty", "isolation", "insecurity"],
-        meaning:
-          "The Five of Pentacles is a card that represents hardship, poverty, and isolation. In the image, two figures walk through the snow outside a brightly lit church, suggesting that they are excluded or cut off from the support and comfort that the church represents. This card can indicate financial struggles, health problems, or feelings of insecurity and loneliness.",
+        keyword: ["고난", "빈곤", "격리", "불안정"],
+        meaning: `Five of Pentacles는 고난, 가난, 고립을 나타내는 카드입니다. 이미지 속 두 인물은 환하게 불이 켜진 교회 밖 눈 속을 걷고 있는데, 이는 교회가 상징하는 지지와 위로에서 배제되거나 단절된 모습을 암시한다. 이 카드는 재정적 어려움, 건강 문제 또는 불안감과 외로움을 나타낼 수 있습니다.
+          `,
       },
       reverse: {
-        keyword: ["Recovery", "support", "community", "hope"],
-        meaning:
-          "When the Five of Pentacles is reversed, it may indicate that we are starting to recover from a difficult period. We may be receiving support from others, or finding new sources of strength and resilience. This card can suggest that there is hope for the future, and that we can find our way out of a difficult situation with the help of others.",
+        keyword: ["회복", "지원", "지역사회", "희망"],
+        meaning: `Five of Pentacles가 반전되면 어려운 시기에서 회복하기 시작했음을 나타낼 수 있습니다. 우리는 다른 사람들로부터 지원을 받고 있거나 새로운 힘과 회복력의 원천을 찾고 있을 수 있습니다. 이 카드는 미래에 대한 희망이 있고 다른 사람의 도움을 받아 어려운 상황에서 벗어날 수 있음을 암시할 수 있습니다.
+          `,
       },
-      description:
-        "The Five of Pentacles is a card about hardship and struggle. It can be a difficult card to receive, as it suggests that we may be facing significant challenges in our lives. However, it can also be a reminder that we are not alone, and that there is help and support available to us if we are willing to seek it out. This card can encourage us to reach out to others, and to find strength and hope in the face of adversity.",
+      description: `The Five of Pentacles는 고난과 투쟁에 관한 카드입니다. 그것은 우리가 삶에서 중대한 도전에 직면할 수 있음을 암시하기 때문에 받기 어려운 카드일 수 있습니다. 그러나 그것은 또한 우리가 혼자가 아니며 우리가 기꺼이 그것을 찾으면 도움과 지원을 받을 수 있다는 것을 상기시켜 줄 수 있습니다. 이 카드는 우리가 다른 사람들에게 손을 내밀고 역경에 직면했을 때 힘과 희망을 찾도록 격려할 수 있습니다.
+        `,
     },
     {
       id: 69,
@@ -1206,21 +1257,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/69.jpg"),
       upright: {
-        keyword: [
-          "Generosity",
-          "charity",
-          "giving",
-          "receiving",
-          "fairness",
-          "balance",
-        ],
-        meaning: `The Six of Pentacles represents generosity, charity, and giving. In the card, a figure is seen giving coins to two others who appear to be in need. This card suggests that we are in a position to help others and that doing so can bring us a sense of fulfillment and satisfaction. It also reminds us of the importance of balance and fairness in our interactions with others.`,
+        keyword: ["관대", "자선단체", "기부", "전수", "공평", "균형"],
+        meaning: `Six of Pentacles는 관대함, 자선 및 기부를 나타냅니다. 카드에는 도움이 필요한 다른 두 사람에게 동전을 주는 인물이 보입니다. 이 카드는 우리가 다른 사람을 도울 수 있는 위치에 있으며 그렇게 함으로써 성취감과 만족감을 얻을 수 있음을 암시합니다. 또한 다른 사람과의 상호 작용에서 균형과 공정성의 중요성을 상기시켜 줍니다.
+        `,
       },
       reverse: {
-        keyword: ["Debt", "selfishness", "unfairness"],
-        meaning: `When the Six of Pentacles is reversed, it may indicate that we are being too focused on our own needs and not paying enough attention to the needs of others. We may be struggling with debt or financial issues, or may be feeling resentful of those who we feel are not pulling their weight.`,
+        keyword: ["빚", "이기주의", "불공정"],
+        meaning: `Six of Pentacles가 반전되면 우리가 자신의 필요에 너무 집중하고 다른 사람의 필요에 충분히 주의를 기울이지 않는다는 것을 나타낼 수 있습니다. 우리는 빚이나 재정 문제로 어려움을 겪고 있을 수도 있고, 자신의 책임을 다하지 못한다고 느끼는 사람들에 대해 분개할 수도 있습니다.
+        `,
       },
-      description: `The Six of Pentacles is a card about generosity, charity, and balance. It reminds us of the importance of giving and receiving in our lives, and encourages us to be mindful of our interactions with others. This card also suggests that we may be in a position to help others and that doing so can bring us a sense of satisfaction and fulfillment.`,
+      description: `Six of Pentacles는 관대함, 자선 및 균형에 관한 카드입니다. 그것은 우리의 삶에서 주고받는 것의 중요성을 일깨워주고 다른 사람들과의 상호 작용을 염두에 두도록 격려합니다. 이 카드는 또한 우리가 다른 사람을 도울 수 있는 위치에 있을 수 있으며 그렇게 하면 만족감과 성취감을 얻을 수 있음을 시사합니다.
+      `,
     },
     {
       id: 70,
@@ -1228,25 +1275,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/70.jpg"),
       upright: {
-        keyword: [
-          "Growth",
-          "patience",
-          "perseverance",
-          "reap what you sow",
-          "long-term view",
-        ],
-        meaning: `The Seven of Pentacles represents growth, patience, and perseverance. In the card, a figure stands among several pentacles, looking at them with a sense of contemplation and evaluation. This suggests the need to take a long-term view and to have patience as we work towards our goals.`,
+        keyword: ["성장", "인내심", "뿌린대로 거둔다", "장기적 관점"],
+        meaning: `Seven of Pentacles는 성장, 인내를 나타냅니다. 카드 속 인물은 여러 펜타클 사이에 서서 사색과 평가의 시선으로 바라보고 있다. 이것은 우리가 목표를 향해 나아가면서 장기적인 안목을 갖고 인내심을 가질 필요가 있음을 시사합니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Lack of long-term vision",
-          "impatience",
-          "disappointment",
-          "lack of rewards",
-        ],
-        meaning: `When the Seven of Pentacles is reversed, it may indicate a lack of long-term vision or impatience. We may be focused on short-term gains or may feel disappointed that our efforts have not yet resulted in the rewards we were hoping for.`,
+        keyword: ["장기 비전의 부족", "조바심", "실망", "보상 부족"],
+        meaning: `Seven of Pentacles가 반전되면 장기적인 비전이 부족하거나 조급함을 나타낼 수 있습니다. 우리는 단기적인 이익에 집중할 수도 있고 우리의 노력이 우리가 기대했던 보상을 아직 얻지 못한 것에 실망할 수도 있습니다.
+        `,
       },
-      description: `The Seven of Pentacles reminds us to take a long-term view and to have patience as we work towards our goals. It encourages us to focus on growth and to persevere through challenges, even when the rewards are not immediate. This card reminds us that the fruits of our labor will eventually come, and that we should trust in the process of growth and development.`,
+      description: `Seven of Pentacles는 우리가 목표를 향해 노력할 때 장기적인 안목을 갖고 인내심을 갖도록 일깨워줍니다. 보상이 즉각적이지 않더라도 성장에 집중하고 도전을 통해 인내하도록 격려합니다. 이 카드는 우리 노동의 결실은 결국 올 것이며 성장과 발전의 과정을 신뢰해야 함을 상기시켜줍니다.
+      `,
     },
     {
       id: 71,
@@ -1254,28 +1293,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/71.jpg"),
       upright: {
-        keyword: [
-          "Diligence",
-          "hard work",
-          "commitment",
-          "learning",
-          "attention to detail",
-        ],
-        meaning:
-          "The Eight of Pentacles represents hard work, diligence, and attention to detail. In the card, we see a figure who is diligently working on a pentacle, surrounded by seven other pentacles that have already been completed. This suggests that the figure is committed to learning and improving their craft, and is willing to put in the effort to achieve their goals. The card reminds us that success often comes from sustained effort over time, and that our commitment to our work can lead to mastery and accomplishment.",
+        keyword: ["근면", "약속", "학습", "세부 사항에 관심"],
+        meaning: `Eight of Pentacles는 근면, 세부 사항에 대한 관심을 나타냅니다. 카드에서 우리는 이미 완성된 다른 7개의 펜타클에 둘러싸여 부지런히 펜타클 작업을 하고 있는 인물을 봅니다. 이것은 인물이 자신의 기술을 배우고 향상시키는 데 전념하고 있으며 목표를 달성하기 위해 기꺼이 노력하고 있음을 나타냅니다. 이 카드는 성공은 종종 시간이 지남에 따라 지속적인 노력에서 비롯되며 우리의 일에 대한 헌신이 숙달과 성취로 이어질 수 있음을 상기시킵니다.
+          `,
       },
       reverse: {
-        keyword: [
-          "Perfectionism",
-          "lack of progress",
-          "lack of focus",
-          "lack of effort",
-        ],
-        meaning:
-          "When the Eight of Pentacles is reversed, it may indicate a tendency towards perfectionism or a lack of progress. We may be struggling to stay focused on our work or may be putting in insufficient effort. The card reminds us that while attention to detail is important, it is also important to maintain a sense of balance and not become so fixated on perfection that we lose sight of our larger goals.",
+        keyword: ["완벽주의", "진행 부족", "초점 부족", "노력 부족"],
+        meaning: `펜타클의 여덟이 반전되면 완벽주의 경향이나 발전 부족을 나타낼 수 있습니다. 우리는 일에 계속 집중하는 데 어려움을 겪고 있거나 노력이 부족할 수 있습니다. 이 카드는 세부 사항에 주의를 기울이는 것이 중요하지만 균형 감각을 유지하고 완벽에 너무 집착하여 더 큰 목표를 놓치는 일이 없도록 하는 것도 중요함을 상기시켜 줍니다.
+          `,
       },
-      description:
-        "The Eight of Pentacles is a card about diligence and hard work. It suggests that we may need to commit ourselves to learning and improving our skills, and that sustained effort over time can lead to success and accomplishment. This card reminds us that while it is important to pay attention to details, we should also maintain a sense of balance and not become too fixated on perfectionism. By staying focused on our goals and putting in the effort required, we can achieve mastery and excellence in our chosen pursuits.",
+      description: `Eight of Pentacles는 근면과 근면에 관한 카드입니다. 그것은 우리가 기술을 배우고 향상시키는 데 전념해야 할 수도 있으며 시간이 지남에 따라 지속적인 노력이 성공과 성취로 이어질 수 있음을 시사합니다. 이 카드는 세부 사항에 주의를 기울이는 것이 중요하지만 균형 감각을 유지하고 완벽주의에 너무 집착하지 않아야 함을 상기시켜 줍니다. 우리의 목표에 집중하고 필요한 노력을 기울임으로써 우리는 우리가 선택한 추구에서 숙달과 탁월함을 성취할 수 있습니다.
+        `,
     },
     {
       id: 72,
@@ -1283,19 +1311,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/72.jpg"),
       upright: {
-        keyword: [
-          "Abundance",
-          "luxury",
-          "financial independence",
-          "self-sufficiency",
-        ],
-        meaning: `The Nine of Pentacles represents abundance, luxury, and financial independence. In the card, a woman stands in a garden surrounded by nine pentacles, suggesting that she has achieved a level of success and self-sufficiency. The bird perched on her hand represents the freedom and independence that comes with this success.`,
+        keyword: ["풍부", "사치", "재정적 독립", "자급자족"],
+        meaning: `Nine of Pentacles는 풍요, 사치, 재정적 독립을 나타냅니다. 카드에서 여성은 9개의 펜타클로 둘러싸인 정원에 서 있으며, 이는 그녀가 일정 수준의 성공과 자급자족을 달성했음을 암시합니다. 그녀의 손에 앉은 새는 이러한 성공과 함께 오는 자유와 독립을 나타냅니다.
+        `,
       },
       reverse: {
-        keyword: ["Dependency", "self-worth tied to money", "overindulgence"],
-        meaning: `When the Nine of Pentacles is reversed, it may indicate that we are overly reliant on material possessions or our financial status for our sense of self-worth. We may be overindulging in luxury or experiencing financial difficulties that are impacting our sense of independence.`,
+        keyword: ["의존", "돈에 묶인 자기 가치", "방종"],
+        meaning: `Nine of Pentacles가 반전되면 우리가 자존감을 위해 물질적 소유물이나 재정 상태에 지나치게 의존하고 있음을 나타낼 수 있습니다. 우리는 사치에 지나치게 탐닉하거나 독립심에 영향을 미치는 재정적 어려움을 겪고 있을 수 있습니다.
+        `,
       },
-      description: `The Nine of Pentacles is a card about achieving success and financial independence. It reminds us that we have the ability to create abundance and luxury in our lives through our own hard work and determination. However, we should also be aware of the potential pitfalls of overindulgence or becoming too dependent on material possessions.`,
+      description: `Nine of Pentacles는 성공과 재정적 독립 달성에 관한 카드입니다. 그것은 우리 자신의 노력과 결의를 통해 우리 삶에서 풍요와 사치를 창조할 수 있는 능력이 있음을 상기시켜줍니다. 그러나 우리는 또한 지나친 방종이나 물질적 소유물에 너무 의존하게 되는 잠재적인 함정에 대해서도 알고 있어야 합니다.
+      `,
     },
     {
       id: 73,
@@ -1303,20 +1329,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/73.jpg"),
       upright: {
-        keyword: [
-          "Abundance",
-          "legacy",
-          "family",
-          "fulfillment",
-          "material comfort",
-        ],
-        meaning: `The Ten of Pentacles represents material comfort, family, and the fulfillment of our goals. It suggests that we have achieved a level of abundance and security that allows us to focus on building a legacy or leaving a positive impact on those around us. This card also emphasizes the importance of family and the interconnectedness of our lives.`,
+        keyword: ["풍부", "유산", "가족", "이행", "물질적 편안함"],
+        meaning: `Ten of Pentacles는 물질적 편안함, 가족, 목표 달성을 나타냅니다. 그것은 우리가 유산을 구축하거나 주변 사람들에게 긍정적인 영향을 미치는 데 집중할 수 있는 수준의 풍요와 안전을 달성했음을 시사합니다. 이 카드는 또한 가족의 중요성과 우리 삶의 상호 연결성을 강조합니다.
+        `,
       },
       reverse: {
-        keyword: ["Financial loss", "family conflict", "unfulfilled dreams"],
-        meaning: `When the Ten of Pentacles is reversed, it may indicate financial loss, family conflict, or unfulfilled dreams. This card reminds us to be mindful of our material resources and to seek harmony within our family and community.`,
+        keyword: ["재정적 손실", "가족 갈등", "이루지 못한 꿈"],
+        meaning: `Ten of Pentacles가 반전되면 재정적 손실, 가족 갈등 또는 성취되지 않은 꿈을 나타낼 수 있습니다. 이 카드는 물질적 자원을 염두에 두고 가족과 지역 사회 내에서 조화를 추구하도록 상기시켜 줍니다.
+        `,
       },
-      description: `The Ten of Pentacles is a card of abundance, security, and legacy. It represents the culmination of our efforts to achieve material comfort and the fulfillment of our goals. This card reminds us of the importance of family and community, and encourages us to leave a positive impact on those around us. However, we must also be mindful of our resources and seek to create harmony and balance in our lives.`,
+      description: `Ten of Pentacles는 풍요, 안전, 유산의 카드입니다. 그것은 물질적 편안함과 목표 달성을 달성하려는 우리 노력의 정점을 나타냅니다. 이 카드는 가족과 공동체의 중요성을 일깨워주고 주변 사람들에게 긍정적인 영향을 미치도록 격려합니다. 그러나 우리는 또한 우리의 자원을 염두에 두고 삶의 조화와 균형을 만들기 위해 노력해야 합니다.
+      `,
     },
     {
       id: 74,
@@ -1324,24 +1347,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/74.jpg"),
       upright: {
-        keyword: [
-          "Opportunity",
-          "new beginnings",
-          "learning",
-          "exploration",
-          "studiousness",
-        ],
-        meaning: `The Page of Pentacles represents a new opportunity or beginning, particularly in the realm of career, education, or finances. The card often depicts a young person studying or examining a pentacle, suggesting a focus on learning and exploration. This card encourages us to be studious and curious, and to seek out new knowledge and experiences.`,
+        keyword: ["기회", "새로운 시작", "학습", "탐구", "성실함"],
+        meaning: `Page of Pentacles는 특히 경력, 교육 또는 재정 영역에서 새로운 기회 또는 시작을 나타냅니다. 이 카드는 종종 펜타클을 연구하거나 검토하는 젊은이를 묘사하여 학습과 탐색에 중점을 두도록 제안합니다. 이 카드는 우리가 학구적이고 호기심을 갖고 새로운 지식과 경험을 찾도록 격려합니다.
+        `,
       },
       reverse: {
-        keyword: [
-          "Missed opportunity",
-          "lack of progress",
-          "neglecting studies",
-        ],
-        meaning: `When the Page of Pentacles is reversed, it may indicate a missed opportunity or a lack of progress in our endeavors. We may be neglecting our studies or failing to take advantage of new opportunities. This card reminds us to stay focused and disciplined in pursuit of our goals.`,
+        keyword: ["기회를 놓침", "진행 부족", "공부를 소홀히 함"],
+        meaning: `Page of Pentacles가 뒤집히면 기회를 놓쳤거나 노력이 부족했음을 나타낼 수 있습니다. 우리는 공부를 게을리하거나 새로운 기회를 활용하지 못하고 있을지도 모릅니다. 이 카드는 우리가 목표를 추구하는 데 집중하고 규율을 유지하도록 일깨워줍니다.
+        `,
       },
-      description: `The Page of Pentacles is a card about new beginnings and opportunities in the material realm. It suggests a focus on education, career, or finances, and encourages us to stay curious and disciplined in pursuit of our goals. This card reminds us that success requires both hard work and a willingness to learn and grow.`,
+      description: `Page of Pentacles는 물질 영역의 새로운 시작과 기회에 대한 카드입니다. 그것은 교육, 직업 또는 재정에 초점을 맞추도록 제안하고 우리의 목표를 추구하는 데 호기심과 규율을 유지하도록 권장합니다. 이 카드는 성공하려면 노력과 배우고 성장하려는 의지가 모두 필요함을 상기시켜 줍니다.
+      `,
     },
     {
       id: 75,
@@ -1349,20 +1365,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/75.jpg"),
       upright: {
-        keyword: [
-          "Responsibility",
-          "hard work",
-          "persistence",
-          "consistency",
-          "reliability",
-        ],
-        meaning: `The Knight of Pentacles is a symbol of responsibility, hard work, and persistence. In the card, a knight is shown riding a horse while holding a pentacle. The knight represents a person who is dedicated to their work and takes their responsibilities seriously. The horse symbolizes the steady and consistent effort required to achieve success. This card encourages us to be reliable, consistent, and dedicated to our goals, and reminds us that slow and steady progress is often the most effective.`,
+        keyword: ["책임", "근면", "고집", "일관성", "신뢰"],
+        meaning: `Knight of Pentacles는 책임감, 노력, 끈기의 상징입니다. 카드에는 펜타클을 들고 말을 타고 있는 기사가 그려져 있습니다. 기사는 자신의 일에 전념하고 책임을 진지하게 받아들이는 사람을 나타냅니다. 말은 성공을 달성하는 데 필요한 꾸준하고 일관된 노력을 상징합니다. 이 카드는 우리가 신뢰할 수 있고 일관되며 목표에 전념하도록 격려하고 느리고 꾸준한 진행이 종종 가장 효과적이라는 것을 상기시킵니다.
+        `,
       },
       reverse: {
-        keyword: ["Laziness", "inaction", "stagnation", "resistance to change"],
-        meaning: `When the Knight of Pentacles is reversed, it may indicate a lack of motivation or energy. We may be feeling lazy or unmotivated, or may be resistant to change. This card reminds us that it's important to stay focused on our goals and keep moving forward, even when things get tough.`,
+        keyword: ["게으름", "무대응", "침체", "변화에 대한 저항"],
+        meaning: `Knight of Pentacles가 반전되면 동기 부여나 에너지가 부족함을 나타낼 수 있습니다. 우리는 게으르거나 의욕이 없거나 변화에 저항할 수 있습니다. 이 카드는 상황이 어려워지더라도 목표에 집중하고 계속 전진하는 것이 중요함을 상기시켜 줍니다.
+        `,
       },
-      description: `The Knight of Pentacles represents the qualities of responsibility, hard work, and consistency. This card reminds us that we need to stay focused on our goals and be willing to put in the effort required to achieve them. Whether we are pursuing a career, a creative project, or a personal goal, the Knight of Pentacles encourages us to be reliable, persistent, and dedicated to our work.`,
+      description: `Knight of Pentacles는 책임감, 노력 및 일관성의 특성을 나타냅니다. 이 카드는 우리가 목표에 집중하고 목표 달성에 필요한 노력을 기울일 필요가 있음을 상기시켜줍니다. 우리가 경력을 추구하든, 창의적인 프로젝트를 추구하든, 개인적인 목표를 추구하든 Knight of Pentacles는 우리가 신뢰할 수 있고 끈기 있으며 우리의 일에 헌신하도록 격려합니다.
+      `,
     },
     {
       id: 76,
@@ -1370,20 +1383,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/76.jpg"),
       upright: {
-        keyword: [
-          "Nurturing",
-          "prosperity",
-          "practicality",
-          "homemaking",
-          "generosity",
-        ],
-        meaning: `The Queen of Pentacles represents a practical and nurturing energy. In the card, a queen sits on her throne holding a pentacle, surrounded by abundance and nature. This card suggests that we are in a good position to create a prosperous and comfortable home life for ourselves and those we care about. It may also indicate generosity and a desire to share our resources with others.`,
+        keyword: ["양육", "번영", "실용적인 사항", "가사", "관대"],
+        meaning: `Queen of Pentacles는 실용적이고 육성적인 에너지를 나타냅니다. 카드에서 여왕은 풍요와 자연에 둘러싸인 펜타클을 들고 왕좌에 앉아 있습니다. 이 카드는 우리 자신과 우리가 아끼는 사람들을 위해 풍요롭고 편안한 가정 생활을 할 수 있는 좋은 위치에 있음을 암시합니다. 또한 관대함과 우리의 자원을 다른 사람들과 공유하려는 열망을 나타낼 수도 있습니다.
+        `,
       },
       reverse: {
-        keyword: ["Self-centeredness", "dependency", "jealousy"],
-        meaning: `When the Queen of Pentacles is reversed, it may indicate that we are being too focused on our own needs and neglecting the needs of others. We may also be overly dependent on others for our well-being, or experiencing jealousy or envy towards those who have more than us.`,
+        keyword: ["자기중심적", "의존", "질투"],
+        meaning: `Queen of Pentacles가 반전되면 우리가 자신의 필요에 너무 집중하고 다른 사람의 필요를 무시하고 있음을 나타낼 수 있습니다. 우리는 또한 우리의 행복을 위해 다른 사람에게 지나치게 의존하거나 우리보다 더 많이 가진 사람들에 대해 질투나 부러움을 경험할 수 있습니다.
+        `,
       },
-      description: `The Queen of Pentacles is a card about creating a comfortable and prosperous home life. It suggests that we have the resources and ability to create a nurturing environment for ourselves and those we care about. This card reminds us to be practical and generous, and to find joy in the simple pleasures of life.`,
+      description: `Queen of Pentacles는 편안하고 풍요로운 가정 생활을 만드는 카드입니다. 그것은 우리 자신과 우리가 아끼는 사람들을 위한 양육 환경을 만들 수 있는 자원과 능력이 있음을 시사합니다. 이 카드는 우리에게 실용적이고 관대하며 삶의 단순한 즐거움에서 기쁨을 찾도록 일깨워줍니다.
+      `,
     },
     {
       id: 77,
@@ -1391,21 +1401,17 @@ export default {
       isReverse: false,
       image: require("assets/images/cards/77.jpg"),
       upright: {
-        keyword: [
-          "Wealth",
-          "abundance",
-          "success",
-          "security",
-          "stability",
-          "generosity",
-        ],
-        meaning: `The King of Pentacles represents success, wealth, and abundance. In the card, a king sits on his throne, surrounded by symbols of his wealth and power. He is a master of the material world, with a keen sense of how to make money and manage resources.`,
+        keyword: ["재산", "풍부", "성공", "보안", "안정", "관대"],
+        meaning: `펜타클의 왕은 성공, 부, 풍요를 상징합니다. 카드에서 왕은 자신의 부와 권력의 상징으로 둘러싸인 왕좌에 앉아 있습니다. 그는 돈을 벌고 자원을 관리하는 방법에 대한 예리한 감각을 가진 물질 세계의 주인입니다.
+        `,
       },
       reverse: {
-        keyword: ["Greed", "overindulgence", "financial troubles"],
-        meaning: `When the King of Pentacles is reversed, it may indicate that we are becoming too focused on material wealth at the expense of other important things in life. We may be overindulging in luxury, or may be experiencing financial troubles due to poor management of resources.`,
+        keyword: ["탐욕", "방종", "재정적 문제"],
+        meaning: `King of Pentacles가 반전되면 인생에서 다른 중요한 것들을 희생하면서 물질적 부에 너무 집중하고 있음을 나타낼 수 있습니다. 우리는 사치에 지나치게 탐닉하고 있을 수도 있고, 자원을 제대로 관리하지 못해 재정적인 어려움을 겪고 있을지도 모릅니다.
+        `,
       },
-      description: `The King of Pentacles is a card of material success and stability. It reminds us of the importance of managing our resources wisely, and of the potential rewards that come from doing so. This card also suggests generosity and a willingness to share our wealth and resources with others.`,
+      description: `King of Pentacles는 물질적 성공과 안정성의 카드입니다. 자원을 현명하게 관리하는 것의 중요성과 그렇게 함으로써 얻을 수 있는 잠재적인 보상을 상기시켜 줍니다. 이 카드는 또한 우리의 부와 자원을 다른 사람들과 공유하려는 관대함과 의지를 암시합니다.
+      `,
     },
   ],
 };
