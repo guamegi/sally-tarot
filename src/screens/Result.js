@@ -25,6 +25,7 @@ const ImageView = styled.View`
 const ResultImage = styled.Image`
   width: 100%;
   height: 100%;
+  /* background-color: gray; */
 `;
 const ContentArea = styled.FlatList`
   flex: 3;
@@ -50,7 +51,7 @@ const Result = ({ route: { params } }) => {
         <ImageArea>
           {cards.map((card) => (
             <ImageView key={card.id}>
-              <ResultImage resizeMode="contain" source={card.image} />
+              <ResultImage resizeMode="stretch" source={card.image} />
             </ImageView>
           ))}
         </ImageArea>
@@ -62,6 +63,7 @@ const Result = ({ route: { params } }) => {
             <ItemView>
               <Text style={{ marginVertical: 10 }}>⭐️ {item.name}</Text>
               <View style={{ marginVertical: 10 }}>
+                {/* TODO error: Cannot read property 'map' of undefined */}
                 {item.upright.keyword.map((word, index) => (
                   <View key={index} style={{}}>
                     <Text>• {word}</Text>
