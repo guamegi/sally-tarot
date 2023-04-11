@@ -42,6 +42,7 @@ const ItemView = styled.View`
 
 const Result = ({ route: { params } }) => {
   const cards = params.cards;
+  const isOneCard = cards.length === 1;
   // console.log("cards:", cards);
   return (
     <Container>
@@ -51,7 +52,10 @@ const Result = ({ route: { params } }) => {
         <ImageArea>
           {cards.map((card) => (
             <ImageView key={card.id}>
-              <ResultImage resizeMode="stretch" source={card.image} />
+              <ResultImage
+                resizeMode={isOneCard ? "contain" : "stretch"}
+                source={card.image}
+              />
             </ImageView>
           ))}
         </ImageArea>
