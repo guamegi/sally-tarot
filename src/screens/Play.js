@@ -106,7 +106,11 @@ const getRandomItems = (numItems, cardData) => {
   // 배열에서 랜덤으로 요구하는 아이템의 개수만큼 선택하기
   while (result.length < numItems) {
     const randomIndex = Math.floor(Math.random() * cardData.length);
-    const randomItem = cardData[randomIndex];
+    // const randomItem = cardData[randomIndex];
+    const randomItem = {
+      ...cardData[randomIndex],
+      isReverse: Math.random() < 0.5, // 50% chance of being true or false
+    };
 
     // 이미 선택된 아이템인 경우 건너뛰기
     if (result.some((item) => item.id === randomItem.id)) {
@@ -201,6 +205,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
     });
 
     setRandomItems(getRandomItems(22, cardData));
+    console.log(randomItems);
     setSelectedCard([]);
   };
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import FlipCard from "react-native-flip-card";
 import styled from "styled-components/native";
 
@@ -14,6 +14,7 @@ const CardImg = styled.Image`
   width: 100%;
   height: 100%;
   border-radius: 4px;
+  transform: ${(props) => (props.isReverse ? "rotate(180deg)" : "")};
 `;
 
 const PlayCard = ({ card, handleSelectCard }) => {
@@ -41,7 +42,12 @@ const PlayCard = ({ card, handleSelectCard }) => {
           />
         </BackView>
         <FrontView>
-          <CardImg resizeMode="stretch" source={card.image} />
+          {/* card.isReverse 가 true면 rotate 180 */}
+          <CardImg
+            resizeMode="stretch"
+            source={card.image}
+            isReverse={card.isReverse}
+          />
         </FrontView>
       </FlipCard>
     </Container>

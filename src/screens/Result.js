@@ -23,13 +23,14 @@ const ImageView = styled.View`
   flex: 1;
 `;
 const ResultImage = styled.Image`
-  width: 100%;
-  height: 100%;
-  /* background-color: gray; */
+  width: 90%;
+  height: 90%;
+  border-radius: 6px;
+  align-self: center;
+  transform: ${(props) => (props.isReverse ? "rotate(180deg)" : "")};
 `;
 const ContentArea = styled.FlatList`
   flex: 3;
-  /* background-color: gray; */
   padding: 20px;
 `;
 
@@ -55,6 +56,7 @@ const Result = ({ route: { params } }) => {
               <ResultImage
                 resizeMode={isOneCard ? "contain" : "stretch"}
                 source={card.image}
+                isReverse={card.isReverse}
               />
             </ImageView>
           ))}
@@ -65,14 +67,22 @@ const Result = ({ route: { params } }) => {
           keyExtractor={(item) => item.id}
           renderItem={({ item, index }) => (
             <ItemView>
-              <Text style={{ marginVertical: 10 }}>⭐️ {item.name}</Text>
+              <Text style={{ marginVertical: 10 }}>
+                {item.isReverse ? "🔽" : "🔼"} {item.name}
+              </Text>
               <View style={{ marginVertical: 10 }}>
                 {/* TODO error: Cannot read property 'map' of undefined */}
-                {item.upright.keyword.map((word, index) => (
-                  <View key={index} style={{}}>
-                    <Text>• {word}</Text>
-                  </View>
-                ))}
+                {item.isReverse
+                  ? item.reverse.keyword.map((word, index) => (
+                      <View key={index}>
+                        <Text>• {word}</Text>
+                      </View>
+                    ))
+                  : item.upright.keyword.map((word, index) => (
+                      <View key={index}>
+                        <Text>• {word}</Text>
+                      </View>
+                    ))}
               </View>
               {/* 카드설명. 아코디언 */}
               <SimpleAccordion
@@ -96,7 +106,9 @@ const Result = ({ route: { params } }) => {
                 viewContainerStyle={{ backgroundColor: "#575fcf" }}
               />
               {/* 해석 */}
-              <Text style={{ marginVertical: 10 }}>{item.upright.meaning}</Text>
+              <Text style={{ marginVertical: 10 }}>
+                {item.isReverse ? item.reverse.meaning : item.upright.meaning}
+              </Text>
             </ItemView>
           )}
           contentContainerStyle={{ paddingBottom: 80 }}
