@@ -205,7 +205,6 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
     });
 
     setRandomItems(getRandomItems(22, cardData));
-    console.log(randomItems);
     setSelectedCard([]);
   };
 
