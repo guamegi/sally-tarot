@@ -5,7 +5,7 @@ import {
   Platform,
   LayoutAnimation,
 } from "react-native";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components/native";
 import { TestIds, useInterstitialAd } from "react-native-google-mobile-ads";
 import { useTranslation } from "react-i18next";
@@ -128,6 +128,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   const [randomItems, setRandomItems] = useState([]);
   const [selectedCard, setSelectedCard] = useState([]);
   const [cardInfoData, setCardInfoData] = useState(1);
+  const suffleRef = useRef();
 
   // google ads hooks
   const { isClosed, load, show } = useInterstitialAd(adUnitId, {
@@ -164,6 +165,11 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   }, [load]);
 
   useEffect(() => {
+    if (selectedCard.length > 0) {
+      // 뒤집어진 카드가 있다면 disable effect
+      suffleRef.current.setNativeProps({ style: { backgroundColor: "gray" } });
+    }
+
     if (selectedCard.length >= cardInfoData) {
       // 마지막 카드 선택시 delay
       setTimeout(() => {
@@ -196,6 +202,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   };
 
   const suffleCard = () => {
+    if (selectedCard.length > 0) return;
     // animation
     LayoutAnimation.configureNext({
       duration: 500,
@@ -255,7 +262,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
         />
       </PlayCanvas>
       <Control>
-        <SuffleBtn onPress={suffleCard}>
+        <SuffleBtn ref={suffleRef} onPress={suffleCard}>
           <SuffleText>{t("shuffle", { ns: "play" })}</SuffleText>
         </SuffleBtn>
       </Control>
