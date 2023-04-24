@@ -2,7 +2,7 @@
   "expo": {
     "name": "sally-tarot",
     "slug": "sally-tarot",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "icon": "./src/assets/images/appIcon.png",
     "splash": {
       "image": "./src/assets/images/splash.png",
@@ -10,6 +10,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
+      "versionCode": 3,
       "package": "com.guamegi.sallytarot"
     },
     "ios": {
