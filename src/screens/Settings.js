@@ -64,7 +64,6 @@ const Settings = () => {
         <InfoDesc>{t("info.desc")}</InfoDesc>
       </Info>
       <View style={{ flex: 1 }}>
-        {/* TODO: 앱 이미지 추가하기 */}
         <FlatList
           data={SETTINGS_MENU}
           keyExtractor={(_, index) => index}
