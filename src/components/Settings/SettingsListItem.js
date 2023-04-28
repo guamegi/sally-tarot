@@ -6,6 +6,8 @@ import SettingsRadioSelection from "./SettingsRadioSelection";
 import { Alert } from "react-native";
 import { TRANSLUCENT_COLOR } from "../../colors";
 import { useTranslation } from "react-i18next";
+// import { Anchor } from "expo-linking";
+import * as Linking from "expo-linking";
 
 const radius = 10;
 const Container = styled.View`
@@ -29,9 +31,11 @@ const Wrapper = styled.TouchableOpacity`
   justify-content: space-between;
 `;
 
-const actionForMenuItem = () => {
-  Alert.alert("Leave a review");
-  // TODO: link google play
+const link = () => {
+  // link google play
+  Linking.openURL(
+    "https://play.google.com/store/apps/details?id=com.guamegi.sallytarot"
+  );
 };
 
 const SettingsListItem = ({ itemData }) => {
@@ -42,12 +46,14 @@ const SettingsListItem = ({ itemData }) => {
         {
           "Card selection": <SettingsRadioSelection itemData={itemData} />,
           "Leave a review": (
+            // <Anchor href="https://google.com">
             <Wrapper
-              onPress={() => actionForMenuItem()}
+              onPress={() => link()}
               // underlayColor="rgba(0, 0, 0, 0.4)"
             >
               <Title>{t("service.desc")}</Title>
               <Ionicons name="chevron-forward" size={14} color="#d6d2d2" />
+              {/* </Anchor> */}
             </Wrapper>
           ),
           version: (
