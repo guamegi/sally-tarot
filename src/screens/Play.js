@@ -205,14 +205,14 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
     if (selectedCard.length > 0) return;
     // animation
     LayoutAnimation.configureNext({
-      duration: 500,
-      create: { type: "easeInEaseOut", property: "scaleXY" },
-      update: { type: "spring", springDamping: 0.4 },
-      delete: { type: "easeInEaseOut", property: "scaleXY" },
+      duration: 800,
+      create: { type: "easeInEaseOut", property: "scaleY" },
+      update: { type: "spring", springDamping: 0.8 },
+      delete: { type: "easeInEaseOut", property: "scaleY" },
     });
 
     setRandomItems(getRandomItems(22, cardData));
-    setSelectedCard([]);
+    // setSelectedCard([]);
   };
 
   return (
