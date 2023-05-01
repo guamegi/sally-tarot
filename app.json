@@ -10,7 +10,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
-      "versionCode": 4,
+      "versionCode": 5,
       "package": "com.guamegi.sallytarot"
     },
     "ios": {
