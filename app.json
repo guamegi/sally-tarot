@@ -2,7 +2,7 @@
   "expo": {
     "name": "sally-tarot",
     "slug": "sally-tarot",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "icon": "./src/assets/images/appIcon.png",
     "splash": {
       "image": "./src/assets/images/splash.png",
@@ -20,7 +20,7 @@
   },
   "name": "sally-tarot",
   "react-native-google-mobile-ads": {
-    "android_app_id": "ca-app-pub-7307128452071420~8510020533",
+    "android_app_id": "ca-app-pub-7307128452071420~1864201614",
     "ios_app_id": "ca-app-pub-7307128452071420~7753426344"
   }
 }
