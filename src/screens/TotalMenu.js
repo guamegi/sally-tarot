@@ -39,7 +39,7 @@ const List = styled.FlatList`
   /* background-color: gray; */
 `;
 
-const radius = 50;
+const radius = 10;
 const borderWidth = 3;
 const CardView = styled.View`
   width: 100px;
@@ -86,16 +86,15 @@ const TotalMenu = ({
         <ContentView>
           <List
             data={menuList}
-            numColumns={3}
+            numColumns={2}
             contentContainerStyle={{
               width: "100%",
               height: "100%",
-              // alignItems: "center",
-              // justifyContent: "center"
               paddingVertical: 20,
             }}
             columnWrapperStyle={{
               justifyContent: "space-around",
+              // justifyContent: "space-evenly",
             }}
             ItemSeparatorComponent={() => <Separator />}
             keyExtractor={(item) => item.no + ""}
