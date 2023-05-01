@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 import { StyleSheet } from "react-native";
 import { TRANSLUCENT_COLOR } from "../../colors";
 
-const radius = 40;
+const radius = 20;
 // const borderWidth = 4;
 const Container = styled.TouchableHighlight`
   flex: 1;
