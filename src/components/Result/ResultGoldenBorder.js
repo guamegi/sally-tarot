@@ -19,7 +19,7 @@ const PeriodText = styled.Text`
 `;
 
 const ResultGoldenBorder = ({ period }) => {
-  console.log(period);
+  // console.log(period);
   return (
     <Wrapper>
       <GoldenBorder
