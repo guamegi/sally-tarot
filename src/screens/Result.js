@@ -6,6 +6,8 @@ import Background from "../components/Background";
 import Container from "../components/Container";
 import HeaderClose from "../components/HeaderClose";
 import { getLocales } from "expo-localization";
+import ResultGoldenBorder from "../components/Result/ResultGoldenBorder";
+import { useTranslation } from "react-i18next";
 
 const deviceLanguage = getLocales()[0].languageCode || "en";
 
@@ -44,6 +46,7 @@ const ItemView = styled.View`
 const Result = ({ route: { params } }) => {
   const cards = params.cards;
   const isOneCard = cards.length === 1;
+  const { t } = useTranslation("result");
   // console.log("cards:", cards);
   return (
     <Container>
@@ -67,6 +70,17 @@ const Result = ({ route: { params } }) => {
           keyExtractor={(item) => item.id}
           renderItem={({ item, index }) => (
             <ItemView>
+              {/* isOneCard가 아닌 경우에만 표시 */}
+              {!isOneCard && index === 0 && (
+                <ResultGoldenBorder period={t("period.0")} />
+              )}
+              {!isOneCard && index === 1 && (
+                <ResultGoldenBorder period={t("period.1")} />
+              )}
+              {!isOneCard && index === 2 && (
+                <ResultGoldenBorder period={t("period.2")} />
+              )}
+              {isOneCard && <ResultGoldenBorder period={t("result")} />}
               <Text style={{ marginVertical: 10 }}>
                 {item.isReverse ? "🔽" : "🔼"} {item.name}
               </Text>

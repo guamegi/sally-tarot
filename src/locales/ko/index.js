@@ -4,3 +4,4 @@ export { default as save } from "./save";
 export { default as settings } from "./settings";
 export { default as totalMenu } from "./totalMenu";
 export { default as cards } from "./cards";
+export { default as result } from "./result";
