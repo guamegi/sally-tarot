@@ -4,6 +4,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import { Alert, Share, View } from "react-native";
 import { useDB } from "../context";
+import { useTranslation } from "react-i18next";
 
 const Container = styled.View`
   padding: 10px 20px;
@@ -29,6 +30,7 @@ const CloseBtn = styled(ShareBtn)``;
 const HeaderClose = ({ cards }) => {
   const navigation = useNavigation();
   const realm = useDB();
+  const { t } = useTranslation("result");
   // console.log("cards:", cards);
 
   const result = cards
@@ -67,7 +69,7 @@ const HeaderClose = ({ cards }) => {
       }
 
       // alert saved message
-      Alert.alert("Card Info", "Saved Successfully!", [
+      Alert.alert(t("savePopup.title"), t("savePopup.desc"), [
         {
           text: "OK",
           onPress: () => navigation.popToTop(),
