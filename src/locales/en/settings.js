@@ -4,10 +4,12 @@ export default {
     desc: "Sally's Tarot",
   },
   customize: {
-    desc: "Card selection",
+    desc: "Number of card selections",
   },
   service: {
-    desc: "Leave a review",
+    desc1: "Send Comments",
+    desc2: "Write a review",
+    mailTitle: "inquiry",
   },
   version: {
     desc: "App version",

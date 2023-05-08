@@ -5,17 +5,17 @@ export const SETTINGS_MENU = [
   {
     title: "Customize",
     icon: <AntDesign name="setting" size={22} color="white" />,
-    data: "Card selection",
+    data: ["Card selection"],
   },
   {
     title: "Service Center",
     icon: <AntDesign name="customerservice" size={22} color="white" />,
-    data: "Leave a review",
+    data: ["Send Comments", "Write a review"],
   },
   {
     title: "Information",
     icon: <AntDesign name="infocirlceo" size={22} color="white" />,
-    data: "version",
+    data: ["version"],
   },
 ];
 

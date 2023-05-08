@@ -12,8 +12,6 @@ import { useTranslation } from "react-i18next";
 const Info = styled.View`
   flex: 0.2;
   background-color: ${TRANSLUCENT_COLOR};
-  /* margin: 0px 20px;
-  border-radius: 10px; */
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
@@ -42,7 +40,6 @@ const SectionTitle = styled.Text`
   font-size: 18px;
   color: white;
   font-weight: 500;
-  /* line-height: 26px; */
   margin-left: 6px;
 `;
 
@@ -70,15 +67,32 @@ const Settings = () => {
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{ paddingBottom: 40 }}
           renderItem={({ item }) => {
-            return (
-              <>
-                <SectionHeader>
-                  {item.icon}
-                  <SectionTitle>{item.title}</SectionTitle>
-                </SectionHeader>
-                <SettingsListItem itemData={item.data} />
-              </>
-            );
+            if (item.data.length > 1) {
+              return (
+                <>
+                  <SectionHeader>
+                    {item.icon}
+                    <SectionTitle>{item.title}</SectionTitle>
+                  </SectionHeader>
+                  {item.data.map((dataItem, index) => (
+                    <React.Fragment key={index}>
+                      <SettingsListItem itemData={dataItem} />
+                      {index < item.data.length - 1 && <ItemSeparator />}
+                    </React.Fragment>
+                  ))}
+                </>
+              );
+            } else {
+              return (
+                <>
+                  <SectionHeader>
+                    {item.icon}
+                    <SectionTitle>{item.title}</SectionTitle>
+                  </SectionHeader>
+                  <SettingsListItem itemData={item.data[0]} />
+                </>
+              );
+            }
           }}
           ItemSeparatorComponent={() => <ItemSeparator />}
         />
