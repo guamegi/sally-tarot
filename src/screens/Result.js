@@ -9,7 +9,7 @@ import { getLocales } from "expo-localization";
 import ResultGoldenBorder from "../components/Result/ResultGoldenBorder";
 import { useTranslation } from "react-i18next";
 
-const deviceLanguage = getLocales()[0].languageCode || "en";
+const deviceLanguage = getLocales()[0]?.languageCode || "en";
 
 const Wrapper = styled.View`
   /* background-color: gray; */
@@ -48,6 +48,7 @@ const Result = ({ route: { params } }) => {
   const isOneCard = cards.length === 1;
   const { t } = useTranslation("result");
   // console.log("cards:", cards);
+
   return (
     <Container>
       <Background />
@@ -81,7 +82,9 @@ const Result = ({ route: { params } }) => {
                 <ResultGoldenBorder period={t("period.2")} />
               )}
               {isOneCard && <ResultGoldenBorder period={t("result")} />}
-              <Text style={{ marginVertical: 10 }}>
+              <Text
+                style={{ marginVertical: 10, fontSize: 16, fontWeight: "bold" }}
+              >
                 {item.isReverse ? "🔽" : "🔼"} {item.name}
               </Text>
               <View style={{ marginVertical: 10 }}>

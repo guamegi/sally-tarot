@@ -83,7 +83,7 @@ const TotalMenuText = styled(HeaderSaveText)`
 
 const Home = ({ navigation: { navigate } }) => {
   const { t } = useTranslation("home");
-  const deviceLanguage = getLocales()[0].languageCode || "en";
+  const deviceLanguage = getLocales()[0]?.languageCode || "en";
   const menuList = deviceLanguage === "ko" ? MENU.ko : MENU.en;
 
   return (
