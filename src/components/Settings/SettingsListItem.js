@@ -6,6 +6,7 @@ import SettingsRadioSelection from "./SettingsRadioSelection";
 import { TRANSLUCENT_COLOR } from "../../colors";
 import { useTranslation } from "react-i18next";
 import * as Linking from "expo-linking";
+import { useNavigation } from "@react-navigation/native";
 
 const radius = 10;
 const Container = styled.View`
@@ -55,15 +56,27 @@ const mailTo = (mailTitle) => {
 
 const SettingsListItem = ({ itemData }) => {
   const { t } = useTranslation("settings");
+  const navigation = useNavigation();
+
   // console.log(itemData);
   return (
     <>
       {
         {
           "Card selection": (
-            <Container>
+            <ConTopRadius>
               <SettingsRadioSelection itemData={itemData} />
-            </Container>
+            </ConTopRadius>
+          ),
+          Language: (
+            <>
+              <ConBtmRadius>
+                <Wrapper onPress={() => navigation.navigate("SettingsLang")}>
+                  <Title>{t("service.lang")}</Title>
+                  <Ionicons name="chevron-forward" size={14} color="#d6d2d2" />
+                </Wrapper>
+              </ConBtmRadius>
+            </>
           ),
           "Send Comments": (
             <ConTopRadius>

@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "../screens/Home";
 import TotalMenu from "../screens/TotalMenu";
 import Settings from "../screens/Settings";
+import SettingsLang from "../screens/SettingsLang";
 import Save from "../screens/Save";
 import Play from "../screens/Play";
 import Result from "../screens/Result";
@@ -23,6 +24,7 @@ const Root = () => {
       <Nav.Screen name="Home" component={Home} />
       <Nav.Screen name="TotalMenu" component={TotalMenu} />
       <Nav.Screen name="Settings" component={Settings} />
+      <Nav.Screen name="SettingsLang" component={SettingsLang} />
       <Nav.Screen name="Save" component={Save} />
       <Nav.Screen name="Play" component={Play} />
       <Nav.Screen

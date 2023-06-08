@@ -5,7 +5,7 @@ export const SETTINGS_MENU = [
   {
     title: "Customize",
     icon: <AntDesign name="setting" size={22} color="white" />,
-    data: ["Card selection"],
+    data: ["Card selection", "Language"],
   },
   {
     title: "Service Center",
@@ -38,5 +38,26 @@ export const CARD_SELECTION = [
     selected: false,
     size: 20,
     value: 3,
+  },
+];
+
+export const LANGUAGE = [
+  {
+    id: "1",
+    label: "English",
+    labelStyle: { color: "#d6d2d2", fontSize: 15, margin: 15 },
+    color: "#d6d2d2",
+    value: "en",
+    selected: true,
+    size: 20,
+  },
+  {
+    id: "2",
+    label: "한국어",
+    labelStyle: { color: "#d6d2d2", fontSize: 15, margin: 15 },
+    color: "#d6d2d2",
+    value: "ko",
+    selected: false,
+    size: 20,
   },
 ];

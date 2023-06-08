@@ -10,7 +10,7 @@ import "./i18n";
 
 SplashScreen.preventAutoHideAsync();
 
-const schemaVersion = 4;
+const schemaVersion = 5;
 const SaveSchema = {
   name: "Save",
   properties: {
@@ -46,6 +46,7 @@ const SettingsSchema = {
     _id: "string",
     showReversedCard: "bool?",
     cardSelection: "int",
+    langSelection: "string",
   },
   primaryKey: "_id",
 };
