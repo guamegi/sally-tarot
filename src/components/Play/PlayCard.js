@@ -1,11 +1,17 @@
 import React, { useRef, useState } from "react";
 import FlipCard from "react-native-flip-card";
 import styled from "styled-components/native";
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "react-native-responsive-screen";
 
 const Container = styled.View`
-  width: 50px;
-  height: 72px;
+  /* width: 50px;
+  height: 72px; */
   margin: 2px;
+  width: ${wp("13%")}px;
+  height: ${wp("18%")}px;
 `;
 const FrontView = styled.View``;
 const BackView = styled.View``;

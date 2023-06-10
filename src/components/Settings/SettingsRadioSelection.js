@@ -37,6 +37,11 @@ const SettingsRadioSelection = ({ itemData }) => {
         newRadioButtons[1].selected = true;
       }
       setRadioButtons(newRadioButtons);
+    } else {
+      const newRadioButtons = [...CARD_SELECTION];
+      newRadioButtons[0].selected = true;
+      newRadioButtons[1].selected = false;
+      setRadioButtons(newRadioButtons);
     }
   }, []);
 
@@ -53,7 +58,7 @@ const SettingsRadioSelection = ({ itemData }) => {
         "Settings",
         {
           _id: "userInfo",
-          cardSelection: selectedBtn.value,
+          cardSelection: selectedBtn.value || 1,
         },
         "modified"
       );

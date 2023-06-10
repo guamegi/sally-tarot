@@ -9,6 +9,7 @@ import { TRANSLUCENT_COLOR } from "../colors";
 import { LANGUAGE } from "../data/settings";
 import { useDB } from "../context";
 import i18next from "i18next";
+import { getLocales } from "expo-localization";
 
 const Info = styled.View`
   flex: 0.2;
@@ -38,6 +39,20 @@ const SettingsLang = () => {
       const newRadioButtons = [...LANGUAGE];
 
       if (data[0].langSelection === "en") {
+        newRadioButtons[0].selected = true;
+        newRadioButtons[1].selected = false;
+      } else {
+        newRadioButtons[0].selected = false;
+        newRadioButtons[1].selected = true;
+      }
+      setRadioButtons(newRadioButtons);
+    } else {
+      // 설정 언어로 라디오 체크
+      const deviceLanguage = getLocales()[0]?.languageCode || "en";
+      console.log("not", deviceLanguage, LANGUAGE);
+      const newRadioButtons = [...LANGUAGE];
+
+      if (deviceLanguage === "en") {
         newRadioButtons[0].selected = true;
         newRadioButtons[1].selected = false;
       } else {

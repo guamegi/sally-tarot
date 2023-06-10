@@ -206,9 +206,9 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
     // animation
     LayoutAnimation.configureNext({
       duration: 800,
-      create: { type: "easeInEaseOut", property: "scaleY" },
+      create: { type: "easeInEaseOut", property: "scaleXY" }, // scaleX, scaleY, scaleXY...
       update: { type: "spring", springDamping: 0.8 },
-      delete: { type: "easeInEaseOut", property: "scaleY" },
+      delete: { type: "easeInEaseOut", property: "scaleXY" },
     });
 
     setRandomItems(getRandomItems(22, cardData));
@@ -245,13 +245,14 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
           numColumns={5}
           contentContainerStyle={{
             width: "100%",
-            // height: "100%",
-            // paddingVertical: 30,
+            height: "100%",
+            paddingVertical: 12,
             alignItems: "center",
-            justifyContent: "center",
+            justifyContent: "space-evenly",
+            // backgroundColor: "gray",
           }}
           columnWrapperStyle={{
-            justifyContent: "space-around",
+            justifyContent: "space-evenly",
           }}
           showsVerticalScrollIndicator={false}
           ItemSeparatorComponent={() => <Separator />}
