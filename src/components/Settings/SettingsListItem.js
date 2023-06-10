@@ -9,7 +9,7 @@ import * as Linking from "expo-linking";
 import { useNavigation } from "@react-navigation/native";
 
 const radius = 10;
-const Container = styled.View`
+const Container = styled.TouchableOpacity`
   flex-direction: row;
   justify-content: space-between;
   background-color: ${TRANSLUCENT_COLOR};
@@ -33,7 +33,7 @@ const Title = styled.Text`
   color: #d6d2d2;
 `;
 
-const Wrapper = styled.TouchableOpacity`
+const Wrapper = styled.View`
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
@@ -64,14 +64,17 @@ const SettingsListItem = ({ itemData }) => {
       {
         {
           "Card selection": (
-            <ConTopRadius>
+            <ConTopRadius activeOpacity={1}>
               <SettingsRadioSelection itemData={itemData} />
             </ConTopRadius>
           ),
           Language: (
             <>
-              <ConBtmRadius>
-                <Wrapper onPress={() => navigation.navigate("SettingsLang")}>
+              <ConBtmRadius
+                activeOpacity={1}
+                onPress={() => navigation.navigate("SettingsLang")}
+              >
+                <Wrapper>
                   <Title>{t("service.lang")}</Title>
                   <Ionicons name="chevron-forward" size={14} color="#d6d2d2" />
                 </Wrapper>
@@ -79,23 +82,26 @@ const SettingsListItem = ({ itemData }) => {
             </>
           ),
           "Send Comments": (
-            <ConTopRadius>
-              <Wrapper onPress={() => mailTo(t("service.mailTitle"))}>
+            <ConTopRadius
+              activeOpacity={1}
+              onPress={() => mailTo(t("service.mailTitle"))}
+            >
+              <Wrapper>
                 <Title>{t("service.desc1")}</Title>
                 <Ionicons name="chevron-forward" size={14} color="#d6d2d2" />
               </Wrapper>
             </ConTopRadius>
           ),
           "Write a review": (
-            <ConBtmRadius>
-              <Wrapper onPress={() => link()}>
+            <ConBtmRadius activeOpacity={1} onPress={() => link()}>
+              <Wrapper>
                 <Title>{t("service.desc2")}</Title>
                 <Ionicons name="chevron-forward" size={14} color="#d6d2d2" />
               </Wrapper>
             </ConBtmRadius>
           ),
           version: (
-            <Container>
+            <Container activeOpacity={1}>
               <Title>{t("version.desc")}</Title>
               <Title>{Application.nativeApplicationVersion}</Title>
             </Container>

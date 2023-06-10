@@ -55,7 +55,7 @@ const SettingsLang = () => {
   };
 
   const changeLanguage = () => {
-    // 언어 변경, 로딩 후에도 저장된 언어가 우선순위 세팅
+    // 언어 변경, 리로딩 후에도 저장된 언어가 우선순위 세팅
     const selLang = radioButtons.find((btn) => btn.selected === true).value;
     i18next.changeLanguage(selLang);
   };
