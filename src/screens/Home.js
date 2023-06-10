@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { View } from "react-native";
 import styled from "styled-components/native";
 import { Ionicons } from "@expo/vector-icons";
@@ -10,6 +10,8 @@ import Menu from "../components/Home/HomeMenu";
 import { MIDNIGHT_COLOR, TRANSLUCENT_COLOR } from "../colors";
 import { useTranslation } from "react-i18next";
 import { getLocales } from "expo-localization";
+import { useDB } from "../context";
+import i18next from "i18next";
 
 const Info = styled.View`
   flex: 0.8;
@@ -83,8 +85,23 @@ const TotalMenuText = styled(HeaderSaveText)`
 
 const Home = ({ navigation: { navigate } }) => {
   const { t } = useTranslation("home");
-  const deviceLanguage = getLocales()[0]?.languageCode || "en";
-  const menuList = deviceLanguage === "ko" ? MENU.ko : MENU.en;
+  const realm = useDB();
+  const data = realm.objects("Settings");
+  const [menuList, setMenuList] = useState([]);
+
+  useEffect(() => {
+    let language = null;
+    if (data[0].langSelection) {
+      language = data[0].langSelection;
+    } else {
+      language = getLocales()[0]?.languageCode || "en";
+    }
+    i18next.changeLanguage(language);
+    // console.log(data, language);
+
+    const updatedMenuList = language === "ko" ? MENU.ko : MENU.en;
+    setMenuList(updatedMenuList);
+  }, []);
 
   return (
     <Container>
