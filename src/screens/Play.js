@@ -121,7 +121,6 @@ const getRandomItems = (numItems, cardData) => {
   return result;
 };
 
-// let cardList;
 const Play = ({ navigation: { navigate }, route: { params } }) => {
   const realm = useDB();
   const [isLoading, setIsLoading] = useState(false);
@@ -136,7 +135,6 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
   });
 
   const { t } = useTranslation(["play", "cards"]);
-  // const aa = t("shuffle", { ns: "play" });
   const cardData = t("data", { ns: "cards", returnObjects: true });
   // console.log(aa, bb.length);
 

@@ -7,8 +7,16 @@ import Realm from "realm";
 import { DBContext } from "./context";
 import Root from "./navigation/Root";
 import "./i18n";
+import { Platform, UIManager } from "react-native";
 
 SplashScreen.preventAutoHideAsync();
+
+if (
+  Platform.OS === "android" &&
+  UIManager.setLayoutAnimationEnabledExperimental
+) {
+  UIManager.setLayoutAnimationEnabledExperimental(true);
+}
 
 const schemaVersion = 5;
 const SaveSchema = {
