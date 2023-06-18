@@ -90,12 +90,6 @@ const Home = ({ navigation: { navigate } }) => {
   const [menuList, setMenuList] = useState([]);
 
   useEffect(() => {
-    // let language = null;
-    // if (data[0].langSelection) {
-    //   language = data[0].langSelection;
-    // } else {
-    //   language = getLocales()[0]?.languageCode || "en";
-    // }
     let language =
       data[0]?.langSelection || getLocales()[0]?.languageCode || "en";
 

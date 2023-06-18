@@ -45,14 +45,14 @@ const Save = () => {
 
   useEffect(() => {
     if (realm) {
-      const data = realm.objects("Save");
-      // console.log(data);
-      data.addListener((data) => {
-        LayoutAnimation.spring();
-        setData([...data.sorted("_id", true)]);
+      const saveData = realm.objects("Save");
+      console.log(saveData);
+      saveData.addListener((d) => {
+        // LayoutAnimation.spring();
+        setData([...d.sorted("_id", true)]);
       });
       return () => {
-        data.removeAllListeners();
+        saveData.removeAllListeners();
       };
     }
   }, []);
