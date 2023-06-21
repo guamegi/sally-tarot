@@ -41,7 +41,7 @@ const DeleteBtn = styled.TouchableOpacity`
 const SaveItem = ({ item }) => {
   const navigation = useNavigation();
   const realm = useDB();
-  // console.log(item.cards);
+  // console.log("saveItem:", item, item.cards);
 
   const deleteItem = (id) => {
     realm.write(() => {

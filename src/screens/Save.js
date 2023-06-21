@@ -46,14 +46,16 @@ const Save = () => {
   useEffect(() => {
     if (realm) {
       const saveData = realm.objects("Save");
-      console.log(saveData);
-      saveData.addListener((d) => {
-        // LayoutAnimation.spring();
-        setData([...d.sorted("_id", true)]);
-      });
-      return () => {
-        saveData.removeAllListeners();
-      };
+      // console.log("saveData:", saveData);
+      if (saveData[0]) {
+        saveData.addListener((d) => {
+          LayoutAnimation.spring();
+          setData([...d.sorted("_id", true)]);
+        });
+        return () => {
+          saveData.removeAllListeners();
+        };
+      }
     }
   }, []);
 
@@ -65,14 +67,15 @@ const Save = () => {
         <InfoTitle>{t("info.title")}</InfoTitle>
         <InfoDesc>{t("info.desc")}</InfoDesc>
       </Info>
-      {data && data.length > 0 && (
-        <ContentView
-          data={data}
-          // ItemSeparatorComponent={() => <Separator />}
-          keyExtractor={(item) => item._id + ""}
-          renderItem={({ item }) => <SaveItem item={item} />}
-        />
-      )}
+      {/* {data && data.length > 0 && ( */}
+      <ContentView
+        data={data}
+        // ItemSeparatorComponent={() => <Separator />}
+        keyExtractor={(item) => item._id + ""}
+        renderItem={({ item }) => <SaveItem item={item} />}
+        // renderItem={({ item }) => console.log("item", item)}
+      />
+      {/* )} */}
     </Container>
   );
 };

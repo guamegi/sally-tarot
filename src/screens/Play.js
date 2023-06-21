@@ -146,7 +146,7 @@ const Play = ({ navigation: { navigate }, route: { params } }) => {
     // load cardSelection(1 or 3) data
     if (realm) {
       const data = realm.objects("Settings");
-      // console.log(realm, data[0].cardSelection);
+      // console.log(realm, data, data[0].cardSelection);
       if (data[0]) {
         data.addListener((data) => {
           setCardInfoData(data[0].cardSelection);
